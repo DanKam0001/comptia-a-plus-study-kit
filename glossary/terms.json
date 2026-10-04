@@ -25,9 +25,39 @@
   "first_part": 0
  },
  {
+  "term": "DDR",
+  "meaning": "Double Data Rate",
+  "first_part": 2
+ },
+ {
+  "term": "DIMM",
+  "meaning": "Dual In-line Memory Module",
+  "first_part": 2
+ },
+ {
+  "term": "DVI",
+  "meaning": "Digital Visual Interface",
+  "first_part": 4
+ },
+ {
+  "term": "ECC",
+  "meaning": "Error-correcting Code",
+  "first_part": 2
+ },
+ {
   "term": "eSATA",
   "meaning": "External Serial Advanced Technology Attachment",
   "first_part": 1
+ },
+ {
+  "term": "HDD",
+  "meaning": "Hard Disk Drive",
+  "first_part": 3
+ },
+ {
+  "term": "HDMI",
+  "meaning": "High-definition Media Interface",
+  "first_part": 4
  },
  {
   "term": "HSM",
@@ -40,9 +70,24 @@
   "first_part": 1
  },
  {
+  "term": "LC",
+  "meaning": "Lucent Connector",
+  "first_part": 4
+ },
+ {
   "term": "LGA",
   "meaning": "Land Grid Array",
   "first_part": 1
+ },
+ {
+  "term": "mSATA",
+  "meaning": "Mini-serial Advanced Technology Attachment",
+  "first_part": 3
+ },
+ {
+  "term": "NVMe",
+  "meaning": "Non-volatile Memory Express",
+  "first_part": 3
  },
  {
   "term": "PBQ",
@@ -65,9 +110,39 @@
   "first_part": 1
  },
  {
+  "term": "PSU",
+  "meaning": "Power Supply Unit",
+  "first_part": 4
+ },
+ {
+  "term": "RAID",
+  "meaning": "Redundant Array of Independent Disks",
+  "first_part": 3
+ },
+ {
+  "term": "RAM",
+  "meaning": "Random-access Memory",
+  "first_part": 2
+ },
+ {
+  "term": "RPM",
+  "meaning": "Revolutions Per Minute",
+  "first_part": 3
+ },
+ {
+  "term": "SAS",
+  "meaning": "Serial Attached SCSI [Small Computer System Interface]",
+  "first_part": 3
+ },
+ {
   "term": "SATA",
   "meaning": "Serial Advanced Technology Attachment",
   "first_part": 1
+ },
+ {
+  "term": "SC",
+  "meaning": "Subscriber Connector",
+  "first_part": 4
  },
  {
   "term": "SMT",
@@ -75,9 +150,29 @@
   "first_part": 1
  },
  {
+  "term": "SODIMM",
+  "meaning": "Small Outline Dual In-line Memory Module",
+  "first_part": 2
+ },
+ {
+  "term": "SSD",
+  "meaning": "Solid-state Drive",
+  "first_part": 3
+ },
+ {
+  "term": "ST",
+  "meaning": "Straight Tip",
+  "first_part": 4
+ },
+ {
+  "term": "STP",
+  "meaning": "Shielded Twisted Pair",
+  "first_part": 4
+ },
+ {
   "term": "TPM",
   "meaning": "Trusted Platform Module",
-  "first_part": 0
+  "first_part": 1
  },
  {
   "term": "UEFI",
@@ -88,5 +183,20 @@
   "term": "USB",
   "meaning": "Universal Serial Bus",
   "first_part": 1
+ },
+ {
+  "term": "UTP",
+  "meaning": "Unshielded Twisted Pair",
+  "first_part": 4
+ },
+ {
+  "term": "VAC",
+  "meaning": "Volts Alternating Current",
+  "first_part": 4
+ },
+ {
+  "term": "VGA",
+  "meaning": "Video Graphics Array",
+  "first_part": 4
  }
 ]

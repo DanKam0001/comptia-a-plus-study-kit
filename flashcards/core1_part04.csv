@@ -1,0 +1,28 @@
+Front,Back,Tags
+PSU input voltage ranges,110-120 VAC (e.g. North America) vs 220-240 VAC (most other countries),core1 part04 power_supply
+What happens if the manual voltage switch is wrong,It can destroy the PSU. Check the input before plugging in,core1 part04 power_supply
+PSU output rails,"3.3 V, 5 V, 12 V",core1 part04 power_supply
+Which rail powers the CPU and GPU,12 V,core1 part04 power_supply
+Main motherboard connector,20+4 pin (24 pins total),core1 part04 power_supply
+Modular vs redundant PSU,Modular = detachable cables. Redundant = two supplies in one server chassis,core1 part04 power_supply
+"80 PLUS levels, lowest to highest","Bronze, Silver, Gold, Platinum, Titanium",core1 part04 power_supply
+Cat 5e / Cat 6 / Cat 6a speeds,1 Gbps / 1 Gbps (10 Gbps only to about 55 m) / 10 Gbps,core1 part04 network_cables
+Maximum twisted-pair Ethernet segment length,100 m,core1 part04 network_cables
+UTP vs STP,Unshielded vs shielded twisted pair (shielding resists electromagnetic interference),core1 part04 network_cables
+Plenum-rated cable is for,"Air-handling spaces (fire-resistant, low-smoke jacket)",core1 part04 network_cables
+Direct burial cable is for,Underground runs,core1 part04 network_cables
+Coax connector,F-type (cable TV and broadband),core1 part04 network_cables
+T568A vs T568B difference,The green and orange pairs are swapped,core1 part04 t568a___t568b
+Straight-through vs crossover,Same standard on both ends vs T568A on one end and T568B on the other,core1 part04 t568a___t568b
+Single-mode vs multimode,"Single-mode: ~9 micron core, laser, long distance. Multimode: 50/62.5 micron core, shorter distance",core1 part04 fiber
+ST / SC / LC connectors,ST = bayonet twist. SC = square push-pull. LC = small with an RJ45-style latch,core1 part04 fiber
+USB 2.0 / USB 3.0 / Thunderbolt 3 and 4 speed,480 Mbps / 5 Gbps / 40 Gbps,core1 part04 peripheral
+Serial cable connector,DB-9 (RS-232),core1 part04 peripheral
+VGA,"Analog, 15-pin, blue connector",core1 part04 video
+HDMI vs DisplayPort,Both digital video and audio. DisplayPort can drive several monitors from one port,core1 part04 video
+DVI variants,"DVI-D digital, DVI-A analog, DVI-I both",core1 part04 video
+USB-C video,Carries video using DisplayPort alternate mode,core1 part04 video
+RJ45 vs RJ11,"RJ45: 8-wire Ethernet. RJ11: smaller telephone connector, fewer wires",core1 part04 connectors
+Molex,Legacy 4-pin power connector (drives and fans),core1 part04 connectors
+Lightning,Apple's reversible connector,core1 part04 connectors
+Punchdown block,"Terminates cable wires, behind a wall, onto a patch panel",core1 part04 connectors

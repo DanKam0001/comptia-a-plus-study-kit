@@ -1,0 +1,19 @@
+Front,Back,Tags
+DIMM vs SODIMM: where each is used,"DIMM: desktops and servers (full size). SODIMM: laptops, mini PCs, all-in-ones (about half the length)",core1 part02 form_factors
+DDR3 DIMM / SODIMM pin counts,240 / 204,core1 part02 form_factors
+DDR4 DIMM / SODIMM pin counts,288 / 260,core1 part02 form_factors
+DDR5 DIMM / SODIMM pin counts,288 / 262,core1 part02 form_factors
+"Are DDR3, DDR4 and DDR5 interchangeable?","No. Different notch position, voltage and design",core1 part02 ddr_generations
+DDR3 voltage,1.5 V (1.35 V low-voltage variant),core1 part02 ddr_generations
+DDR4 voltage,1.2 V,core1 part02 ddr_generations
+DDR5 voltage,1.1 V,core1 part02 ddr_generations
+DDR5 starting speed,4800 MT/s,core1 part02 ddr_generations
+PC4-25600 equals which DDR4 speed?,"DDR4-3200 (3200 x 8 = 25,600 MB/s peak bandwidth)",core1 part02 module_labels
+How do you get the PC rating from a DDR speed?,Multiply MT/s by 8 bytes,core1 part02 module_labels
+Modules of different speeds installed together run at,The speed of the slowest module,core1 part02 module_labels
+What ECC does,Detects and corrects single-bit errors,core1 part02 ecc
+ECC module width vs non-ECC,72 bits vs 64 bits,core1 part02 ecc
+What must support ECC,Both the CPU and the motherboard,core1 part02 ecc
+Single vs dual channel data path width,64-bit vs 128-bit,core1 part02 channels
+Dual channel install rule,Matching modules in the slot pair the manual designates (often the same color),core1 part02 channels
+Triple and quad channel are found on,Workstations and servers,core1 part02 channels
