@@ -1,0 +1,92 @@
+[
+ {
+  "term": "AMD",
+  "meaning": "Advanced Micro Devices, Inc.",
+  "first_part": 1
+ },
+ {
+  "term": "ARM",
+  "meaning": "Advanced RISC [Reduced Instruction Set Computer] Machine",
+  "first_part": 1
+ },
+ {
+  "term": "ATX",
+  "meaning": "Advanced Technology Extended",
+  "first_part": 1
+ },
+ {
+  "term": "BIOS",
+  "meaning": "Basic Input/Output System",
+  "first_part": 1
+ },
+ {
+  "term": "CompTIA",
+  "meaning": "Computing Technology Industry Association",
+  "first_part": 0
+ },
+ {
+  "term": "eSATA",
+  "meaning": "External Serial Advanced Technology Attachment",
+  "first_part": 1
+ },
+ {
+  "term": "HSM",
+  "meaning": "Hardware Security Module",
+  "first_part": 1
+ },
+ {
+  "term": "ITX",
+  "meaning": "Information Technology eXtended",
+  "first_part": 1
+ },
+ {
+  "term": "LGA",
+  "meaning": "Land Grid Array",
+  "first_part": 1
+ },
+ {
+  "term": "PBQ",
+  "meaning": "Performance-Based Question",
+  "first_part": 0
+ },
+ {
+  "term": "PCI",
+  "meaning": "Peripheral Component Interconnect",
+  "first_part": 1
+ },
+ {
+  "term": "PCIe",
+  "meaning": "Peripheral Component Interconnect Express",
+  "first_part": 1
+ },
+ {
+  "term": "PGA",
+  "meaning": "Pin Grid Array",
+  "first_part": 1
+ },
+ {
+  "term": "SATA",
+  "meaning": "Serial Advanced Technology Attachment",
+  "first_part": 1
+ },
+ {
+  "term": "SMT",
+  "meaning": "Simultaneous Multithreading",
+  "first_part": 1
+ },
+ {
+  "term": "TPM",
+  "meaning": "Trusted Platform Module",
+  "first_part": 0
+ },
+ {
+  "term": "UEFI",
+  "meaning": "Unified Extensible Firmware Interface",
+  "first_part": 0
+ },
+ {
+  "term": "USB",
+  "meaning": "Universal Serial Bus",
+  "first_part": 1
+ }
+]
