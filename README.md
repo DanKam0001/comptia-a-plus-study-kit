@@ -1,8 +1,8 @@
 # CompTIA A+ Study Kit
 
 Free companion material for the **CompTIA A+ video series** (Core 1 / 220-1201 and Core 2 / 220-1202):
-one-page cheat sheets, small hands-on labs, the exam-check questions from each video, and CompTIA's
-official acronym lists.
+one-page cheat sheets, memorise lists and flashcards, small hands-on labs, free practice exams, the exam-check
+questions from each video, and a glossary.
 
 > **Independent project.** Not affiliated with or endorsed by CompTIA. CompTIA and A+ are trademarks of
 > CompTIA, Inc. Always check CompTIA's current exam objectives, which are the authoritative list of what can be asked.
@@ -12,19 +12,24 @@ official acronym lists.
 1. **Watch the video** for a part. Speed up on what you already know, slow down and pause on what you don't.
 2. **Do the lab** for that part (10 to 20 minutes, on a computer you already own).
 3. **Read the cheat sheet** to check yourself. It's a recall aid, not a replacement for the video.
-4. **Answer the exam-check questions** from memory before reading the answers.
-5. **Quiz yourself on the acronym list** in `glossary/`.
-6. Before booking the exam, take timed practice exams from a reputable provider and use CompTIA's
-   objective numbers to find the part that covers anything you got wrong.
+4. **Learn the memorise list** for that part and import its flashcards (see [`memorize/`](memorize/README.md)).
+   Understanding gets you through scenario questions, but some facts you simply have to know.
+5. **Answer the exam-check questions** from memory before reading the answers.
+6. **Take a [practice exam](exams/README.md)** against the clock, and use the objective numbers to find the part
+   that covers anything you got wrong.
 
 ## Layout
 
 | Folder | What's in it |
 |---|---|
-| `core1/` | One folder per Core 1 part: `cheatsheet.md`, `lab.md`, `exam-check.md` |
+| `core1/` | One folder per Core 1 part: `cheatsheet.md`, `memorize.md`, `lab.md`, `exam-check.md` |
 | `core2/` | Same, for Core 2 (added as each part is released) |
-| `glossary/` | Every term shown on a corner card in the videos, with its full name (markdown, plus JSON for flashcard apps) |
+| `memorize/` | What to understand vs what to memorise, plus the ports and protocols table |
+| `flashcards/` | Anki-importable CSV files (one per part, plus ports) |
+| `exams/` | Free practice exams for Core 1 and Core 2: Word and Markdown, with separate answer keys |
+| `glossary/` | Every term shown on a corner card in the videos, with its full name (markdown, plus JSON) |
 | `roadmap.md` | The planned parts for both series, mapped to CompTIA's objective numbers |
+| `tools/` | The script that builds the exam files from the question banks |
 
 ## What the exams are (verified against CompTIA's published objectives)
 

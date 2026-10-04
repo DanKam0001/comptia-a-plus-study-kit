@@ -1,0 +1,29 @@
+Front,Back,Tags
+"What uses port 20, 21?",FTP (File Transfer Protocol). TCP,ports core1_2.1
+What uses port 22?,SSH (Secure Shell). TCP,ports core1_2.1
+What uses port 23?,Telnet (Telnet (unencrypted remote terminal)). TCP,ports core1_2.1
+What uses port 25?,SMTP (Simple Mail Transfer Protocol (sending mail)). TCP,ports core1_2.1
+What uses port 53?,DNS (Domain Name System). UDP and TCP,ports core1_2.1
+"What uses port 67, 68?","DHCP (Dynamic Host Configuration Protocol (67 server, 68 client)). UDP",ports core1_2.1
+What uses port 80?,HTTP (Hypertext Transfer Protocol). TCP,ports core1_2.1
+What uses port 110?,POP3 (Post Office Protocol 3 (downloading mail)). TCP,ports core1_2.1
+What uses port 137-139?,"NetBIOS / NetBT (NetBIOS over TCP/IP (137/138 name and datagram on UDP, 139 session on TCP)). UDP and TCP",ports core1_2.1
+What uses port 143?,IMAP (Internet Message Access Protocol (syncing mail)). TCP,ports core1_2.1
+What uses port 389?,LDAP (Lightweight Directory Access Protocol). TCP (UDP also used),ports core1_2.1
+What uses port 443?,HTTPS (Hypertext Transfer Protocol Secure). TCP,ports core1_2.1
+What uses port 445?,SMB / CIFS (Server Message Block / Common Internet File System). TCP,ports core1_2.1
+What uses port 3389?,RDP (Remote Desktop Protocol). TCP (UDP also used),ports core1_2.1
+Port number for FTP,"20, 21",ports core1_2.1
+Port number for SSH,22,ports core1_2.1
+Port number for Telnet,23,ports core1_2.1
+Port number for SMTP,25,ports core1_2.1
+Port number for DNS,53,ports core1_2.1
+Port number for DHCP,"67, 68",ports core1_2.1
+Port number for HTTP,80,ports core1_2.1
+Port number for POP3,110,ports core1_2.1
+Port number for NetBIOS / NetBT,137-139,ports core1_2.1
+Port number for IMAP,143,ports core1_2.1
+Port number for LDAP,389,ports core1_2.1
+Port number for HTTPS,443,ports core1_2.1
+Port number for SMB / CIFS,445,ports core1_2.1
+Port number for RDP,3389,ports core1_2.1

@@ -1,0 +1,1262 @@
+[
+ {
+  "domain": "Operating Systems",
+  "objective": "1.1",
+  "q": "A user needs to move 6 GB video files between a Windows laptop and a macOS laptop using a USB flash drive. Which file system should the drive be formatted with?",
+  "correct": [
+   "exFAT"
+  ],
+  "wrong": [
+   "FAT32",
+   "NTFS",
+   "ext4"
+  ],
+  "exp": "exFAT is read/write on both Windows and macOS and has no practical file-size limit. FAT32 is equally cross-platform but caps individual files at 4 GB, which the 6 GB files exceed. NTFS is read-only on macOS without third-party drivers, and ext4 is a Linux file system that neither OS mounts natively."
+ },
+ {
+  "domain": "Operating Systems",
+  "objective": "1.1",
+  "q": "A small office still runs several workstations on an operating system that reached end of life eighteen months ago. Which consequence is the most significant security concern?",
+  "correct": [
+   "The vendor no longer issues security patches for newly discovered vulnerabilities"
+  ],
+  "wrong": [
+   "The operating system will stop booting after the end-of-life date",
+   "Existing installed applications are automatically uninstalled",
+   "The systems lose the ability to join a workgroup"
+  ],
+  "exp": "End of life means the vendor stops publishing fixes, so any vulnerability found from that point onward stays permanently exploitable on those machines. The OS keeps running and applications keep working, which is exactly why the risk is easy to ignore."
+ },
+ {
+  "domain": "Operating Systems",
+  "objective": "1.2",
+  "q": "A technician is installing Windows 11 on a 4 TB drive and needs the entire capacity available in a single volume. Which partitioning scheme and firmware mode are required?",
+  "correct": [
+   "GPT with UEFI"
+  ],
+  "wrong": [
+   "MBR with UEFI",
+   "GPT with legacy BIOS",
+   "MBR with legacy BIOS"
+  ],
+  "exp": "MBR addresses a maximum of 2 TB, so a 4 TB volume requires GPT, and booting Windows from a GPT disk requires UEFI firmware. The remaining combinations either cap the usable space or will not boot."
+ },
+ {
+  "domain": "Operating Systems",
+  "objective": "1.2",
+  "q": "A company is deploying 200 identical laptops and wants each to arrive at the user's desk already configured, with no technician touching the device. Which installation type best describes this?",
+  "correct": [
+   "Zero-touch deployment"
+  ],
+  "wrong": [
+   "Clean installation",
+   "In-place upgrade",
+   "Recovery partition restore"
+  ],
+  "exp": "Zero-touch deployment provisions a device automatically from the network or vendor service with no hands-on configuration. A clean installation and a recovery partition restore both require someone at the machine, and an in-place upgrade applies to a system that already has an OS."
+ },
+ {
+  "domain": "Operating Systems",
+  "objective": "1.2",
+  "q": "Before performing an in-place upgrade of Windows on a user's workstation, which two steps should the technician take first? (Choose TWO.)",
+  "correct": [
+   "Back up the user's data and verify the backup is restorable",
+   "Confirm the hardware meets the new version's minimum requirements"
+  ],
+  "wrong": [
+   "Convert the system drive from GPT to MBR",
+   "Disable the built-in administrator account"
+  ],
+  "exp": "A verified backup protects against an upgrade that fails partway, and a requirements check prevents starting an upgrade the hardware cannot complete. Converting to MBR would remove UEFI boot support rather than help, and the administrator account state has no bearing on an upgrade."
+ },
+ {
+  "domain": "Operating Systems",
+  "objective": "1.3",
+  "q": "A home user wants to connect to their work computer using Remote Desktop and also wants other staff to connect inbound to their own machine, which runs Windows 11 Home. What is the limitation?",
+  "correct": [
+   "Windows Home can initiate an RDP connection but cannot host one"
+  ],
+  "wrong": [
+   "Windows Home can host an RDP connection but cannot initiate one",
+   "Windows Home supports neither inbound nor outbound RDP",
+   "Windows Home supports both, but only one session at a time"
+  ],
+  "exp": "The Remote Desktop client ships with every edition, so connecting out works fine. The Remote Desktop host service is a Pro and above feature, so nothing can connect in to a Home machine."
+ },
+ {
+  "domain": "Operating Systems",
+  "objective": "1.3",
+  "q": "A technician needs to open the Local Group Policy Editor on a workstation but finds the command does not exist. Which is the most likely explanation?",
+  "correct": [
+   "The machine runs a Home edition, which does not include gpedit.msc"
+  ],
+  "wrong": [
+   "The machine is not joined to a domain",
+   "The user account is not a member of the Users group",
+   "The Group Policy Client service has been stopped"
+  ],
+  "exp": "gpedit.msc is simply absent from Home editions. Domain membership is irrelevant, since local policy exists on standalone machines too, and a stopped service would produce an error rather than a missing file."
+ },
+ {
+  "domain": "Operating Systems",
+  "objective": "1.4",
+  "q": "A user reports that their computer restarted overnight without warning. Which tool shows the logged reason and lets the technician filter to critical system events?",
+  "correct": [
+   "Event Viewer"
+  ],
+  "wrong": [
+   "Task Manager",
+   "Device Manager",
+   "Disk Management"
+  ],
+  "exp": "Event Viewer holds the System log, where unexpected shutdowns and kernel power events are recorded, and supports custom filtered views. Task Manager shows only current activity, Device Manager covers hardware, and Disk Management covers volumes."
+ },
+ {
+  "domain": "Operating Systems",
+  "objective": "1.4",
+  "q": "A technician wants a single console containing Event Viewer, Device Manager, and Performance Monitor together. Which tool creates it?",
+  "correct": [
+   "Microsoft Management Console (mmc.exe)"
+  ],
+  "wrong": [
+   "System Configuration (msconfig.exe)",
+   "Registry Editor (regedit.exe)",
+   "System Information (msinfo32.exe)"
+  ],
+  "exp": "The Management Console is the host application that the individual snap-ins load into, and saved consoles can hold any combination of them. The other tools serve unrelated purposes and cannot host snap-ins."
+ },
+ {
+  "domain": "Operating Systems",
+  "objective": "1.4",
+  "q": "A graphics driver update has left a workstation with display corruption. Which Device Manager option returns the previously working driver?",
+  "correct": [
+   "Roll Back Driver"
+  ],
+  "wrong": [
+   "Update Driver",
+   "Scan for hardware changes",
+   "Disable device"
+  ],
+  "exp": "Roll Back Driver reinstates the driver in use before the most recent update, and is available only when a previous version was retained. Updating again would not necessarily return the older build, and disabling the device removes display functionality rather than restoring it."
+ },
+ {
+  "domain": "Operating Systems",
+  "objective": "1.5",
+  "q": "A technician suspects corrupted Windows system files are causing application crashes. Which command scans protected system files and repairs them from a cached copy?",
+  "correct": [
+   "sfc /scannow"
+  ],
+  "wrong": [
+   "chkdsk /f",
+   "diskpart clean",
+   "gpupdate /force"
+  ],
+  "exp": "System File Checker verifies protected operating system files and replaces damaged ones from the local component store. chkdsk repairs file system structures rather than file contents, diskpart clean destroys partition data, and gpupdate reapplies policy."
+ },
+ {
+  "domain": "Operating Systems",
+  "objective": "1.5",
+  "q": "A technician needs to identify which process is holding TCP port 443 open on a workstation. Which two commands, used together, provide the answer? (Choose TWO.)",
+  "correct": [
+   "netstat -ano",
+   "tasklist"
+  ],
+  "wrong": [
+   "ipconfig /all",
+   "nslookup"
+  ],
+  "exp": "netstat with the flag set that includes the owning process identifier reveals which numeric process owns the port, and tasklist then maps that identifier to an executable name. The adapter configuration and DNS lookup tools report nothing about local port ownership."
+ },
+ {
+  "domain": "Operating Systems",
+  "objective": "1.5",
+  "q": "A technician runs a command that copies a folder tree to a backup location and deletes files in the destination that no longer exist in the source. Which command does this?",
+  "correct": [
+   "robocopy source destination /MIR"
+  ],
+  "wrong": [
+   "xcopy source destination /s",
+   "copy source destination",
+   "move source destination"
+  ],
+  "exp": "The mirror switch makes the destination an exact match of the source, which includes removing files that were deleted at the source. A recursive xcopy adds and updates but never deletes, plain copy handles single files, and move relocates rather than duplicates."
+ },
+ {
+  "domain": "Operating Systems",
+  "objective": "1.5",
+  "q": "A user reports that a website resolves correctly on their phone but not on their Windows laptop, which returns an old address. Which command clears the locally cached name resolution data?",
+  "correct": [
+   "ipconfig /flushdns"
+  ],
+  "wrong": [
+   "ipconfig /release",
+   "netstat -r",
+   "nslookup -clear"
+  ],
+  "exp": "Flushing the resolver cache discards locally stored name-to-address mappings so the next lookup queries the DNS server fresh. ipconfig /release gives up the DHCP lease, netstat -r only displays the routing table, and nslookup has no -clear option."
+ },
+ {
+  "domain": "Operating Systems",
+  "objective": "1.6",
+  "q": "A user on a metered cellular connection reports that large background downloads are consuming their data allowance. Where should the technician mark the connection to limit this behavior?",
+  "correct": [
+   "Network and Internet settings, by setting the connection as metered"
+  ],
+  "wrong": [
+   "Power Options, by enabling battery saver",
+   "Internet Options, by configuring a proxy server",
+   "Device Manager, by disabling the network adapter"
+  ],
+  "exp": "Marking a connection as metered tells Windows and many applications to defer non-essential downloads such as optional updates. Battery saver manages power, a proxy changes routing rather than volume, and disabling the adapter removes connectivity entirely."
+ },
+ {
+  "domain": "Operating Systems",
+  "objective": "1.6",
+  "q": "Users report that their desktops take a long time to fully shut down and start up, and a technician wants to reduce boot time by having Windows save the kernel session to disk at shutdown. Which setting controls this?",
+  "correct": [
+   "Fast startup, under Power Options"
+  ],
+  "wrong": [
+   "Hibernate, under Sleep settings",
+   "Startup apps, in Task Manager",
+   "Boot logging, in System Configuration"
+  ],
+  "exp": "Fast startup writes the kernel session to a hibernation file at shutdown so the next boot resumes it rather than initializing from scratch. Hibernation preserves a full user session instead, startup apps affect post-logon time, and boot logging only records what loaded."
+ },
+ {
+  "domain": "Operating Systems",
+  "objective": "1.7",
+  "q": "A technician assigns a workstation a static IP address. Afterward the user can ping and reach other machines on the same subnet, but cannot ping any external IP address such as 8.8.8.8. Which setting is most likely wrong?",
+  "correct": [
+   "The default gateway"
+  ],
+  "wrong": [
+   "The computer hostname",
+   "The DNS suffix",
+   "The MAC address"
+  ],
+  "exp": "Traffic that stays inside the local subnet needs no gateway, so local success paired with failure to reach even a raw external IP address points at the default gateway entry. DNS is ruled out because the test uses an IP address, the hostname and DNS suffix do not affect routing, and a MAC address is not manually configured in this context."
+ },
+ {
+  "domain": "Operating Systems",
+  "objective": "1.7",
+  "q": "A technician connects a laptop to a coffee-shop Wi-Fi network. Internet access works, but the laptop cannot discover or reach a colleague's shared folder on that same network, although sharing worked on the office network. What is the most likely cause?",
+  "correct": [
+   "The network is set to Public, which blocks network discovery and file sharing"
+  ],
+  "wrong": [
+   "The wireless adapter does not support the shop's frequency band",
+   "The laptop has been removed from the domain",
+   "The default gateway is unreachable"
+  ],
+  "exp": "A newly joined network defaults to the Public profile, which turns off network discovery and file sharing, which is the intended behavior on an untrusted network. Working internet access rules out an unreachable gateway or an unsupported frequency band, and domain membership does not explain discovery being blocked."
+ },
+ {
+  "domain": "Operating Systems",
+  "objective": "1.7",
+  "q": "A workstation shows an IPv4 address of 169.254.18.44. What does this indicate?",
+  "correct": [
+   "The client could not reach a DHCP server and self-assigned an APIPA address"
+  ],
+  "wrong": [
+   "The client has been assigned a valid public address",
+   "The client is configured with a static address outside its subnet",
+   "The client's network adapter has been disabled"
+  ],
+  "exp": "The 169.254.0.0 range is reserved for automatic private addressing, which a client assigns itself when no DHCP server responds. It permits same-subnet communication only, and a disabled adapter would report no address at all."
+ },
+ {
+  "domain": "Operating Systems",
+  "objective": "1.8",
+  "q": "A macOS user needs to recover a document as it existed three days ago. Which built-in utility should they use?",
+  "correct": [
+   "Time Machine"
+  ],
+  "wrong": [
+   "Disk Utility",
+   "Mission Control",
+   "Keychain Access"
+  ],
+  "exp": "Time Machine is the built-in backup utility and supports restoring earlier versions of individual files. Disk Utility manages volumes, Mission Control arranges windows, and Keychain Access stores credentials."
+ },
+ {
+  "domain": "Operating Systems",
+  "objective": "1.8",
+  "q": "Which macOS feature provides full-disk encryption?",
+  "correct": [
+   "FileVault"
+  ],
+  "wrong": [
+   "Gatekeeper",
+   "Spotlight",
+   "Finder"
+  ],
+  "exp": "FileVault encrypts the startup volume so data is unreadable without valid credentials. Gatekeeper controls which applications are permitted to run, Spotlight indexes and searches, and Finder is the file browser."
+ },
+ {
+  "domain": "Operating Systems",
+  "objective": "1.9",
+  "q": "A Linux administrator needs to give the owner of a script read, write, and execute rights while giving group and others read and execute only. Which command achieves this?",
+  "correct": [
+   "chmod 755 script.sh"
+  ],
+  "wrong": [
+   "chmod 644 script.sh",
+   "chmod 777 script.sh",
+   "chown 755 script.sh"
+  ],
+  "exp": "In octal notation the first digit covers the owner and the remaining two cover group and others, so seven grants full owner rights while five grants read and execute. Mode 644 omits execute entirely, 777 grants write to everyone, and chown changes ownership rather than permissions."
+ },
+ {
+  "domain": "Operating Systems",
+  "objective": "1.9",
+  "q": "Which Linux file stores hashed user passwords, readable only by privileged accounts?",
+  "correct": [
+   "/etc/shadow"
+  ],
+  "wrong": [
+   "/etc/passwd",
+   "/etc/hosts",
+   "/etc/fstab"
+  ],
+  "exp": "Password hashes were separated out of the world-readable account file into a restricted file precisely so ordinary users could not read them. The account file holds user attributes, the hosts file maps names to addresses, and the file system table defines mounts."
+ },
+ {
+  "domain": "Operating Systems",
+  "objective": "1.10",
+  "q": "A user reports that a newly purchased application will not install, reporting an incompatible architecture. Which system characteristic should the technician verify first?",
+  "correct": [
+   "Whether the operating system is 32-bit or 64-bit"
+  ],
+  "wrong": [
+   "The amount of free space on the recovery partition",
+   "The installed antivirus vendor",
+   "The monitor's native resolution"
+  ],
+  "exp": "A 64-bit application cannot run on a 32-bit operating system, which produces exactly this class of error. Recovery partition space, antivirus choice, and display resolution do not cause architecture mismatches."
+ },
+ {
+  "domain": "Operating Systems",
+  "objective": "1.11",
+  "q": "An organization moving to a cloud productivity suite wants staff to sign in to cloud applications with the same credentials they already use on-premises. Which capability provides this?",
+  "correct": [
+   "Identity synchronization"
+  ],
+  "wrong": [
+   "File versioning",
+   "Data loss prevention",
+   "Content filtering"
+  ],
+  "exp": "Identity synchronization replicates directory accounts into the cloud provider so a single credential works in both places. Versioning retains prior copies of files, data loss prevention inspects content leaving the organization, and content filtering restricts what users can reach."
+ },
+ {
+  "domain": "Security",
+  "objective": "2.1",
+  "q": "A company wants to ensure that only one person passes through a secure entrance at a time, preventing someone from following an authorized employee inside. Which control addresses this?",
+  "correct": [
+   "Access control vestibule"
+  ],
+  "wrong": [
+   "Bollards",
+   "Badge reader",
+   "Motion sensor"
+  ],
+  "exp": "An access control vestibule uses two interlocking doors so a second person cannot follow through on one authentication, which is the direct countermeasure to tailgating. Bollards stop vehicles, a badge reader authenticates but does not prevent a follower, and a motion sensor only detects."
+ },
+ {
+  "domain": "Security",
+  "objective": "2.1",
+  "q": "Under the principle of least privilege, what access should a new accounts-payable clerk receive?",
+  "correct": [
+   "Only the permissions required to perform their specific job duties"
+  ],
+  "wrong": [
+   "The same permissions as their manager, for continuity",
+   "Local administrator rights, to avoid support tickets",
+   "Full access initially, tightened after the probation period"
+  ],
+  "exp": "Least privilege grants the minimum access the role actually requires, limiting the damage from both mistakes and compromised credentials. The remaining options all grant more than the role needs, which is the condition least privilege exists to prevent."
+ },
+ {
+  "domain": "Security",
+  "objective": "2.2",
+  "q": "A folder's NTFS permissions grant a user Modify, while the share permissions grant Read. What can the user do when connecting to the folder over the network?",
+  "correct": [
+   "Read only"
+  ],
+  "wrong": [
+   "Modify",
+   "Full Control",
+   "Nothing, because the permissions conflict"
+  ],
+  "exp": "When both layers apply, the more restrictive of the two wins, so the share's Read caps the effective access regardless of what the file system layer permits. Sitting at the machine locally, the share layer would not apply at all and Modify would be effective."
+ },
+ {
+  "domain": "Security",
+  "objective": "2.2",
+  "q": "A user is logged in with an administrator account and launches an application that requires elevation. What does User Account Control do?",
+  "correct": [
+   "Prompts for consent before granting the process the administrative token"
+  ],
+  "wrong": [
+   "Silently grants administrative rights because the user is already an administrator",
+   "Blocks the application and requires a different account",
+   "Logs the user out and back in with elevated rights"
+  ],
+  "exp": "An administrator's session runs with a filtered standard token, and elevation to the full token requires explicit consent. That prompt is what keeps malware running in the session from silently acquiring administrative rights."
+ },
+ {
+  "domain": "Security",
+  "objective": "2.2",
+  "q": "Which two statements about BitLocker are correct? (Choose TWO.)",
+  "correct": [
+   "It provides full-volume encryption",
+   "It can use a TPM to protect the encryption key"
+  ],
+  "wrong": [
+   "It encrypts individual files chosen by the user",
+   "It is included in all Windows editions, including Home"
+  ],
+  "exp": "BitLocker encrypts an entire volume rather than selected files, and it commonly seals its key to the Trusted Platform Module so the drive cannot be read in another machine. Per-file encryption is what the Encrypting File System provides, and Home editions offer only the reduced Device Encryption feature."
+ },
+ {
+  "domain": "Security",
+  "objective": "2.3",
+  "q": "A technician is configuring a new wireless access point and wants the strongest available encryption. Which should be selected?",
+  "correct": [
+   "WPA3"
+  ],
+  "wrong": [
+   "WPA2 with TKIP",
+   "WPA",
+   "WEP"
+  ],
+  "exp": "WPA3 is the current standard and addresses weaknesses remaining in earlier versions, including offline dictionary attacks against captured handshakes. TKIP is a deprecated cipher retained for compatibility, and both WPA and WEP are broken."
+ },
+ {
+  "domain": "Security",
+  "objective": "2.3",
+  "q": "A medium-sized company wants wireless users authenticated against a central directory with individual credentials rather than one shared passphrase. Which should be implemented?",
+  "correct": [
+   "WPA3-Enterprise with a RADIUS server"
+  ],
+  "wrong": [
+   "WPA3-Personal with a long passphrase",
+   "MAC address filtering",
+   "A hidden SSID"
+  ],
+  "exp": "Enterprise mode delegates authentication to a RADIUS server so each user presents their own credentials and can be revoked individually. A pre-shared key is shared by everyone, while address filtering and hiding the network name are trivially bypassed and are not authentication."
+ },
+ {
+  "domain": "Security",
+  "objective": "2.4",
+  "q": "A user's files have been renamed with an unfamiliar extension and a text file demanding payment appears in every folder. Which malware type is this?",
+  "correct": [
+   "Ransomware"
+  ],
+  "wrong": [
+   "Keylogger",
+   "Rootkit",
+   "Adware"
+  ],
+  "exp": "Encrypting files and demanding payment for their return is the defining behaviour of ransomware. A keylogger captures input silently, a rootkit conceals itself and other components, and adware displays unwanted advertising."
+ },
+ {
+  "domain": "Security",
+  "objective": "2.4",
+  "q": "Which malware type is specifically designed to conceal its presence by subverting the operating system itself, often surviving standard antivirus scans?",
+  "correct": [
+   "Rootkit"
+  ],
+  "wrong": [
+   "Trojan",
+   "Worm",
+   "Spyware"
+  ],
+  "exp": "A rootkit operates at a privileged level and hides files, processes, and registry entries from the tools used to find it, which is why reimaging is often the only trustworthy remedy. A Trojan disguises itself as legitimate software, a worm self-propagates, and spyware gathers information."
+ },
+ {
+  "domain": "Security",
+  "objective": "2.4",
+  "q": "A workstation is fully patched and running current antivirus, yet is compromised by malware that runs entirely in memory and writes no file to disk. Which detection approach is most likely to identify it?",
+  "correct": [
+   "Behavior-based detection through an EDR platform"
+  ],
+  "wrong": [
+   "Signature-based file scanning",
+   "A scheduled full disk scan",
+   "Checking file hashes against a known-good baseline"
+  ],
+  "exp": "Fileless malware leaves nothing on disk for a file scanner to match, so detection depends on observing anomalous behaviour at runtime, which is what endpoint detection and response platforms provide. Every other option inspects files that in this case do not exist."
+ },
+ {
+  "domain": "Security",
+  "objective": "2.5",
+  "q": "An executive receives a personalized email appearing to come from the company's CEO, requesting an urgent wire transfer. Which attack is this?",
+  "correct": [
+   "Whaling"
+  ],
+  "wrong": [
+   "Shoulder surfing",
+   "Tailgating",
+   "Dumpster diving"
+  ],
+  "exp": "Whaling is targeted phishing aimed at a high-value individual such as a senior executive. The remaining options are physical or in-person techniques rather than a crafted email."
+ },
+ {
+  "domain": "Security",
+  "objective": "2.5",
+  "q": "A caller claims to be from the IT department and asks an employee to read back the six-digit code just sent to their phone. Which two describe this situation? (Choose TWO.)",
+  "correct": [
+   "This is a vishing attack",
+   "The employee should never share the code, as it is an authentication factor"
+  ],
+  "wrong": [
+   "This is acceptable if the caller knows the employee's job title",
+   "This is a legitimate procedure for verifying identity over the phone"
+  ],
+  "exp": "Voice-based social engineering is vishing, and the code in question is a possession factor that exists specifically to prove the holder is present. Knowing role details is trivially researched and proves nothing, and no legitimate process asks a user to disclose a one-time code."
+ },
+ {
+  "domain": "Security",
+  "objective": "2.6",
+  "q": "In the standard malware removal procedure, what must be done immediately after quarantining the infected system?",
+  "correct": [
+   "Disable System Restore"
+  ],
+  "wrong": [
+   "Educate the end user",
+   "Schedule future scans",
+   "Create a new restore point"
+  ],
+  "exp": "System Restore is disabled before remediation so infected restore points are discarded rather than preserved as a route back to the infection. Creating a restore point and educating the user both belong at the end of the procedure, after the system is clean."
+ },
+ {
+  "domain": "Security",
+  "objective": "2.6",
+  "q": "During malware remediation, why is the infected machine disconnected from the network before cleaning begins?",
+  "correct": [
+   "To prevent the malware from spreading to other systems or contacting external hosts"
+  ],
+  "wrong": [
+   "To force the operating system into Safe Mode automatically",
+   "To allow antivirus definitions to update more quickly",
+   "To preserve the contents of the page file"
+  ],
+  "exp": "Quarantine contains the infection and cuts off command-and-control communication. Disconnecting actually makes updating definitions harder, which is the recognized trade-off of the step rather than a benefit."
+ },
+ {
+  "domain": "Security",
+  "objective": "2.7",
+  "q": "Which setting limits the effectiveness of automated password-guessing attacks against local accounts?",
+  "correct": [
+   "Account lockout threshold"
+  ],
+  "wrong": [
+   "Password history length",
+   "Screen saver timeout",
+   "Maximum password age"
+  ],
+  "exp": "A lockout threshold disables an account after a set number of failed attempts, which stops repeated guessing. Password history prevents reuse, screen timeout addresses unattended sessions, and maximum age forces periodic changes."
+ },
+ {
+  "domain": "Security",
+  "objective": "2.7",
+  "q": "A technician wants to prevent a stolen laptop from being booted to a USB device so its drive can be read. Which control addresses this most directly?",
+  "correct": [
+   "A BIOS/UEFI password with boot order locked to the internal drive"
+  ],
+  "wrong": [
+   "A complex Windows logon password",
+   "A screen saver lock with a short timeout",
+   "Disabling the guest account"
+  ],
+  "exp": "Restricting firmware settings and boot order prevents booting alternate media to bypass the installed operating system entirely. A Windows password is irrelevant if the drive is read from another OS, and the remaining options address an unattended running session."
+ },
+ {
+  "domain": "Security",
+  "objective": "2.7",
+  "q": "Which two practices are appropriate when configuring a workstation for a user who handles sensitive client records? (Choose TWO.)",
+  "correct": [
+   "Enable data-at-rest encryption on the system drive",
+   "Configure a screen lock that activates after a short idle period"
+  ],
+  "wrong": [
+   "Grant the user local administrator rights so they can manage their own security",
+   "Disable automatic updates to avoid interrupting their work"
+  ],
+  "exp": "Encryption protects the records if the device is lost, and a short idle lock protects an unattended session. Granting administrative rights violates least privilege, and disabling updates leaves known vulnerabilities unpatched."
+ },
+ {
+  "domain": "Security",
+  "objective": "2.8",
+  "q": "A company issues smartphones and needs the ability to enforce passcode policy and remotely wipe a lost device. Which solution provides this?",
+  "correct": [
+   "Mobile device management"
+  ],
+  "wrong": [
+   "A host-based firewall",
+   "Full-disk encryption alone",
+   "A password manager"
+  ],
+  "exp": "Mobile device management enrolls devices under central policy, which includes enforcing screen locks and issuing a remote wipe. Encryption protects data but provides no management capability, and the remaining options serve different purposes."
+ },
+ {
+  "domain": "Security",
+  "objective": "2.8",
+  "q": "Which mobile device condition most increases the risk of installing malicious applications?",
+  "correct": [
+   "The device has been rooted or jailbroken"
+  ],
+  "wrong": [
+   "The device uses biometric authentication",
+   "The device has automatic updates enabled",
+   "The device is enrolled in mobile device management"
+  ],
+  "exp": "Rooting or jailbreaking removes the platform's built-in restrictions, permitting installation outside the vetted store and granting applications privileges the sandbox would normally deny. The other conditions all improve the device's security posture."
+ },
+ {
+  "domain": "Security",
+  "objective": "2.9",
+  "q": "A hospital is disposing of failed solid-state drives that held patient records and cannot be reliably overwritten. Which disposal method is appropriate?",
+  "correct": [
+   "Physical destruction, such as shredding, with a certificate of destruction"
+  ],
+  "wrong": [
+   "Degaussing the drives",
+   "Performing a standard quick format",
+   "Deleting the partitions and reinstalling the operating system"
+  ],
+  "exp": "Wear leveling means overwriting cannot guarantee every flash cell is reached, so physical destruction with documented evidence is the defensible option. Degaussing affects magnetic media only and has no effect on flash, and both remaining options leave data recoverable."
+ },
+ {
+  "domain": "Security",
+  "objective": "2.9",
+  "q": "What distinguishes a standard quick format from a low-level or full format?",
+  "correct": [
+   "A quick format rewrites only the file system structures, leaving the underlying data recoverable"
+  ],
+  "wrong": [
+   "A quick format overwrites every sector with zeros",
+   "A quick format physically remaps bad sectors",
+   "A quick format encrypts the volume before erasing it"
+  ],
+  "exp": "A quick format replaces the index that points at the data while leaving the data itself in place, which is why recovery tools retrieve files afterward. Writing zeros across the volume is what a full format does."
+ },
+ {
+  "domain": "Security",
+  "objective": "2.10",
+  "q": "A technician is hardening a new SOHO router. Which action should be taken first?",
+  "correct": [
+   "Change the default administrator password"
+  ],
+  "wrong": [
+   "Disable the SSID broadcast",
+   "Enable MAC address filtering",
+   "Configure port forwarding for remote access"
+  ],
+  "exp": "Default credentials are published for every consumer model, so an unchanged password leaves the device trivially accessible regardless of other settings. Hiding the network name and filtering addresses are weak measures, and port forwarding increases exposure."
+ },
+ {
+  "domain": "Security",
+  "objective": "2.10",
+  "q": "Why should WPS be disabled on a SOHO wireless router?",
+  "correct": [
+   "Its PIN is validated in two halves, making it feasible to brute force"
+  ],
+  "wrong": [
+   "It prevents WPA3 from being enabled",
+   "It broadcasts the wireless passphrase in plaintext",
+   "It disables the router's built-in firewall"
+  ],
+  "exp": "The PIN's design allows each half to be attacked separately, reducing the search space enough to recover it in hours and with it the wireless passphrase, no matter how strong that passphrase is. The other statements describe behaviour WPS does not have."
+ },
+ {
+  "domain": "Security",
+  "objective": "2.11",
+  "q": "A user reports a browser warning stating the connection is not private. Which cause would produce this while the site remains legitimate?",
+  "correct": [
+   "The site's certificate has expired"
+  ],
+  "wrong": [
+   "The user's browser has pop-ups blocked",
+   "The site uses a password manager extension",
+   "The user's screen resolution is unsupported"
+  ],
+  "exp": "Certificate validation checks the expiry date among other things, and an expired certificate triggers the warning even though encryption still functions. The remaining options have no bearing on certificate validation."
+ },
+ {
+  "domain": "Security",
+  "objective": "2.11",
+  "q": "A browser extension requests permission to read and change all data on every website the user visits. What is the realistic risk?",
+  "correct": [
+   "It can capture credentials and modify page content on any site, including banking"
+  ],
+  "wrong": [
+   "It can only affect sites explicitly added to a whitelist",
+   "It can read data but cannot alter what is displayed",
+   "The risk is limited because extensions run outside the browser"
+  ],
+  "exp": "That permission grants the extension the ability to observe and alter every page, which covers authentication forms and transaction details. Extensions run inside the browser with the access they were granted, not outside it."
+ },
+ {
+  "domain": "Software Troubleshooting",
+  "objective": "3.1",
+  "q": "A workstation displays a stop error naming a specific .sys file, then restarts. What should the technician do first?",
+  "correct": [
+   "Identify the device or software associated with that driver file and check for a recent update"
+  ],
+  "wrong": [
+   "Immediately reinstall the operating system",
+   "Replace the system board",
+   "Run a full antivirus scan in Safe Mode"
+  ],
+  "exp": "A named driver file points directly at the component that failed, making a recent driver change the most productive first line of investigation. Reinstalling or replacing hardware discards useful diagnostic information before it has been examined."
+ },
+ {
+  "domain": "Software Troubleshooting",
+  "objective": "3.1",
+  "q": "A user reports their computer is slow. Task Manager shows CPU at 6%, memory at 35%, and disk at 100% sustained. What is the bottleneck?",
+  "correct": [
+   "Storage throughput"
+  ],
+  "wrong": [
+   "Processor capacity",
+   "Insufficient RAM",
+   "Network bandwidth"
+  ],
+  "exp": "A disk pinned at full utilization while the processor and memory sit idle identifies storage as the constraint. Low processor and memory figures rule those out, and Task Manager's disk metric does not reflect network activity."
+ },
+ {
+  "domain": "Software Troubleshooting",
+  "objective": "3.1",
+  "q": "A service is configured to start automatically but is not running after a reboot. Attempting to start it manually returns system error 1068. What does this indicate?",
+  "correct": [
+   "A service it depends on is not running"
+  ],
+  "wrong": [
+   "The service is disabled",
+   "The service executable is missing",
+   "The account running the service has an expired password"
+  ],
+  "exp": "That specific error reports a dependency failure, so the fix is to identify and start the required service first. A disabled service returns a different error, which is why reading the number rather than the general failure matters."
+ },
+ {
+  "domain": "Software Troubleshooting",
+  "objective": "3.1",
+  "q": "A Windows workstation fails to boot and displays an error referring to the boot configuration data. Which tool, run from the recovery environment, is most likely to repair it?",
+  "correct": [
+   "bootrec /rebuildbcd"
+  ],
+  "wrong": [
+   "sfc /scannow",
+   "chkdsk /r",
+   "diskpart clean"
+  ],
+  "exp": "Rebuilding the boot configuration store addresses exactly the data the error names. System File Checker cannot run usefully against an unbootable installation from this context, chkdsk repairs file system errors, and the disk utility option would destroy data."
+ },
+ {
+  "domain": "Software Troubleshooting",
+  "objective": "3.1",
+  "q": "A user reports repeated low-memory warnings on a workstation with 16 GB of RAM. Which two causes should the technician investigate? (Choose TWO.)",
+  "correct": [
+   "An application with a memory leak consuming increasing amounts over time",
+   "A page file that has been disabled or set to an unusually small fixed size"
+  ],
+  "wrong": [
+   "A monitor running above its native resolution",
+   "An incorrect subnet mask on the network adapter"
+  ],
+  "exp": "A leaking process steadily consumes memory until warnings appear, and a restricted page file removes the overflow the system relies on under pressure. Display resolution and network configuration have no relationship to memory exhaustion."
+ },
+ {
+  "domain": "Software Troubleshooting",
+  "objective": "3.1",
+  "q": "An application crashes on launch for one user but works normally for another user on the same computer. What is the most likely cause?",
+  "correct": [
+   "A corrupted user profile or per-user application setting"
+  ],
+  "wrong": [
+   "A failing hard drive",
+   "Insufficient system memory",
+   "An incompatible processor architecture"
+  ],
+  "exp": "Behaviour that differs between accounts on the same machine points to something stored per user rather than machine-wide. A hardware or architecture problem would affect every account equally."
+ },
+ {
+  "domain": "Software Troubleshooting",
+  "objective": "3.1",
+  "q": "Where should a technician look to reduce the time a Windows workstation takes to become usable after logon?",
+  "correct": [
+   "The Startup apps list in Task Manager"
+  ],
+  "wrong": [
+   "Disk Management",
+   "Device Manager",
+   "The Services console's dependency tab"
+  ],
+  "exp": "Startup applications launch after logon and are the usual cause of a desktop that appears quickly but responds slowly. The remaining consoles manage volumes, hardware, and service relationships respectively."
+ },
+ {
+  "domain": "Software Troubleshooting",
+  "objective": "3.1",
+  "q": "An application reports that a required DLL is missing. Which is the most common underlying cause?",
+  "correct": [
+   "A missing runtime redistributable package the application depends on"
+  ],
+  "wrong": [
+   "A failing power supply",
+   "An incorrect system date",
+   "A disabled network adapter"
+  ],
+  "exp": "Applications commonly rely on shared runtime libraries distributed separately from the application itself, and a missing one produces this error. None of the other conditions cause a library load failure."
+ },
+ {
+  "domain": "Software Troubleshooting",
+  "objective": "3.1",
+  "q": "An older business application will not run correctly on Windows 11. Which option should be tried before contacting the vendor?",
+  "correct": [
+   "Running the application in compatibility mode for an earlier Windows version"
+  ],
+  "wrong": [
+   "Converting the system drive to FAT32",
+   "Disabling the page file",
+   "Changing the display to a lower color depth"
+  ],
+  "exp": "Compatibility mode presents the application with an environment resembling the older version it expects, which resolves many legacy issues without vendor involvement. The remaining options would degrade the system without addressing the incompatibility."
+ },
+ {
+  "domain": "Software Troubleshooting",
+  "objective": "3.2",
+  "q": "A user reports that a mobile application closes immediately after launching. Which step should be tried first, as it preserves the user's data within the app?",
+  "correct": [
+   "Clear the application's cache"
+  ],
+  "wrong": [
+   "Clear the application's storage or data",
+   "Perform a factory reset of the device",
+   "Remove the device from mobile device management"
+  ],
+  "exp": "Clearing the cache discards temporary files while leaving settings and content intact, making it the least destructive first step. Clearing storage wipes the application's data, and a factory reset is far more drastic than the symptom warrants."
+ },
+ {
+  "domain": "Software Troubleshooting",
+  "objective": "3.2",
+  "q": "A smartphone's battery has begun draining noticeably faster than it did a month ago, with no change in usage habits. Which should the technician check first?",
+  "correct": [
+   "Per-application battery usage statistics"
+  ],
+  "wrong": [
+   "The device's screen resolution setting",
+   "The SIM card seating",
+   "The Bluetooth device pairing list"
+  ],
+  "exp": "Battery usage statistics identify which application is responsible, turning a vague complaint into a specific target. The other items do not meaningfully affect battery consumption."
+ },
+ {
+  "domain": "Software Troubleshooting",
+  "objective": "3.2",
+  "q": "A technician suspects a third-party application is causing an Android device to reboot randomly. Which troubleshooting step isolates this?",
+  "correct": [
+   "Boot the device into Safe Mode, which disables third-party applications"
+  ],
+  "wrong": [
+   "Enable USB debugging in developer options",
+   "Clear the browser cache",
+   "Disable automatic screen rotation"
+  ],
+  "exp": "Safe Mode loads the operating system without third-party applications, so a symptom that disappears there confirms an installed application rather than the OS. Enabling debugging assists further diagnosis but isolates nothing on its own."
+ },
+ {
+  "domain": "Software Troubleshooting",
+  "objective": "3.2",
+  "q": "A user cannot install updates on their mobile device, which reports insufficient space despite showing several gigabytes free. What is the most likely explanation?",
+  "correct": [
+   "The update requires additional working space beyond the final installed size"
+  ],
+  "wrong": [
+   "The device's battery is below the required charge level",
+   "The device has exceeded its maximum number of installed applications",
+   "The cellular data allowance has been exhausted"
+  ],
+  "exp": "Updates need temporary space for download and staging in addition to the space the installed result occupies, so the reported free figure can be misleading. A low battery produces a different and clearly worded message."
+ },
+ {
+  "domain": "Software Troubleshooting",
+  "objective": "3.3",
+  "q": "A corporate smartphone shows unusually high data usage and an application the user does not recognize. Which action should be taken first?",
+  "correct": [
+   "Report the device to the security team and follow the incident response procedure"
+  ],
+  "wrong": [
+   "Uninstall the application and return the device to the user",
+   "Perform a factory reset immediately",
+   "Disable cellular data and continue using the device"
+  ],
+  "exp": "A suspected compromise on a corporate device is an incident, and preserving evidence matters more than a quick fix. Uninstalling or resetting destroys exactly what an investigation would need."
+ },
+ {
+  "domain": "Software Troubleshooting",
+  "objective": "3.3",
+  "q": "Which mobile application permission presents the greatest risk if granted to a malicious application?",
+  "correct": [
+   "Accessibility services"
+  ],
+  "wrong": [
+   "Calendar access",
+   "Flashlight control",
+   "Screen rotation"
+  ],
+  "exp": "Accessibility services can read screen content and simulate user input across every application, which effectively grants full control of the device. Calendar access exposes limited data, and the remaining permissions are trivial."
+ },
+ {
+  "domain": "Software Troubleshooting",
+  "objective": "3.3",
+  "q": "A user has enabled the option permitting installation from unknown sources on their Android device. What is the primary risk?",
+  "correct": [
+   "Applications bypass the store's review process and may be malicious"
+  ],
+  "wrong": [
+   "The device will no longer receive operating system updates",
+   "The device's warranty is automatically voided",
+   "Existing applications lose their granted permissions"
+  ],
+  "exp": "Sideloading removes the vetting the official store performs, which is the control that ordinarily filters out malicious applications. Update delivery and existing permissions are unaffected by the setting."
+ },
+ {
+  "domain": "Software Troubleshooting",
+  "objective": "3.3",
+  "q": "A technician finds developer options and USB debugging enabled on a user's corporate phone. Why is this a concern?",
+  "correct": [
+   "It allows a connected computer to issue privileged commands to the device"
+  ],
+  "wrong": [
+   "It prevents the device from connecting to wireless networks",
+   "It disables the device's biometric authentication",
+   "It stops the device from receiving application updates"
+  ],
+  "exp": "Debugging access permits a connected host to install packages, read logs, and execute commands, which is significant exposure if the device is connected to an untrusted machine. The other described effects do not occur."
+ },
+ {
+  "domain": "Software Troubleshooting",
+  "objective": "3.4",
+  "q": "A workstation can browse most websites but Windows Update consistently fails. A technician suspects malware. Which file should be examined?",
+  "correct": [
+   "The hosts file"
+  ],
+  "wrong": [
+   "The page file",
+   "The registry's Run key",
+   "The boot configuration data store"
+  ],
+  "exp": "The hosts file is consulted before DNS, so entries redirecting update servers to unreachable addresses block updates while ordinary browsing continues. The Run key is worth checking for persistence but does not explain this specific symptom."
+ },
+ {
+  "domain": "Software Troubleshooting",
+  "objective": "3.4",
+  "q": "A user reports a full-screen alert claiming their computer is infected and displaying a phone number to call. How can a technician recognize this as fraudulent?",
+  "correct": [
+   "Legitimate security software never provides a phone number or demands payment to remove threats"
+  ],
+  "wrong": [
+   "Legitimate alerts always appear in red",
+   "Legitimate alerts never appear in full screen",
+   "Legitimate alerts always include the user's account name"
+  ],
+  "exp": "Genuine endpoint protection remediates threats directly and does not route users to a call center, which makes the phone number the reliable tell. Color, size, and personalization are all easily imitated."
+ },
+ {
+  "domain": "Software Troubleshooting",
+  "objective": "3.4",
+  "q": "After cleaning adware from a workstation, the browser still opens an unfamiliar search page. Which two locations should the technician check? (Choose TWO.)",
+  "correct": [
+   "The browser's installed extensions",
+   "The target field of the browser's desktop shortcut"
+  ],
+  "wrong": [
+   "The workstation's BIOS boot order",
+   "The printer spooler settings"
+  ],
+  "exp": "A residual extension can reset the search provider on every launch, and a URL appended to the shortcut's target loads that page regardless of any browser setting. Neither firmware boot order nor print settings affect browser behaviour."
+ },
+ {
+  "domain": "Software Troubleshooting",
+  "objective": "3.4",
+  "q": "Why would malware install its own root certificate into the Windows certificate store?",
+  "correct": [
+   "To allow it to intercept and decrypt the user's encrypted web traffic without warnings"
+  ],
+  "wrong": [
+   "To prevent the operating system from installing updates",
+   "To grant itself local administrator rights",
+   "To hide its processes from Task Manager"
+  ],
+  "exp": "A trusted root certificate lets the attacker present certificates the browser accepts, enabling silent interception of encrypted sessions. Concealing processes and obtaining privileges are achieved by other techniques."
+ },
+ {
+  "domain": "Operational Procedures",
+  "objective": "4.1",
+  "q": "Which document describes the step-by-step process a technician should follow to complete a recurring task consistently?",
+  "correct": [
+   "Standard operating procedure"
+  ],
+  "wrong": [
+   "Acceptable use policy",
+   "Network topology diagram",
+   "End-user license agreement"
+  ],
+  "exp": "A standard operating procedure records how a routine task is performed so results are consistent between technicians. An acceptable use policy governs user behaviour, a topology diagram documents network layout, and a license agreement covers software terms."
+ },
+ {
+  "domain": "Operational Procedures",
+  "objective": "4.1",
+  "q": "What distinguishes a ticket's severity from its priority?",
+  "correct": [
+   "Severity describes the technical impact, while priority describes the order in which work should be done"
+  ],
+  "wrong": [
+   "They are interchangeable terms for the same field",
+   "Severity is set by the user, while priority is set automatically",
+   "Severity applies to hardware tickets and priority to software tickets"
+  ],
+  "exp": "Severity measures how badly something is broken, whereas priority weighs that against business context to decide what gets attention first. A high-severity fault on a decommissioned system can legitimately carry low priority."
+ },
+ {
+  "domain": "Operational Procedures",
+  "objective": "4.2",
+  "q": "Which element of a change request describes what will be done if the change fails during the maintenance window?",
+  "correct": [
+   "The rollback plan"
+  ],
+  "wrong": [
+   "The risk analysis",
+   "The scope of the change",
+   "The end-user acceptance record"
+  ],
+  "exp": "The rollback plan states how the environment is returned to its previous working state, which is the question a change board always asks. Risk analysis assesses what could go wrong rather than what to do about it."
+ },
+ {
+  "domain": "Operational Procedures",
+  "objective": "4.2",
+  "q": "A pre-approved, low-risk, routine change that follows a documented procedure is classified as which change type?",
+  "correct": [
+   "Standard change"
+  ],
+  "wrong": [
+   "Normal change",
+   "Emergency change",
+   "Major change"
+  ],
+  "exp": "A standard change is routine and pre-approved because its risk is well understood and it follows a documented procedure. A normal change goes through the full change-board approval process, and an emergency change is handled through an expedited approval path because it cannot wait for the normal schedule."
+ },
+ {
+  "domain": "Operational Procedures",
+  "objective": "4.3",
+  "q": "A company performs a full backup on Sunday and incremental backups Monday through Thursday. A failure occurs Friday morning. What must be restored?",
+  "correct": [
+   "The full backup plus all four incremental backups, in order"
+  ],
+  "wrong": [
+   "The full backup plus Thursday's incremental only",
+   "Thursday's incremental only",
+   "The full backup only"
+  ],
+  "exp": "Each incremental captures only what changed since the previous backup of any type, so the chain must be replayed in sequence. Restoring only the latest set would be sufficient if the scheme used differential backups instead."
+ },
+ {
+  "domain": "Operational Procedures",
+  "objective": "4.3",
+  "q": "What does the 3-2-1 backup rule specify?",
+  "correct": [
+   "Three copies of the data, on two different media types, with one copy offsite"
+  ],
+  "wrong": [
+   "Three backups per day, two retained, one verified",
+   "Three servers, two data centers, one administrator",
+   "Three full backups, two incremental, one differential"
+  ],
+  "exp": "The rule protects against media failure through multiple copies and formats, and against site-level loss such as fire or ransomware through the offsite copy. The other descriptions are not recognized practice."
+ },
+ {
+  "domain": "Operational Procedures",
+  "objective": "4.3",
+  "q": "Why should backups be periodically test-restored?",
+  "correct": [
+   "A backup that cannot be restored provides no protection, and failures are often discovered only during a restore"
+  ],
+  "wrong": [
+   "Test restores are required to reset the archive attribute",
+   "Test restores free space on the backup media",
+   "Test restores are needed to keep the backup software licensed"
+  ],
+  "exp": "Backup jobs can report success while producing unusable media, so a restore test is the only evidence the strategy actually works. The remaining statements describe effects that test restores do not have."
+ },
+ {
+  "domain": "Operational Procedures",
+  "objective": "4.4",
+  "q": "A technician is preparing to replace a memory module in a desktop. Which precaution prevents electrostatic damage to the component?",
+  "correct": [
+   "Wearing an anti-static wrist strap connected to a grounding point"
+  ],
+  "wrong": [
+   "Wearing rubber-soled shoes while working",
+   "Working on a carpeted surface to absorb static",
+   "Handling the module by its gold contact edge"
+  ],
+  "exp": "A grounded wrist strap equalizes the technician's potential with the equipment so no discharge occurs. Carpet generates static rather than absorbing it, and touching the contacts is exactly what should be avoided."
+ },
+ {
+  "domain": "Operational Procedures",
+  "objective": "4.4",
+  "q": "Which two practices are correct when handling and storing spare components? (Choose TWO.)",
+  "correct": [
+   "Store components in anti-static bags when not installed",
+   "Hold expansion cards by their edges rather than their connectors"
+  ],
+  "wrong": [
+   "Store components in sealed plastic zip bags to keep out dust",
+   "Stack loose circuit boards together to save shelf space"
+  ],
+  "exp": "Anti-static bags dissipate charge safely, and handling by the edges keeps skin oils and static away from contacts. Ordinary plastic bags can generate static, and stacking boards risks both physical and electrostatic damage."
+ },
+ {
+  "domain": "Operational Procedures",
+  "objective": "4.5",
+  "q": "Which document provides handling, storage, and disposal guidance for a chemical such as printer toner?",
+  "correct": [
+   "Safety data sheet (SDS, formerly called MSDS)"
+  ],
+  "wrong": [
+   "Service level agreement",
+   "Statement of work",
+   "Asset tag record"
+  ],
+  "exp": "A safety data sheet, which the CompTIA objectives still call a material safety data sheet (MSDS), details hazards, handling requirements, and correct disposal for a substance such as toner. The remaining documents cover service commitments, project deliverables, and inventory tracking."
+ },
+ {
+  "domain": "Operational Procedures",
+  "objective": "4.5",
+  "q": "A server room experiences frequent brief power dips that cause equipment to restart. Which device addresses this?",
+  "correct": [
+   "An uninterruptible power supply"
+  ],
+  "wrong": [
+   "A surge suppressor",
+   "A power distribution unit",
+   "A line splitter"
+  ],
+  "exp": "An uninterruptible power supply carries equipment through sags and short outages using its battery. A surge suppressor only protects against voltage spikes and does nothing for a dip or loss."
+ },
+ {
+  "domain": "Operational Procedures",
+  "objective": "4.6",
+  "q": "A technician discovers prohibited material on a user's workstation. What should be done first?",
+  "correct": [
+   "Report it through the proper channels as defined by company policy"
+  ],
+  "wrong": [
+   "Delete the material and inform the user",
+   "Investigate the files to determine their origin",
+   "Confront the user to hear their explanation"
+  ],
+  "exp": "First response is to report and preserve rather than to act, because independent investigation risks destroying evidence and exceeds the technician's authority. Deleting the material would compromise any subsequent process."
+ },
+ {
+  "domain": "Operational Procedures",
+  "objective": "4.6",
+  "q": "Which sequence correctly reflects the order of volatility, from most volatile to least?",
+  "correct": [
+   "RAM, then disk, then archival backups"
+  ],
+  "wrong": [
+   "Disk, then RAM, then archival backups",
+   "Archival backups, then disk, then RAM",
+   "RAM, then archival backups, then disk"
+  ],
+  "exp": "Evidence is collected most-volatile-first because the contents of memory disappear the moment the system loses power, while disk contents persist until overwritten and archived backup media persist longest."
+ },
+ {
+  "domain": "Operational Procedures",
+  "objective": "4.6",
+  "q": "Why is a cryptographic hash of seized media recorded before examination begins?",
+  "correct": [
+   "To prove afterward that the data was not altered while in the examiner's possession"
+  ],
+  "wrong": [
+   "To compress the media for faster transfer",
+   "To encrypt the media so it cannot be read by others",
+   "To recover files that were previously deleted"
+  ],
+  "exp": "A hash taken before examination and matched afterward demonstrates integrity, which is what makes the evidence defensible. Hashing neither compresses, encrypts, nor recovers anything."
+ },
+ {
+  "domain": "Operational Procedures",
+  "objective": "4.7",
+  "q": "A user is angry and repeatedly interrupts while describing a recurring fault. What is the most appropriate response?",
+  "correct": [
+   "Listen without interrupting, then restate the problem to confirm understanding"
+  ],
+  "wrong": [
+   "Explain that their tone is unprofessional and ask them to calm down",
+   "Transfer the call to a colleague without explanation",
+   "Begin troubleshooting immediately to end the conversation quickly"
+  ],
+  "exp": "Active listening followed by restating the issue defuses frustration and confirms the problem is correctly understood before work begins. Criticizing the user's tone escalates the situation."
+ },
+ {
+  "domain": "Operational Procedures",
+  "objective": "4.8",
+  "q": "Which file extension identifies a Windows PowerShell script?",
+  "correct": [
+   ".ps1"
+  ],
+  "wrong": [
+   ".bat",
+   ".sh",
+   ".vbs"
+  ],
+  "exp": "PowerShell scripts use the .ps1 extension. Batch files use .bat, shell scripts on Linux and macOS use .sh, and VBScript uses .vbs."
+ },
+ {
+  "domain": "Operational Procedures",
+  "objective": "4.8",
+  "q": "Which is a recognized risk of deploying a logon script across an organization?",
+  "correct": [
+   "A defect in the script is applied simultaneously to every machine that runs it"
+  ],
+  "wrong": [
+   "Scripts cannot be tested before deployment",
+   "Scripts always require local administrator rights to run",
+   "Scripts prevent users from logging on concurrently"
+  ],
+  "exp": "The efficiency of automation cuts both ways, so an error propagates at the same scale the benefit does, which is the argument for sandbox testing beforehand. Scripts can be tested, and neither of the remaining statements is accurate."
+ },
+ {
+  "domain": "Operational Procedures",
+  "objective": "4.9",
+  "q": "Which remote access method provides an encrypted command-line session to a Linux server?",
+  "correct": [
+   "SSH"
+  ],
+  "wrong": [
+   "VNC",
+   "RDP",
+   "Telnet"
+  ],
+  "exp": "SSH provides an encrypted shell session and is the standard for command-line administration. VNC and RDP deliver graphical desktops, and Telnet transmits everything, including credentials, in plaintext."
+ },
+ {
+  "domain": "Operational Procedures",
+  "objective": "4.10",
+  "q": "An employee pastes a section of a confidential client contract into a public AI chatbot to summarize it. What is the primary concern?",
+  "correct": [
+   "Confidential data has been disclosed to a third-party service outside the organization's control"
+  ],
+  "wrong": [
+   "The summary may be formatted inconsistently",
+   "The chatbot may take longer than reading the document manually",
+   "The employee may become dependent on the tool"
+  ],
+  "exp": "Submitting confidential content to a public service is a disclosure, and the organization loses control over how that data is retained or used. This is the distinction an acceptable use policy is written to draw between public and private data submission."
+ }
+]

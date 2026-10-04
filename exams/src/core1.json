@@ -1,0 +1,1178 @@
+[
+ {
+  "domain": "Networking",
+  "objective": "",
+  "q": "A small business owner wants to set up a secure SOHO wireless network for company laptops while keeping visitor traffic completely separated. Which two features should be configured on the SOHO wireless router to accomplish this requirement? (Choose two.)",
+  "correct": [
+   "Enable a guest network with client isolation",
+   "Enable WPA3 encryption"
+  ],
+  "wrong": [
+   "Enable DHCP scope exclusions for corporate devices",
+   "Configure static NAT mapping for each wireless client"
+  ],
+  "exp": "Enabling a dedicated guest network isolates visitor traffic from internal corporate resources and prevents guest devices from communicating with each other. Enabling WPA3 encryption secures wireless transmissions against eavesdropping and unauthorized access. DHCP scope exclusions prevent the DHCP server from assigning specific IPs, which does not isolate traffic or secure Wi-Fi. Static NAT mapping translates public-to-private IP addresses on firewalls/routers for inbound servers, which is irrelevant for separating wireless client traffic."
+ },
+ {
+  "domain": "Hardware",
+  "objective": "",
+  "q": "A network technician is terminating a fiber optic patch cable between two high-density network switches inside a datacenter rack. The technician selects a small form factor fiber connector that uses an RJ-45-style push-pull latching mechanism and holds both transmit and receive fiber strands in a single compact duplex housing. Which connector type is being used?",
+  "correct": [
+   "LC"
+  ],
+  "wrong": [
+   "SC",
+   "ST",
+   "F-type"
+  ],
+  "exp": "LC (Lucent Connector) is correct because it is a popular small form factor (SFF) fiber optic connector featuring a retention latch mechanism similar to an RJ-45 ethernet plug, making it ideal for high-density network equipment. ST (Straight Tip) is incorrect because it uses a round metal bayonet twist-lock coupling mechanism. SC (Subscriber Connector) is incorrect because while it uses a push-pull mechanism, it is a larger square legacy connector format. F-type is incorrect because it is a threaded metallic connector used for coaxial copper RF cables, not optical fiber."
+ },
+ {
+  "domain": "Hardware",
+  "objective": "",
+  "q": "A desktop technician replaces a faulty motherboard on an enterprise workstation whose system drive is encrypted with BitLocker. After the replacement, Windows asks for the drive recovery key before it will unlock the drive. Which firmware-level security component, enabled in UEFI setup and re-bound to the encryption key, normally holds the key material that lets BitLocker unlock the drive automatically at boot?",
+  "correct": [
+   "Trusted Platform Module (TPM)"
+  ],
+  "wrong": [
+   "Basic Input/Output System (BIOS) administrator password",
+   "Secure Boot keys",
+   "Serial ATA (SATA) controller mode"
+  ],
+  "exp": "The Trusted Platform Module (TPM) stores the key material BitLocker uses to unlock the drive automatically. A new motherboard brings a different TPM (or a cleared firmware TPM), so the stored binding no longer matches and Windows demands the recovery key; the technician must enable the TPM in UEFI and re-protect the drive. Secure Boot keys verify bootloader signatures but do not hold the volume key. SATA controller mode governs how the drive is presented to the OS, not key storage. A BIOS administrator password only locks access to firmware settings."
+ },
+ {
+  "domain": "Virtualization and Cloud Computing",
+  "objective": "",
+  "q": "A cybersecurity technician needs to execute and analyze a piece of suspected malware inside a virtual machine without risking infection to the physical host computer or the rest of the corporate local area network (LAN). Which action should the technician take when setting up the VM sandbox?",
+  "correct": [
+   "Configure the VM network adapter to host-only or disconnected mode, and disable shared host-guest folders."
+  ],
+  "wrong": [
+   "Configure the VM network interface to use promiscuous mode with an IP address assigned by the network DHCP server.",
+   "Set the VM network adapter to bridged mode to isolate traffic to a dedicated physical IP address on the host network.",
+   "Enable host drive passthrough so execution logs can be written directly to the host storage system."
+  ],
+  "exp": "Isolating the virtual machine network adapter by placing it in host-only or disconnected mode prevents network-aware malware from scanning or spreading to other devices on the physical local area network. Disabling shared host-guest folders prevents file-encrypting malware or executable code from jumping out of the sandbox to infect the host filesystem. Bridged mode places the guest VM directly onto the physical local network as an active node, exposing other corporate endpoints to infection. Enabling host drive passthrough provides a direct pipeline for malware to write files onto physical host drives. Promiscuous mode allows the interface to capture all local network frames, which leaves the VM fully connected to the active production network."
+ },
+ {
+  "domain": "Mobile Devices",
+  "objective": "",
+  "q": "An enterprise organization is deploying mobile phones to sales representatives who travel internationally. To avoid the hassle of purchasing and physically swapping SIM cards in every country, the network team wants to provision regional carrier plans digitally over the air. Which two technologies support this deployment model? (Choose two.)",
+  "correct": [
+   "eSIM",
+   "Over-the-air (OTA) provisioning"
+  ],
+  "wrong": [
+   "Micro-SIM",
+   "NFC payment profiles"
+  ],
+  "exp": "eSIM (embedded SIM) is a programmable integrated chip built into the device that replaces physical plastic SIM cards. Over-the-air (OTA) provisioning allows cellular operators to push carrier profile data and network subscriptions directly to the eSIM via an internet connection. Micro-SIM is a legacy physical card form factor requiring physical swapping. NFC payment profiles are used for short-range contactless payments, not cellular network registration."
+ },
+ {
+  "domain": "Virtualization and Cloud Computing",
+  "objective": "",
+  "q": "Five municipal police departments in neighboring counties want to share a single cloud-hosted digital evidence management system to pool costs while meeting strict regulatory requirements unique to law enforcement. The system must not be exposed to the general public. Which cloud deployment model is being used?",
+  "correct": [
+   "Community cloud"
+  ],
+  "wrong": [
+   "Hybrid cloud",
+   "Private cloud owned and operated by a single department",
+   "Public cloud"
+  ],
+  "exp": "A community cloud is shared by several organizations with common concerns, such as compliance requirements or a shared mission, and is not open to the general public. A hybrid cloud combines public and private clouds. A private cloud serves one organization only, and a public cloud is open to any customer."
+ },
+ {
+  "domain": "Hardware",
+  "objective": "",
+  "q": "A video production studio is purchasing new editing displays for their color-grading suite. The studio team requires display monitors that produce deep, true black levels by completely turning off individual pixel light sources rather than relying on a continuous LED backlight panel, thereby eliminating backlight bleed in dark scenes. Which display panel technology natively provides this capability?",
+  "correct": [
+   "OLED"
+  ],
+  "wrong": [
+   "VA LCD",
+   "TN LCD",
+   "IPS LCD"
+  ],
+  "exp": "OLED (Organic Light-Emitting Diode) technology uses self-emissive organic compounds where each individual pixel produces its own light. When displaying black, the corresponding OLED pixels turn off completely, achieving true black levels, infinite contrast ratios, and zero backlight bleed. In contrast, IPS LCD, TN LCD, and VA LCD displays all rely on liquid crystals modulating a separate, continuously illuminated LED backlight, which inevitably allows minor light leakage through dark pixels."
+ },
+ {
+  "domain": "Hardware",
+  "objective": "",
+  "q": "A technician is installing a new CPU and aftermarket air cooling heatsink onto an enterprise desktop motherboard. The technician has opened the CPU socket lever, aligned pin 1 of the CPU with the socket index mark, seated the CPU flat into the socket, and locked the socket load lever in place. What is the immediate NEXT step the technician must perform prior to securing the heatsink assembly?",
+  "correct": [
+   "Apply a thin layer of thermal compound to the top surface of the CPU integrated heat spreader."
+  ],
+  "wrong": [
+   "Fasten the heatsink retention clips tightly to the motherboard mounting bracket.",
+   "Connect the 4-pin CPU fan power connector to the CPU_FAN header on the motherboard.",
+   "Enter the UEFI setup utility to adjust the CPU fan speed control profile."
+  ],
+  "exp": "Thermal compound (thermal paste) must be applied to the top of the CPU's integrated heat spreader (IHS) immediately before mounting the heatsink to fill microscopic air gaps between the surfaces and ensure efficient heat transfer. Connecting the CPU fan power cable occurs after physical installation of the heatsink and fan assembly onto the motherboard. Entering the UEFI setup utility can only occur after the entire hardware assembly is completed and the PC is powered on. Fastening the heatsink retention clips before applying thermal compound would result in severe CPU overheating due to inadequate heat transfer across air gaps."
+ },
+ {
+  "domain": "Networking",
+  "objective": "",
+  "q": "A network administrator needs to logically isolate guest traffic from internal corporate servers on the same physical switch without purchasing additional switch hardware. Which feature must be configured on the managed switch?",
+  "correct": [
+   "VLAN"
+  ],
+  "wrong": [
+   "MAC filtering",
+   "DMZ",
+   "Port forwarding"
+  ],
+  "exp": "A Virtual Local Area Network (VLAN) allows an administrator to logically segment traffic into separate broadcast domains on a single physical managed switch, isolating network groups like guest users from corporate servers. Port forwarding maps public incoming network ports to internal private IP addresses on a router. MAC filtering restricts device access based on hardware physical addresses. A DMZ (demilitarized zone) is a physical or logical subnet exposed to untrusted networks, typically managed on a firewall."
+ },
+ {
+  "domain": "Hardware",
+  "objective": "",
+  "q": "A technician is installing network drops in the drop ceiling space above a commercial office building. This space is actively utilized as part of the building's heating, ventilation, and air conditioning (HVAC) return air plenum. Local fire safety codes require cabling that emits low smoke and non-toxic fumes if exposed to fire. Which cable type must be installed?",
+  "correct": [
+   "Plenum-rated UTP"
+  ],
+  "wrong": [
+   "Riser-rated UTP",
+   "PVC-coated coaxial cable",
+   "Direct-burial STP"
+  ],
+  "exp": "Plenum-rated Unshielded Twisted Pair (UTP) cabling is jacketed with fire-retardant materials designed to release minimal toxic fumes and low smoke when burned, making it required by safety codes for installation in air-handling spaces like plenums. Riser-rated cabling is intended for vertical runs between floors within non-plenum spaces and lacks the stringent fire safety rating required for plenum spaces. Direct-burial Shielded Twisted Pair (STP) cable is designed for underground exterior runs and possesses a thick, moisture-resistant jacket unsuitable for indoor HVAC plenums. PVC-coated coaxial cable uses polyvinyl chloride, which releases highly toxic gases and thick smoke when exposed to flame."
+ },
+ {
+  "domain": "Networking",
+  "objective": "",
+  "q": "A field engineer needs to access shared network folders on a Windows file server across a newly established VPN tunnel. The technician opens File Explorer and attempts to connect using \\\\192.168.10.15\\share. Which port must be allowed through network firewalls for this file sharing protocol to connect?",
+  "correct": [
+   "Port 445"
+  ],
+  "wrong": [
+   "Port 143",
+   "Port 21",
+   "Port 389"
+  ],
+  "exp": "Server Message Block (SMB) operates on TCP port 445 and is used by Windows systems for file and printer sharing over networks. Port 21 is used by FTP for file transfers. Port 143 is used by IMAP for retrieving emails from a server. Port 389 is used by LDAP for directory service queries."
+ },
+ {
+  "domain": "Hardware",
+  "objective": "",
+  "q": "A system builder is selecting a high-efficiency power supply unit (PSU) for a custom workstation equipped with modern graphics processing units and multiple storage drives. Which two statements correctly describe PC power supply output voltages and architectural features? (Choose two.)",
+  "correct": [
+   "A modular PSU permits unused power cable harnesses to be completely detached from the main enclosure to improve internal case airflow.",
+   "The +12V rail delivers primary high-amperage power to demanding components such as the CPU and PCI Express expansion cards."
+  ],
+  "wrong": [
+   "A fixed-cable PSU allows individual damaged power wires to be safely unplugged and replaced without removing the PSU chassis.",
+   "The +5V rail delivers the primary high-amperage power required by modern high-end dedicated graphics processing units."
+  ],
+  "exp": "The statement regarding the +12V rail delivering primary high-amperage power to demanding components like the CPU and PCIe graphics cards is correct because modern computer architectures draw the vast majority of their power from +12V rails. The statement that a modular PSU permits unused power cable harnesses to be detached is correct because modular design allows builders to connect only required cables, reducing internal wire clutter and maximizing chassis airflow. The statement regarding the +5V rail providing primary power to GPUs is incorrect because +5V is used for minor logic circuits, USB devices, and disk controller electronics, not heavy GPU loads. The statement about fixed-cable PSUs allowing individual wires to be unplugged is incorrect because non-modular (fixed) power supplies have permanently soldered internal wiring bundles that cannot be individually detached or replaced."
+ },
+ {
+  "domain": "Virtualization and Cloud Computing",
+  "objective": "",
+  "q": "A systems administrator is deploying a hypervisor on dedicated host hardware in a datacenter to maximize compute performance and run mission-critical virtual machines. The administrator needs to install an operating layer directly onto the bare metal without an underlying desktop OS. Which software architecture should the administrator deploy?",
+  "correct": [
+   "Type 1 hypervisor"
+  ],
+  "wrong": [
+   "Type 2 hypervisor",
+   "Virtual Desktop Infrastructure agent",
+   "Application container host"
+  ],
+  "exp": "A Type 1 (bare-metal) hypervisor installs directly onto physical server hardware without requiring a host operating system. This reduces overhead, improves performance, and increases security, making it ideal for datacenter enterprise environments. A Type 2 hypervisor runs as an application on top of an existing host operating system (such as Windows or macOS), introducing resource overhead and OS dependencies. Application container hosts run containerized engines (like Docker) on top of an existing host kernel rather than virtualizing full hardware instances. A Virtual Desktop Infrastructure (VDI) agent is software installed inside guest operating systems to coordinate remote desktop streaming to client endpoints."
+ },
+ {
+  "domain": "Hardware and Network Troubleshooting",
+  "objective": "",
+  "q": "Employees working in an open-office environment report that their wireless laptops experience frequent disconnections and severe throughput drops whenever the office breakroom microwave oven is in use. The Wi-Fi access points operate on the 2.4 GHz band. Which action will best resolve this network interference issue?",
+  "correct": [
+   "Migrate the wireless network configuration to operate on the 5 GHz or 6 GHz frequency band."
+  ],
+  "wrong": [
+   "Disable WPA3 encryption on the access points and revert to open authentication.",
+   "Replace the Ethernet patch cables connecting access points with Cat 5 standard lines.",
+   "Enable MAC address filtering across all corporate wireless access points."
+  ],
+  "exp": "Migrating the wireless network to the 5 GHz or 6 GHz frequency bands moves traffic away from the 2.4 GHz band where standard microwave ovens emit strong electromagnetic interference (RF noise). Disabling WPA3 encryption does not alter physical radio frequency interference. Replacing switch cables with lower standard Cat 5 cables degrades wired backhaul performance without resolving wireless spectrum congestion. Enabling MAC address filtering controls network access authorization but has no effect on physical RF interference."
+ },
+ {
+  "domain": "Networking",
+  "objective": "",
+  "q": "A security analyst requests that all corporate routers, firewalls, and managed switches send system log events, authentication logs, and error notices to a centralized server for monitoring and auditing. Which service host should be deployed to receive these messages?",
+  "correct": [
+   "Syslog server"
+  ],
+  "wrong": [
+   "NTP server",
+   "Proxy server",
+   "DHCP server"
+  ],
+  "exp": "A Syslog server receives, aggregates, and stores standardized event logs and diagnostic messages sent from network devices across the infrastructure. An NTP (Network Time Protocol) server synchronizes system clocks across devices. A proxy server handles client internet requests and caches web content. A DHCP server dynamically assigns IP addresses and network configuration settings to clients."
+ },
+ {
+  "domain": "Mobile Devices",
+  "objective": "",
+  "q": "A company wants to prevent unauthorized photography and data leakage inside a high-security research facility. The security manager wants corporate smartphones to automatically disable camera functionality whenever employees physically step inside the facility building. Which Mobile Device Management (MDM) solution should be deployed?",
+  "correct": [
+   "Geofencing policies"
+  ],
+  "wrong": [
+   "Biometric enforcement",
+   "Application whitelisting",
+   "Remote wipe actions"
+  ],
+  "exp": "Geofencing relies on location services (GPS, cellular triangulation, or local Wi-Fi) to set up virtual geographical boundaries. MDM systems can use geofencing triggers to automatically enforce specific security profile restrictions—such as disabling camera hardware—when a device enters a designated secure zone. Remote wiping completely erases corporate or device data, which is an emergency procedure for lost or stolen devices. Biometric enforcement requires fingerprint or facial scans to unlock devices. Application whitelisting restricts which software programs can run, but does not dynamically toggle hardware features based on physical device coordinates."
+ },
+ {
+  "domain": "Hardware and Network Troubleshooting",
+  "objective": "",
+  "q": "A desktop technician is troubleshooting an Ethernet connection for a workstation. The network icon in the system tray rapidly alternates between 'Connected' and 'Network cable unplugged' every few seconds, and the link light on the managed switch port continuously toggles on and off. Which term best describes this network anomaly?",
+  "correct": [
+   "Port flapping"
+  ],
+  "wrong": [
+   "High jitter",
+   "Duplex mismatch",
+   "External interference"
+  ],
+  "exp": "Port flapping describes a physical network interface rapidly transitioning between operational link up and link down states, usually caused by a damaged cable, bent RJ45 connector pins, a failing NIC, or port autonegotiation errors. High jitter refers to variability in packet arrival delays over a network connection, impacting real-time media like voice calls. External interference affects wireless signals or unshielded copper lines by inducing noise and frame loss rather than physical link toggling. A duplex mismatch occurs when one end of a link is configured for full-duplex and the other for half-duplex, resulting in degraded speed and late collisions while the physical link state usually remains connected."
+ },
+ {
+  "domain": "Hardware and Network Troubleshooting",
+  "objective": "",
+  "q": "A mobile device user reports that their smartphone charges very slowly and the charging cable physically slips out of the USB-C port with minimal movement. Replacing the cable does not fix the physical looseness. Which simple maintenance step should the technician perform first?",
+  "correct": [
+   "Carefully clean out accumulated lint and debris from inside the charging port."
+  ],
+  "wrong": [
+   "Replace the internal battery and charging transformer integrated circuit.",
+   "Perform a factory hard reset of the mobile device operating system.",
+   "Solder a replacement charging port connector onto the device logic board."
+  ],
+  "exp": "Cleaning out accumulated lint and debris from inside the charging port using a non-conductive tool is the correct initial step because compacted pocket debris prevents charging cable pins from seating completely, causing physical looseness and poor electrical contact. Soldering hardware, performing factory resets, or replacing internal batteries and logic chips are invasive and unnecessary prior to basic physical inspection and port cleaning."
+ },
+ {
+  "domain": "Hardware",
+  "objective": "",
+  "q": "An administrative assistant reports that an impact matrix printer used for multi-part carbon copy invoices is producing extremely light and faded text on the top original sheet, despite the mechanical printhead pins striking the paper with normal force. Which maintenance action should the technician perform to resolve the issue?",
+  "correct": [
+   "Replace the printer ribbon cartridge."
+  ],
+  "wrong": [
+   "Calibrate the printhead gap using heat-sensitive paper.",
+   "Replace the primary corona wire assembly.",
+   "Clean the thermal printhead with isopropyl alcohol."
+  ],
+  "exp": "Replacing the printer ribbon cartridge is correct because impact dot-matrix printers transfer ink to multi-part carbon forms via an ink-soaked fabric or film ribbon struck by printhead pins; faded output indicates the ink ribbon is depleted or dried out. Cleaning the thermal printhead with isopropyl alcohol is incorrect because thermal printheads belong to direct thermal receipt printers, not impact matrix printers. Replacing the primary corona wire assembly is incorrect because corona wires are components found in laser printers. Calibrating the printhead gap using heat-sensitive paper is incorrect because heat-sensitive paper is designed for thermal printers, and incorrect paper gap settings would affect impact depth rather than ink saturation."
+ },
+ {
+  "domain": "Hardware",
+  "objective": "",
+  "q": "Users printing vector-graphics-heavy PDF files from a workstation to a shared network laser printer report that the output consists of garbled text, random mathematical symbols, and blank pages. Standard text documents created in Microsoft Word print perfectly. What is the best initial step to resolve the printing issue?",
+  "correct": [
+   "Install the official PostScript (PS) or vendor-specific driver on the workstation."
+  ],
+  "wrong": [
+   "Replace the fuser assembly",
+   "Clean the pickup rollers and separation pad",
+   "Replace the toner cartridge with a new one"
+  ],
+  "exp": "Complex vector PDFs and specialized fonts rely on a page description language the printer can interpret; a mismatched driver (for example PCL where PostScript is needed, or the reverse) produces garbled text, stray symbols and blank pages. Installing the correct PostScript or vendor driver fixes this. Plain Word documents print fine, which shows the print engine and feed path work, so replacing the fuser, cleaning the pickup rollers or swapping toner would not change garbled output."
+ },
+ {
+  "domain": "Networking",
+  "objective": "",
+  "q": "A network engineer is configuring a border firewall to secure remote administration traffic and web access to an internal server. The engineer needs to open ports for SSH command-line sessions and encrypted HTTPS traffic. Which of the following port numbers must be permitted through the firewall? (Choose two.)",
+  "correct": [
+   "22",
+   "443"
+  ],
+  "wrong": [
+   "23",
+   "80"
+  ],
+  "exp": "Port 22 is used by Secure Shell (SSH) for secure, encrypted command-line management. Port 443 is used by Hypertext Transfer Protocol Secure (HTTPS) for encrypted web communications. Port 23 is used by Telnet, which sends traffic in unencrypted plain text and should be avoided. Port 80 is used by HTTP, which sends web traffic in unencrypted clear text."
+ },
+ {
+  "domain": "Networking",
+  "objective": "",
+  "q": "A network administrator needs to assign IP address 10.0.1.50 to a network-attached printer. The administrator wants to manage all IP assignments centrally on the DHCP server so that the printer always receives 10.0.1.50 every time it boots, while preventing other network clients from taking that address. How should the administrator configure this?",
+  "correct": [
+   "Create a DHCP reservation matching the printer's MAC address"
+  ],
+  "wrong": [
+   "Configure a CNAME record on the local DNS server",
+   "Decrease the DHCP lease time to zero for the printer",
+   "Add the printer's IP address to a DHCP exclusion pool"
+  ],
+  "exp": "A DHCP reservation links a specific IP address within a DHCP scope to the unique MAC address of a host interface, ensuring that host always receives the same IP address dynamically from the DHCP server. Adding the address to an exclusion pool prevents the DHCP server from issuing that address to any host, requiring static manual configuration on the device itself. Setting lease time to zero is invalid or causes immediate expiration. A CNAME record maps hostnames in DNS, not IP addresses in DHCP."
+ },
+ {
+  "domain": "Hardware and Network Troubleshooting",
+  "objective": "",
+  "q": "A departmental laser printer produces documents with a dark, continuous vertical black stripe running down the entire length of every page. Replacing the toner cartridge does not resolve the issue. Which component is the most likely cause of this print defect?",
+  "correct": [
+   "Damaged photosensitive drum"
+  ],
+  "wrong": [
+   "Misaligned duplexing assembly",
+   "Dirty paper pickup rollers",
+   "Clogged ink delivery nozzles"
+  ],
+  "exp": "A damaged or scratched photosensitive drum cannot hold its electrostatic charge along the damaged ring or line, causing toner to continuously stick to that region and transfer onto paper as a solid vertical line. Dirty pickup rollers cause paper misfeeds or surface smudges on page edges, not continuous straight toner lines. Misaligned duplexing assemblies cause crooked double-sided printing or paper jams. Ink delivery nozzles exist on inkjet printers, not laser printers."
+ },
+ {
+  "domain": "Mobile Devices",
+  "objective": "",
+  "q": "A field technician is inspecting a laptop after a user reported that keys on the lower right of the keyboard are sticking, and the trackpad is visibly lifted above the palm rest. Upon turning the laptop over, the bottom panel shows a noticeable outward bulge. What is the most appropriate action for the technician to take first?",
+  "correct": [
+   "Power down the device, disconnect external power, and safely remove the swollen battery."
+  ],
+  "wrong": [
+   "Fully drain the laptop battery to 0% by running a high-load diagnostic benchmark tool.",
+   "Press down firmly on the trackpad to snap it back into its retention clips.",
+   "Run a system thermal test using UEFI diagnostics to attempt to cool down the internal battery."
+  ],
+  "exp": "A visibly bulging case, sticking keys, and raised trackpad indicate a swollen lithium-ion battery. This represents a severe safety hazard due to potential thermal runaway and chemical fire. The technician must immediately power off the laptop, disconnect AC power, and follow hazardous material handling procedures to remove and replace the battery. Running thermal or benchmark tests puts high electrical load and heat on the battery, increasing the explosion risk. Pressing down on a swollen battery can puncture the chemical cells, causing violent ignition."
+ },
+ {
+  "domain": "Mobile Devices",
+  "objective": "",
+  "q": "A technician is troubleshooting a mobile user's smartphone. The user reports that corporate email and calendar entries sync instantaneously when connected to office Wi-Fi, but refuse to update when outside the office on cellular data. However, the user can still stream videos and browse web pages over cellular data. Which of the following is the most likely cause?",
+  "correct": [
+   "Background data restriction is enabled for the corporate email application."
+  ],
+  "wrong": [
+   "The mobile device's GPS location services are turned off.",
+   "The cellular carrier has blocked the phone's IMEI identifier.",
+   "The device's cellular SIM card requires physical re-seating."
+  ],
+  "exp": "Mobile operating systems feature data-saver settings that allow users or admins to restrict background data usage on a per-app basis over cellular networks. If restricted, the email application cannot fetch updates in the background on cellular networks, while unmanaged apps like web browsers continue to function. Blocking the IMEI would shut off all cellular data access entirely. GPS location services are not required for email protocol traffic. A misseated SIM card would prevent all cellular data connectivity, not selectively block background updates for one application."
+ },
+ {
+  "domain": "Virtualization and Cloud Computing",
+  "objective": "",
+  "q": "An enterprise company migrates its local database archives to a public cloud vendor. While transferring data into the cloud storage bucket is free, the company notices unexpected charges on its monthly bill whenever large datasets are downloaded from the cloud back to the local datacenter. Which cloud billing mechanism accounts for these unexpected costs?",
+  "correct": [
+   "Egress data transfer fees"
+  ],
+  "wrong": [
+   "Multitenancy resource allocation fees",
+   "Ingress metered storage charges",
+   "Rapid elasticity surcharges"
+  ],
+  "exp": "Egress data transfer fees are charges incurred when data leaves (exits) a cloud provider's network to be sent to an external location, such as an on-premises datacenter or another cloud. Cloud providers often offer free ingress (data coming into the cloud) but charge metered rates for network egress. Ingress metered storage charges apply to data entering the cloud, which is generally not billed per gigabyte of network movement by public providers. Rapid elasticity refers to auto-scaling system resources based on real-time application load. Multitenancy resource allocation refers to shared physical host resources among multiple customers, which is reflected in baseline instance compute costs, not outbound traffic spikes."
+ },
+ {
+  "domain": "Hardware and Network Troubleshooting",
+  "objective": "",
+  "q": "Users sharing a departmental laser printer report that the printer frequently pulls multiple sheets of paper through simultaneously during print jobs, resulting in immediate paper jams at the tray entrance. The paper used meets all recommended weight specifications. Which component should the technician inspect and replace first?",
+  "correct": [
+   "Separation pad"
+  ],
+  "wrong": [
+   "Fuser assembly",
+   "Corona wire",
+   "Transfer roller"
+  ],
+  "exp": "The separation pad works in tandem with the paper pickup roller to create precise friction that allows only one sheet of paper to feed into the print path at a time. When worn smooth, multiple pages slip through together. The transfer roller applies an electrical charge to draw toner from the photosensitive drum onto the paper. The fuser assembly uses heat and pressure to melt toner into paper fibers. Corona wires apply high electrostatic voltages during charging or transfer operations and do not physically regulate paper feeding."
+ },
+ {
+  "domain": "Networking",
+  "objective": "",
+  "q": "A growing enterprise opens three new regional corporate office buildings within a 5-mile radius across the same city. The IT department leases a dedicated dark fiber ring from the local municipality to interconnect the local area networks (LANs) of all three buildings into a single unified regional infrastructure. Which network classification best describes this deployment?",
+  "correct": [
+   "MAN (Metropolitan Area Network)"
+  ],
+  "wrong": [
+   "LAN (Local Area Network)",
+   "SAN (Storage Area Network)",
+   "PAN (Personal Area Network)"
+  ],
+  "exp": "MAN (Metropolitan Area Network) is correct because a MAN covers a geographical area larger than a single building or localized group of buildings but smaller than a wide area network (WAN), typically spanning a city, town, or municipal region. LAN (Local Area Network) is restricted to a small geographical site, such as a single floor, office space, or single building. SAN (Storage Area Network) is a high-speed dedicated network designed specifically to connect block-level storage devices to virtual servers. PAN (Personal Area Network) covers a very short operational range centered around an individual person or device, typically using Bluetooth."
+ },
+ {
+  "domain": "Hardware and Network Troubleshooting",
+  "objective": "",
+  "q": "A ceiling-mounted projector in a corporate conference room operates normally for approximately 20 minutes before shutting down unexpectedly. The projector's 'TEMP' LED indicator flashes red, and the cooling fans run at high speed for several minutes after the shutdown. Once cooled, the projector can be powered on again, but repeats the shutdown cycle after another 20 minutes. Which condition is most likely causing this behavior?",
+  "correct": [
+   "Clogged intake dust filters restricting airflow and causing thermal overload"
+  ],
+  "wrong": [
+   "An incorrect aspect ratio setting in the connected laptop graphics control panel",
+   "A degraded HDMI cable causing loss of video synchronization signals",
+   "A blown projector lamp filament requiring bulb replacement"
+  ],
+  "exp": "Clogged intake dust filters restricting airflow and causing thermal overload is correct because trapped dust prevents proper air circulation, causing internal temperatures to rise until the thermal safety threshold triggers an automatic shutdown accompanied by a temperature error LED. A blown projector lamp filament is incorrect because a blown bulb prevents light output entirely and causes immediate illumination failure, not a delayed thermal shutdown. An incorrect aspect ratio setting causes image stretching, not internal projector overheating. A degraded HDMI cable causes video artifacting or signal loss, not a thermal shutdown on the projector hardware."
+ },
+ {
+  "domain": "Hardware and Network Troubleshooting",
+  "objective": "",
+  "q": "A technician is troubleshooting a desktop computer that turns on, boots into the operating system, but abruptly powers down without warning after approximately 10 to 15 minutes of heavy usage. When restarted immediately, it powers down within 1 to 2 minutes. The interior of the computer case is clean and free of dust. Which of the following is the best next step to diagnose the cause of this issue?",
+  "correct": [
+   "Check CPU thermal sensor readings in the UEFI/BIOS environment."
+  ],
+  "wrong": [
+   "Replace the power supply unit with a higher wattage model.",
+   "Run a full chkdsk scan on the primary storage drive.",
+   "Reseat the memory modules into alternating DIMM slots."
+  ],
+  "exp": "Checking CPU thermal sensor readings in the UEFI/BIOS environment is the best next step because the symptom of operating normally for a short period before abruptly shutting down—and then shutting down even faster upon immediate reboot—indicates thermal protection circuit triggering due to CPU overheating. Replacing the power supply unit is premature without first confirming thermal conditions versus power delivery issues. Reseating memory modules addresses POST beep errors or memory instability crashes, not delayed thermal cutoffs. Running a chkdsk scan diagnoses file system or drive sector errors, which result in blue screen errors or operating system freezes rather than sudden hardware power cutoffs."
+ },
+ {
+  "domain": "Hardware",
+  "objective": "",
+  "q": "A technician is installing two identical 16GB memory modules into a desktop motherboard that features four DDR5 DIMM slots arranged in a dual-channel architecture. To ensure that the memory operates in high-performance dual-channel mode, how should the technician install the two modules?",
+  "correct": [
+   "Install both modules in the slot pair the motherboard manual designates for dual-channel operation (typically the same-colored slots)."
+  ],
+  "wrong": [
+   "Install both modules in adjacent slots that share the same memory channel.",
+   "Install one module, then enable a 'force dual-channel' option in UEFI before adding the second.",
+   "Install both modules in the two slots farthest from the CPU, regardless of the manual."
+  ],
+  "exp": "Dual-channel operation requires the modules to sit on different memory channels, and the slot pair that achieves this is board-specific (often alternate, same-colored slots such as A2 and B2). The technician should follow the motherboard manual. Two modules on the same channel run single-channel. No UEFI setting can create a second channel from a single module, and distance from the CPU has no bearing on channel assignment."
+ },
+ {
+  "domain": "Mobile Devices",
+  "objective": "",
+  "q": "An executive requires a desktop connection setup for a laptop that provides connections to three high-resolution external monitors, additional USB ports, hardware gigabit Ethernet, and high-power charging using a single heavy-duty proprietary connector on the underside of the laptop body. Which device best fulfills this requirement?",
+  "correct": [
+   "Proprietary docking station"
+  ],
+  "wrong": [
+   "USB-C port replicator",
+   "Bluetooth expansion hub",
+   "Wireless display adapter"
+  ],
+  "exp": "A proprietary docking station attaches to custom bottom or side bus expansion connectors provided by specific business-class laptop lines. These offer high bandwidth for multi-monitor arrays, power delivery, and specialized peripheral connectivity. USB-C port replicators attach via standard USB ports and typically offer fewer high-bandwidth video channels and lower power pass-through compared to proprietary dock interfaces. Bluetooth expansion hubs lack the bandwidth for multiple high-resolution video streams and cannot charge a laptop. Wireless display adapters mirror video content over the air without providing wired expansion ports or power."
+ },
+ {
+  "domain": "Virtualization and Cloud Computing",
+  "objective": "",
+  "q": "An online retailer experiences dramatic, unpredictable spikes in website traffic during holiday shopping events. The retailer needs a cloud environment that automatically scales compute resources up to handle load spikes without manual intervention and downscales when demand drops, while ensuring zero application downtime. Which two cloud computing characteristics fulfill these requirements? (Choose two.)",
+  "correct": [
+   "Rapid elasticity",
+   "High availability"
+  ],
+  "wrong": [
+   "Multitenancy",
+   "Measured ingress billing"
+  ],
+  "exp": "Rapid elasticity is the ability of cloud environments to automatically provision (scale out) and de-provision (scale in) processing, memory, and storage resources on demand based on current workload. High availability ensures that services remain accessible without interruption through redundant systems and automatic failover mechanisms. Multitenancy describes multiple distinct customers sharing physical underlying hardware resources, which does not directly dictate automatic dynamic scaling capabilities. Measured ingress billing relates to tracking inbound network bandwidth consumption rather than compute availability or elastic resource scaling."
+ },
+ {
+  "domain": "Networking",
+  "objective": "",
+  "q": "An enterprise company requires all employees to authenticate using their individual corporate credentials when connecting to the office Wi-Fi network or plugging into Ethernet ports. The access points and switches forward authentication requests to a centralized server using 802.1X protocols. Which server role fulfills this security requirement?",
+  "correct": [
+   "AAA server"
+  ],
+  "wrong": [
+   "Spam gateway",
+   "Web proxy",
+   "Load balancer"
+  ],
+  "exp": "An Authentication, Authorization, and Accounting (AAA) server (such as RADIUS or TACACS+) handles centralized network access control by validating user credentials submitted via 802.1X before granting network access. A load balancer distributes incoming network traffic across multiple application servers. A spam gateway filters incoming email for junk and malicious attachments. A web proxy inspects, filters, and caches web browsing traffic for clients."
+ },
+ {
+  "domain": "Hardware and Network Troubleshooting",
+  "objective": "",
+  "q": "A field service technician reports that their tablet computer's touchscreen responds inaccurately to touch, opening icons several inches away from where the screen was pressed. Additionally, the screen registers phantom touches without physical contact. Which two diagnostic steps should the technician perform first? (Choose two.)",
+  "correct": [
+   "Run the built-in digitizer calibration utility within the operating system settings.",
+   "Clean the screen surface thoroughly and inspect for dirt, moisture, or a damaged screen protector."
+  ],
+  "wrong": [
+   "Replace the Wi-Fi and Bluetooth internal antenna cables inside the display bezel.",
+   "Replace the internal graphics processing unit chip on the tablet system board."
+  ],
+  "exp": "Running the digitizer calibration utility aligns touch input coordinates with screen pixels, while cleaning the screen surface removes dirt, oils, moisture, or trapped air bubbles under protective films that disrupt capacitive touch sensing and cause ghost touches. Replacing the graphics processing unit addresses video rendering glitches, not touch input offset. Replacing antenna cables addresses wireless connectivity drops, not digitizer accuracy."
+ },
+ {
+  "domain": "Hardware",
+  "objective": "",
+  "q": "A system administrator is configuring local storage on a mission-critical enterprise database server. The array must be capable of surviving the simultaneous failure of any two physical drives without data loss while maintaining enhanced read performance across six SAS drives. Which RAID level fulfills these requirements?",
+  "correct": [
+   "RAID 6"
+  ],
+  "wrong": [
+   "RAID 5",
+   "RAID 1",
+   "RAID 0"
+  ],
+  "exp": "RAID 6 is correct because it uses dual distributed parity block striping across all member drives, allowing the array to maintain full operation and data integrity even if any two drives fail simultaneously. RAID 0 is incorrect because it offers block striping with zero redundancy; a single drive failure results in total data loss. RAID 1 is incorrect because it relies on simple disk mirroring (typically across two drives) and lacks multi-drive block striping efficiency across six drives. RAID 5 is incorrect because it uses single distributed parity and can only tolerate the failure of a single drive at a time; a second simultaneous failure causes total array failure."
+ },
+ {
+  "domain": "Networking",
+  "objective": "",
+  "q": "An email administrator is setting up a new corporate domain using a cloud-hosted email provider. The administrator must direct all incoming email messages to the cloud provider's mail gateway and publish a public DomainKeys Identified Mail (DKIM) key to authenticate outgoing messages and prevent domain spoofing. Which two DNS record types are required to complete this task? (Choose two.)",
+  "correct": [
+   "TXT",
+   "MX"
+  ],
+  "wrong": [
+   "CNAME",
+   "AAAA"
+  ],
+  "exp": "MX (Mail Exchanger) records are correct because they direct incoming email traffic for a domain to the appropriate receiving mail servers. TXT (Text) records are correct because they hold arbitrary text data, which is standard for publishing DKIM public keys, SPF rules, and DMARC policies. CNAME (Canonical Name) records map alias hostnames to canonical hostnames, not incoming email delivery routes. AAAA records map hostnames directly to IPv6 addresses."
+ },
+ {
+  "domain": "Hardware and Network Troubleshooting",
+  "objective": "",
+  "q": "A remote employee connects a dual-monitor setup to their corporate laptop using a USB-C docking station. Monitor 1 displays clear video, but Monitor 2 constantly turns off and on every few seconds. Swapping the video cable on Monitor 2 with a known-good high-speed DisplayPort cable resolves the issue completely. What was the cause of the display failure?",
+  "correct": [
+   "Defective or low-bandwidth video cable"
+  ],
+  "wrong": [
+   "Incorrect display refresh rate configured in OS",
+   "LCD panel backlight thermal shutdown",
+   "Overheating graphics processing unit"
+  ],
+  "exp": "A defective or low-bandwidth video cable fails to carry the required signal frequency and bandwidth for high-resolution displays, leading to screen flickering, dropping sync, and rapid display blanking. Replacing the faulty cable restores stable data transmission. An overheating graphics processing unit would impact both connected displays or cause system-wide crashes and rendering artifacts. An LCD backlight thermal shutdown would keep the screen black permanently until cooled and restarted. An incorrect refresh rate setting typically results in an 'Out of Range' warning or constant distortion rather than intermittent link loss fixed by a cable replacement."
+ },
+ {
+  "domain": "Hardware and Network Troubleshooting",
+  "objective": "",
+  "q": "A technician opens a desktop computer case to investigate reports of spontaneous reboots and failure to complete POST. Upon inspecting the motherboard, the technician notices several capacitors near the CPU socket with raised, bulging tops and brown residue around their vents. Which two statements regarding this condition are accurate? (Choose two.)",
+  "correct": [
+   "The damaged capacitors are a hardware fault that software changes cannot fix, so the motherboard should be replaced or professionally repaired.",
+   "The symptoms are caused by electrolyte fluid leaking, altering power filtering to system components."
+  ],
+  "wrong": [
+   "Reseating the system RAM and CPU will restore original capacitance functionality.",
+   "Upgrading the operating system to a 64-bit version will resolve the voltage regulation issues."
+  ],
+  "exp": "Bulging or leaking capacitors reflect physical breakdown of the components that filter DC power for the CPU and other hardware. Leaking electrolyte degrades filtering, producing dirty power, spontaneous restarts and POST failures. The fault cannot be fixed with software changes, so the board should be replaced (or the capacitors replaced by a qualified repair technician). Upgrading the operating system does not affect voltage regulation, and reseating RAM or the CPU cannot restore damaged capacitors."
+ },
+ {
+  "domain": "Hardware and Network Troubleshooting",
+  "objective": "",
+  "q": "A user sends several documents to a shared network laser printer, but none of them print. The printer panel displays 'Ready', but opening the local print queue on the user's PC shows ten print jobs stuck with a status of 'Deleting - Printing'. Restarting the print application on the PC does not clear the queue. Which action should the technician perform on the client computer to resolve the stuck print queue?",
+  "correct": [
+   "Stop the Print Spooler service, delete the files in the PRINTERS folder, and restart the service"
+  ],
+  "wrong": [
+   "Replace the drum unit and toner cartridge inside the laser printer",
+   "Reinstall the printer driver using an unencrypted LPR port configuration",
+   "Perform a factory reset on the laser printer's network interface card"
+  ],
+  "exp": "Stopping the Print Spooler service, deleting the temporary spool files in the PRINTERS directory, and restarting the service is correct because stuck or corrupted print jobs locked in the Windows spooler folder prevent subsequent jobs from processing until the spooler service is reset and cleared. Performing a factory reset on the printer's network card is incorrect because the issue is isolated to the local computer's spooler software queue, not the physical printer hardware. Replacing the drum unit and toner cartridge is incorrect because physical print engine consumables do not cause software spooler file locks on the workstation. Reinstalling the driver using an LPR port does not clear locked spool files from the active spooling directory."
+ },
+ {
+  "domain": "Networking",
+  "objective": "",
+  "q": "An installer is terminating a new high-speed Fiber to the Premises (FTTP) broadband circuit at a branch office. The ISP fiber line terminates at a box that converts optical light signals into copper RJ-45 Ethernet signals before connecting to the enterprise edge router. What is the name of this signal conversion device?",
+  "correct": [
+   "ONT"
+  ],
+  "wrong": [
+   "DSL modem",
+   "Cable modem",
+   "Patch panel"
+  ],
+  "exp": "An Optical Network Terminal (ONT) is used in fiber-optic communications (such as FTTP/FTTH) to convert incoming optical signals into electrical Ethernet signals suitable for connecting to a router or switch. A cable modem converts coaxial cable (DOCSIS) signals. A DSL modem converts digital signals over copper twisted-pair telephone lines. A patch panel is a passive pass-through board used to organize cable runs."
+ },
+ {
+  "domain": "Virtualization and Cloud Computing",
+  "objective": "",
+  "q": "A sales manager frequently edits presentation files on a laptop while flying without internet access. Upon connecting to internet at the hotel, the local document changes automatically upload to the corporate cloud drive, and updates made by colleagues in the office download to the laptop without manual file transfers. Which feature enables this functionality?",
+  "correct": [
+   "Client-side file synchronization"
+  ],
+  "wrong": [
+   "Metered resource utilization",
+   "Application virtualization",
+   "Virtual machine snapshotting"
+  ],
+  "exp": "Client-side cloud file synchronization maintains local copies of stored cloud files on client devices, allowing offline edits that automatically perform two-way updates with the cloud storage platform when an active network connection is established. Application virtualization streams software applications directly to endpoints without installing full local software packages, but it requires active network connections to stream execution logic. Virtual machine snapshotting saves a point-in-time state of an entire VM virtual disk and RAM for backup and restoration. Metered resource utilization is an administrative billing tracking feature based on active consumption."
+ },
+ {
+  "domain": "Hardware and Network Troubleshooting",
+  "objective": "",
+  "q": "Following an unexpected building power outage, a workstation displays the message 'Bootable device not found' during POST. The technician accesses the UEFI setup screen and observes that the internal NVMe SSD is recognized under hardware inventory, but the system boot mode is set to Legacy/CSM instead of UEFI mode. Which action should the technician take to resolve the boot issue?",
+  "correct": [
+   "Switch the boot mode back to UEFI in the firmware settings and save changes."
+  ],
+  "wrong": [
+   "Replace the NVMe drive as it has suffered permanent controller failure.",
+   "Reseat the NVMe SSD into a secondary PCIe slot on the motherboard.",
+   "Reformat the NVMe drive using an operating system installation flash drive."
+  ],
+  "exp": "Switching the boot mode back to UEFI in firmware settings resolves the issue because modern NVMe drives holding operating system installations formatted with GUID Partition Table (GPT) require native UEFI boot mode to load the bootloader. If power loss reset firmware defaults to Legacy/CSM, the system cannot locate the UEFI boot partition. Reformatting the drive destroys data unnecessarily. Replacing the drive is unneeded since the storage controller is detected and functional. Reseating the NVMe SSD will not fix a software setting mismatch in firmware."
+ },
+ {
+  "domain": "Hardware",
+  "objective": "",
+  "q": "A workstation builder is installing a dedicated high-end graphics card that requires maximum memory bandwidth and direct communication with the host processor. Which expansion slot on the motherboard provides the dedicated 16-lane configuration required for this installation?",
+  "correct": [
+   "PCIe x16"
+  ],
+  "wrong": [
+   "M.2 Key E",
+   "PCIe x1",
+   "PCI 32-bit"
+  ],
+  "exp": "PCIe x16 expansion slots provide 16 full lanes of high-speed serial communication, making them the standard installation slot for modern dedicated graphics processing units (GPUs) that require high bandwidth. PCI 32-bit is a legacy parallel bus standard with low bandwidth and is obsolete for modern video cards. PCIe x1 slots provide only a single data lane, suitable for low-bandwidth expansion cards like network interface cards or sound cards. M.2 Key E slots are compact form-factor slots typically used for Wi-Fi and Bluetooth wireless network adapters, not desktop expansion graphics cards."
+ },
+ {
+  "domain": "Hardware and Network Troubleshooting",
+  "objective": "",
+  "q": "Every time a desktop computer is disconnected from wall AC power and moved to a new desk, the system boots up with an error stating 'System Date & Time Not Set' and forces entry into the UEFI configuration utility. Once set manually, the date and time remain accurate as long as the computer remains plugged in. Which component needs replacement?",
+  "correct": [
+   "CMOS battery"
+  ],
+  "wrong": [
+   "Main power supply",
+   "Real-time clock crystal",
+   "TPM security module"
+  ],
+  "exp": "The CMOS battery (typically a CR2032 coin cell) supplies power to maintain system time (RTC) and retain non-volatile firmware settings when main AC power is cut off. A depleted CMOS battery causes date/time reset errors whenever wall power is removed. A main power supply failure would prevent the system from powering on altogether. The real-time clock crystal provides the frequency signal for keeping time while powered, but failure to hold time only when unplugged points directly to the battery. The TPM security module stores encryption keys, not clock backup power."
+ },
+ {
+  "domain": "Hardware and Network Troubleshooting",
+  "objective": "",
+  "q": "A user reports that a CAD workstation performs adequately upon initial power-on, but after 10 to 15 minutes of heavy rendering, the system becomes extremely sluggish, fan noise increases significantly, and applications begin to freeze. System diagnostics reveal CPU temperatures exceeding 95°C under load. A physical inspection shows the CPU heat sink fan is spinning and securely attached, but thermal compound was not reapplied during a recent CPU upgrade. Which action should the technician take to resolve this issue?",
+  "correct": [
+   "Clean off old thermal residue with isopropyl alcohol and reapply fresh thermal paste"
+  ],
+  "wrong": [
+   "Upgrade the system RAM modules from DDR4 to DDR5",
+   "Clear the motherboard CMOS memory using the board jumper",
+   "Replace the main 24-pin ATX power connector on the motherboard"
+  ],
+  "exp": "Cleaning off old thermal residue with isopropyl alcohol and reapplying fresh thermal paste is correct because thermal paste fills microscopic air gaps between the CPU heat spreader and the heat sink, enabling effective heat transfer; missing or dried paste leads to severe thermal throttling and sluggish performance under heavy workloads. Replacing the main 24-pin ATX power connector is incorrect because power supply delivery issues typically cause immediate shutoffs or failure to power on rather than delayed thermal throttling. Clearing the motherboard CMOS memory resets system configuration settings but does not resolve physical heat dissipation issues. Upgrading from DDR4 to DDR5 RAM does not resolve CPU overheating and is structurally incompatible without replacing the motherboard."
+ },
+ {
+  "domain": "Hardware",
+  "objective": "",
+  "q": "A technician is replacing a modular power supply unit (PSU) in a custom desktop system. The motherboard requires an 8-pin connector near the CPU socket, and the dedicated graphics card requires two 8-pin power connections. The technician notices that both the EPS12V cable and the PCIe power cable feature 8-pin connectors. What key technical difference must the technician recognize to prevent damaging the hardware?",
+  "correct": [
+   "EPS12V cables deliver +12V power on different pinouts than PCIe cables, and plugging the wrong cable into a motherboard or GPU can cause an electrical short circuit."
+  ],
+  "wrong": [
+   "EPS12V cables are only used with liquid-cooled systems, whereas PCIe power cables are required for air-cooled systems.",
+   "EPS12V cables use a 20+4 pin detachable split connector, whereas PCIe cables use a standard 34-pin ribbon connector.",
+   "EPS12V cables supply +5V DC power for CPU cooling fans, while PCIe power cables supply AC wall voltage to expansion slots."
+  ],
+  "exp": "Although EPS12V (CPU power) and PCIe power connectors can both feature 8-pin physical layouts (often split as 4+4 for CPU and 6+2 for PCIe), their electrical pinouts and square/rounded keying patterns are completely different. Forcing an EPS12V cable into a GPU power slot or a PCIe cable into a motherboard CPU power socket reverses ground and +12V power pins, resulting in short circuits, melted cables, or severe hardware failure. EPS12V cables carry +12V DC power directly to the CPU power regulation circuits, not +5V DC fan power or AC wall voltage. Both CPU and GPU power cables are used regardless of whether the system uses liquid or air cooling. EPS12V connectors use an 8-pin (or 4+4 pin) layout, while 20+4 pin connectors are main ATX motherboard power cables; 34-pin ribbon connectors were used for legacy floppy disk drives."
+ },
+ {
+  "domain": "Mobile Devices",
+  "objective": "",
+  "q": "A mobile consultant needs to connect a corporate laptop to the internet while working in an open field with no accessible Wi-Fi access points or Ethernet drops. The consultant has a corporate smartphone with a 5G data plan. Which two methods can the consultant use to share the smartphone's cellular data connection with the laptop? (Choose two.)",
+  "correct": [
+   "Establishing a USB tethering connection from the smartphone to the laptop",
+   "Enabling Wi-Fi Mobile Hotspot on the smartphone"
+  ],
+  "wrong": [
+   "Configuring NFC peer-to-peer data streaming between the devices",
+   "Broadcasting a Bluetooth Low Energy (BLE) location beacon"
+  ],
+  "exp": "Enabling a Wi-Fi Mobile Hotspot configures the smartphone to act as a local wireless access point, sharing its cellular internet connection with nearby client devices. USB tethering routes the smartphone's cellular connection directly to the laptop via a USB cable. NFC peer-to-peer is designed for tiny data transfers (like contacts or URLs) over fractions of an inch, not continuous broadband network sharing. Bluetooth Low Energy beacons transmit proximity data for location tracking and do not route IP internet traffic."
+ },
+ {
+  "domain": "Hardware",
+  "objective": "",
+  "q": "A departmental laser printer produces documents where faint, repeated ghost images of previous text appear at fixed intervals down the length of every printed page. Cleaning the paper feed rollers does not solve the issue. Which component is most likely defective and requires replacement?",
+  "correct": [
+   "Photosensitive image drum"
+  ],
+  "wrong": [
+   "Duplexing assembly tray",
+   "Fuser assembly heating element",
+   "Primary corona wire"
+  ],
+  "exp": "A damaged or improperly discharged photosensitive image drum retains residual electrical charges from previous rotations, causing toner to stick to uncharged areas and producing faint repeating 'ghost' images down the page at regular distance intervals matching the drum's circumference. The fuser assembly uses heat and pressure to permanently melt toner into paper fibers; a fuser failure typically causes smudges, unbonded toner that rubs off, or paper jams. The primary corona wire (or charge roller) applies a uniform negative charge to the drum prior to laser writing; a failure here usually leads to all-black pages or heavy background streaking. The duplexing assembly flips paper to allow double-sided printing and has no effect on image repetition."
+ },
+ {
+  "domain": "Networking",
+  "objective": "",
+  "q": "An organization is experiencing extreme RF congestion in the 2.4 GHz and 5 GHz frequency bands due to high device density in a large conference hall. The IT department purchases new wireless access points that operate in the newly allocated 6 GHz band to provide clean spectrum and higher throughput. Which 802.11 Wi-Fi standard includes support for the 6 GHz frequency band?",
+  "correct": [
+   "802.11ax (Wi-Fi 6E)"
+  ],
+  "wrong": [
+   "802.11ac (Wi-Fi 5)",
+   "802.11g",
+   "802.11n (Wi-Fi 4)"
+  ],
+  "exp": "802.11ax (specifically Wi-Fi 6E) extends the 802.11ax standard into the 6 GHz frequency band, offering high throughput and reduced interference. 802.11ac (Wi-Fi 5) operates exclusively in the 5 GHz band. 802.11n (Wi-Fi 4) operates in both 2.4 GHz and 5 GHz bands. 802.11g operates strictly in the 2.4 GHz band."
+ },
+ {
+  "domain": "Mobile Devices",
+  "objective": "",
+  "q": "A company is implementing a Bring Your Own Device (BYOD) policy for mobile phones. The IT security team must ensure that corporate emails and proprietary documents can be wiped remotely if an employee leaves the company, without deleting or altering the employee's personal photos, contact lists, or personal applications. Which Mobile Device Management (MDM) capability should the technician configure?",
+  "correct": [
+   "Containerization"
+  ],
+  "wrong": [
+   "Remote device locking",
+   "Geofencing",
+   "Full device disk encryption"
+  ],
+  "exp": "Containerization creates an isolated, encrypted logical partition on a mobile device that separates corporate applications and data from personal content. This allows administrators to perform a selective enterprise wipe that removes only corporate data while leaving personal photos and applications intact. Full device disk encryption protects data at rest across the entire device but does not allow selective wiping. Remote locking prevents access to the device screen, but does not purge corporate data. Geofencing applies policies based on geographic location, not selective data separation and wiping."
+ },
+ {
+  "domain": "Hardware and Network Troubleshooting",
+  "objective": "",
+  "q": "A technician is troubleshooting a mobile tablet where the touch screen constantly registers phantom inputs and the cursor drifts toward the top corner without physical touch. Physical inspection reveals no glass cracks, but the center of the screen is visibly bulging outward along the display assembly. Which two conditions are most likely causing these symptoms? (Choose two.)",
+  "correct": [
+   "A swollen internal lithium-ion battery exerting pressure on the display assembly",
+   "A failing or miscalibrated touch digitizer"
+  ],
+  "wrong": [
+   "A high-latency Wi-Fi network connection interfering with screen input",
+   "A damaged SIM card socket generating electrostatic interference"
+  ],
+  "exp": "A swollen internal lithium-ion battery exerting pressure on the display assembly is correct because battery gas expansion presses against the back of the glass, placing mechanical pressure on internal components and triggering false touch events. A failing or miscalibrated touch digitizer is correct because the digitizer component interprets touch inputs, and a hardware defect or physical stress causes phantom touches and cursor drift. A damaged SIM card socket is incorrect because SIM cards handle cellular subscriber identification and do not influence screen touch registration. A high-latency Wi-Fi network connection is incorrect because network latency impacts wireless data transfers, not local touch hardware digitizer tracking."
+ },
+ {
+  "domain": "Networking",
+  "objective": "",
+  "q": "A network installer is terminating custom lengths of Category 6 twisted-pair cabling at a job site. After stripping the cable jacket and aligning the individual wire pairs according to the T568B standard inside an RJ-45 modular plug, which tool must the installer use to permanently secure the plug contacts onto the copper wires?",
+  "correct": [
+   "Cable crimper"
+  ],
+  "wrong": [
+   "Wire stripper",
+   "Cable tester",
+   "Punchdown tool"
+  ],
+  "exp": "A cable crimper is correct because it presses the metal pin contacts inside an RJ-45 modular plug into the individual conductor wires while clamping the strain-relief boot around the outer jacket. A punchdown tool is used to push individual wires into insulation displacement connector (IDC) blocks on patch panels or keystone wall jacks. A cable tester is used after termination to test pinouts and electrical continuity. A wire stripper is used beforehand to remove the protective outer jacket of the cable without cutting the internal copper conductors."
+ },
+ {
+  "domain": "Hardware",
+  "objective": "",
+  "q": "A corporate employee travels to Europe with a desktop PC built in North America. After connecting the desktop to a European 230V AC wall outlet using a physical plug adapter and switching the unit on, the computer emits a loud pop sound, produces smoke, and immediately shuts off. What was the most likely cause of this hardware failure?",
+  "correct": [
+   "The dual-voltage selector switch on the power supply was left set to 115V."
+  ],
+  "wrong": [
+   "The 20+4 pin main ATX power connector was unseated from the motherboard.",
+   "The power supply failed to convert 12V DC input to 230V AC output.",
+   "The system motherboard required a modular PCIe power cable to convert European frequency."
+  ],
+  "exp": "Non-auto-sensing power supply units (PSUs) feature a manual dual-voltage switch toggling between 115V AC (North America) and 230V AC (Europe). Plugging a PSU set to 115V into a 230V wall outlet delivers twice the expected voltage, instantly blowing internal capacitors and damaging the unit. Unseating the main ATX power connector would prevent the system from receiving power entirely, causing no sound or smoke. Power supplies convert incoming AC power from the wall into DC power for internal components, not DC to AC. Voltage selector switches adjust input AC voltage acceptance; PCIe cables deliver 12V DC to expansion cards and do not process AC wall current or frequency."
+ },
+ {
+  "domain": "Hardware",
+  "objective": "",
+  "q": "A field service technician replaces the cracked outer front glass and LCD assembly on a field worker's ruggedized tablet computer. After powering on the device, the screen displays clear, sharp visual images, but the display ignores all physical finger taps, swipes, and touch inputs. Which TWO internal hardware components or connections should the technician inspect? (Choose two.)",
+  "correct": [
+   "Touchscreen digitizer panel overlay",
+   "Touchscreen digitizer flex ribbon cable connection"
+  ],
+  "wrong": [
+   "Display backlight inverter circuit",
+   "Liquid crystal display (LCD) panel data bus cable"
+  ],
+  "exp": "Touch input functionality on mobile devices relies on the digitizer panel overlay (which senses physical touch) and its digitizer flex ribbon cable connection to the system motherboard. If the digitizer ribbon cable is unseated, damaged, or disconnected during assembly, touch inputs will fail entirely while image rendering remains unaffected. The display backlight inverter circuit provides high-voltage AC power to older CCFL display backlights (or controls lighting levels) and does not process touch inputs. The LCD panel data bus cable carries video signal data from the GPU to display visual pixels on screen; since the tablet shows clear visual images, this video data cable is connected and functioning properly."
+ },
+ {
+  "domain": "Virtualization and Cloud Computing",
+  "objective": "",
+  "q": "A hospital system deploys low-cost, minimal-hardware terminals in patient care areas. When medical staff log into a terminal, their user interface and application sessions are rendered on centralized servers in the hospital's datacenter and streamed to the local screen. Which architecture is being implemented?",
+  "correct": [
+   "Virtual Desktop Infrastructure (VDI) using thin clients"
+  ],
+  "wrong": [
+   "Software as a Service (SaaS) using thick clients",
+   "Application containerization using Type 2 hypervisors",
+   "Local peer-to-peer virtualization using edge nodes"
+  ],
+  "exp": "Virtual Desktop Infrastructure (VDI) centralizes desktop operating system processing on servers in a datacenter, streaming screen updates down to low-power endpoints known as thin clients. Software as a Service (SaaS) provides individual web applications rather than complete remote desktop operating system sessions, and thick clients perform heavy processing locally on the client hardware. Application containerization isolates server microservices on shared OS kernels rather than hosting remote desktop sessions. Local peer-to-peer virtualization runs virtual machines on local user hardware rather than centralizing execution on server clusters."
+ },
+ {
+  "domain": "Hardware and Network Troubleshooting",
+  "objective": "",
+  "q": "A tablet computer that was accidentally submerged in water for several seconds is brought to a service desk. The device was powered off immediately after retrieval. Which action should the technician take FIRST before attempting any further troubleshooting?",
+  "correct": [
+   "Keep the tablet powered off, disconnect the battery if accessible, and let it dry completely before attempting to power it on."
+  ],
+  "wrong": [
+   "Perform a factory hard reset using the external button combination while connected to AC power",
+   "Connect the tablet to a high-wattage fast charger to dry the charging port with electric current",
+   "Place the tablet into a high-temperature drying oven to evaporate internal moisture rapidly"
+  ],
+  "exp": "After liquid exposure the device must stay powered off so current does not short wet circuitry; the technician should disconnect the battery if it is accessible, check the liquid contact indicators, and allow the device to dry thoroughly before trying to power it on. Charging a wet device risks shorting and corrosion, a hot oven can damage the battery, display and housing, and a factory reset requires powering the device on."
+ },
+ {
+  "domain": "Virtualization and Cloud Computing",
+  "objective": "",
+  "q": "A system administrator creates four virtual machines on a desktop workstation that has 32 GB of physical RAM and a 4-core processor. The administrator assigns 8 GB of RAM to each of the four guest virtual machines. Upon powering on all four VMs simultaneously, the host system suffers extreme slowdown and heavy disk paging. What is the cause of this performance degradation?",
+  "correct": [
+   "The host system has insufficient RAM remaining to support hypervisor resource overhead and the host operating system."
+  ],
+  "wrong": [
+   "Disk space overcommitment has caused the virtual hard disks to corrupt the system BIOS/UEFI settings.",
+   "The guest virtual machines are attempting to execute in containerized sandbox mode, which locks host RAM.",
+   "Type 1 hypervisors cannot manage quad-core processors when memory is allocated evenly across guest instances."
+  ],
+  "exp": "Allocating all 32 GB of physical host RAM directly to guest virtual machines (4 VMs x 8 GB = 32 GB) leaves zero physical memory for the host operating system and hypervisor tasks. This memory starvation forces the host system to swap data out to the disk pagefile/swap file, causing severe system instability and slowdown. Type 1 hypervisors manage quad-core processors efficiently and are fully capable of distributing RAM when host overhead memory is factored in. Containers share the host kernel and do not lock dedicated guest RAM allocations in this hypervisor pattern. Disk space overcommitment affects storage drive capacity over time, not host system RAM exhaustion, and cannot corrupt motherboard firmware settings."
+ },
+ {
+  "domain": "Mobile Devices",
+  "objective": "",
+  "q": "A retail business is setting up self-service point-of-sale checkout terminals. The terminals must accept smartphone tap-to-pay payments from a distance of less than 4 centimeters. Which wireless technology must be enabled on the mobile devices to complete these transactions?",
+  "correct": [
+   "Near Field Communication (NFC)"
+  ],
+  "wrong": [
+   "Infrared (IR)",
+   "Wi-Fi Direct",
+   "Active RFID tag broadcasting"
+  ],
+  "exp": "Near Field Communication (NFC) operates at short ranges (typically 1–4 centimeters), enabling secure digital transactions like Apple Pay and Google Wallet by bringing the smartphone into close proximity with the reader terminal. Infrared requires direct line-of-sight and is mostly used for remote controls. Active RFID tag broadcasting operates across much larger physical distances (up to hundreds of feet) and is used for asset tracking, not mobile payment standard protocols. Wi-Fi Direct is intended for peer-to-peer device networking and file transfer over longer distances."
+ },
+ {
+  "domain": "Hardware",
+  "objective": "",
+  "q": "A technician is servicing a thermal receipt printer at a retail point-of-sale terminal. The printer feeds paper correctly, but the output text is faded, streaked, and partially illegible. Which TWO maintenance actions should the technician perform to resolve this issue? (Choose two.)",
+  "correct": [
+   "Clean the thermal printhead using an isopropyl alcohol swab.",
+   "Verify or replace the roll of direct thermal paper."
+  ],
+  "wrong": [
+   "Replace the spent impact ink ribbon cartridge.",
+   "Recalibrate the laser transfer roller alignment."
+  ],
+  "exp": "Direct thermal printers use heating elements on a printhead to react with heat-sensitive direct thermal paper. Over time, residue accumulates on the printhead, causing faint or streaked output; cleaning the printhead with isopropyl alcohol restores heat transfer efficiency. Additionally, thermal paper can degrade over time or be inserted incorrectly; replacing it with fresh heat-sensitive paper ensures dark, legible printing. Impact ink ribbons are used in dot-matrix/impact printers, not thermal printers. Laser transfer rollers and lasers are components of electrophotographic laser printers, not thermal receipt printers."
+ },
+ {
+  "domain": "Hardware",
+  "objective": "",
+  "q": "A technician needs to connect a workstation laptop to a desktop docking station using a single cable. The connection must support dual 4K video streams, 10 Gbps USB data transfer, and 85W Power Delivery to charge the laptop battery simultaneously. Which cable type supports all of these features over a single compact, reversible connector?",
+  "correct": [
+   "USB-C cable supporting USB 3.2 Gen 2 / Thunderbolt"
+  ],
+  "wrong": [
+   "DB9 serial RS-232 cable",
+   "HDMI 2.0 cable",
+   "DisplayPort 1.4 to DVI-D cable"
+  ],
+  "exp": "USB-C cables supporting high-speed protocols (such as USB 3.2 Gen 2 or Thunderbolt) utilize Alt Modes (such as DisplayPort Alternate Mode) and USB Power Delivery (USB-PD) to stream high-resolution video, transfer fast data, and supply power to charge host laptops simultaneously over one reversible connector. HDMI 2.0 cables carry digital audio and video signals but do not support host laptop charging or high-speed USB data bus protocols. DisplayPort to DVI-D cables transmit video signals only and lack data/power capabilities. DB9 serial RS-232 cables are legacy low-speed serial diagnostic interfaces incapable of transmitting video, modern data streams, or laptop charging power."
+ },
+ {
+  "domain": "Virtualization and Cloud Computing",
+  "objective": "",
+  "q": "A software company wants to deploy microservice instances on a single host server. The team requires rapid application startup times, maximum compute density, and minimal memory overhead by sharing the host operating system's kernel across all application instances rather than installing separate full guest operating systems. Which virtualization technology should be implemented?",
+  "correct": [
+   "Containerization"
+  ],
+  "wrong": [
+   "Type 1 bare-metal hypervisor",
+   "Type 2 host-based hypervisor",
+   "Virtual Desktop Infrastructure (VDI)"
+  ],
+  "exp": "Containerization (such as Docker or Podman) isolates applications at the OS level, allowing containers to share the host system's kernel while keeping application processes and dependencies separated. This results in extremely fast boot times, low memory overhead, and high density. Type 1 and Type 2 hypervisors create full hardware virtualization where each guest requires its own dedicated operating system kernel, resulting in higher resource overhead and slower startup times. Virtual Desktop Infrastructure (VDI) delivers full desktop environments to end-user displays rather than packaging lightweight server microservices."
+ },
+ {
+  "domain": "Networking",
+  "objective": "",
+  "q": "A business operating in a remote rural location needs high-speed internet access. Cable and fiber infrastructures are unavailable. A local service provider installs a point-to-point directional dish antenna on the building roof pointed toward a central transmission tower located 5 miles away. Which internet connection type is being utilized?",
+  "correct": [
+   "WISP"
+  ],
+  "wrong": [
+   "DSL",
+   "Cable",
+   "Satellite"
+  ],
+  "exp": "A Wireless Internet Service Provider (WISP) delivers broadband internet using fixed wireless technology, transmitting radio signals between a centralized tower and directional antennas mounted at customer premises. Satellite internet relies on geostationary or low-Earth orbit satellites in space rather than terrestrial towers. DSL delivers internet over traditional copper telephone lines. Cable uses coaxial cable infrastructure provided by cable television companies."
+ },
+ {
+  "domain": "Hardware",
+  "objective": "",
+  "q": "A server administrator needs to configure a storage array for a video editing workstation that requires maximum write performance and zero capacity loss to redundancy overhead. Data loss tolerance is not an issue because all project files are backed up hourly to remote storage. Which RAID level should the administrator select?",
+  "correct": [
+   "RAID 0"
+  ],
+  "wrong": [
+   "RAID 1",
+   "RAID 5",
+   "RAID 10"
+  ],
+  "exp": "RAID 0 (striping) provides the highest performance by splitting data across multiple drives without parity or mirroring, resulting in 100% usable storage capacity with no overhead. However, it offers zero fault tolerance. RAID 1 uses mirroring, which cuts usable capacity in half (50% loss). RAID 5 uses block-level parity, requiring at least three drives and losing the capacity of one drive to parity overhead. RAID 10 combines mirroring and striping, sacrificing 50% of total storage capacity for redundancy."
+ },
+ {
+  "domain": "Networking",
+  "objective": "",
+  "q": "A user in an office building reports that they cannot access the local file server or browse the internet. A technician runs the ipconfig command on the user's Windows computer and receives the following output:\n\nIPv4 Address . . . . . . . . . . . : 169.254.88.201\nSubnet Mask . . . . . . . . . . . : 255.255.0.0\nDefault Gateway . . . . . . . . . :\n\nWhich of the following is the primary cause of this connectivity issue?",
+  "correct": [
+   "The workstation failed to reach a DHCP server and self-assigned an APIPA address"
+  ],
+  "wrong": [
+   "The workstation was configured with a duplicate static IP address",
+   "The gateway router's WAN port lost connection to the Internet Service Provider",
+   "The DNS server entry on the network adapter is configured with an invalid loopback address"
+  ],
+  "exp": "An IP address beginning with 169.254.x.x indicates an Automatic Private IP Addressing (APIPA) assignment. Windows automatically assigns an APIPA address when a client configured for dynamic IP addressing cannot communicate with a DHCP server. Duplicate static IP conflicts result in OS error notifications. Loss of ISP WAN connection affects internet access but does not prevent a client from receiving a valid local IP from a DHCP server. Invalid DNS entries cause name resolution failures but do not cause APIPA addresses to be assigned."
+ },
+ {
+  "domain": "Hardware",
+  "objective": "",
+  "q": "A graphic design firm requires new desktop monitors that provide wide viewing angles and accurate color reproduction across the entire display. Fast response time is not a critical requirement. Which LCD panel technology best meets these requirements?",
+  "correct": [
+   "In-Plane Switching (IPS)"
+  ],
+  "wrong": [
+   "Vertical Alignment (VA)",
+   "Twisted Nematic (TN)",
+   "Resistive touch screen overlay"
+  ],
+  "exp": "In-Plane Switching (IPS) offers the best color accuracy and widest viewing angles of the common LCD panel types, which suits graphic design. Twisted Nematic (TN) offers fast response times but poor color accuracy and narrow viewing angles. Vertical Alignment (VA) offers high contrast and deep blacks but weaker viewing angles and color precision than IPS. A resistive touch overlay is an input layer, not a display panel technology."
+ },
+ {
+  "domain": "Hardware",
+  "objective": "",
+  "q": "A field technician is assembling a compact desktop computer for an office workstation using a small form factor enclosure. Which two physical constraints or technical factors must the technician verify when selecting the motherboard and expansion components for this build? (Choose two.)",
+  "correct": [
+   "Mini-ITX motherboards feature only a single PCIe expansion slot, limiting internal expansion cards to a single adapter.",
+   "The motherboard form factor dimensions must align with the physical mounting standoff locations inside the computer chassis."
+  ],
+  "wrong": [
+   "PCIe x1 expansion cards cannot be installed into PCIe x16 motherboard slots without causing electrical shorts.",
+   "MicroATX motherboards cannot accept liquid CPU cooling assemblies due to voltage header limitations."
+  ],
+  "exp": "The statement that Mini-ITX motherboards feature only a single PCIe expansion slot is correct because the standard Mini-ITX form factor specification (6.7 x 6.7 inches) physically accommodates only one expansion slot. The statement that the motherboard form factor dimensions must align with standoff locations in the chassis is correct because mounting a motherboard in an incompatible case prevents proper securing and can cause short circuits against the metal frame. The statement that MicroATX motherboards cannot accept liquid CPU cooling assemblies is incorrect because CPU liquid coolers mount to standard CPU socket brackets and fan/pump headers regardless of motherboard form factor. The statement that PCIe x1 cards cannot be installed into PCIe x16 slots is incorrect because PCI Express specifications support upward slot compatibility, allowing shorter cards (x1, x4) to function normally inside longer physical slots (x16)."
+ },
+ {
+  "domain": "Mobile Devices",
+  "objective": "",
+  "q": "A technician recently replaced a damaged LCD screen assembly on a corporate laptop. After reassembling the device, the user reports that the laptop can only connect to the office Wi-Fi network when sitting right next to the wireless access point. Moving more than ten feet away causes the signal to drop completely. Which of the following is the most likely cause of this issue?",
+  "correct": [
+   "The Wi-Fi antenna cables were not properly reconnected to the internal wireless card."
+  ],
+  "wrong": [
+   "The system RAM modules were unseated when removing the display bezel.",
+   "The laptop's wireless network adapter driver was corrupted during display disassembly.",
+   "The new replacement LCD panel is emitting radio frequency interference on the 5 GHz band."
+  ],
+  "exp": "Disconnected or pinched Wi-Fi antenna wires inside the display assembly are a common issue following screen replacements. Because the antenna leads run up into the display bezel to maintain range, failing to attach them firmly to the wireless card results in severely reduced Wi-Fi reception, operating only when extremely close to an access point. LCD panels do not generate RF interference that selectively blocks Wi-Fi bands. Physical disassembly of the display housing does not cause software driver corruption. Unseated RAM modules would cause boot failure or system instability, not low Wi-Fi signal strength."
+ },
+ {
+  "domain": "Networking",
+  "objective": "",
+  "q": "A technician is dispatched to an office building to identify an unlabelled RJ-45 network wall outlet that runs through the walls into a crowded server room patch panel containing over 100 unlabeled ports. Which tool should the technician use to quickly locate the correct cable termination on the patch panel?",
+  "correct": [
+   "Toner probe"
+  ],
+  "wrong": [
+   "Wi-Fi analyzer",
+   "Loopback plug",
+   "Cable tester"
+  ],
+  "exp": "A toner probe (consisting of a tone generator connected to the wall outlet and an inductive probe swept across patch panel cables) is designed to trace unlabelled copper cable runs through walls and identify specific cable terminations. A cable tester checks pinout continuity and wire pairs after a connection is found. A loopback plug tests a physical port on a network interface card or switch port. A Wi-Fi analyzer measures wireless signal strength and radio frequencies."
+ },
+ {
+  "domain": "Mobile Devices",
+  "objective": "",
+  "q": "A graphic designer reports that their active stylus pen has stopped drawing on their 2-in-1 touchscreen tablet. However, the designer can still navigate menus and tap screen buttons using their fingers with full accuracy. Which step should the technician perform first to troubleshoot the stylus?",
+  "correct": [
+   "Replace or recharge the battery inside the active stylus and verify its Bluetooth pairing."
+  ],
+  "wrong": [
+   "Upgrade the tablet's system RAM to increase touch processing speed.",
+   "Calibrate the display screen's ambient color balance profile in the OS.",
+   "Replace the display screen's glass digitizer panel."
+  ],
+  "exp": "Active styluses contain internal electronics, pressure sensors, and Bluetooth radios that require battery power. When normal finger input works reliably on the tablet, the screen digitizer hardware is fully functional; therefore, a dead stylus battery or lost Bluetooth connection is the most likely cause. Replacing the screen digitizer is unnecessary since touch registration works. Display color calibration adjusts color reproduction, not input registration. RAM capacity does not affect active stylus connectivity or power status."
+ },
+ {
+  "domain": "Hardware and Network Troubleshooting",
+  "objective": "",
+  "q": "An administrator receives a notification that a RAID 5 array on a critical server is operating in a degraded state. Upon inspecting the server chassis, one physical drive status LED is solid amber, while the remaining LEDs are solid green. Which two actions should the technician perform to resolve this issue and restore full redundancy? (Choose two.)",
+  "correct": [
+   "Perform a hot-swap replacement of the failed physical drive with a compatible spare drive.",
+   "Initiate an array rebuild through the RAID management utility once the new drive is seated."
+  ],
+  "wrong": [
+   "Convert the remaining active drives to a RAID 0 configuration to maintain read performance.",
+   "Re-initialize the RAID array volume using the hardware controller management utility."
+  ],
+  "exp": "Performing a hot-swap replacement of the failed physical drive and initiating an array rebuild through the RAID management software are the correct steps to restore fault tolerance and redundancy to a degraded RAID 5 volume without data loss. Re-initializing the RAID array volume wipes all existing data from the array completely. Converting the remaining active drives to a RAID 0 configuration destroys the original volume structure and removes all fault tolerance."
+ },
+ {
+  "domain": "Hardware and Network Troubleshooting",
+  "objective": "",
+  "q": "A server administrator receives an automated alert indicating a S.M.A.R.T. threshold exceeded error on a secondary mechanical hard drive in a workstation. When attempting to access files on this disk, file transfers stall, read/write response times are excessively long, and intermittent metallic clicking noises emanate from the drive chassis. Which action should the technician take FIRST?",
+  "correct": [
+   "Back up critical data from the drive to a secure location immediately"
+  ],
+  "wrong": [
+   "Rebuild the drive using the motherboard's integrated SATA RAID controller",
+   "Convert the disk partition table from MBR to GPT using Disk Management",
+   "Run a full drive defragmentation scan on the affected volume"
+  ],
+  "exp": "Backing up critical data from the drive immediately is correct because metallic clicking noises and S.M.A.R.T. threshold errors signal imminent mechanical hardware failure, making immediate data preservation the highest priority before the drive stops functioning completely. Running a full defragmentation scan is incorrect because the heavy read/write activity required for defragmentation will stress the failing mechanical components and accelerate complete drive failure. Converting the partition table from MBR to GPT is a partition management task that does not fix physical mechanical degradation. Rebuilding the drive using a SATA RAID controller is incorrect because a single standalone failing drive lacks redundancy and cannot be rebuilt without a pre-existing RAID array."
+ },
+ {
+  "domain": "Hardware",
+  "objective": "",
+  "q": "An administrator is configuring a high-performance database server that requires storage devices capable of achieving maximum throughput and high IOPS by interfacing directly with the PCI Express bus, bypassing the legacy SATA host controller interface. Which storage interface standard fulfills these requirements?",
+  "correct": [
+   "NVMe"
+  ],
+  "wrong": [
+   "eSATA",
+   "SAS-3",
+   "SATA III"
+  ],
+  "exp": "Non-Volatile Memory Express (NVMe) is an open host controller interface specification designed specifically for solid-state drives (SSDs) operating over PCIe lanes, delivering massive throughput and low latency compared to legacy storage protocols. SATA III relies on the AHCI protocol designed for spinning hard drives and is bottlenecked at 6 Gbps. eSATA is an external variant of SATA III and suffers from the same throughput limits and protocol overhead. Serial Attached SCSI (SAS-3) is an enterprise storage protocol primarily used for high-availability SAS drives and storage arrays, but standard SAS interfaces do not connect directly over consumer/workstation PCIe storage host protocols with the reduced latency overhead of native NVMe."
+ },
+ {
+  "domain": "Networking",
+  "objective": "",
+  "q": "A system administrator notices that users are experiencing intermittent multi-factor authentication (MFA) failures, and Active Directory Kerberos ticket validation is repeatedly failing across domain controllers. Investigation reveals a time discrepancy between workstations and authentication servers. Which network service host should be deployed or configured to automatically resolve this issue?",
+  "correct": [
+   "Network Time Protocol (NTP)"
+  ],
+  "wrong": [
+   "Domain Name System (DNS)",
+   "Simple Network Management Protocol (SNMP)",
+   "Dynamic Host Configuration Protocol (DHCP)"
+  ],
+  "exp": "Network Time Protocol (NTP) is correct because NTP synchronizes clock timing across all client devices and servers on a network, which is critical for time-sensitive security protocols such as Kerberos and time-based multi-factor authentication (MFA). Domain Name System (DNS) resolves hostnames to IP addresses but does not synchronize clocks. Dynamic Host Configuration Protocol (DHCP) automatically assigns IP addressing configurations to network clients. Simple Network Management Protocol (SNMP) is used for monitoring and managing network hardware devices, not system clock synchronization."
+ },
+ {
+  "domain": "Hardware",
+  "objective": "",
+  "q": "A system builder is assembling a high-availability server that requires memory capable of detecting and correcting single-bit memory errors automatically. The motherboard has four DDR4 DIMM slots. Which memory should the builder select?",
+  "correct": [
+   "ECC DDR4 DIMMs that the motherboard supports"
+  ],
+  "wrong": [
+   "Non-ECC DDR4 DIMMs",
+   "DDR4 SODIMMs",
+   "DDR3 ECC DIMMs"
+  ],
+  "exp": "Error-correcting code (ECC) memory carries extra bits and circuitry that detect and correct single-bit errors, which prevents crashes and silent data corruption in servers; the board and CPU must support ECC. Non-ECC modules cannot correct errors. SODIMMs are the smaller laptop form factor and say nothing about error correction. DDR3 modules are not compatible with a DDR4 slot."
+ },
+ {
+  "domain": "Hardware and Network Troubleshooting",
+  "objective": "",
+  "q": "An administrator notices that IP desk phones in an office experience severe audio jitter and choppy sound during peak usage hours. Network captures reveal erratic arrival times for voice data packets at the VoIP gateway, even though total bandwidth consumption remains under 40% of the link capacity. Which network configuration change on the managed switch will best resolve this audio issue?",
+  "correct": [
+   "Implement Quality of Service (QoS) prioritizing voice traffic"
+  ],
+  "wrong": [
+   "Change the switch port negotiation settings from full-duplex to half-duplex",
+   "Configure a static IP address reservation for each phone on the DHCP server",
+   "Enable Jumbo Frames across the voice VLAN interface"
+  ],
+  "exp": "Implementing Quality of Service (QoS) prioritizing voice traffic is correct because VoIP audio is extremely sensitive to packet delay variation (jitter); QoS marks real-time voice packets to ensure they are queued and forwarded ahead of standard data traffic during bursts of switch activity. Changing switch port negotiation to half-duplex is incorrect because half-duplex permits collision domains, which increases packet drops and latency. Enabling Jumbo Frames is used to optimize high-throughput file or storage transfers (such as SAN traffic), not small, frequent voice packets. Configuring static IP reservations ensures consistent IP address assignment but does not prioritize or schedule traffic queues on the switch."
+ },
+ {
+  "domain": "Networking",
+  "objective": "",
+  "q": "A network technician is configuring DNS records for a newly launched enterprise web application. Which two DNS record types are specifically used to map hostnames directly to IP addresses? (Choose two.)",
+  "correct": [
+   "AAAA record",
+   "A record"
+  ],
+  "wrong": [
+   "MX record",
+   "CNAME record"
+  ],
+  "exp": "An A record maps a domain name or hostname to a 32-bit IPv4 address, while an AAAA record maps a domain name or hostname to a 128-bit IPv6 address. An MX (Mail Exchanger) record directs domain email traffic to specified mail servers. A CNAME (Canonical Name) record creates an alias that maps one domain name to another canonical domain name rather than an IP address."
+ },
+ {
+  "domain": "Mobile Devices",
+  "objective": "",
+  "q": "A technician is attempting to connect a brand-new Bluetooth headset to an employee's mobile phone. Although Bluetooth is switched on in the phone's settings menu, the headset fails to appear on the list of available connections. Which two diagnostic steps should the technician take to fix this issue? (Choose two.)",
+  "correct": [
+   "Verify that the Bluetooth headset is within standard physical operating range of the phone.",
+   "Place the Bluetooth headset into discovery mode by pressing and holding its power/pairing button."
+  ],
+  "wrong": [
+   "Replace the smartphone's physical nano-SIM card.",
+   "Reset the phone's TCP/IP network stack settings."
+  ],
+  "exp": "For a Bluetooth host device to discover a target peripheral, the peripheral must be put into pairing/discovery mode (often indicated by a flashing LED after holding the power button). Additionally, Bluetooth devices must be within operating range (typically around 30 feet / 10 meters) to establish initial pairing. Resetting TCP/IP network stack settings targets Wi-Fi and IP address routing issues, not local Bluetooth discovery. SIM cards control cellular network authentication and have no involvement in Bluetooth connections."
+ },
+ {
+  "domain": "Networking",
+  "objective": "",
+  "q": "A system technician is integrating a third-party human resources web application with an internal Active Directory server to allow user login queries. The technician needs to permit standard, unencrypted directory queries through an internal firewall. Which protocol and port combination must be allowed through the firewall?",
+  "correct": [
+   "LDAP on TCP port 389"
+  ],
+  "wrong": [
+   "LDAPS on TCP port 636",
+   "RDP on TCP port 3389",
+   "SMB on TCP port 445"
+  ],
+  "exp": "LDAP on TCP port 389 is correct because standard, unencrypted Lightweight Directory Access Protocol uses TCP port 389 to perform directory queries against Active Directory or directory services. LDAPS uses TCP port 636 for secure, encrypted directory access over TLS/SSL. SMB uses TCP port 445 for Windows file sharing and network folder access. RDP uses TCP port 3389 for remote desktop protocol sessions on Windows servers and workstations."
+ },
+ {
+  "domain": "Mobile Devices",
+  "objective": "",
+  "q": "A user reports that the integrated webcam on their corporate laptop flickers and drops video intermittently whenever the display lid is adjusted beyond a 90-degree angle. Lowering the display screen restores the camera image. Which internal component is most likely failing or loose?",
+  "correct": [
+   "Webcam wiring harness running through the display hinge"
+  ],
+  "wrong": [
+   "Graphics Processing Unit (GPU) silicon die",
+   "CMOS system battery",
+   "Ambient display light sensor module"
+  ],
+  "exp": "The webcam cable harness routes from the motherboard, through the screen hinge, and into the top display frame. Constant flex from opening and closing the screen lid can cause wires inside the hinge harness to fray or loosen, resulting in intermittent connections that depend on screen position. GPU failures would cause graphical artifacts across the entire LCD screen, not intermittent webcam loss tied to screen tilt. The CMOS battery retains BIOS settings and does not power webcams. The ambient light sensor adjusts display backlight brightness, not webcam video signal continuity."
+ },
+ {
+  "domain": "Virtualization and Cloud Computing",
+  "objective": "",
+  "q": "A software development team needs to build and deploy a custom web application. The team wants to focus entirely on writing code and managing application settings without needing to configure, patch, or maintain the underlying server operating systems, storage, or web server software. Which cloud service model best fits this requirement?",
+  "correct": [
+   "Platform as a Service (PaaS)"
+  ],
+  "wrong": [
+   "Software as a Service (SaaS)",
+   "Infrastructure as a Service (IaaS)",
+   "Desktop as a Service (DaaS)"
+  ],
+  "exp": "Platform as a Service (PaaS) provides developers with a pre-configured software framework, runtime environment, and database management engines where they can deploy custom code without managing operating systems, hardware provisioning, or network infrastructure. Infrastructure as a Service (IaaS) requires the customer to manage and patch operating systems, virtual machines, and installed software stack components. Software as a Service (SaaS) provides fully functional, end-user applications managed entirely by the vendor (such as Microsoft 365 or Salesforce). Desktop as a Service (DaaS) provisions full virtual desktop environments to end users rather than development execution stacks."
+ },
+ {
+  "domain": "Hardware and Network Troubleshooting",
+  "objective": "",
+  "q": "A company presenter reports that the projected image from a ceiling-mounted conference room projector appears very dim and faint, making text hard to read even when room lights are turned off. The display resolution and colors are accurate, and no warning LEDs are illuminated on the chassis. Which of the following is the most likely cause of this issue?",
+  "correct": [
+   "The projector bulb is reaching the end of its operational lifespan."
+  ],
+  "wrong": [
+   "The projector aspect ratio is set incorrectly for the screen dimensions.",
+   "The HDMI video cable has exceeded its maximum unamplified length.",
+   "The display panel is suffering from severe static image burn-in."
+  ],
+  "exp": "A uniformly dim image without color distortion or thermal shutdown warnings indicates that the projector lamp/bulb is degraded and reaching the end of its operational lifespan, requiring replacement. Exceeding HDMI video cable length leads to signal dropouts, screen flickering, or total loss of display output (digital sparkles or no signal), rather than uniform dimness. Setting the aspect ratio incorrectly stretches or distorts the image geometry or adds black bars. Static image burn-in causes persistent ghost outlines of static graphics, not low brightness across the whole image."
+ },
+ {
+  "domain": "Hardware and Network Troubleshooting",
+  "objective": "",
+  "q": "A technician is configuring a workstation with a new widescreen monitor. The display shows images with stretched, distorted proportions where circular icons appear as ovals and text appears blurry across the screen. Changing the video display cable does not alter the distortion. Which setting should the technician adjust to resolve this issue?",
+  "correct": [
+   "Display resolution"
+  ],
+  "wrong": [
+   "Color depth",
+   "Refresh rate",
+   "Contrast ratio"
+  ],
+  "exp": "Adjusting the display resolution to match the monitor's native aspect ratio is correct because setting a non-native resolution forces the OS output to stretch or compress pixels, distorting visual shapes and causing text blurring. Changing color depth alters the number of bits used to represent color per pixel, not the physical aspect scaling. Modifying the refresh rate alters screen redraw frequency to eliminate flickering, not image geometry. Adjusting the contrast ratio alters light-to-dark intensity levels, which does not fix distorted or stretched proportions."
+ },
+ {
+  "domain": "Networking",
+  "objective": "",
+  "q": "A technician needs to install an outdoor IP camera that requires Power over Ethernet (PoE) on a network segment served by an older, unmanaged non-PoE switch. Replacing the existing switch is outside the current budget. Which hardware device should be installed between the switch and the camera to provide power to the camera over the Ethernet cable?",
+  "correct": [
+   "PoE injector"
+  ],
+  "wrong": [
+   "Cable modem",
+   "ONT",
+   "Patch panel"
+  ],
+  "exp": "A PoE injector adds electrical power to an existing Ethernet copper cable run originating from a non-PoE switch, allowing PoE-powered devices like IP cameras to operate without replacing the switch. A patch panel provides a centralized termination point for network cabling runs. An Optical Network Terminal (ONT) converts fiber optic light signals to electrical signals. A cable modem translates coaxial signals into Ethernet traffic."
+ }
+]
