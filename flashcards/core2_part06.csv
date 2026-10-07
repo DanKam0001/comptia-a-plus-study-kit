@@ -1,0 +1,26 @@
+Front,Back,Tags
+Can a 64-bit app run on a 32-bit OS?,No. A 64-bit app needs a 64-bit OS,core2 part06 requirements
+Can a 32-bit app run on 64-bit Windows?,Usually yes,core2 part06 requirements
+How much memory can a 32-bit OS use?,About 4 GB,core2 part06 requirements
+Dedicated vs integrated graphics,Dedicated = separate card with its own VRAM. Integrated = built into the CPU and shares system RAM,core2 part06 requirements
+VRAM stands for,Video Random Access Memory,core2 part06 requirements
+What is an external hardware token?,A USB key (dongle) that proves you own a license. The app needs it plugged in,core2 part06 requirements
+Eight things to check before installing an app,"32-bit or 64-bit, graphics, VRAM, RAM, CPU, hardware token, storage, OS compatibility",core2 part06 requirements
+Physical media distribution,Installing from a disc or drive,core2 part06 distribution
+Mountable ISO file,One file that holds a copy of a disc. Windows mounts it as a virtual drive so no disc is needed,core2 part06 distribution
+Downloadable package,A file you download and run,core2 part06 distribution
+Image deployment,One prepared system image (OS plus apps) copied to many computers at once,core2 part06 distribution
+Four impact considerations for a new app,"Device, network, operation, business",core2 part06 impact
+Impact on the device: what to ask,Storage used? Slows the computer? Needs more RAM or a better GPU?,core2 part06 impact
+Impact on the network: what to ask,Large downloads or constant syncing? Bandwidth during work hours?,core2 part06 impact
+Good habit before a rollout,Test on a few computers first (a pilot),core2 part06 impact
+Cloud storage examples,"OneDrive, Google Drive, Dropbox",core2 part06 cloud
+What do sync/folder settings control?,Which folders sync and whether files are online-only or kept on the device,core2 part06 cloud
+Two people edit one synced file: what may happen?,A conflict copy (two versions) is kept for you to sort out,core2 part06 cloud
+Word processing / spreadsheet / presentation tools,"Word or Google Docs / Excel or Google Sheets / PowerPoint or Google Slides",core2 part06 cloud
+Videoconferencing examples,"Teams, Zoom",core2 part06 cloud
+Instant messaging examples,"Teams, Slack",core2 part06 cloud
+Identity synchronization,Keeps one set of sign-in details the same between the office directory and the cloud,core2 part06 cloud
+Licensing assignment,An admin gives each user a paid license so their apps unlock,core2 part06 cloud
+User can sign in but app says no license: fix,Assign a license to the user's account,core2 part06 cloud
+Email ports: SMTP / POP3 / IMAP,"SMTP 25 (587 submission) / POP3 110 (995 secure) / IMAP 143 (993 secure)",core2 part06 cloud

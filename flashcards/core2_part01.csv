@@ -1,0 +1,35 @@
+Front,Back,Tags
+Four workstation OS types,"Windows, Linux, macOS, Chrome OS",core2 part01 operating_systems_and_file_systems
+Three mobile OS types,"iOS, iPadOS, Android",core2 part01 operating_systems_and_file_systems
+Default Windows file system,"NTFS (permissions, encryption, large files)",core2 part01 operating_systems_and_file_systems
+FAT32 maximum file size,4 GB,core2 part01 operating_systems_and_file_systems
+"File system for USB drives shared by Windows and Mac, with large files",exFAT,core2 part01 operating_systems_and_file_systems
+Linux file systems,ext4 and XFS,core2 part01 operating_systems_and_file_systems
+Apple file system,APFS,core2 part01 operating_systems_and_file_systems
+ReFS is built for,Resilience on large storage,core2 part01 operating_systems_and_file_systems
+What EOL means,End-of-life: the vendor stops updates and support,core2 part01 operating_systems_and_file_systems
+Windows 10 end of support,"October 14, 2025",core2 part01 operating_systems_and_file_systems
+Windows 11 version servicing,"24 months (Home, Pro), 36 months (Enterprise, Education)",core2 part01 operating_systems_and_file_systems
+Install 50 identical PCs fast,Image deployment,core2 part01 installations
+Install with nobody at the keyboard,Zero-touch deployment,core2 part01 installations
+Wipe the drive and start fresh,Clean install,core2 part01 installations
+"Keep files, apps and settings",Upgrade (in-place upgrade),core2 part01 installations
+Fix Windows but keep files and apps,Repair installation,core2 part01 installations
+Restore the PC to factory state from a hidden copy,Recovery partition,core2 part01 installations
+Two or more operating systems on one PC,Multiboot,core2 part01 installations
+Setup cannot see the drive,Load a third-party driver,core2 part01 installations
+Do first before any upgrade,Back up files and user preferences,core2 part01 installations
+MBR maximum drive size,2 TB,core2 part01 partitioning
+MBR maximum primary partitions,4,core2 part01 partitioning
+GPT partitions in Windows,128,core2 part01 partitioning
+Windows UEFI boot needs,GPT,core2 part01 partitioning
+4 TB drive shows only 2 TB,It was set up as MBR. Use GPT,core2 part01 partitioning
+Windows 10 editions,"Home, Pro, Pro for Workstations, Enterprise",core2 part01 windows_editions
+Windows 11 editions,"Home, Pro, Enterprise",core2 part01 windows_editions
+N version,Without Windows Media Player and related media features,core2 part01 windows_editions
+Home can join a domain?,No. Workgroup only,core2 part01 windows_editions
+Home has BitLocker?,No (Pro and above do),core2 part01 windows_editions
+Home has gpedit.msc?,No (Pro and above do),core2 part01 windows_editions
+Home and Remote Desktop,"Can connect out, cannot be connected to (cannot host)",core2 part01 windows_editions
+RAM limits (Home / Pro / Pro for Workstations / Enterprise),128 GB / 2 TB / 6 TB / 6 TB,core2 part01 windows_editions
+Windows 11 hardware requirements,"TPM 2.0, UEFI with Secure Boot, 4 GB RAM, 64 GB storage, 64-bit 1 GHz CPU with 2 or more cores",core2 part01 windows_editions

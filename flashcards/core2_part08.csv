@@ -1,0 +1,32 @@
+Front,Back,Tags
+Local account vs Microsoft account,Local = exists only on that PC. Microsoft = online sign-in that syncs settings,core2 part08 accounts
+Standard user can and cannot,Can run programs. Cannot change system settings,core2 part08 accounts
+Administrator account,Full control of the PC,core2 part08 accounts
+Guest account,Very limited access. Disabled by default,core2 part08 accounts
+Power user group,Legacy group kept for old software. Between standard and administrator,core2 part08 accounts
+What does UAC do?,Dims the screen and asks permission before a big change,core2 part08 accounts
+How do you start a program with full rights?,Right-click > Run as administrator,core2 part08 accounts
+Six Windows log-in options,"Username and password, PIN, fingerprint, facial recognition, SSO, passwordless (Windows Hello)",core2 part08 signin
+Windows Hello PIN works where?,Only on that device,core2 part08 signin
+Defender definitions,The list of known threats; updated through Windows Update,core2 part08 defender
+Firewall port security vs application security,Allow or block ports vs allow or block programs,core2 part08 defender
+Open the advanced Windows firewall console,wf.msc,core2 part08 defender
+NTFS permissions apply,On the disk to everyone using the file (even at the PC),core2 part08 permissions
+Share permissions apply,Over the network only,core2 part08 permissions
+NTFS and share permissions both apply: which wins?,The most restrictive,core2 part08 permissions
+Inheritance,Files and folders take permissions from their parent folder,core2 part08 permissions
+Move a file to a different volume: permissions?,It takes the destination folder's permissions,core2 part08 permissions
+Move a file within the same volume: permissions?,It keeps its original permissions,core2 part08 permissions
+BitLocker,Encrypts a whole drive. Usually uses the TPM. Keep the recovery key,core2 part08 encryption
+BitLocker To Go,BitLocker for USB and removable drives,core2 part08 encryption
+EFS,Encrypting File System: encrypts single files or folders for one user,core2 part08 encryption
+Data at rest,Data that is stored (not moving),core2 part08 encryption
+Seven Active Directory tasks in the objectives,"Join domain, log-in script, move objects within OUs, home folders, Group Policy, security groups, folder redirection",core2 part08 active_directory
+Group Policy,Settings pushed to many computers or users at once,core2 part08 active_directory
+Folder redirection,Saves a user's folders on a server,core2 part08 active_directory
+OU stands for,Organizational Unit: a folder for sorting accounts and computers in Active Directory,core2 part08 active_directory
+Five password considerations,"Length, character types, uniqueness, complexity, expiration",core2 part08 hardening
+Five end-user best practices,"Screensaver locks, log off, protect hardware (laptops), secure PII and passwords, password managers",core2 part08 hardening
+Six account management settings,"Restrict permissions, restrict log-in times, disable guest, failed-attempts lockout, timeout/screen lock, account expiration dates",core2 part08 hardening
+Three other hardening steps,"Change default administrator account and password, disable AutoRun, disable unused services",core2 part08 hardening
+What does a BIOS/UEFI password stop?,Others changing firmware settings (and booting from USB if configured),core2 part08 hardening

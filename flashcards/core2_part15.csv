@@ -1,0 +1,36 @@
+Front,Back,Tags
+What does ESD stand for?,Electrostatic Discharge,core2 part15 safety
+First step before repairing a PC,Disconnect the power,core2 part15 safety
+Where does an ESD strap clip?,Bare metal on the case,core2 part15 safety
+What do you store loose parts in?,Antistatic bags,core2 part15 safety
+What does equipment grounding do?,Sends stray electricity safely into the earth,core2 part15 safety
+Safe way to lift,"Bend the knees, lift with your legs, keep your back straight",core2 part15 safety
+Fire type you must never use water on,Electrical fires,core2 part15 safety
+Goggles vs air filter mask,Goggles protect your eyes. A mask protects your lungs from dust,core2 part15 safety
+What does MSDS stand for?,Material Safety Data Sheet,core2 part15 environment
+What does an MSDS tell you?,How to handle and dispose of a product safely,core2 part15 environment
+Where do batteries and toner go?,"Recycling or hazardous waste, never normal rubbish",core2 part15 environment
+Air too dry causes,Static,core2 part15 environment
+Air too humid causes,Condensation and corrosion,core2 part15 environment
+How to clean dust out of a PC,Compressed air or a vacuum,core2 part15 environment
+Surge suppressor vs UPS,Suppressor blocks spikes. UPS is a battery for under-voltage events and power loss,core2 part15 environment
+What is chain of custody?,"A written record of who handled evidence, and when",core2 part15 incident_response
+Why work from a copy of the drive?,Preserves the original and its data integrity,core2 part15 incident_response
+What is the order of volatility?,Collect the most short-lived data first (memory before disk),core2 part15 incident_response
+Who do you tell about prohibited content?,"Management, and law enforcement as necessary",core2 part15 incident_response
+What do DRM and EULA stand for?,Digital Rights Management and End-User License Agreement,core2 part15 licensing
+Perpetual license,Bought once and kept,core2 part15 licensing
+Personal vs corporate license,A personal license can't be used for business,core2 part15 licensing
+Open-source license,Free to use and change under its own terms,core2 part15 licensing
+NDA vs MNDA,Non-disclosure agreement vs mutual NDA (both sides bound),core2 part15 licensing
+Four kinds of regulated data,"Credit card information, government-issued ID, PII, healthcare data",core2 part15 privacy
+What does PII stand for?,Personally Identifiable Information,core2 part15 privacy
+What is data retention?,How long data must be kept,core2 part15 privacy
+What does AUP stand for?,Acceptable Use Policy,core2 part15 privacy
+Where are compliance rules often shown?,On splash screens,core2 part15 privacy
+Attire for customers,Match the environment: formal or business casual,core2 part15 professionalism
+Language to use with customers,"No jargon, acronyms or slang",core2 part15 professionalism
+If you will be late,Contact the customer,core2 part15 professionalism
+Never do to a difficult customer,"Argue, be defensive, dismiss or judge",core2 part15 professionalism
+How to clarify a customer's problem,"Open-ended questions, restate the issue, verify understanding",core2 part15 professionalism
+After the job,"Provide documentation, then follow up later",core2 part15 professionalism

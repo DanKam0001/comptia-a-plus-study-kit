@@ -1,0 +1,33 @@
+Front,Back,Tags
+Laptop RAM form factor,SODIMM,core1 part11 laptop_hardware
+Laptop drive types,2.5-inch (7 mm or 9.5 mm thick) or M.2,core1 part11 laptop_hardware
+Where does a laptop Wi-Fi card connect?,M.2 slot (older laptops: mini PCIe),core1 part11 laptop_hardware
+How many antenna leads does a Wi-Fi card usually have?,"Usually two, often marked main and aux",core1 part11 laptop_hardware
+Where do laptop Wi-Fi antenna wires run?,Through the hinge up into the screen bezel,core1 part11 laptop_hardware
+Weak Wi-Fi after replacing the Wi-Fi card,Antenna leads were not reconnected,core1 part11 laptop_hardware
+Biometrics examples,"Fingerprint reader, facial recognition",core1 part11 laptop_hardware
+First steps before opening a laptop,"Shut down, unplug charger, disconnect battery, ESD strap",core1 part11 laptop_hardware
+Laptop battery types,"Lithium-ion, lithium-polymer",core1 part11 laptop_hardware
+Some thin laptops have RAM that is...,Soldered to the board and cannot be upgraded,core1 part11 laptop_hardware
+USB-C pins and shape,"24 pins, reversible",core1 part11 connections
+Lightning pin count,"8 pins, reversible, Apple",core1 part11 connections
+miniUSB and microUSB pin count,"5 pins, not reversible",core1 part11 connections
+NFC range,About 4 cm,core1 part11 connections
+Bluetooth range,About 10 m,core1 part11 connections
+Tethering is,Sharing a phone's internet with other devices,core1 part11 connections
+Docking station vs port replicator,Dock adds ports charging and extras. Port replicator only repeats the laptop's own ports,core1 part11 accessories
+A track point is,The pointing stick between the G H and B keys,core1 part11 accessories
+A stylus is,A pen for writing or drawing on a touch screen,core1 part11 accessories
+SIM stands for,Subscriber Identity Module,core1 part11 cellular
+nano-SIM size,12.3 x 8.8 mm,core1 part11 cellular
+eSIM is,Built into the phone and set up by QR code or profile,core1 part11 cellular
+3G 4G 5G are,Generations of cellular data each faster than the last,core1 part11 cellular
+Bluetooth pairing steps,"Enable Bluetooth, enable pairing, find device, enter PIN, test connectivity",core1 part11 bluetooth
+Headset not found in Bluetooth list: why?,It is not in pairing mode,core1 part11 bluetooth
+Most accurate location method,GPS (satellites),core1 part11 location
+Location method that works indoors using towers,Cellular location,core1 part11 location
+MDM stands for,Mobile Device Management,core1 part11 mdm
+BYOD stands for,Bring Your Own Device,core1 part11 mdm
+MDM policy examples,"Passcode, encryption, remote lock, remote wipe",core1 part11 mdm
+What to watch when syncing on cellular,Data caps,core1 part11 sync
+Items that sync on a phone,"Calendar, contacts, mail, cloud storage",core1 part11 sync

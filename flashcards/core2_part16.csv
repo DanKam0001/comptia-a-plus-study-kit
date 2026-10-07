@@ -1,0 +1,30 @@
+Front,Back,Tags
+What is a script?,A text file of commands that run in order,core2 part16 scripting
+.bat is,Windows batch file,core2 part16 scripting
+.ps1 is,PowerShell script,core2 part16 scripting
+.vbs is,VBScript (older Windows),core2 part16 scripting
+.sh is,Shell script (Linux and macOS),core2 part16 scripting
+.js is,JavaScript,core2 part16 scripting
+.py is,Python,core2 part16 scripting
+Seven use cases of scripting,"Basic automation, restarting machines, remapping network drives, installing apps, automated backups, gathering information, initiating updates",core2 part16 scripting
+Three risks of scripts,"Unintentionally introducing malware, inadvertently changing system settings, crashes from mishandling resources",core2 part16 scripting
+RDP stands for / port,Remote Desktop Protocol / 3389,core2 part16 remote_access
+VNC stands for / port,Virtual Network Computing / 5900,core2 part16 remote_access
+SSH stands for / port,Secure Shell / 22,core2 part16 remote_access
+WinRM stands for / ports,"Windows Remote Management / 5985 (HTTP), 5986 (HTTPS)",core2 part16 remote_access
+What does a VPN do?,Builds an encrypted tunnel into a network,core2 part16 remote_access
+What is RMM?,Remote Monitoring and Management: many computers from one console,core2 part16 remote_access
+What is SPICE?,Simple Protocol for Independent Computing Environments: remote display for virtual machines,core2 part16 remote_access
+Secure command line on a remote server,SSH,core2 part16 remote_access
+Remote Windows desktop,RDP,core2 part16 remote_access
+Safest way to offer RDP,Behind a VPN and never open to the internet,core2 part16 remote_access
+Third-party remote tools,"Screen-sharing, videoconferencing, file transfer and desktop management software",core2 part16 remote_access
+Security rules for remote access,"Permission, strong passwords and MFA, updates, encryption, end the session when done",core2 part16 remote_access
+What is application integration?,AI built into everyday apps,core2 part16 ai
+Two AI policy points,Appropriate use and plagiarism,core2 part16 ai
+What is a hallucination?,When an AI confidently makes something up,core2 part16 ai
+What is AI bias?,Unfair leanings the AI picked up from its training data,core2 part16 ai
+Three AI limitations,"Bias, hallucinations, accuracy",core2 part16 ai
+Public AI vs private AI,Public is open to everyone and outside your control. Private runs inside the company,core2 part16 ai
+Three data concerns with AI,"Data security, data source, data privacy",core2 part16 ai
+Never paste into a public AI,Private or customer data,core2 part16 ai

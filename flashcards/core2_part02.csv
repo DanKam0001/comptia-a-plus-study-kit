@@ -1,0 +1,35 @@
+Front,Back,Tags
+Open Task Manager with the keyboard,Ctrl + Shift + Esc,core2 part02 task_manager
+The five Task Manager tabs on the objectives,"Processes, Performance, Users, Startup, Services",core2 part02 task_manager
+Close a frozen program from Task Manager,"Processes tab, select it, End task",core2 part02 task_manager
+Where to stop a program launching at sign in,"Task Manager, Startup tab",core2 part02 task_manager
+MMC stands for,Microsoft Management Console. A frame that holds tools called snap-ins,core2 part02 mmc
+How to open any snap-in by name,"Windows key + R, type the file name, Enter",core2 part02 mmc
+Event Viewer file name,eventvwr.msc,core2 part02 mmc
+Event Viewer's three main logs,"Application (program errors), System (Windows and drivers), Security (sign ins)",core2 part02 mmc
+Disk Management file name and job,"diskmgmt.msc. Initialize, create and format volumes, change drive letters",core2 part02 mmc
+Task Scheduler file name,taskschd.msc,core2 part02 mmc
+Device Manager file name,devmgmt.msc,core2 part02 mmc
+Yellow triangle in Device Manager means,A driver problem,core2 part02 mmc
+Certificate Manager file name,certmgr.msc,core2 part02 mmc
+Local Users and Groups file name,lusrmgr.msc (not in Home),core2 part02 mmc
+Performance Monitor file name,perfmon.msc,core2 part02 mmc
+Group Policy Editor file name,gpedit.msc (not in Home),core2 part02 mmc
+Snap-ins missing from Windows Home,Group Policy Editor and Local Users and Groups,core2 part02 mmc
+System Information file name,msinfo32.exe,core2 part02 tools
+Resource Monitor file name,resmon.exe,core2 part02 tools
+System Configuration file name,msconfig.exe,core2 part02 tools
+Disk Cleanup file name,cleanmgr.exe,core2 part02 tools
+Disk Defragment file name,dfrgui.exe,core2 part02 tools
+Defragment an SSD?,No. Windows only optimizes it (TRIM). Defragment is for hard drives,core2 part02 tools
+Registry Editor file name,regedit.exe,core2 part02 tools
+Before editing the registry,"Back it up (File, Export)",core2 part02 tools
+Sleep vs hibernate,Sleep keeps work in RAM and wakes fast. Hibernate saves to the drive and powers off fully,core2 part02 power
+The three standard power plans,"Balanced (default), Power saver, High performance",core2 part02 power
+Fast startup does,A shutdown saves the kernel to disk so the next boot is quicker,core2 part02 power
+USB selective suspend does,Powers down idle USB ports to save energy,core2 part02 power
+Show file extensions: where,"File Explorer Options, View tab, untick Hide extensions for known file types",core2 part02 settings
+Open the Settings app with the keyboard,Windows key + I,core2 part02 settings
+Settings categories on the objectives,"System, Devices, Network and Internet, Personalization, Apps, Accounts, Time and Language, Gaming, Ease of Access, Privacy, Update and Security",core2 part02 settings
+Control Panel item that uninstalls software,Programs and Features,core2 part02 settings
+Control Panel item that controls what search covers,Indexing Options,core2 part02 settings

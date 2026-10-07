@@ -1,0 +1,31 @@
+Front,Back,Tags
+Router vs switch,Router joins networks. Switch connects devices inside one network,core1 part09 devices
+Managed vs unmanaged switch,Managed = configurable (VLANs). Unmanaged = plug and play,core1 part09 devices
+Cable modem connects over,Coaxial cable (cable TV network),core1 part09 devices
+DSL connects over,Telephone line (RJ11),core1 part09 devices
+ONT stands for and does,Optical Network Terminal. Turns fiber light into Ethernet,core1 part09 devices
+MAC address size and format,"48 bits, 12 hex characters. First half maker, second half unique",core1 part09 devices
+What does a switch use to forward data?,MAC addresses,core1 part09 devices
+PoE standard 802.3af (PoE): power?,up to 15.4 W,core1 part09 poe
+PoE standard 802.3at (PoE+): power?,up to 30 W,core1 part09 poe
+PoE standard 802.3bt Type 3: power?,up to 60 W,core1 part09 poe
+PoE standard 802.3bt Type 4: power?,up to 90 W,core1 part09 poe
+Two ways to supply PoE,"PoE switch, or PoE injector",core1 part09 poe
+What is Fastest usual home connection?,Fiber,core1 part09 connections_and_network_types
+Which connection has high latency?,Satellite,core1 part09 connections_and_network_types
+Which connection depends on a clear line of sight to a tower?,WISP,core1 part09 connections_and_network_types
+What is Cable internet is shared with?,Neighbors,core1 part09 connections_and_network_types
+What is DSL speed depends on?,Distance from the provider's equipment,core1 part09 connections_and_network_types
+What is PAN?,"Personal Area Network, a few meters",core1 part09 connections_and_network_types
+What is LAN / WLAN?,Local Area Network / Wireless LAN,core1 part09 connections_and_network_types
+What is MAN?,"Metropolitan Area Network, a city",core1 part09 connections_and_network_types
+What is WAN?,"Wide Area Network, the internet is one",core1 part09 connections_and_network_types
+What is SAN?,"Storage Area Network, servers to storage",core1 part09 connections_and_network_types
+What does a crimper do?,Attach an RJ45 plug,core1 part09 tools
+What does a cable stripper do?,Remove the outer jacket,core1 part09 tools
+What does a punchdown tool do?,Seat wires in a punchdown block or patch panel,core1 part09 tools
+What does a toner probe do?,Find a cable by tone,core1 part09 tools
+What does a cable tester do?,Check each wire,core1 part09 tools
+What does a loopback plug do?,Test a port,core1 part09 tools
+What does a network tap do?,Copy traffic for inspection,core1 part09 tools
+What does a wi-fi analyzer do?,Channels and signal strength,core1 part09 tools

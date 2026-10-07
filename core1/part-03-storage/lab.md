@@ -1,52 +1,63 @@
 # Lab: Inspect your own storage (Windows)
 
-**Time:** 10 minutes. **Needs:** any Windows PC. Everything here is read-only. Don't change partitions.
+**Time:** 10 to 15 minutes. **Needs:** any Windows PC. Everything here is read-only.
 
-## 1. What drives do you have?
+Goal: find out what kind of drive your PC has and how it connects.
+
+## 1. HDD or SSD? SATA or NVMe?
 
 Open PowerShell and run:
 
 ```powershell
-Get-PhysicalDisk | Select-Object FriendlyName, MediaType, BusType, @{n='GB';e={[math]::Round($_.Size/1GB)}}, HealthStatus
+Get-PhysicalDisk | Select-Object FriendlyName, MediaType, BusType, Size
 ```
 
-| Column | What to look for |
-|---|---|
-| `MediaType` | SSD or HDD |
-| `BusType` | SATA or NVMe (or USB for external drives) |
-| `HealthStatus` | Healthy is what you want to see |
+- `MediaType`: HDD or SSD.
+- `BusType`: SATA, NVMe, SAS or USB. That is the interface from the cheat sheet.
 
-Search each `FriendlyName` online to find its form factor (2.5-inch, 3.5-inch, M.2) and, for HDDs, its RPM.
+## 2. Check the form factor
 
-## 2. See the same thing in the GUI
+Search the `FriendlyName` online. Is it 2.5-inch, 3.5-inch or M.2? If M.2, note the size (such as 2280).
 
-- **Task Manager > Performance > Disk** shows each drive's type (SSD or HDD) and activity.
-- **Win + R > `diskmgmt.msc`** shows partitions. Look only; don't change anything.
+## 3. Find the drive's speed in practice
 
-## 3. Work out RAID capacities (paper exercise)
+Open **Task Manager > Performance** and click your disk. Note the **Type** and **Active time**. Copy a large file and watch the transfer rate.
 
-Four identical **2 TB** drives. How much usable space in each level?
+## 4. Look at your volumes
 
-| Level | Usable capacity | Survives |
-|---|---|---|
-| RAID 0 | 8 TB | nothing |
-| RAID 1 (uses exactly 2 of the drives) | 2 TB | 1 drive |
-| RAID 5 | 6 TB | 1 drive |
-| RAID 6 | 4 TB | 2 drives |
-| RAID 10 | 4 TB | 1 per mirrored pair |
+```powershell
+Get-Volume | Select-Object DriveLetter, FileSystemLabel, Size, SizeRemaining
+```
 
-Cover the table and work them out yourself first.
+## 5. Paper RAID practice
 
-## 4. Write it up
+You have four 2 TB drives. Fill in this table from memory, then check the cheat sheet:
 
 ```
-Drive 1: type (SSD/HDD), bus (SATA/NVMe), size, health
-Drive 2: ...
-Which one boots Windows?
-Would swapping an HDD for an SSD help here? Why?
+RAID 0 usable capacity / survives:
+RAID 1 (two drives) usable capacity / survives:
+RAID 5 usable capacity / survives:
+RAID 6 usable capacity / survives:
+RAID 10 usable capacity / survives:
+```
+
+(Answers: 8 TB / none; 2 TB / 1; 6 TB / 1; 4 TB / 2; 4 TB / 1 per mirrored pair.)
+
+## 6. Write it up
+
+```
+Drive type (HDD or SSD):
+Interface (SATA / NVMe):
+Form factor:
+Size:
 ```
 
 ## Check yourself
 
-- Your PC has an M.2 slot and the manual says "PCIe x4 only". Would a SATA M.2 drive work? (No. Check the slot type.)
-- A friend says "I have RAID 1, so I don't need backups." What do you tell them? (It doesn't protect against deletion, malware, fire or controller failure.)
+- Why would you swap this PC's HDD for an SSD, or not need to?
+- A new M.2 drive is not detected. What do you check first?
+- Which RAID level would you pick to survive two failures?
+
+## Going further (optional)
+
+If you have a spare desktop, powered off and unplugged, find the SATA ports, the M.2 slot and the screw or latch that holds an M.2 stick. Look for the key notch. Do not remove anything you do not plan to put back.

@@ -1,0 +1,21 @@
+Front,Back,Tags
+BSOD stands for,Blue Screen of Death,core2 part12 general
+First thing to note on a BSOD,The stop code,core2 part12 general
+BSOD right after a driver update,"Safe mode, roll back the driver",core2 part12 general
+Where are crash dump files saved?,C:\Windows\Minidump,core2 part12 general
+Safe mode loads,Only the basic drivers,core2 part12 general
+Windows opens its recovery environment,Automatically after failed starts,core2 part12 general
+Three bootrec switches,"/fixmbr, /fixboot, /rebuildbcd",core2 part12 general
+Command that repairs system files,sfc /scannow,core2 part12 general
+"""Operating system not found"" first checks","USB/disc removed, boot order, drive detected",core2 part12 general
+Causes of frequent shutdowns,"Overheating, failing power supply, bad RAM",core2 part12 general
+"Tool to see what's using CPU, memory, disk",Task Manager,core2 part12 general
+Tool to read the errors log,Event Viewer (eventvwr.msc),core2 part12 general
+Tool to manage services,services.msc,core2 part12 general
+Why a service fails to start,"A dependency isn't running, wrong startup type or account",core2 part12 general
+Low memory fix,"Close programs, restart, add RAM",core2 part12 general
+USB controller resource warning fix,"Fewer devices, powered hub, update drivers",core2 part12 general
+Slow profile load causes,"Large or corrupt profile, slow network profile server",core2 part12 general
+Time resets every time PC is unplugged,Dead CMOS battery,core2 part12 general
+Domain sign-in clock tolerance (Kerberos),Within 5 minutes by default,core2 part12 general
+Command to resync the clock,w32tm /resync,core2 part12 general

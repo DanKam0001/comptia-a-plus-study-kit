@@ -1,0 +1,31 @@
+Front,Back,Tags
+Who keeps the accounts in a workgroup,Each computer separately,core2 part04 domain
+Who keeps the accounts in a domain,"A central server (domain controller, Active Directory)",core2 part04 domain
+Which Windows edition cannot join a domain,Windows Home,core2 part04 domain
+How settings reach domain PCs,Group Policy,core2 part04 domain
+Default workgroup name,WORKGROUP,core2 part04 domain
+Network path format,\\server\share,core2 part04 shares
+Map a network drive: where,"File Explorer, This PC, Map network drive",core2 part04 shares
+Keep a mapped drive after restart,Tick Reconnect at sign-in,core2 part04 shares
+Map a drive from the command line,net use Z: \\server\share,core2 part04 shares
+Windows Defender Firewall default behaviour,Inbound blocked unless allowed. Outbound allowed,core2 part04 firewall
+Let one program through the firewall,Allow an app or feature through Windows Defender Firewall (an exception),core2 part04 firewall
+Where to make rules for a program or port,Advanced settings (wf.msc): inbound and outbound rules,core2 part04 firewall
+The three firewall profiles,"Domain, Private, Public",core2 part04 firewall
+The four client network settings,"IP address, subnet mask, default gateway, DNS server",core2 part04 ip
+IP address in everyday words,The computer's own address (house number),core2 part04 ip
+Subnet mask in everyday words,Which addresses are on the same local network (the street),core2 part04 ip
+Default gateway in everyday words,The router: the exit from the local network,core2 part04 ip
+DNS server in everyday words,Turns names into IP addresses (the phone book),core2 part04 ip
+Dynamic addressing means,A DHCP server assigns the settings automatically,core2 part04 ip
+Static addressing means,Typed in by hand. Used for printers and servers,core2 part04 ip
+Open the adapter IPv4 settings,"Network and Sharing Center, Change adapter settings, Properties, Internet Protocol Version 4",core2 part04 ip
+WWAN stands for,Wireless Wide Area Network: a cellular connection (SIM or eSIM),core2 part04 connections
+VPN is,An encrypted tunnel to another network,core2 part04 connections
+Where to add a VPN in Windows,"Settings, Network and Internet, VPN, Add VPN",core2 part04 connections
+A proxy is,A middleman server that web traffic passes through,core2 part04 proxy
+Proxy options in Windows,"Automatically detect, use setup script, manual (address and port)",core2 part04 proxy
+Private network,"Trusted: sharing allowed, computer discoverable",core2 part04 profiles
+Public network,"Untrusted: computer hidden, sharing blocked",core2 part04 profiles
+Which profile at a coffee shop,Public,core2 part04 profiles
+Metered connection does,Limits background data such as large updates,core2 part04 profiles

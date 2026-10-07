@@ -1,0 +1,31 @@
+Front,Back,Tags
+"Black screen or ""No signal"": check first","The input source, then the cable",core1 part14 displays_and_projectors
+"Fuzzy, stretched or distorted image: fix",Set the native resolution,core1 part14 displays_and_projectors
+Dead pixel: can it be fixed?,Usually not. Replace the screen if there are many,core1 part14 displays_and_projectors
+Burn-in affects mostly,OLED screens (a static image left too long),core1 part14 displays_and_projectors
+"Projector shuts off, then works after resting",Overheating. Clean the filters and vents,core1 part14 displays_and_projectors
+"Projector gives no picture, lamp-hours counter is high",Burnt-out bulb. Replace the lamp (let it cool first),core1 part14 displays_and_projectors
+"LCD very dim, picture is faintly visible",Failing backlight or inverter,core1 part14 displays_and_projectors
+No sound over a video cable,"VGA and DVI carry no audio. Use HDMI or DisplayPort, or check the output device",core1 part14 displays_and_projectors
+Wrong colors on a VGA screen,Loose cable or bent pins,core1 part14 displays_and_projectors
+Swollen battery: what do you do?,"Stop using it, do not charge it, do not puncture it, replace it safely and recycle it. Fire risk",core1 part14 mobile_devices
+Touch does not respond but the picture is fine,Digitizer fault,core1 part14 mobile_devices
+Touches land in the wrong place,"Restart, remove the screen protector, recalibrate touch",core1 part14 mobile_devices
+Phone gets wet,"Power off, do not charge, repair",core1 part14 mobile_devices
+Slow charging or not charging,"Try another cable and charger, clean or repair the port",core1 part14 mobile_devices
+Cannot install new apps,"No free storage, or an outdated OS",core1 part14 mobile_devices
+"Pop-ups, heat, fast battery drain, unknown apps","Malware. Remove the apps, scan",core1 part14 mobile_devices
+No connectivity: first checks,"Airplane mode, toggle Wi-Fi or Bluetooth, reset network settings",core1 part14 mobile_devices
+Stylus stops working,"Charge or replace its battery, re-pair, replace the tip",core1 part14 mobile_devices
+Line down every laser page,Dirty or damaged drum or toner cartridge,core1 part14 printers
+Line down inkjet pages,Clogged print head. Run the cleaning cycle,core1 part14 printers
+Echo or ghost images,Worn drum or the fuser,core1 part14 printers
+Speckling,"Stray toner, leaking cartridge",core1 part14 printers
+Faded print,Low toner or ink,core1 part14 printers
+Garbled print,Wrong or damaged driver,core1 part14 printers
+Paper not feeding,Worn or dirty pickup roller,core1 part14 printers
+Several sheets feed at once,"Damp paper, worn separation pad. Fan the paper",core1 part14 printers
+Grinding noise,Broken gear or foreign object. Stop and inspect,core1 part14 printers
+"Prints stuck pending, frozen queue","Clear the queue, restart the Print Spooler service",core1 part14 printers
+Wrong orientation,Portrait or landscape setting,core1 part14 printers
+Staple jam or punch problems,"Clear the jam, load staples, empty the punch bin",core1 part14 printers

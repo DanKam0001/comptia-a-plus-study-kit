@@ -1,29 +1,29 @@
-# Exam check: RAM: Form Factors, DDR, ECC and Channels
+# Exam check: RAM
 
 Cover the answers and try each one out loud first.
 
-**1.** A laptop has a DDR4 slot. Which stick fits?
-<details><summary>Answer</summary>A DDR4 SODIMM.</details>
+**1.** A customer buys new memory for their laptop, but the stick is far too long for the slot. What did they most likely buy?
+<details><summary>Answer</summary>A DIMM (the full size desktop stick). Laptops use the short SODIMM, which is about half the length and has a different pin count.</details>
 
-**2.** A user installs two matching sticks, but benchmarks show single-channel speed. Most likely cause?
-<details><summary>Answer</summary>They're in the wrong slots. Use the pair the manual designates for dual channel.</details>
+**2.** A user adds a second memory stick, but sees no speed boost at all. What is the most likely cause?
+<details><summary>Answer</summary>The sticks are not in the slot pair the motherboard manual names, so the PC runs in single channel instead of dual channel.</details>
 
-**3.** Which memory corrects single-bit errors, and what must support it?
-<details><summary>Answer</summary>ECC, and both the processor and the motherboard must support it.</details>
+**3.** A server keeps crashing because of silent errors in its memory. Which memory fixes this?
+<details><summary>Answer</summary>ECC memory, on a motherboard and processor that both support it. It detects and corrects flipped bits.</details>
 
 ## More practice (written for this kit)
 
-**4.** How many pins does a DDR4 DIMM have, and a DDR4 SODIMM?
-<details><summary>Answer</summary>288 for the DIMM and 260 for the SODIMM.</details>
+**4.** Which DDR generation runs at 1.1 V and starts at 4800 MT/s?
+<details><summary>Answer</summary>DDR5.</details>
 
-**5.** A module label reads PC4-25600. Which DDR4 speed rating is that?
-<details><summary>Answer</summary>DDR4-3200 (3200 x 8 = 25,600 MB/s).</details>
+**5.** What is the PC rating of DDR4-3200 memory?
+<details><summary>Answer</summary>PC4-25600 (3200 x 8).</details>
 
-**6.** Two modules rated DDR4-2400 and DDR4-3200 are installed together. At what speed do they run?
-<details><summary>Answer</summary>Both run at the slower module's speed (2400).</details>
+**6.** A DDR4 stick will not go into a DDR5 slot. Why, and should you force it?
+<details><summary>Answer</summary>The notch is in a different place, so the generations do not fit each other. Never force it.</details>
 
-**7.** Can a DDR5 stick be installed in a DDR4 slot?
-<details><summary>Answer</summary>No. The generations aren't interchangeable (different notch position, voltage and design).</details>
+**7.** A PC has one 3200 MT/s stick and one 2666 MT/s stick. At what speed do they run?
+<details><summary>Answer</summary>Both run at the slowest speed, 2666 MT/s.</details>
 
-**8.** How wide is the data path of ECC memory vs non-ECC?
-<details><summary>Answer</summary>72 bits vs 64 bits.</details>
+**8.** How many pins does a DDR4 SODIMM have?
+<details><summary>Answer</summary>260 (a DDR4 DIMM has 288).</details>

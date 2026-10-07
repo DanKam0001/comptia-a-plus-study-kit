@@ -1,19 +1,30 @@
 Front,Back,Tags
-DIMM vs SODIMM: where each is used,"DIMM: desktops and servers (full size). SODIMM: laptops, mini PCs, all-in-ones (about half the length)",core1 part02 form_factors
-DDR3 DIMM / SODIMM pin counts,240 / 204,core1 part02 form_factors
-DDR4 DIMM / SODIMM pin counts,288 / 260,core1 part02 form_factors
-DDR5 DIMM / SODIMM pin counts,288 / 262,core1 part02 form_factors
-"Are DDR3, DDR4 and DDR5 interchangeable?","No. Different notch position, voltage and design",core1 part02 ddr_generations
-DDR3 voltage,1.5 V (1.35 V low-voltage variant),core1 part02 ddr_generations
-DDR4 voltage,1.2 V,core1 part02 ddr_generations
-DDR5 voltage,1.1 V,core1 part02 ddr_generations
-DDR5 starting speed,4800 MT/s,core1 part02 ddr_generations
-PC4-25600 equals which DDR4 speed?,"DDR4-3200 (3200 x 8 = 25,600 MB/s peak bandwidth)",core1 part02 module_labels
-How do you get the PC rating from a DDR speed?,Multiply MT/s by 8 bytes,core1 part02 module_labels
-Modules of different speeds installed together run at,The speed of the slowest module,core1 part02 module_labels
-What ECC does,Detects and corrects single-bit errors,core1 part02 ecc
-ECC module width vs non-ECC,72 bits vs 64 bits,core1 part02 ecc
-What must support ECC,Both the CPU and the motherboard,core1 part02 ecc
-Single vs dual channel data path width,64-bit vs 128-bit,core1 part02 channels
-Dual channel install rule,Matching modules in the slot pair the manual designates (often the same color),core1 part02 channels
-Triple and quad channel are found on,Workstations and servers,core1 part02 channels
+DIMM is used in,Desktops and servers (full size),core1 part02 ram
+SODIMM is used in,"Laptops, mini PCs, all-in-ones (about half the length of a DIMM)",core1 part02 ram
+DDR3 pins: DIMM / SODIMM,240 / 204,core1 part02 ram
+DDR4 pins: DIMM / SODIMM,288 / 260,core1 part02 ram
+DDR5 pins: DIMM / SODIMM,288 / 262,core1 part02 ram
+DDR stands for,Double Data Rate,core1 part02 ram
+DDR3 voltage,1.5 V (DDR3L = 1.35 V),core1 part02 ram
+DDR4 voltage,1.2 V,core1 part02 ram
+DDR5 voltage,1.1 V,core1 part02 ram
+DDR5 starting speed,4800 MT/s,core1 part02 ram
+"Can DDR3, DDR4 and DDR5 be mixed in one slot?","No. Different notch position, voltage and design. Never force a stick",core1 part02 ram
+What decides which DDR generation you need?,The motherboard slot (and CPU support),core1 part02 ram
+PC rating from DDR speed,DDR speed x 8,core1 part02 ram
+DDR4-3200 is also called,"PC4-25600 (25,600 MB/s peak)",core1 part02 ram
+Sticks of different speeds in one PC,All run at the slowest stick's speed,core1 part02 ram
+ECC stands for,Error-Correcting Code,core1 part02 ram
+ECC width vs non-ECC,72 bits vs 64 bits,core1 part02 ram
+What does ECC fix?,Single-bit errors (detects and corrects them),core1 part02 ram
+What must support ECC?,Both the CPU and the motherboard,core1 part02 ram
+ECC is used in,Servers and workstations,core1 part02 ram
+Single channel vs dual channel path width,64-bit vs 128-bit,core1 part02 ram
+Channel counts above dual,Triple and quad channel (workstations and servers),core1 part02 ram
+How do you get dual channel?,Matching sticks in the slot pair the motherboard manual names,core1 part02 ram
+"Two sticks, wrong slots: what happens?","It works, but in single channel (slower)",core1 part02 ram
+Volatile means,Contents are lost when power is off. RAM is volatile,core1 part02 ram
+Second stick gave no speed boost: likely cause,"Wrong slots, running single channel",core1 part02 ram
+Laptop memory too long for the slot,A desktop DIMM was bought; laptops need SODIMM,core1 part02 ram
+Server crashes from silent data errors,Use ECC memory on a supporting CPU and board,core1 part02 ram
+"Before buying RAM, check","Generation, form factor, ECC support, max capacity and speed, free slots",core1 part02 ram

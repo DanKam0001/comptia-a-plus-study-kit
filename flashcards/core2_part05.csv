@@ -1,0 +1,41 @@
+Front,Back,Tags
+Finder is the Mac's,File Explorer,core2 part05 macos
+Dock is the Mac's,Taskbar,core2 part05 macos
+Spotlight shortcut,Command + Space,core2 part05 macos
+Mission Control shows,All open windows and desktops at once,core2 part05 macos
+Keychain is,The Mac's built in password manager,core2 part05 macos
+iCloud includes,"iCloud Drive, iMessage, FaceTime",core2 part05 macos
+Continuity does,Makes a Mac and an iPhone work together,core2 part05 macos
+Force Quit shortcut,Option + Command + Esc,core2 part05 macos
+Mac backup tool,Time Machine (automatic backup to an external drive),core2 part05 macos
+Mac drive encryption,FileVault,core2 part05 macos
+Mac tool to check or erase a drive,Disk Utility (First Aid),core2 part05 macos
+Mac command line,Terminal,core2 part05 macos
+.dmg and how to install from it,Disk image: open it and drag the app to Applications,core2 part05 macos
+.pkg is,Installer package (runs a wizard),core2 part05 macos
+.app is,The application itself,core2 part05 macos
+Uninstall a Mac app,"Drag it to the Trash, then empty the Trash",core2 part05 macos
+/Applications on a Mac,Installed apps,core2 part05 macos
+/Users on a Mac,Each person's home folder,core2 part05 macos
+/Library on a Mac,Settings and support files for all users,core2 part05 macos
+/System on a Mac,macOS itself (protected),core2 part05 macos
+RSR stands for,Rapid Security Response: small urgent security fixes,core2 part05 macos
+ls / pwd,List a folder / print working directory,core2 part05 linux_files
+mv / cp / rm,Move or rename / copy / remove (no recycle bin),core2 part05 linux_files
+chmod and chown,Change permissions / change owner,core2 part05 linux_files
+chmod numbers,read 4 + write 2 + execute 1. 755 = rwx r-x r-x. 644 = rw- r-- r--,core2 part05 linux_files
+grep / find,Search inside files / search for files,core2 part05 linux_files
+fsck / mount,Check a filesystem / attach a drive,core2 part05 linux_system
+su / sudo,Switch user / run one command as root,core2 part05 linux_system
+apt / dnf,Package managers: Debian and Ubuntu / Fedora and Red Hat,core2 part05 linux_system
+ip / ping / curl / dig / traceroute,"Show addresses / test a host / fetch a web page or file / DNS lookup / show hops",core2 part05 linux_network
+top / ps,Live process list (like Task Manager) / list processes,core2 part05 linux_info
+du / df,Disk usage of folders / free space on drives,core2 part05 linux_info
+nano,Terminal text editor (Ctrl + O save and Ctrl + X exit),core2 part05 linux_system
+/etc/passwd,User accounts,core2 part05 linux_config
+/etc/shadow,Hashed passwords (root only),core2 part05 linux_config
+/etc/hosts,Name to address map,core2 part05 linux_config
+/etc/fstab,Drives to mount at startup,core2 part05 linux_config
+/etc/resolv.conf,DNS servers,core2 part05 linux_config
+Kernel / bootloader / systemd,Core that talks to hardware / starts the kernel / starts services,core2 part05 linux_system
+Root account,The all powerful administrator on Linux. Use sudo instead of signing in as root,core2 part05 linux_system

@@ -1,0 +1,28 @@
+Front,Back,Tags
+What uses port 20-21?,FTP (TCP),core1 part07 port_to_protocol
+What uses port 22?,SSH (TCP),core1 part07 port_to_protocol
+What uses port 23?,Telnet (TCP),core1 part07 port_to_protocol
+What uses port 25?,SMTP (TCP),core1 part07 port_to_protocol
+What uses port 53?,DNS (UDP and TCP),core1 part07 port_to_protocol
+What uses port 67/68?,DHCP (UDP),core1 part07 port_to_protocol
+What uses port 80?,HTTP (TCP),core1 part07 port_to_protocol
+What uses port 110?,POP3 (TCP),core1 part07 port_to_protocol
+What uses port 137-139?,NetBIOS / NetBT (UDP and TCP),core1 part07 port_to_protocol
+What uses port 143?,IMAP (TCP),core1 part07 port_to_protocol
+What uses port 389?,LDAP (TCP (UDP also used)),core1 part07 port_to_protocol
+What uses port 443?,HTTPS (TCP),core1 part07 port_to_protocol
+What uses port 445?,SMB / CIFS (TCP),core1 part07 port_to_protocol
+What uses port 3389?,RDP (TCP (UDP also used)),core1 part07 port_to_protocol
+Port number range,0 to 65535. Well known ports 0 to 1023,core1 part07 rules_and_tricks
+TCP in one line,"Connection first, checks delivery, resends. Reliable",core1 part07 rules_and_tricks
+UDP in one line,"No connection, no resending. Fast",core1 part07 rules_and_tricks
+Which carries live video and voice?,UDP,core1 part07 rules_and_tricks
+Secure replacement for Telnet,SSH (22). Telnet is 23,core1 part07 rules_and_tricks
+Secure version of HTTP,HTTPS (443),core1 part07 rules_and_tricks
+Which mail protocol sends?,SMTP (25),core1 part07 rules_and_tricks
+POP3 vs IMAP,"POP3 (110) downloads to one device. IMAP (143) keeps mail on the server, synced",core1 part07 rules_and_tricks
+DHCP ports,"67 server, 68 client (server first)",core1 part07 rules_and_tricks
+LDAP vs RDP,LDAP 389 = directory. RDP 3389 = remote desktop,core1 part07 rules_and_tricks
+FTP data and command ports,"20 data, 21 commands. No encryption",core1 part07 rules_and_tricks
+SMB and CIFS,"Same port, 445",core1 part07 rules_and_tricks
+NetBIOS ports,"137, 138, 139",core1 part07 rules_and_tricks

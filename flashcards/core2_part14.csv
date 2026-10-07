@@ -1,0 +1,30 @@
+Front,Back,Tags
+Fields in a good ticket,"User info, device info, description, category, severity, escalation level",core2 part14 documentation
+Three parts of good written notes,"Issue description, progress notes, issue resolution",core2 part14 documentation
+What is escalation?,Passing an issue up to a higher level of support,core2 part14 documentation
+What does CMDB stand for?,Configuration Management Database,core2 part14 documentation
+What is an asset tag for?,A unique ID on a device that matches its record,core2 part14 documentation
+Procurement life cycle in one line,"Buy, use, retire",core2 part14 documentation
+What is an SOP?,Standard Operating Procedure: step by step instructions for a routine job,core2 part14 documentation
+What is an SLA?,Service-Level Agreement: a promise about response and fix times (internal or external),core2 part14 documentation
+Onboarding vs off-boarding checklist,Onboarding sets up a new user. Off-boarding removes a leaver's access and collects equipment,core2 part14 documentation
+What is a knowledge base?,A library of articles on known fixes,core2 part14 documentation
+What is an incident report?,A record of what happened and what was done,core2 part14 documentation
+Three change types,"Standard (routine, pre-approved), normal (full approval), emergency (urgent, still documented)",core2 part14 change_management
+What is a maintenance window?,A planned quiet time for making changes,core2 part14 change_management
+What is a change freeze?,A period when no changes are allowed,core2 part14 change_management
+Safety nets before a change,"Rollback plan, backup plan, sandbox testing, responsible staff",core2 part14 change_management
+Fields on a change request,"Purpose, scope, change type, date and time, affected systems and impact, risk analysis",core2 part14 change_management
+Steps after the change board approves,"Implementation, peer review, end-user acceptance",core2 part14 change_management
+What is sandbox testing?,Trying the change on a safe copy first,core2 part14 change_management
+Full backup,Copies everything. Slowest to take but easiest to restore,core2 part14 backup
+Incremental backup,Copies changes since the last backup of any kind,core2 part14 backup
+Differential backup,Copies changes since the last full backup,core2 part14 backup
+Synthetic full backup,New full built on the backup server from the old full plus later changes,core2 part14 backup
+Restore from incrementals needs,The last full + every incremental since,core2 part14 backup
+Restore from a differential needs,The last full + the latest differential only,core2 part14 backup
+In-place restore vs alternative location,In-place overwrites the original. Alternative puts the files somewhere else,core2 part14 backup
+3-2-1 backup rule,"3 copies, 2 media types, 1 offsite",core2 part14 backup
+GFS rotation,"Grandfather (monthly), father (weekly), son (daily)",core2 part14 backup
+Onsite vs offsite backups,Onsite restores fast. Offsite survives a fire or flood,core2 part14 backup
+Why test backups?,A backup that has never been restored might not work,core2 part14 backup

@@ -1,0 +1,33 @@
+Front,Back,Tags
+"IPS stands for, and is best at",In-Plane Switching: color accuracy and wide viewing angles,core1 part05 displays
+"TN stands for, and is best at","Twisted Nematic: fastest response and lowest cost, but poor viewing angles",core1 part05 displays
+"VA stands for, and is best at","Vertical Alignment: contrast and deep blacks, usually slower response",core1 part05 displays
+Which LCD type fades color from the side?,TN,core1 part05 displays
+Which LCD type has the best viewing angles and color?,IPS,core1 part05 displays
+Typical contrast: IPS vs VA,About 1000:1 vs about 3000:1,core1 part05 displays
+OLED stands for,Organic Light-Emitting Diode,core1 part05 displays
+Does OLED have a backlight?,No. Every pixel makes its own light,core1 part05 displays
+OLED weakness,Burn-in from long static images,core1 part05 displays
+What is Mini-LED?,An LCD whose backlight is thousands of tiny LEDs in local dimming zones,core1 part05 displays
+What does LCD stand for?,Liquid Crystal Display (lit by a backlight),core1 part05 displays
+What is a pixel?,One tiny dot of the picture,core1 part05 displays
+HD resolution,1280 x 720,core1 part05 displays
+Full HD resolution,1920 x 1080,core1 part05 displays
+QHD resolution,2560 x 1440,core1 part05 displays
+4K UHD resolution,3840 x 2160,core1 part05 displays
+8K resolution,7680 x 4320,core1 part05 displays
+Pixel density unit and meaning,PPI: pixels per inch. Same resolution on a smaller screen = higher density,core1 part05 displays
+PPI formula,Diagonal pixels divided by diagonal inches,core1 part05 displays
+Refresh rate unit and meaning,Hertz (Hz): how many times per second the screen redraws,core1 part05 displays
+Common refresh rates,"60 Hz office; 120, 144, 165, 240 Hz gaming",core1 part05 displays
+Refresh rate vs resolution,Refresh rate = smoothness; resolution = sharpness,core1 part05 displays
+Choppy fast action fix,"Higher refresh rate (GPU, cable and settings must support it)",core1 part05 displays
+Color gamut means,The range of colors a screen can show,core1 part05 displays
+Baseline color gamut standard,sRGB,core1 part05 displays
+DCI-P3 vs sRGB,About 25% more colors,core1 part05 displays
+What is a digitizer?,The see-through layer that senses touch and turns it into data,core1 part05 displays
+Capacitive vs resistive touch,"Finger electricity, multi-touch vs pressure, works with gloves or stylus",core1 part05 displays
+Picture fine but touch ignored: suspect,The digitizer,core1 part05 displays
+What does an inverter do?,Powers the fluorescent (CCFL) backlight tube of an older LCD,core1 part05 displays
+Failing inverter symptom,"Very dim or flickering screen, faint picture visible with a flashlight",core1 part05 displays
+Which screens need no inverter?,LED-backlit LCDs and OLED,core1 part05 displays

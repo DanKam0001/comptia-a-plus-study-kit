@@ -1,67 +1,67 @@
 # Memorise list: Power Supplies, Cables and Connectors (Core 1, Part 4)
 
-Understand the video first, then learn these cold. They're the facts a scenario question assumes you already know.
+Understand the video first, then learn these cold.
 Flashcards: [`flashcards/core1_part04.csv`](../../flashcards/core1_part04.csv) (import into Anki or any flashcard app).
-
 
 ## Power supply
 
 | Question | Answer |
 |---|---|
-| PSU input voltage ranges | 110-120 VAC (e.g. North America) vs 220-240 VAC (most other countries) |
-| What happens if the manual voltage switch is wrong | It can destroy the PSU. Check the input before plugging in |
-| PSU output rails | 3.3 V, 5 V, 12 V |
-| Which rail powers the CPU and GPU | 12 V |
-| Main motherboard connector | 20+4 pin (24 pins total) |
-| Modular vs redundant PSU | Modular = detachable cables. Redundant = two supplies in one server chassis |
-| 80 PLUS levels, lowest to highest | Bronze, Silver, Gold, Platinum, Titanium |
+| PSU input voltage ranges | 110-120 VAC and 220-240 VAC |
+| Output rails | 3.3 V, 5 V, 12 V |
+| Which rail powers the CPU and GPU? | 12 V |
+| Wire colors | Orange 3.3 V, red 5 V, yellow 12 V, black ground |
+| Main motherboard connector | 20+4 pin (24 total) |
+| CPU power connector | 4+4 pin (8 pin) |
+| 80 PLUS levels low to high | Bronze, Silver, Gold, Platinum, Titanium |
+| Modular PSU | Detachable cables |
+| Redundant PSU | Two supplies in one chassis (servers) |
+| Wattage rating | Maximum load it can supply |
 
 ## Network cables
 
 | Question | Answer |
 |---|---|
-| Cat 5e / Cat 6 / Cat 6a speeds | 1 Gbps / 1 Gbps (10 Gbps only to about 55 m) / 10 Gbps |
-| Maximum twisted-pair Ethernet segment length | 100 m |
-| UTP vs STP | Unshielded vs shielded twisted pair (shielding resists electromagnetic interference) |
-| Plenum-rated cable is for | Air-handling spaces (fire-resistant, low-smoke jacket) |
-| Direct burial cable is for | Underground runs |
-| Coax connector | F-type (cable TV and broadband) |
-
-## T568A / T568B
-
-| Question | Answer |
-|---|---|
-| T568A vs T568B difference | The green and orange pairs are swapped |
-| Straight-through vs crossover | Same standard on both ends vs T568A on one end and T568B on the other |
+| Cat 5e / Cat 6 / Cat 6a speed | 1 Gbps / 1 Gbps (10 Gbps up to about 55 m) / 10 Gbps |
+| Max twisted-pair segment | 100 m |
+| UTP vs STP | Unshielded (standard) vs shielded (interference) |
+| Plenum | Fire-resistant low-smoke jacket for ceilings and ducts |
+| Direct burial | Rated for underground |
+| Coax connector | F-type |
+| T568A vs T568B | Green and orange pairs swapped |
+| Straight-through / crossover | Same standard both ends / A on one end, B on the other |
+| T568B pin order | orange-white, orange, green-white, blue, blue-white, green, brown-white, brown |
+| T568A pin order | green-white, green, orange-white, blue, blue-white, orange, brown-white, brown |
 
 ## Fiber
 
 | Question | Answer |
 |---|---|
-| Single-mode vs multimode | Single-mode: ~9 micron core, laser, long distance. Multimode: 50/62.5 micron core, shorter distance |
-| ST / SC / LC connectors | ST = bayonet twist. SC = square push-pull. LC = small with an RJ45-style latch |
+| Single-mode core / light / distance | About 9 micron / laser / long (kilometers) |
+| Multimode core / distance | 50 or 62.5 micron / shorter |
+| ST / SC / LC | Bayonet twist / square push-pull / small latched |
 
-## Peripheral
-
-| Question | Answer |
-|---|---|
-| USB 2.0 / USB 3.0 / Thunderbolt 3 and 4 speed | 480 Mbps / 5 Gbps / 40 Gbps |
-| Serial cable connector | DB-9 (RS-232) |
-
-## Video
+## Peripheral, video and drive cables
 
 | Question | Answer |
 |---|---|
-| VGA | Analog, 15-pin, blue connector |
-| HDMI vs DisplayPort | Both digital video and audio. DisplayPort can drive several monitors from one port |
-| DVI variants | DVI-D digital, DVI-A analog, DVI-I both |
-| USB-C video | Carries video using DisplayPort alternate mode |
+| USB 2.0 / USB 3.0 | 480 Mbps / 5 Gbps |
+| Thunderbolt 3 and 4 | 40 Gbps, USB-C connector |
+| Serial connector | DB-9 (RS-232) |
+| HDMI 2.0 / 2.1 | 18 Gbps / 48 Gbps |
+| DisplayPort 1.4 | 32.4 Gbps |
+| DVI-D / DVI-A / DVI-I | Digital / analog / both |
+| VGA | Analog, 15-pin, blue |
+| USB-C video works via | DisplayPort alternate mode |
+| SATA data cable / power | 7-pin / 15-pin |
+| eSATA | External SATA, data only |
 
 ## Connectors
 
 | Question | Answer |
 |---|---|
-| RJ45 vs RJ11 | RJ45: 8-wire Ethernet. RJ11: smaller telephone connector, fewer wires |
-| Molex | Legacy 4-pin power connector (drives and fans) |
-| Lightning | Apple's reversible connector |
-| Punchdown block | Terminates cable wires, behind a wall, onto a patch panel |
+| RJ45 / RJ11 | 8-pin Ethernet / telephone (fewer wires) |
+| Molex | Legacy 4-pin power (drives, fans) |
+| Lightning | Apple reversible connector |
+| Punchdown block | Terminates wires onto a patch panel |
+| DB-9 | 9-pin serial |

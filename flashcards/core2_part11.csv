@@ -1,0 +1,17 @@
+Front,Back,Tags
+Four physical destruction methods,"Drilling, shredding, degaussing, incineration",core2 part11 general
+Does deleting a file remove the data?,No. It removes the index entry only,core2 part11 general
+Does a standard format (or quick format) remove data?,No. Data stays recoverable,core2 part11 general
+Low-level format does,Overwrites every sector (usually zeros),core2 part11 general
+Erasing / wiping does,Overwrites the whole drive with zeros or random data,core2 part11 general
+Which methods keep the drive usable?,"Wiping, low-level format",core2 part11 general
+Degaussing works on,"Magnetic media only: hard drives, tape",core2 part11 general
+Does degaussing work on an SSD?,No. SSDs use flash chips,core2 part11 general
+Drilling goes through what part?,The platters,core2 part11 general
+Which method is done by a licensed facility?,Incineration,core2 part11 general
+Proof an outside vendor destroyed the drives,Certificate of destruction (or recycling),core2 part11 general
+What should a certificate list?,"Drives (serial numbers), date, method",core2 part11 general
+Safe way to clear an SSD for reuse,Maker's secure erase tool,core2 part11 general
+Wiping is for,"Drives that will be reused, sold or donated",core2 part11 general
+Destruction is for,"Drives never reused, failed drives, or very sensitive data",core2 part11 general
+Where do old electronics go?,An approved e-waste recycler,core2 part11 general

@@ -1,0 +1,37 @@
+Front,Back,Tags
+Virus,Malware that attaches to files and spreads when they run,core2 part09 malware
+Trojan,Malware disguised as useful software,core2 part09 malware
+Rootkit,Malware that hides deep in the OS. Hard to find; may need the recovery environment or a reinstall,core2 part09 malware
+Spyware,Malware that secretly watches what you do,core2 part09 malware
+Ransomware,Malware that locks or encrypts files and demands payment,core2 part09 malware
+Keylogger,Records every key you press to steal passwords,core2 part09 malware
+Boot sector virus,Hides in the part of the drive that starts the PC so it runs before the OS,core2 part09 malware
+Cryptominer,Secretly uses your CPU to mine cryptocurrency. Symptom: slow hot PC,core2 part09 malware
+Stalkerware,Secretly tracks a person through their phone,core2 part09 malware
+Fileless malware,Runs in memory using built-in tools. Leaves no file to scan,core2 part09 malware
+Adware / PUP,Adware = unwanted ads. PUP = potentially unwanted program bundled with free downloads,core2 part09 malware
+EDR / MDR / XDR,Endpoint / Managed / Extended Detection and Response,core2 part09 tools
+What makes MDR different from EDR?,An outside team runs the detection and response for you,core2 part09 tools
+What does XDR add?,Reaches beyond endpoints to email network and cloud,core2 part09 tools
+Email security gateway,Filters dangerous email before it reaches users,core2 part09 tools
+Best defence against social engineering,User education (anti-phishing training),core2 part09 tools
+Last resort when malware will not go,OS reinstallation (back up data first),core2 part09 tools
+Phishing / vishing / smishing,Fake message / by voice call / by SMS text,core2 part09 social_engineering
+Spear phishing vs whaling,Spear = aimed at one person. Whaling = aimed at senior executives,core2 part09 social_engineering
+QR code phishing,A QR code that leads to a fake site,core2 part09 social_engineering
+Shoulder surfing,Watching someone type a password or PIN,core2 part09 social_engineering
+Tailgating,Following someone through a secure door,core2 part09 social_engineering
+Impersonation / dumpster diving,Pretending to be someone trusted / searching the trash for information,core2 part09 social_engineering
+DoS vs DDoS,One source floods a service vs many computers flood it at once,core2 part09 threats
+Evil twin,A fake Wi-Fi network copying a real one,core2 part09 threats
+Zero-day attack,Uses a flaw that has no patch yet,core2 part09 threats
+On-path attack,Attacker sits between two parties and reads or changes traffic (was man-in-the-middle),core2 part09 threats
+Brute force vs dictionary attack,Every possible password vs common words first,core2 part09 threats
+SQL injection / XSS,Database commands typed into a web form / harmful script planted in a website,core2 part09 threats
+BEC,Business email compromise: fake executive email asking for money or data,core2 part09 threats
+Five vulnerabilities in the objectives,"Non-compliant, unpatched, unprotected (no antivirus or firewall), EOL, BYOD",core2 part09 threats
+Malware removal step 1 and 2,Investigate and verify symptoms; quarantine the infected system,core2 part09 removal
+Malware removal steps 3 to 5,Disable System Restore (Windows Home); remediate; update anti-malware,core2 part09 removal
+Malware removal steps 6 to 8,Scan and removal techniques (safe mode or preinstallation environment); reimage or reinstall; schedule scans and run updates,core2 part09 removal
+Malware removal steps 9 and 10,Enable System Restore and create a restore point (Windows Home); educate the end user,core2 part09 removal
+Why quarantine early?,So the malware cannot spread to other devices,core2 part09 removal

@@ -1,0 +1,31 @@
+Front,Back,Tags
+Which control stops tailgating?,Access control vestibule (a two-door room that lets one person in at a time; also called a mantrap),core2 part07 physical
+What do bollards stop?,Vehicles reaching a building,core2 part07 physical
+Ten physical security controls,"Bollards, access control vestibule, badge reader, video surveillance, alarm systems, motion sensors, door locks, equipment locks, security guards, fences",core2 part07 physical
+Equipment locks protect,"Servers, racks and laptops",core2 part07 physical
+Magnetometer,A metal detector (like an airport arch),core2 part07 physical
+Key fob / smart card / mobile digital key,Something you have: a tag / a chip card / a phone that works as a key,core2 part07 physical
+Five biometrics,"Retina, fingerprint, palm print, facial recognition technology (FRT), voice recognition",core2 part07 physical
+Three kinds of authentication factor,"Something you know, something you have, something you are",core2 part07 logical
+Principle of least privilege,Give people only the access their job needs,core2 part07 logical
+Zero Trust model,Trust nobody automatically (even inside the network). Verify every request,core2 part07 logical
+ACL stands for and does,Access Control List: says who may do what with a file or device,core2 part07 logical
+SSO,Single sign-on: sign in once and use many apps,core2 part07 logical
+SAML stands for,Security Assertions Markup Language: passes identity between services for SSO,core2 part07 logical
+Just-in-time access,Powerful rights given only when needed and then removed,core2 part07 logical
+PAM stands for,Privileged access management: controls admin-level accounts,core2 part07 logical
+MDM stands for,Mobile device management,core2 part07 logical
+DLP stands for,Data loss prevention: stops sensitive data leaving the company,core2 part07 logical
+IAM stands for,Identity access management,core2 part07 logical
+Directory services,A central list of users and what they can reach (for example Active Directory),core2 part07 logical
+Seven MFA methods in the objectives,"Email, hardware token, authenticator app, SMS, voice call, TOTP, OTP",core2 part07 mfa
+TOTP,Time-based one-time password: a code that changes (usually every 30 seconds),core2 part07 mfa
+OTP,One-time password or passcode: works once only,core2 part07 mfa
+Authenticator app vs SMS,App is stronger. SMS messages can be intercepted,core2 part07 mfa
+Strongest Wi-Fi security,WPA3,core2 part07 wireless
+WPA2 uses which encryption?,AES,core2 part07 wireless
+TKIP,Temporal Key Integrity Protocol: old and weak encryption. Avoid,core2 part07 wireless
+AES stands for,Advanced Encryption Standard,core2 part07 wireless
+RADIUS is used for,"Central network access sign-in (Wi-Fi, VPN). UDP 1812 and 1813",core2 part07 authentication
+TACACS+ is used for,Controlling administrator sign-in to network devices such as routers and switches. TCP 49,core2 part07 authentication
+Kerberos is used for,Ticket-based sign-in in Windows domains. Port 88,core2 part07 authentication

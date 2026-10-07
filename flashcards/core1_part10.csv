@@ -1,0 +1,33 @@
+Front,Back,Tags
+Which Wi-Fi band has the longest range but is most crowded?,2.4 GHz,core1 part10 wireless
+Which band needs Wi-Fi 6E or Wi-Fi 7 devices?,6 GHz,core1 part10 wireless
+Non-overlapping 2.4 GHz channels (US),"1, 6 and 11",core1 part10 wireless
+Wi-Fi channel widths,"20, 40, 80, 160 MHz (Wi-Fi 7 adds 320 MHz)",core1 part10 wireless
+Who decides which Wi-Fi channels are legal?,Each country's regulations,core1 part10 wireless
+802.11b bands and speed,"2.4 GHz, 11 Mbps",core1 part10 standards
+802.11a bands and speed,"5 GHz, 54 Mbps",core1 part10 standards
+802.11g bands and speed,"2.4 GHz, 54 Mbps",core1 part10 standards
+802.11n (Wi-Fi 4) bands and speed,"2.4 and 5 GHz, up to 600 Mbps",core1 part10 standards
+802.11ac (Wi-Fi 5) bands and speed,"5 GHz only, about 6.9 Gbps",core1 part10 standards
+802.11ax (Wi-Fi 6) bands and speed,"2.4 and 5 GHz (6E adds 6 GHz), 9.6 Gbps",core1 part10 standards
+802.11be (Wi-Fi 7) bands and speed,"2.4, 5 and 6 GHz, 46 Gbps",core1 part10 standards
+Bluetooth range and band,"About 10 m, 2.4 GHz",core1 part10 short_range
+NFC range,"About 4 cm, touching distance (13.56 MHz)",core1 part10 short_range
+Passive RFID tag has what?,No battery. It is powered by the reader,core1 part10 short_range
+RFID parts,A tag with a chip and antenna plus a reader,core1 part10 short_range
+IPv4 size and format,"32 bits, four numbers from 0 to 255",core1 part10 ip
+IPv6 size and format,"128 bits, hex groups split by colons",core1 part10 ip
+Private IPv4 range starting with 10,10.0.0.0 to 10.255.255.255,core1 part10 ip
+Private IPv4 range starting with 172,172.16.0.0 to 172.31.255.255,core1 part10 ip
+Private IPv4 range starting with 192,192.168.0.0 to 192.168.255.255,core1 part10 ip
+What is a public IP address?,The address the internet sees. Given by your internet provider,core1 part10 ip
+APIPA range,"169.254.0.0 to 169.254.255.255, mask 255.255.0.0",core1 part10 ip
+A 169.254 address means what?,No DHCP answer. Local network only so no internet,core1 part10 ip
+Static vs dynamic address,Static = typed by hand. Dynamic = given by DHCP,core1 part10 ip
+Common home subnet mask,255.255.255.0,core1 part10 ip
+Default gateway is,The router's address on your network,core1 part10 ip
+Router port for the internet line,WAN,core1 part10 soho
+First security step on a new router,Change the default admin password,core1 part10 soho
+SSID is,The Wi-Fi network name,core1 part10 soho
+Why update router firmware?,Fixes bugs and security holes,core1 part10 soho
+Slow Wi-Fi on crowded 2.4 GHz: fix,Move to 5 GHz or a clear channel (1 6 or 11),core1 part10 scenarios

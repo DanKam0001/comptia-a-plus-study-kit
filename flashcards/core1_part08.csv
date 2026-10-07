@@ -1,0 +1,33 @@
+Front,Back,Tags
+DHCP ports,"UDP 67 (server), 68 (client)",core1 part08 dhcp
+Scope,Range of addresses DHCP may hand out,core1 part08 dhcp
+Lease,How long a device keeps an address,core1 part08 dhcp
+Exclusion,Addresses DHCP will not hand out,core1 part08 dhcp
+Reservation,Same IP always given to one MAC address,core1 part08 dhcp
+Static vs dynamic,Static = typed by hand. Dynamic = from DHCP,core1 part08 dhcp
+DNS record type A: what is it for?,Name to IPv4 address,core1 part08 dns_records
+DNS record type AAAA: what is it for?,Name to IPv6 address,core1 part08 dns_records
+DNS record type CNAME: what is it for?,Alias to another name,core1 part08 dns_records
+DNS record type MX: what is it for?,Mail server for the domain,core1 part08 dns_records
+DNS record type TXT: what is it for?,"Plain text. SPF, DKIM, DMARC live here",core1 part08 dns_records
+Which port does DNS use?,53,core1 part08 dns_records
+SPF: what does it stand for and do?,Sender Policy Framework. Which servers may send for the domain,core1 part08 spam_management
+DKIM: what does it stand for and do?,DomainKeys Identified Mail. Digital signature on each message,core1 part08 spam_management
+DMARC: what does it stand for and do?,"Domain-based Message Authentication, Reporting, and Conformance. What to do if SPF or DKIM fails, plus reports",core1 part08 spam_management
+VLAN,Virtual LAN. One switch split into separate networks,core1 part08 vlan_vpn
+What links two VLANs?,A router,core1 part08 vlan_vpn
+VLAN tagging standard,IEEE 802.1Q,core1 part08 vlan_vpn
+VPN,Virtual Private Network. Encrypted tunnel over an untrusted network,core1 part08 vlan_vpn
+What is AAA?,"Authentication, Authorization, Accounting",core1 part08 server_roles
+What is Authentication?,Who are you?,core1 part08 server_roles
+What is Authorization?,What may you do?,core1 part08 server_roles
+What is Accounting?,What did you do?,core1 part08 server_roles
+What is Syslog?,Collects log messages (UDP 514),core1 part08 server_roles
+What is NTP?,Keeps clocks in sync (UDP 123),core1 part08 server_roles
+What is Fileshare?,Shared files (SMB 445),core1 part08 server_roles
+What is Spam gateway?,Filters email,core1 part08 appliances_and_special_systems
+What is UTM?,"Unified Threat Management: firewall, antivirus and filtering in one box",core1 part08 appliances_and_special_systems
+What is Load balancer?,Shares traffic across servers,core1 part08 appliances_and_special_systems
+What is Proxy server?,"Makes requests for users, can filter",core1 part08 appliances_and_special_systems
+What is SCADA?,Supervisory Control and Data Acquisition: industrial control,core1 part08 appliances_and_special_systems
+What is IoT?,Internet of Things: smart connected devices,core1 part08 appliances_and_special_systems

@@ -1,0 +1,31 @@
+Front,Back,Tags
+Host vs guest,Host = the real computer. Guest = the system inside the VM,core1 part12 virtualization
+Type 1 hypervisor,"Runs directly on hardware (bare metal). ESXi, Hyper-V, KVM",core1 part12 hypervisors
+Type 2 hypervisor,"Runs as an app on an operating system. VirtualBox, VMware Workstation",core1 part12 hypervisors
+Firmware settings needed for VMs,Intel VT-x or AMD-V,core1 part12 virtualization
+Four purposes of VMs,"Sandbox, test and development, legacy software or OS, cross-platform",core1 part12 virtualization
+Sandbox,A safe walled-off place to run risky software,core1 part12 virtualization
+Three VM requirements in the objectives,"Security, network, storage",core1 part12 virtualization
+VM network modes,"Bridged, NAT, host-only",core1 part12 virtualization
+A VM's disk is stored as,A file on the host,core1 part12 virtualization
+VDI stands for,Virtual Desktop Infrastructure,core1 part12 virtualization
+Thin client,A simple device that shows a desktop running on a server,core1 part12 virtualization
+Container vs VM,Container shares the host OS. VM carries its own full OS,core1 part12 virtualization
+Public cloud,Shared by many customers and run by a provider,core1 part12 cloud_models
+Private cloud,Built for one organization,core1 part12 cloud_models
+Hybrid cloud,Public plus private together,core1 part12 cloud_models
+Community cloud,Shared by organizations with common needs,core1 part12 cloud_models
+IaaS,Infrastructure as a Service. You get virtual servers and manage the OS,core1 part12 service_models
+PaaS,Platform as a Service. You run your own code on a ready platform,core1 part12 service_models
+SaaS,Software as a Service. A finished app such as Microsoft 365,core1 part12 service_models
+Which service model: you manage the OS and apps on a virtual server?,IaaS,core1 part12 service_models
+Which service model: you just use a finished app?,SaaS,core1 part12 service_models
+Multitenancy,Many customers share the same infrastructure kept separate,core1 part12 cloud_traits
+Shared vs dedicated resources,Shared = many customers on same hardware. Dedicated = reserved for you,core1 part12 cloud_traits
+Metered utilization,Pay for what you use,core1 part12 cloud_traits
+Ingress vs egress,Ingress = data in (usually free). Egress = data out (usually charged),core1 part12 cloud_traits
+Elasticity,Scale up and down with demand,core1 part12 cloud_traits
+Availability,How much of the time the service is up (uptime percentage),core1 part12 cloud_traits
+File synchronization,Same files on all devices (OneDrive Google Drive Dropbox),core1 part12 cloud_traits
+Website needs many more servers for a sale then fewer: trait?,Elasticity,core1 part12 scenarios
+VM will not start: virtualization disabled: fix,Enable VT-x or AMD-V in the firmware,core1 part12 scenarios

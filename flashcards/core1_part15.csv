@@ -1,0 +1,20 @@
+Front,Back,Tags
+"Limited connectivity, address starts 169.254",No reply from DHCP. Windows used an APIPA address,core1 part15 symptom_to_cause
+Wi-Fi drops only when the microwave runs,Interference on the 2.4 GHz band,core1 part15 symptom_to_cause
+"Calls choppy and robotic, web pages fine",Jitter (and the fix is QoS or a wired connection),core1 part15 symptom_to_cause
+Switch port light blinks on and off repeatedly,"Port flapping: bad cable, connector, NIC or port",core1 part15 symptom_to_cause
+"Video call lags, long delay before replies",High latency,core1 part15 symptom_to_cause
+"Wi-Fi fine near the router, drops far away",Distance and walls. Move closer or add an access point,core1 part15 symptom_to_cause
+"One device cannot get online, everyone else can","The device, its cable or its settings",core1 part15 symptom_to_cause
+Everyone is offline,"Router, modem or internet provider",core1 part15 symptom_to_cause
+Wi-Fi refuses a known device,"Authentication failure: password, security type, account",core1 part15 symptom_to_cause
+APIPA address range starts,169.254,core1 part15 numbers_and_facts
+Maximum twisted pair Ethernet run,100 m (328 ft),core1 part15 numbers_and_facts
+Non-overlapping 2.4 GHz channels,"1, 6 and 11",core1 part15 numbers_and_facts
+2.4 GHz vs 5 GHz,"2.4 reaches further, slower, crowded. 5 is faster, shorter range",core1 part15 numbers_and_facts
+Latency vs jitter,Latency is the delay. Jitter is the variation in the delay,core1 part15 numbers_and_facts
+QoS does,Gives chosen traffic (such as voice) priority,core1 part15 numbers_and_facts
+Shows signal strength and which channels neighbors use,Wi-Fi analyzer,core1 part15 tools
+Tests a cable for wiring faults,Cable tester,core1 part15 tools
+Finds one cable among many,Toner probe,core1 part15 tools
+Tests that a network port can send and receive,Loopback plug,core1 part15 tools

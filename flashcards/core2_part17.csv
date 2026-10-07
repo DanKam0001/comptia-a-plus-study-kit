@@ -1,0 +1,31 @@
+Front,Back,Tags
+Core 2 exam code,220-1202,core2 part17 exam
+Maximum number of questions on Core 2,90,core2 part17 exam
+Time allowed for Core 2,90 minutes,core2 part17 exam
+Core 2 passing score,700 (scale of 100 to 900),core2 part17 exam
+Two question types,Multiple choice and performance-based (PBQ),core2 part17 exam
+Domain 1 weight (Operating Systems),28%,core2 part17 exam
+Domain 2 weight (Security),28%,core2 part17 exam
+Domain 3 weight (Software Troubleshooting),23%,core2 part17 exam
+Domain 4 weight (Operational Procedures),21%,core2 part17 exam
+What is a PBQ?,A hands-on task on a simulated screen,core2 part17 technique
+What to do with an unrecognised PBQ,"Do what you know, flag it, return later",core2 part17 technique
+Rough time per question,About 1 minute,core2 part17 technique
+How much review time to keep,10 to 15 minutes,core2 part17 technique
+An unanswered question counts as,Wrong. Answer every question,core2 part17 technique
+Key words to underline,"First, best, most likely, next",core2 part17 technique
+When to change an answer,Only if you spot a clear mistake,core2 part17 technique
+Event Viewer / Disk Management / Device Manager,eventvwr.msc / diskmgmt.msc / devmgmt.msc,core2 part17 cram
+Task Scheduler / Performance Monitor / Group Policy Editor,taskschd.msc / perfmon.msc / gpedit.msc,core2 part17 cram
+Local Users and Groups / Certificate Manager,lusrmgr.msc / certmgr.msc,core2 part17 cram
+System Information / System Configuration / Registry Editor,msinfo32.exe / msconfig.exe / regedit.exe,core2 part17 cram
+First two malware removal steps,"Investigate and verify symptoms, then quarantine",core2 part17 cram
+Last malware removal step,Educate the end user,core2 part17 cram
+Incremental restore needs,Full + every incremental,core2 part17 cram
+Differential restore needs,Full + latest differential,core2 part17 cram
+3-2-1 backup rule,"3 copies, 2 media types, 1 offsite",core2 part17 cram
+First step before opening a PC,Disconnect the power,core2 part17 cram
+SSH / RDP / VNC ports,22 / 3389 / 5900,core2 part17 cram
+Which parts cover Domain 1,Parts 1 to 6,core2 part17 cram
+Which parts cover Domain 2,Parts 7 to 11,core2 part17 cram
+Which parts cover Domains 3 and 4,Parts 12 to 13 and Parts 14 to 16,core2 part17 cram

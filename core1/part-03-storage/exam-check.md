@@ -1,29 +1,29 @@
-# Exam check: Storage: HDD, SSD, NVMe, M.2 and RAID
+# Exam check: Storage
 
 Cover the answers and try each one out loud first.
 
-**1.** A user has a SATA laptop and wants the biggest speed boost for the least cost. What do you recommend?
-<details><summary>Answer</summary>Replace the hard drive with a SATA SSD.</details>
+**1.** A laptop takes three minutes to boot, and its owner wants it much faster. What is the best upgrade?
+<details><summary>Answer</summary>Replace the hard drive with an SSD. No moving parts means far faster access.</details>
 
-**2.** A new M.2 drive isn't detected. What should you check first?
-<details><summary>Answer</summary>Whether the slot supports the drive's type, SATA or NVMe.</details>
+**2.** A technician installs a new M.2 drive, but the computer never sees it. What should be checked first?
+<details><summary>Answer</summary>Whether the M.2 slot takes SATA or NVMe drives. M.2 is only a shape, and a drive of the wrong type will not be detected.</details>
 
-**3.** Which RAID level survives two failed drives?
-<details><summary>Answer</summary>RAID 6.</details>
+**3.** A small business needs its drives set up so the data survives two drives failing at once. Which RAID level?
+<details><summary>Answer</summary>RAID 6 (double parity, at least 4 drives).</details>
 
 ## More practice (written for this kit)
 
-**4.** Four 2 TB drives are set up as RAID 5. How much usable capacity?
-<details><summary>Answer</summary>6 TB (all drives but one).</details>
+**4.** Which RAID level stripes data across two drives with no protection?
+<details><summary>Answer</summary>RAID 0. If one drive fails, everything is lost.</details>
 
-**5.** Four 2 TB drives are set up as RAID 10. How much usable capacity?
-<details><summary>Answer</summary>4 TB (50%).</details>
+**5.** A SATA controller is connected to a SAS drive. What happens?
+<details><summary>Answer</summary>It does not work. A SAS controller can run SATA drives, but not the other way round.</details>
 
-**6.** Which storage interface is designed for flash and runs over PCIe lanes?
-<details><summary>Answer</summary>NVMe.</details>
+**6.** A manager says "we have RAID 1, so we do not need backups." Respond.
+<details><summary>Answer</summary>RAID is not a backup. It protects against drive failure but not deletion, malware, fire or a failed controller.</details>
 
-**7.** A server has a SATA controller. Can it run a SAS drive?
-<details><summary>Answer</summary>No. A SAS controller can run SATA drives, but a SATA controller can't run SAS drives.</details>
+**7.** What does 2280 mean on an M.2 drive?
+<details><summary>Answer</summary>22 mm wide and 80 mm long.</details>
 
-**8.** A two-drive RAID 0 array loses one drive. What happens to the data?
-<details><summary>Answer</summary>All of it is lost. RAID 0 has no fault tolerance.</details>
+**8.** How much does a single-layer Blu-ray hold?
+<details><summary>Answer</summary>25 GB.</details>

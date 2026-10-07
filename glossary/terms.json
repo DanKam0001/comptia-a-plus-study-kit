@@ -1,202 +1,4881 @@
 [
  {
+  "term": "3-2-1 rule",
+  "meaning": "3 copies, 2 media types, 1 offsite",
+  "first_appears": "Core 2 Part 14",
+  "series": "Core 2",
+  "first_part": 14
+ },
+ {
+  "term": "3G/4G/5G",
+  "meaning": "Generations of cell network, each faster than the last",
+  "first_appears": "Core 1 Part 11",
+  "series": "Core 1",
+  "first_part": 11
+ },
+ {
+  "term": "64-bit",
+  "meaning": "A design that can use much more memory than 32-bit",
+  "first_appears": "Core 2 Part 6",
+  "series": "Core 2",
+  "first_part": 6
+ },
+ {
+  "term": "802.11",
+  "meaning": "The family of Wi-Fi standards",
+  "first_appears": "Core 1 Part 10",
+  "series": "Core 1",
+  "first_part": 10
+ },
+ {
+  "term": "A record",
+  "meaning": "Points a name to an IPv4 address",
+  "first_appears": "Core 1 Part 8",
+  "series": "Core 1",
+  "first_part": 8
+ },
+ {
+  "term": "AAA",
+  "meaning": "Authentication, Authorization, and Accounting",
+  "first_appears": "Core 1 Part 8",
+  "series": "Core 1",
+  "first_part": 8
+ },
+ {
+  "term": "AAAA record",
+  "meaning": "Points a name to an IPv6 address",
+  "first_appears": "Core 1 Part 8",
+  "series": "Core 1",
+  "first_part": 8
+ },
+ {
+  "term": "AC",
+  "meaning": "Alternating Current: the power from the wall",
+  "first_appears": "Core 1 Part 4",
+  "series": "Core 1",
+  "first_part": 4
+ },
+ {
+  "term": "access control vestibule",
+  "meaning": "A small two-door room that lets one person in at a time",
+  "first_appears": "Core 2 Part 7",
+  "series": "Core 2",
+  "first_part": 7
+ },
+ {
+  "term": "access point",
+  "meaning": "Lets wireless devices join a wired network",
+  "first_appears": "Core 1 Part 9",
+  "series": "Core 1",
+  "first_part": 9
+ },
+ {
+  "term": "account lockout",
+  "meaning": "Locking an account after too many failed sign-ins",
+  "first_appears": "Core 2 Part 8",
+  "series": "Core 2",
+  "first_part": 8
+ },
+ {
+  "term": "acknowledgment",
+  "meaning": "A small reply saying data arrived",
+  "first_appears": "Core 1 Part 7",
+  "series": "Core 1",
+  "first_part": 7
+ },
+ {
+  "term": "ACL",
+  "meaning": "Access Control List",
+  "first_appears": "Core 2 Part 7",
+  "series": "Core 2",
+  "first_part": 7
+ },
+ {
+  "term": "Active Directory",
+  "meaning": "Microsoft's central list of users and computers",
+  "first_appears": "Core 2 Part 8",
+  "series": "Core 2",
+  "first_part": 8
+ },
+ {
+  "term": "active listening",
+  "meaning": "Really listening, without interrupting",
+  "first_appears": "Core 2 Part 15",
+  "series": "Core 2",
+  "first_part": 15
+ },
+ {
+  "term": "adapter",
+  "meaning": "A small converter from one connector type to another",
+  "first_appears": "Core 1 Part 4",
+  "series": "Core 1",
+  "first_part": 4
+ },
+ {
+  "term": "ADF",
+  "meaning": "Automatic Document Feeder",
+  "first_appears": "Core 1 Part 6",
+  "series": "Core 1",
+  "first_part": 6
+ },
+ {
+  "term": "administrator",
+  "meaning": "An account allowed to change the whole system",
+  "first_appears": "Core 2 Part 3",
+  "series": "Core 2",
+  "first_part": 3
+ },
+ {
+  "term": "adware",
+  "meaning": "Shows unwanted ads",
+  "first_appears": "Core 2 Part 9",
+  "series": "Core 2",
+  "first_part": 9
+ },
+ {
+  "term": "AES",
+  "meaning": "Advanced Encryption Standard: strong encryption",
+  "first_appears": "Core 2 Part 7",
+  "series": "Core 2",
+  "first_part": 7
+ },
+ {
+  "term": "AI",
+  "meaning": "Artificial Intelligence: software that writes, answers and decides",
+  "first_appears": "Core 2 Part 16",
+  "series": "Core 2",
+  "first_part": 16
+ },
+ {
+  "term": "air filter mask",
+  "meaning": "A mask that protects your lungs from dust",
+  "first_appears": "Core 2 Part 15",
+  "series": "Core 2",
+  "first_part": 15
+ },
+ {
+  "term": "airplane mode",
+  "meaning": "A setting that turns off all radios",
+  "first_appears": "Core 1 Part 14",
+  "series": "Core 1",
+  "first_part": 14
+ },
+ {
+  "term": "alarm system",
+  "meaning": "Sounds or sends an alert when a sensor trips",
+  "first_appears": "Core 2 Part 7",
+  "series": "Core 2",
+  "first_part": 7
+ },
+ {
   "term": "AMD",
   "meaning": "Advanced Micro Devices, Inc.",
+  "first_appears": "Core 1 Part 1",
+  "series": "Core 1",
   "first_part": 1
+ },
+ {
+  "term": "AMD-V",
+  "meaning": "AMD Virtualization",
+  "first_appears": "Core 1 Part 1",
+  "series": "Core 1",
+  "first_part": 1
+ },
+ {
+  "term": "antenna",
+  "meaning": "A wire that sends and receives radio signals",
+  "first_appears": "Core 1 Part 11",
+  "series": "Core 1",
+  "first_part": 11
+ },
+ {
+  "term": "anti-static strap",
+  "meaning": "A wrist strap that safely drains static electricity",
+  "first_appears": "Core 1 Part 2",
+  "series": "Core 1",
+  "first_part": 2
+ },
+ {
+  "term": "antistatic bag",
+  "meaning": "A special bag that protects parts from static",
+  "first_appears": "Core 2 Part 15",
+  "series": "Core 2",
+  "first_part": 15
+ },
+ {
+  "term": "antivirus",
+  "meaning": "Software that finds and removes known malware",
+  "first_appears": "Core 2 Part 9",
+  "series": "Core 2",
+  "first_part": 9
+ },
+ {
+  "term": "APFS",
+  "meaning": "Apple File System",
+  "first_appears": "Core 2 Part 1",
+  "series": "Core 2",
+  "first_part": 1
+ },
+ {
+  "term": "APIPA",
+  "meaning": "Automatic Private IP Addressing: a self-given 169.254 address",
+  "first_appears": "Core 1 Part 10",
+  "series": "Core 1",
+  "first_part": 10
+ },
+ {
+  "term": "app spoofing",
+  "meaning": "A fake app that looks like a real one",
+  "first_appears": "Core 2 Part 13",
+  "series": "Core 2",
+  "first_part": 13
+ },
+ {
+  "term": "App Store",
+  "meaning": "Apple's official app shop",
+  "first_appears": "Core 2 Part 5",
+  "series": "Core 2",
+  "first_part": 5
+ },
+ {
+  "term": "Apple ID",
+  "meaning": "Your Apple account",
+  "first_appears": "Core 2 Part 5",
+  "series": "Core 2",
+  "first_part": 5
  },
  {
   "term": "ARM",
   "meaning": "Advanced RISC [Reduced Instruction Set Computer] Machine",
+  "first_appears": "Core 1 Part 1",
+  "series": "Core 1",
   "first_part": 1
+ },
+ {
+  "term": "asset tag",
+  "meaning": "A unique ID sticker on a device",
+  "first_appears": "Core 2 Part 14",
+  "series": "Core 2",
+  "first_part": 14
+ },
+ {
+  "term": "attribute",
+  "meaning": "A file setting such as read only or hidden",
+  "first_appears": "Core 2 Part 8",
+  "series": "Core 2",
+  "first_part": 8
  },
  {
   "term": "ATX",
   "meaning": "Advanced Technology Extended",
+  "first_appears": "Core 1 Part 1",
+  "series": "Core 1",
   "first_part": 1
+ },
+ {
+  "term": "audit log",
+  "meaning": "A record of who did what, and when",
+  "first_appears": "Core 1 Part 6",
+  "series": "Core 1",
+  "first_part": 6
+ },
+ {
+  "term": "AUP",
+  "meaning": "Acceptable Use Policy: the rules for using company equipment",
+  "first_appears": "Core 2 Part 15",
+  "series": "Core 2",
+  "first_part": 15
+ },
+ {
+  "term": "authentication",
+  "meaning": "Proving who you are",
+  "first_appears": "Core 1 Part 15",
+  "series": "Core 1",
+  "first_part": 15
+ },
+ {
+  "term": "authenticator app",
+  "meaning": "A phone app that shows login codes",
+  "first_appears": "Core 2 Part 7",
+  "series": "Core 2",
+  "first_part": 7
+ },
+ {
+  "term": "auto-rotate",
+  "meaning": "Turning the screen when you turn the phone",
+  "first_appears": "Core 2 Part 13",
+  "series": "Core 2",
+  "first_part": 13
+ },
+ {
+  "term": "automation",
+  "meaning": "Letting the computer do repeat jobs for you",
+  "first_appears": "Core 2 Part 16",
+  "series": "Core 2",
+  "first_part": 16
+ },
+ {
+  "term": "AutoRun",
+  "meaning": "Starts a program automatically when a drive is plugged in",
+  "first_appears": "Core 2 Part 8",
+  "series": "Core 2",
+  "first_part": 8
+ },
+ {
+  "term": "availability",
+  "meaning": "How much of the time a service is up",
+  "first_appears": "Core 1 Part 12",
+  "series": "Core 1",
+  "first_part": 12
+ },
+ {
+  "term": "background app",
+  "meaning": "An app that keeps running when you're not using it",
+  "first_appears": "Core 2 Part 13",
+  "series": "Core 2",
+  "first_part": 13
+ },
+ {
+  "term": "backlight",
+  "meaning": "The light behind an LCD panel",
+  "first_appears": "Core 1 Part 5",
+  "series": "Core 1",
+  "first_part": 5
+ },
+ {
+  "term": "backup",
+  "meaning": "A separate copy of data kept in case the original is lost",
+  "first_appears": "Core 1 Part 3",
+  "series": "Core 1",
+  "first_part": 3
+ },
+ {
+  "term": "bad sector",
+  "meaning": "A damaged spot on a drive",
+  "first_appears": "Core 2 Part 3",
+  "series": "Core 2",
+  "first_part": 3
+ },
+ {
+  "term": "badge reader",
+  "meaning": "A reader that opens a door for a valid card",
+  "first_appears": "Core 2 Part 7",
+  "series": "Core 2",
+  "first_part": 7
+ },
+ {
+  "term": "badging",
+  "meaning": "Tapping an ID card to use a device",
+  "first_appears": "Core 1 Part 6",
+  "series": "Core 1",
+  "first_part": 6
+ },
+ {
+  "term": "band",
+  "meaning": "A range of radio frequencies",
+  "first_appears": "Core 1 Part 10",
+  "series": "Core 1",
+  "first_part": 10
+ },
+ {
+  "term": "bandwidth",
+  "meaning": "How much data a connection can carry",
+  "first_appears": "Core 1 Part 15",
+  "series": "Core 1",
+  "first_part": 15
+ },
+ {
+  "term": "batch file",
+  "meaning": "A Windows script file ending in .bat",
+  "first_appears": "Core 2 Part 16",
+  "series": "Core 2",
+  "first_part": 16
+ },
+ {
+  "term": "battery",
+  "meaning": "Rechargeable power pack inside the device",
+  "first_appears": "Core 1 Part 11",
+  "series": "Core 1",
+  "first_part": 11
+ },
+ {
+  "term": "BEC",
+  "meaning": "Business Email Compromise: a fake boss email asking for money",
+  "first_appears": "Core 2 Part 9",
+  "series": "Core 2",
+  "first_part": 9
+ },
+ {
+  "term": "beep code",
+  "meaning": "A pattern of beeps that signals a failed part",
+  "first_appears": "Core 1 Part 13",
+  "series": "Core 1",
+  "first_part": 13
+ },
+ {
+  "term": "bias",
+  "meaning": "Unfair leanings an AI picked up from its training data",
+  "first_appears": "Core 2 Part 16",
+  "series": "Core 2",
+  "first_part": 16
+ },
+ {
+  "term": "biometrics",
+  "meaning": "Security that uses your body, like a fingerprint or face",
+  "first_appears": "Core 1 Part 11",
+  "series": "Core 1",
+  "first_part": 11
  },
  {
   "term": "BIOS",
   "meaning": "Basic Input/Output System",
+  "first_appears": "Core 1 Part 1",
+  "series": "Core 1",
   "first_part": 1
+ },
+ {
+  "term": "bit",
+  "meaning": "The smallest piece of data, a one or a zero",
+  "first_appears": "Core 1 Part 2",
+  "series": "Core 1",
+  "first_part": 2
+ },
+ {
+  "term": "BitLocker",
+  "meaning": "Windows drive encryption",
+  "first_appears": "Core 2 Part 1",
+  "series": "Core 2",
+  "first_part": 1
+ },
+ {
+  "term": "BitLocker To Go",
+  "meaning": "BitLocker for USB and removable drives",
+  "first_appears": "Core 2 Part 8",
+  "series": "Core 2",
+  "first_part": 8
+ },
+ {
+  "term": "Bluetooth",
+  "meaning": "Short-range wireless for headsets, mice and keyboards",
+  "first_appears": "Core 1 Part 10",
+  "series": "Core 1",
+  "first_part": 10
+ },
+ {
+  "term": "bollard",
+  "meaning": "A short, strong post that stops vehicles",
+  "first_appears": "Core 2 Part 7",
+  "series": "Core 2",
+  "first_part": 7
+ },
+ {
+  "term": "boot",
+  "meaning": "Start up the computer",
+  "first_appears": "Core 2 Part 1",
+  "series": "Core 2",
+  "first_part": 1
+ },
+ {
+  "term": "boot order",
+  "meaning": "The order the PC tries drives to start from",
+  "first_appears": "Core 1 Part 1",
+  "series": "Core 1",
+  "first_part": 1
+ },
+ {
+  "term": "boot sector virus",
+  "meaning": "Hides in the part of the drive that starts the PC",
+  "first_appears": "Core 2 Part 9",
+  "series": "Core 2",
+  "first_part": 9
+ },
+ {
+  "term": "bootloader",
+  "meaning": "Program that starts the operating system",
+  "first_appears": "Core 2 Part 5",
+  "series": "Core 2",
+  "first_part": 5
+ },
+ {
+  "term": "brute-force attack",
+  "meaning": "Trying every possible password",
+  "first_appears": "Core 2 Part 9",
+  "series": "Core 2",
+  "first_part": 9
+ },
+ {
+  "term": "BSOD",
+  "meaning": "Blue Screen of Death",
+  "first_appears": "Core 1 Part 13",
+  "series": "Core 1",
+  "first_part": 13
+ },
+ {
+  "term": "burn-in",
+  "meaning": "A faint ghost image left by a still picture",
+  "first_appears": "Core 1 Part 5",
+  "series": "Core 1",
+  "first_part": 5
+ },
+ {
+  "term": "BYOD",
+  "meaning": "Bring Your Own Device",
+  "first_appears": "Core 1 Part 11",
+  "series": "Core 1",
+  "first_part": 11
+ },
+ {
+  "term": "cable modem",
+  "meaning": "Brings internet over TV coaxial cable",
+  "first_appears": "Core 1 Part 9",
+  "series": "Core 1",
+  "first_part": 9
+ },
+ {
+  "term": "cable stripper",
+  "meaning": "Removes the cable jacket without cutting wires",
+  "first_appears": "Core 1 Part 9",
+  "series": "Core 1",
+  "first_part": 9
+ },
+ {
+  "term": "cable tester",
+  "meaning": "Checks every wire in a cable",
+  "first_appears": "Core 1 Part 9",
+  "series": "Core 1",
+  "first_part": 9
+ },
+ {
+  "term": "cache",
+  "meaning": "Saved copies of web files for speed",
+  "first_appears": "Core 2 Part 10",
+  "series": "Core 2",
+  "first_part": 10
+ },
+ {
+  "term": "calibrate",
+  "meaning": "Adjust a device so its output is accurate",
+  "first_appears": "Core 1 Part 6",
+  "series": "Core 1",
+  "first_part": 6
+ },
+ {
+  "term": "calibration",
+  "meaning": "Adjusting touch so it lands where you tap",
+  "first_appears": "Core 1 Part 14",
+  "series": "Core 1",
+  "first_part": 14
+ },
+ {
+  "term": "capacitive",
+  "meaning": "Touch that senses electricity in a finger",
+  "first_appears": "Core 1 Part 5",
+  "series": "Core 1",
+  "first_part": 5
+ },
+ {
+  "term": "capacitor",
+  "meaning": "A small part on the board that stores a little power",
+  "first_appears": "Core 1 Part 13",
+  "series": "Core 1",
+  "first_part": 13
+ },
+ {
+  "term": "capacity",
+  "meaning": "How much data the memory can hold at once",
+  "first_appears": "Core 1 Part 2",
+  "series": "Core 1",
+  "first_part": 2
+ },
+ {
+  "term": "category",
+  "meaning": "The rating that says how fast a network cable can go",
+  "first_appears": "Core 1 Part 4",
+  "series": "Core 1",
+  "first_part": 4
+ },
+ {
+  "term": "cellular internet",
+  "meaning": "Internet over the mobile phone network",
+  "first_appears": "Core 1 Part 9",
+  "series": "Core 1",
+  "first_part": 9
+ },
+ {
+  "term": "certificate",
+  "meaning": "A digital ID that proves a website is genuine",
+  "first_appears": "Core 2 Part 10",
+  "series": "Core 2",
+  "first_part": 10
+ },
+ {
+  "term": "certificate of destruction",
+  "meaning": "Signed proof that drives were destroyed",
+  "first_appears": "Core 2 Part 11",
+  "series": "Core 2",
+  "first_part": 11
+ },
+ {
+  "term": "chain of custody",
+  "meaning": "A record of who held something and when",
+  "first_appears": "Core 2 Part 11",
+  "series": "Core 2",
+  "first_part": 11
+ },
+ {
+  "term": "change board",
+  "meaning": "The group that approves or rejects changes",
+  "first_appears": "Core 2 Part 14",
+  "series": "Core 2",
+  "first_part": 14
+ },
+ {
+  "term": "change freeze",
+  "meaning": "A period when no changes are allowed",
+  "first_appears": "Core 2 Part 14",
+  "series": "Core 2",
+  "first_part": 14
+ },
+ {
+  "term": "change management",
+  "meaning": "A process for making changes safely",
+  "first_appears": "Core 2 Part 14",
+  "series": "Core 2",
+  "first_part": 14
+ },
+ {
+  "term": "channel",
+  "meaning": "A path between the memory and the processor",
+  "first_appears": "Core 1 Part 2",
+  "series": "Core 1",
+  "first_part": 2
+ },
+ {
+  "term": "chipset",
+  "meaning": "The chips that let the CPU talk to the rest of the board",
+  "first_appears": "Core 1 Part 1",
+  "series": "Core 1",
+  "first_part": 1
+ },
+ {
+  "term": "chkdsk",
+  "meaning": "Check Disk: scans a drive for errors",
+  "first_appears": "Core 2 Part 3",
+  "series": "Core 2",
+  "first_part": 3
+ },
+ {
+  "term": "chmod",
+  "meaning": "Change mode: sets who can read, write or run a file",
+  "first_appears": "Core 2 Part 5",
+  "series": "Core 2",
+  "first_part": 5
+ },
+ {
+  "term": "chown",
+  "meaning": "Change owner: sets who owns a file",
+  "first_appears": "Core 2 Part 5",
+  "series": "Core 2",
+  "first_part": 5
+ },
+ {
+  "term": "CIFS",
+  "meaning": "Common Internet File System, an older name for SMB",
+  "first_appears": "Core 1 Part 7",
+  "series": "Core 1",
+  "first_part": 7
+ },
+ {
+  "term": "cloud",
+  "meaning": "Computers owned by a provider that you use over the internet",
+  "first_appears": "Core 2 Part 6",
+  "series": "Core 2",
+  "first_part": 6
+ },
+ {
+  "term": "cloud computing",
+  "meaning": "Using someone else's computers over the internet",
+  "first_appears": "Core 1 Part 12",
+  "series": "Core 1",
+  "first_part": 12
+ },
+ {
+  "term": "cloud storage",
+  "meaning": "Online space for your files",
+  "first_appears": "Core 2 Part 6",
+  "series": "Core 2",
+  "first_part": 6
+ },
+ {
+  "term": "CMDB",
+  "meaning": "Configuration Management Database",
+  "first_appears": "Core 2 Part 14",
+  "series": "Core 2",
+  "first_part": 14
+ },
+ {
+  "term": "CMOS battery",
+  "meaning": "A coin cell that keeps the clock and settings",
+  "first_appears": "Core 1 Part 13",
+  "series": "Core 1",
+  "first_part": 13
+ },
+ {
+  "term": "CNAME",
+  "meaning": "Canonical Name, a nickname pointing to another name",
+  "first_appears": "Core 1 Part 8",
+  "series": "Core 1",
+  "first_part": 8
+ },
+ {
+  "term": "coaxial",
+  "meaning": "A cable with a central wire and a metal shield, used for cable TV",
+  "first_appears": "Core 1 Part 4",
+  "series": "Core 1",
+  "first_part": 4
+ },
+ {
+  "term": "collaboration",
+  "meaning": "People working together on the same thing",
+  "first_appears": "Core 2 Part 6",
+  "series": "Core 2",
+  "first_part": 6
+ },
+ {
+  "term": "color gamut",
+  "meaning": "The range of colors a screen can show",
+  "first_appears": "Core 1 Part 5",
+  "series": "Core 1",
+  "first_part": 5
+ },
+ {
+  "term": "Command Prompt",
+  "meaning": "The Windows window where you type commands",
+  "first_appears": "Core 2 Part 3",
+  "series": "Core 2",
+  "first_part": 3
+ },
+ {
+  "term": "community cloud",
+  "meaning": "A cloud shared by a group with common needs",
+  "first_appears": "Core 1 Part 12",
+  "series": "Core 1",
+  "first_part": 12
+ },
+ {
+  "term": "complexity",
+  "meaning": "Rules requiring a mix of character types",
+  "first_appears": "Core 2 Part 8",
+  "series": "Core 2",
+  "first_part": 8
+ },
+ {
+  "term": "compliance",
+  "meaning": "Following laws and company rules",
+  "first_appears": "Core 2 Part 11",
+  "series": "Core 2",
+  "first_part": 11
+ },
+ {
+  "term": "compressed air",
+  "meaning": "A can of air used to blow dust out",
+  "first_appears": "Core 1 Part 13",
+  "series": "Core 1",
+  "first_part": 13
  },
  {
   "term": "CompTIA",
   "meaning": "Computing Technology Industry Association",
+  "first_appears": "Intro",
+  "series": "Intro",
   "first_part": 0
  },
  {
-  "term": "DDR",
-  "meaning": "Double Data Rate",
+  "term": "configuration profile",
+  "meaning": "A bundle of settings and rules pushed to a phone",
+  "first_appears": "Core 2 Part 10",
+  "series": "Core 2",
+  "first_part": 10
+ },
+ {
+  "term": "connection",
+  "meaning": "A set up link made before data is sent",
+  "first_appears": "Core 1 Part 7",
+  "series": "Core 1",
+  "first_part": 7
+ },
+ {
+  "term": "container",
+  "meaning": "A light package that holds one app and shares the host's operating system",
+  "first_appears": "Core 1 Part 12",
+  "series": "Core 1",
+  "first_part": 12
+ },
+ {
+  "term": "content filtering",
+  "meaning": "Blocking categories of websites",
+  "first_appears": "Core 2 Part 10",
+  "series": "Core 2",
+  "first_part": 10
+ },
+ {
+  "term": "Continuity",
+  "meaning": "Lets a Mac and an iPhone work together",
+  "first_appears": "Core 2 Part 5",
+  "series": "Core 2",
+  "first_part": 5
+ },
+ {
+  "term": "contrast",
+  "meaning": "The difference between the darkest and brightest parts",
+  "first_appears": "Core 1 Part 5",
+  "series": "Core 1",
+  "first_part": 5
+ },
+ {
+  "term": "Control Panel",
+  "meaning": "The classic place to change Windows settings",
+  "first_appears": "Core 2 Part 2",
+  "series": "Core 2",
   "first_part": 2
  },
  {
-  "term": "DIMM",
-  "meaning": "Dual In-line Memory Module",
+  "term": "core",
+  "meaning": "One complete processing unit inside a CPU",
+  "first_appears": "Core 1 Part 1",
+  "series": "Core 1",
+  "first_part": 1
+ },
+ {
+  "term": "corporate device",
+  "meaning": "A device the company owns and controls",
+  "first_appears": "Core 1 Part 11",
+  "series": "Core 1",
+  "first_part": 11
+ },
+ {
+  "term": "CPU",
+  "meaning": "Central Processing Unit",
+  "first_appears": "Core 1 Part 1",
+  "series": "Core 1",
+  "first_part": 1
+ },
+ {
+  "term": "crimper",
+  "meaning": "Presses a connector onto a cable end",
+  "first_appears": "Core 1 Part 9",
+  "series": "Core 1",
+  "first_part": 9
+ },
+ {
+  "term": "cross-platform",
+  "meaning": "Working on more than one type of system",
+  "first_appears": "Core 1 Part 12",
+  "series": "Core 1",
+  "first_part": 12
+ },
+ {
+  "term": "crossover cable",
+  "meaning": "A cable that joins two similar devices directly",
+  "first_appears": "Core 1 Part 4",
+  "series": "Core 1",
+  "first_part": 4
+ },
+ {
+  "term": "cryptominer",
+  "meaning": "Secretly uses your CPU to mine cryptocurrency",
+  "first_appears": "Core 2 Part 9",
+  "series": "Core 2",
+  "first_part": 9
+ },
+ {
+  "term": "curl",
+  "meaning": "Fetches a web page or file from the command line",
+  "first_appears": "Core 2 Part 5",
+  "series": "Core 2",
+  "first_part": 5
+ },
+ {
+  "term": "data at rest",
+  "meaning": "Data that is stored, not moving",
+  "first_appears": "Core 2 Part 8",
+  "series": "Core 2",
+  "first_part": 8
+ },
+ {
+  "term": "data cap",
+  "meaning": "A limit on how much data your plan allows",
+  "first_appears": "Core 1 Part 11",
+  "series": "Core 1",
+  "first_part": 11
+ },
+ {
+  "term": "data integrity",
+  "meaning": "Data that has not been changed",
+  "first_appears": "Core 2 Part 15",
+  "series": "Core 2",
+  "first_part": 15
+ },
+ {
+  "term": "data privacy",
+  "meaning": "Keeping personal information safe and unshared",
+  "first_appears": "Core 2 Part 16",
+  "series": "Core 2",
+  "first_part": 16
+ },
+ {
+  "term": "data remanence",
+  "meaning": "Data left behind after deleting",
+  "first_appears": "Core 2 Part 11",
+  "series": "Core 2",
+  "first_part": 11
+ },
+ {
+  "term": "data retention",
+  "meaning": "How long data must be kept",
+  "first_appears": "Core 2 Part 15",
+  "series": "Core 2",
+  "first_part": 15
+ },
+ {
+  "term": "data usage limit",
+  "meaning": "The mobile data cap on your plan",
+  "first_appears": "Core 2 Part 13",
+  "series": "Core 2",
+  "first_part": 13
+ },
+ {
+  "term": "database server",
+  "meaning": "A server that stores organised data",
+  "first_appears": "Core 1 Part 8",
+  "series": "Core 1",
+  "first_part": 8
+ },
+ {
+  "term": "DC",
+  "meaning": "Direct Current: the low voltage power inside a PC",
+  "first_appears": "Core 1 Part 4",
+  "series": "Core 1",
+  "first_part": 4
+ },
+ {
+  "term": "DDoS",
+  "meaning": "Distributed Denial of Service: the flood comes from many computers",
+  "first_appears": "Core 2 Part 9",
+  "series": "Core 2",
+  "first_part": 9
+ },
+ {
+  "term": "DDR",
+  "meaning": "Double Data Rate: how fast the memory moves data",
+  "first_appears": "Core 1 Part 2",
+  "series": "Core 1",
   "first_part": 2
+ },
+ {
+  "term": "dead pixel",
+  "meaning": "A dot on the screen that no longer works",
+  "first_appears": "Core 1 Part 14",
+  "series": "Core 1",
+  "first_part": 14
+ },
+ {
+  "term": "dedicated graphics",
+  "meaning": "A separate graphics card with its own memory",
+  "first_appears": "Core 2 Part 6",
+  "series": "Core 2",
+  "first_part": 6
+ },
+ {
+  "term": "default gateway",
+  "meaning": "The router address that leads out of the local network",
+  "first_appears": "Core 1 Part 10",
+  "series": "Core 1",
+  "first_part": 10
+ },
+ {
+  "term": "Defender Antivirus",
+  "meaning": "Windows' built-in malware scanner",
+  "first_appears": "Core 2 Part 8",
+  "series": "Core 2",
+  "first_part": 8
+ },
+ {
+  "term": "definitions",
+  "meaning": "The list of known threats the antivirus checks against",
+  "first_appears": "Core 2 Part 8",
+  "series": "Core 2",
+  "first_part": 8
+ },
+ {
+  "term": "degaussing",
+  "meaning": "Using a strong magnet to wipe magnetic drives",
+  "first_appears": "Core 2 Part 11",
+  "series": "Core 2",
+  "first_part": 11
+ },
+ {
+  "term": "degraded",
+  "meaning": "A RAID array running with a failed drive",
+  "first_appears": "Core 1 Part 13",
+  "series": "Core 1",
+  "first_part": 13
+ },
+ {
+  "term": "dependency",
+  "meaning": "Something else that must be running first",
+  "first_appears": "Core 2 Part 12",
+  "series": "Core 2",
+  "first_part": 12
+ },
+ {
+  "term": "deployment",
+  "meaning": "Installing software on many computers",
+  "first_appears": "Core 2 Part 6",
+  "series": "Core 2",
+  "first_part": 6
+ },
+ {
+  "term": "device encryption",
+  "meaning": "Scrambling stored data so only the owner can read it",
+  "first_appears": "Core 2 Part 10",
+  "series": "Core 2",
+  "first_part": 10
+ },
+ {
+  "term": "Device Manager",
+  "meaning": "Tool that lists and fixes hardware devices",
+  "first_appears": "Core 2 Part 2",
+  "series": "Core 2",
+  "first_part": 2
+ },
+ {
+  "term": "DHCP",
+  "meaning": "Dynamic Host Configuration Protocol, hands out addresses",
+  "first_appears": "Core 1 Part 7",
+  "series": "Core 1",
+  "first_part": 7
+ },
+ {
+  "term": "dictionary attack",
+  "meaning": "Trying common words as passwords",
+  "first_appears": "Core 2 Part 9",
+  "series": "Core 2",
+  "first_part": 9
+ },
+ {
+  "term": "differential backup",
+  "meaning": "A copy of what changed since the last full backup",
+  "first_appears": "Core 2 Part 14",
+  "series": "Core 2",
+  "first_part": 14
+ },
+ {
+  "term": "dig",
+  "meaning": "Looks up DNS records",
+  "first_appears": "Core 2 Part 5",
+  "series": "Core 2",
+  "first_part": 5
+ },
+ {
+  "term": "digitizer",
+  "meaning": "The layer that senses touch and turns it into data",
+  "first_appears": "Core 1 Part 5",
+  "series": "Core 1",
+  "first_part": 5
+ },
+ {
+  "term": "DIMM",
+  "meaning": "Dual In-line Memory Module: the full size memory stick",
+  "first_appears": "Core 1 Part 2",
+  "series": "Core 1",
+  "first_part": 2
+ },
+ {
+  "term": "directory",
+  "meaning": "A central list of users and computers",
+  "first_appears": "Core 2 Part 6",
+  "series": "Core 2",
+  "first_part": 6
+ },
+ {
+  "term": "directory services",
+  "meaning": "A central list of users and what they can reach",
+  "first_appears": "Core 2 Part 7",
+  "series": "Core 2",
+  "first_part": 7
+ },
+ {
+  "term": "Disk Defragment",
+  "meaning": "Tidies a hard drive so files sit in one piece",
+  "first_appears": "Core 2 Part 2",
+  "series": "Core 2",
+  "first_part": 2
+ },
+ {
+  "term": "disk image",
+  "meaning": "A file that opens like a virtual disk",
+  "first_appears": "Core 2 Part 5",
+  "series": "Core 2",
+  "first_part": 5
+ },
+ {
+  "term": "Disk Utility",
+  "meaning": "Mac tool to check, repair and erase drives",
+  "first_appears": "Core 2 Part 5",
+  "series": "Core 2",
+  "first_part": 5
+ },
+ {
+  "term": "diskpart",
+  "meaning": "Disk partition tool for the command line",
+  "first_appears": "Core 2 Part 3",
+  "series": "Core 2",
+  "first_part": 3
+ },
+ {
+  "term": "display",
+  "meaning": "The screen that shows what the computer is doing",
+  "first_appears": "Core 1 Part 5",
+  "series": "Core 1",
+  "first_part": 5
+ },
+ {
+  "term": "DisplayPort",
+  "meaning": "A digital video and audio connector",
+  "first_appears": "Core 1 Part 4",
+  "series": "Core 1",
+  "first_part": 4
+ },
+ {
+  "term": "distractor",
+  "meaning": "A wrong answer that looks believable",
+  "first_appears": "Core 1 Part 16",
+  "series": "Core 1",
+  "first_part": 16
+ },
+ {
+  "term": "DKIM",
+  "meaning": "DomainKeys Identified Mail, signs each message",
+  "first_appears": "Core 1 Part 8",
+  "series": "Core 1",
+  "first_part": 8
+ },
+ {
+  "term": "DLP",
+  "meaning": "Data Loss Prevention",
+  "first_appears": "Core 2 Part 7",
+  "series": "Core 2",
+  "first_part": 7
+ },
+ {
+  "term": "DMARC",
+  "meaning": "Domain-based Message Authentication, Reporting, and Conformance",
+  "first_appears": "Core 1 Part 8",
+  "series": "Core 1",
+  "first_part": 8
+ },
+ {
+  "term": "DNS",
+  "meaning": "Domain Name System, turns names into addresses",
+  "first_appears": "Core 1 Part 7",
+  "series": "Core 1",
+  "first_part": 7
+ },
+ {
+  "term": "DNS server",
+  "meaning": "A server that answers name lookups",
+  "first_appears": "Core 1 Part 8",
+  "series": "Core 1",
+  "first_part": 8
+ },
+ {
+  "term": "Dock",
+  "meaning": "The bar of apps along the bottom of a Mac screen",
+  "first_appears": "Core 2 Part 5",
+  "series": "Core 2",
+  "first_part": 5
+ },
+ {
+  "term": "docking station",
+  "meaning": "One connection that adds a screen, keyboard, network and charging",
+  "first_appears": "Core 1 Part 11",
+  "series": "Core 1",
+  "first_part": 11
+ },
+ {
+  "term": "documentation",
+  "meaning": "Written records of what was done and how",
+  "first_appears": "Core 2 Part 14",
+  "series": "Core 2",
+  "first_part": 14
+ },
+ {
+  "term": "domain",
+  "meaning": "One of the exam's five main topic areas",
+  "first_appears": "Core 1 Part 16",
+  "series": "Core 1",
+  "first_part": 16
+ },
+ {
+  "term": "DoS",
+  "meaning": "Denial of Service: flooding a service so users cannot reach it",
+  "first_appears": "Core 2 Part 9",
+  "series": "Core 2",
+  "first_part": 9
+ },
+ {
+  "term": "driver",
+  "meaning": "A small program that lets the computer use a device",
+  "first_appears": "Core 1 Part 6",
+  "series": "Core 1",
+  "first_part": 6
+ },
+ {
+  "term": "DRM",
+  "meaning": "Digital Rights Management: stops illegal copying",
+  "first_appears": "Core 2 Part 15",
+  "series": "Core 2",
+  "first_part": 15
+ },
+ {
+  "term": "drum",
+  "meaning": "The part of a laser printer that holds the image",
+  "first_appears": "Core 1 Part 14",
+  "series": "Core 1",
+  "first_part": 14
+ },
+ {
+  "term": "DSL",
+  "meaning": "Digital Subscriber Line, internet over a phone line",
+  "first_appears": "Core 1 Part 9",
+  "series": "Core 1",
+  "first_part": 9
+ },
+ {
+  "term": "dual channel",
+  "meaning": "Two memory paths working at once",
+  "first_appears": "Core 1 Part 2",
+  "series": "Core 1",
+  "first_part": 2
+ },
+ {
+  "term": "dumpster diving",
+  "meaning": "Searching trash for useful information",
+  "first_appears": "Core 2 Part 9",
+  "series": "Core 2",
+  "first_part": 9
+ },
+ {
+  "term": "duplex",
+  "meaning": "Printing on both sides of the paper",
+  "first_appears": "Core 1 Part 6",
+  "series": "Core 1",
+  "first_part": 6
  },
  {
   "term": "DVI",
   "meaning": "Digital Visual Interface",
+  "first_appears": "Core 1 Part 4",
+  "series": "Core 1",
   "first_part": 4
  },
  {
+  "term": "dynamic",
+  "meaning": "An address handed out automatically",
+  "first_appears": "Core 1 Part 10",
+  "series": "Core 1",
+  "first_part": 10
+ },
+ {
+  "term": "e-waste",
+  "meaning": "Old electronics that need special recycling",
+  "first_appears": "Core 2 Part 11",
+  "series": "Core 2",
+  "first_part": 11
+ },
+ {
   "term": "ECC",
-  "meaning": "Error-correcting Code",
+  "meaning": "Error Correcting Code: memory that fixes flipped bits",
+  "first_appears": "Core 1 Part 2",
+  "series": "Core 1",
   "first_part": 2
  },
  {
-  "term": "eSATA",
-  "meaning": "External Serial Advanced Technology Attachment",
+  "term": "edition",
+  "meaning": "A version of Windows with a particular feature set",
+  "first_appears": "Core 2 Part 1",
+  "series": "Core 2",
   "first_part": 1
  },
  {
+  "term": "EDR",
+  "meaning": "Endpoint Detection and Response",
+  "first_appears": "Core 2 Part 9",
+  "series": "Core 2",
+  "first_part": 9
+ },
+ {
+  "term": "EFS",
+  "meaning": "Encrypting File System: encrypts single files or folders",
+  "first_appears": "Core 2 Part 8",
+  "series": "Core 2",
+  "first_part": 8
+ },
+ {
+  "term": "egress",
+  "meaning": "Data going out of the cloud",
+  "first_appears": "Core 1 Part 12",
+  "series": "Core 1",
+  "first_part": 12
+ },
+ {
+  "term": "elasticity",
+  "meaning": "Resources grow and shrink with demand",
+  "first_appears": "Core 1 Part 12",
+  "series": "Core 1",
+  "first_part": 12
+ },
+ {
+  "term": "email security gateway",
+  "meaning": "Filters dangerous email before it arrives",
+  "first_appears": "Core 2 Part 9",
+  "series": "Core 2",
+  "first_part": 9
+ },
+ {
+  "term": "encrypted",
+  "meaning": "Scrambled so nobody else can read it",
+  "first_appears": "Core 2 Part 4",
+  "series": "Core 2",
+  "first_part": 4
+ },
+ {
+  "term": "encryption",
+  "meaning": "Scrambling data so only the right people can read it",
+  "first_appears": "Core 1 Part 7",
+  "series": "Core 1",
+  "first_part": 7
+ },
+ {
+  "term": "end of life",
+  "meaning": "When the maker stops updates and support",
+  "first_appears": "Core 2 Part 1",
+  "series": "Core 2",
+  "first_part": 1
+ },
+ {
+  "term": "EOL",
+  "meaning": "End of Life: no more updates from the maker",
+  "first_appears": "Core 2 Part 9",
+  "series": "Core 2",
+  "first_part": 9
+ },
+ {
+  "term": "escalation",
+  "meaning": "Passing an issue up to a higher level of support",
+  "first_appears": "Core 2 Part 14",
+  "series": "Core 2",
+  "first_part": 14
+ },
+ {
+  "term": "ESD",
+  "meaning": "Electrostatic Discharge: a static shock that can damage parts",
+  "first_appears": "Core 2 Part 15",
+  "series": "Core 2",
+  "first_part": 15
+ },
+ {
+  "term": "eSIM",
+  "meaning": "A SIM built into the phone, set up with a code",
+  "first_appears": "Core 1 Part 11",
+  "series": "Core 1",
+  "first_part": 11
+ },
+ {
+  "term": "Ethernet",
+  "meaning": "The standard wired network",
+  "first_appears": "Core 1 Part 4",
+  "series": "Core 1",
+  "first_part": 4
+ },
+ {
+  "term": "EULA",
+  "meaning": "End-User License Agreement: the rules you accept to use software",
+  "first_appears": "Core 2 Part 15",
+  "series": "Core 2",
+  "first_part": 15
+ },
+ {
+  "term": "Event Viewer",
+  "meaning": "Tool that shows the logs Windows keeps",
+  "first_appears": "Core 2 Part 2",
+  "series": "Core 2",
+  "first_part": 2
+ },
+ {
+  "term": "evil twin",
+  "meaning": "A fake Wi-Fi network copying a real one",
+  "first_appears": "Core 2 Part 9",
+  "series": "Core 2",
+  "first_part": 9
+ },
+ {
+  "term": "exception",
+  "meaning": "A rule that lets one program through the firewall",
+  "first_appears": "Core 2 Part 4",
+  "series": "Core 2",
+  "first_part": 4
+ },
+ {
+  "term": "exclusion",
+  "meaning": "An address DHCP must never hand out",
+  "first_appears": "Core 1 Part 8",
+  "series": "Core 1",
+  "first_part": 8
+ },
+ {
+  "term": "exFAT",
+  "meaning": "Extended File Allocation Table",
+  "first_appears": "Core 2 Part 1",
+  "series": "Core 2",
+  "first_part": 1
+ },
+ {
+  "term": "expiration",
+  "meaning": "A password that must be changed after a set time",
+  "first_appears": "Core 2 Part 8",
+  "series": "Core 2",
+  "first_part": 8
+ },
+ {
+  "term": "extension",
+  "meaning": "A small add-on that gives a browser extra features",
+  "first_appears": "Core 2 Part 10",
+  "series": "Core 2",
+  "first_part": 10
+ },
+ {
+  "term": "factory reset",
+  "meaning": "Erasing a phone back to how it came",
+  "first_appears": "Core 2 Part 13",
+  "series": "Core 2",
+  "first_part": 13
+ },
+ {
+  "term": "FAT32",
+  "meaning": "File Allocation Table 32",
+  "first_appears": "Core 2 Part 1",
+  "series": "Core 2",
+  "first_part": 1
+ },
+ {
+  "term": "feature update",
+  "meaning": "A big update that adds new features",
+  "first_appears": "Core 2 Part 1",
+  "series": "Core 2",
+  "first_part": 1
+ },
+ {
+  "term": "feed assembly",
+  "meaning": "The rollers that pull paper through",
+  "first_appears": "Core 1 Part 6",
+  "series": "Core 1",
+  "first_part": 6
+ },
+ {
+  "term": "fiber",
+  "meaning": "Glass cable that carries light signals",
+  "first_appears": "Core 1 Part 9",
+  "series": "Core 1",
+  "first_part": 9
+ },
+ {
+  "term": "fiber optic",
+  "meaning": "Cable that carries data as light",
+  "first_appears": "Core 1 Part 4",
+  "series": "Core 1",
+  "first_part": 4
+ },
+ {
+  "term": "File Explorer",
+  "meaning": "The Windows window for browsing files and drives",
+  "first_appears": "Core 2 Part 2",
+  "series": "Core 2",
+  "first_part": 2
+ },
+ {
+  "term": "file extension",
+  "meaning": "The letters after the dot that show the file type",
+  "first_appears": "Core 2 Part 2",
+  "series": "Core 2",
+  "first_part": 2
+ },
+ {
+  "term": "file server",
+  "meaning": "A computer that stores shared files",
+  "first_appears": "Core 2 Part 4",
+  "series": "Core 2",
+  "first_part": 4
+ },
+ {
+  "term": "file synchronization",
+  "meaning": "Keeping the same files up to date on every device",
+  "first_appears": "Core 1 Part 12",
+  "series": "Core 1",
+  "first_part": 12
+ },
+ {
+  "term": "file system",
+  "meaning": "How files are stored on a drive",
+  "first_appears": "Core 2 Part 1",
+  "series": "Core 2",
+  "first_part": 1
+ },
+ {
+  "term": "fileless malware",
+  "meaning": "Runs in memory and leaves no file",
+  "first_appears": "Core 2 Part 9",
+  "series": "Core 2",
+  "first_part": 9
+ },
+ {
+  "term": "FileVault",
+  "meaning": "Encrypts the whole Mac drive",
+  "first_appears": "Core 2 Part 5",
+  "series": "Core 2",
+  "first_part": 5
+ },
+ {
+  "term": "Finder",
+  "meaning": "The Mac file manager, like File Explorer",
+  "first_appears": "Core 2 Part 5",
+  "series": "Core 2",
+  "first_part": 5
+ },
+ {
+  "term": "firewall",
+  "meaning": "Allows or blocks network traffic by rules",
+  "first_appears": "Core 1 Part 9",
+  "series": "Core 1",
+  "first_part": 9
+ },
+ {
+  "term": "firmware",
+  "meaning": "Software on a chip that starts the hardware",
+  "first_appears": "Core 1 Part 1",
+  "series": "Core 1",
+  "first_part": 1
+ },
+ {
+  "term": "flag",
+  "meaning": "Mark a question to come back to",
+  "first_appears": "Core 1 Part 16",
+  "series": "Core 1",
+  "first_part": 16
+ },
+ {
+  "term": "flash drive",
+  "meaning": "A small USB stick for carrying files",
+  "first_appears": "Core 1 Part 3",
+  "series": "Core 1",
+  "first_part": 3
+ },
+ {
+  "term": "flash memory",
+  "meaning": "Memory chips that keep data without power",
+  "first_appears": "Core 1 Part 3",
+  "series": "Core 1",
+  "first_part": 3
+ },
+ {
+  "term": "flatbed scanner",
+  "meaning": "A glass bed for scanning single sheets or books",
+  "first_appears": "Core 1 Part 6",
+  "series": "Core 1",
+  "first_part": 6
+ },
+ {
+  "term": "folder redirection",
+  "meaning": "Saving a user's folders on a server",
+  "first_appears": "Core 2 Part 8",
+  "series": "Core 2",
+  "first_part": 8
+ },
+ {
+  "term": "follow up",
+  "meaning": "Checking back later that the customer is happy",
+  "first_appears": "Core 2 Part 15",
+  "series": "Core 2",
+  "first_part": 15
+ },
+ {
+  "term": "Force Quit",
+  "meaning": "Ends an app that has frozen",
+  "first_appears": "Core 2 Part 5",
+  "series": "Core 2",
+  "first_part": 5
+ },
+ {
+  "term": "form factor",
+  "meaning": "A standard size and shape for a board",
+  "first_appears": "Core 1 Part 1",
+  "series": "Core 1",
+  "first_part": 1
+ },
+ {
+  "term": "format",
+  "meaning": "Prepare a partition with a file system",
+  "first_appears": "Core 2 Part 1",
+  "series": "Core 2",
+  "first_part": 1
+ },
+ {
+  "term": "FRT",
+  "meaning": "Facial Recognition Technology",
+  "first_appears": "Core 2 Part 7",
+  "series": "Core 2",
+  "first_part": 7
+ },
+ {
+  "term": "fsck",
+  "meaning": "File system check: checks a drive for errors",
+  "first_appears": "Core 2 Part 5",
+  "series": "Core 2",
+  "first_part": 5
+ },
+ {
+  "term": "fstab",
+  "meaning": "File listing the drives to mount at startup",
+  "first_appears": "Core 2 Part 5",
+  "series": "Core 2",
+  "first_part": 5
+ },
+ {
+  "term": "FTP",
+  "meaning": "File Transfer Protocol",
+  "first_appears": "Core 1 Part 7",
+  "series": "Core 1",
+  "first_part": 7
+ },
+ {
+  "term": "full backup",
+  "meaning": "A copy of everything",
+  "first_appears": "Core 2 Part 14",
+  "series": "Core 2",
+  "first_part": 14
+ },
+ {
+  "term": "fuser",
+  "meaning": "The hot part that melts toner onto paper",
+  "first_appears": "Core 1 Part 6",
+  "series": "Core 1",
+  "first_part": 6
+ },
+ {
+  "term": "GFS",
+  "meaning": "Grandfather-Father-Son: a daily, weekly and monthly backup rotation",
+  "first_appears": "Core 2 Part 14",
+  "series": "Core 2",
+  "first_part": 14
+ },
+ {
+  "term": "GHz",
+  "meaning": "Gigahertz: billions of radio waves per second",
+  "first_appears": "Core 1 Part 10",
+  "series": "Core 1",
+  "first_part": 10
+ },
+ {
+  "term": "gpresult",
+  "meaning": "Shows which policies applied",
+  "first_appears": "Core 2 Part 3",
+  "series": "Core 2",
+  "first_part": 3
+ },
+ {
+  "term": "GPS",
+  "meaning": "Global Positioning System",
+  "first_appears": "Core 1 Part 11",
+  "series": "Core 1",
+  "first_part": 11
+ },
+ {
+  "term": "GPT",
+  "meaning": "GUID Partition Table",
+  "first_appears": "Core 2 Part 1",
+  "series": "Core 2",
+  "first_part": 1
+ },
+ {
+  "term": "gpupdate",
+  "meaning": "Refreshes Group Policy now",
+  "first_appears": "Core 2 Part 3",
+  "series": "Core 2",
+  "first_part": 3
+ },
+ {
+  "term": "grep",
+  "meaning": "Searches inside files for text",
+  "first_appears": "Core 2 Part 5",
+  "series": "Core 2",
+  "first_part": 5
+ },
+ {
+  "term": "grounding",
+  "meaning": "Sending stray electricity safely into the earth",
+  "first_appears": "Core 2 Part 15",
+  "series": "Core 2",
+  "first_part": 15
+ },
+ {
+  "term": "Group Policy",
+  "meaning": "Rules a server sets for its computers",
+  "first_appears": "Core 2 Part 3",
+  "series": "Core 2",
+  "first_part": 3
+ },
+ {
+  "term": "Group Policy Editor",
+  "meaning": "Tool that sets security rules on the computer",
+  "first_appears": "Core 2 Part 2",
+  "series": "Core 2",
+  "first_part": 2
+ },
+ {
+  "term": "guest",
+  "meaning": "The system running inside a virtual machine",
+  "first_appears": "Core 1 Part 12",
+  "series": "Core 1",
+  "first_part": 12
+ },
+ {
+  "term": "guest network",
+  "meaning": "A separate Wi-Fi for visitors",
+  "first_appears": "Core 2 Part 10",
+  "series": "Core 2",
+  "first_part": 10
+ },
+ {
+  "term": "hallucination",
+  "meaning": "When an AI confidently makes something up",
+  "first_appears": "Core 2 Part 16",
+  "series": "Core 2",
+  "first_part": 16
+ },
+ {
+  "term": "hardware token",
+  "meaning": "A small USB key that proves you own a license",
+  "first_appears": "Core 2 Part 6",
+  "series": "Core 2",
+  "first_part": 6
+ },
+ {
+  "term": "hash",
+  "meaning": "A short fingerprint of a file, used to check it hasn't changed",
+  "first_appears": "Core 2 Part 10",
+  "series": "Core 2",
+  "first_part": 10
+ },
+ {
   "term": "HDD",
-  "meaning": "Hard Disk Drive",
+  "meaning": "Hard Disk Drive: stores data on spinning platters",
+  "first_appears": "Core 1 Part 3",
+  "series": "Core 1",
   "first_part": 3
  },
  {
   "term": "HDMI",
-  "meaning": "High-definition Media Interface",
+  "meaning": "High-Definition Multimedia Interface",
+  "first_appears": "Core 1 Part 4",
+  "series": "Core 1",
   "first_part": 4
+ },
+ {
+  "term": "header",
+  "meaning": "A group of pins for case buttons, USB and fans",
+  "first_appears": "Core 1 Part 1",
+  "series": "Core 1",
+  "first_part": 1
+ },
+ {
+  "term": "heat sink",
+  "meaning": "Metal fins that pull heat off the chip",
+  "first_appears": "Core 1 Part 1",
+  "series": "Core 1",
+  "first_part": 1
+ },
+ {
+  "term": "heating element",
+  "meaning": "The part of a thermal printer that makes heat",
+  "first_appears": "Core 1 Part 6",
+  "series": "Core 1",
+  "first_part": 6
+ },
+ {
+  "term": "hertz",
+  "meaning": "Times per second",
+  "first_appears": "Core 1 Part 5",
+  "series": "Core 1",
+  "first_part": 5
+ },
+ {
+  "term": "hibernate",
+  "meaning": "Save work to the drive and switch fully off",
+  "first_appears": "Core 2 Part 2",
+  "series": "Core 2",
+  "first_part": 2
+ },
+ {
+  "term": "hop",
+  "meaning": "One router on the path to a destination",
+  "first_appears": "Core 2 Part 3",
+  "series": "Core 2",
+  "first_part": 3
+ },
+ {
+  "term": "host",
+  "meaning": "The real computer that runs the virtual machines",
+  "first_appears": "Core 1 Part 12",
+  "series": "Core 1",
+  "first_part": 12
+ },
+ {
+  "term": "hostname",
+  "meaning": "Shows the computer's name",
+  "first_appears": "Core 2 Part 3",
+  "series": "Core 2",
+  "first_part": 3
+ },
+ {
+  "term": "hosts file",
+  "meaning": "File that maps names to addresses",
+  "first_appears": "Core 2 Part 5",
+  "series": "Core 2",
+  "first_part": 5
+ },
+ {
+  "term": "hotspot",
+  "meaning": "A phone or device that shares its internet over Wi-Fi",
+  "first_appears": "Core 1 Part 11",
+  "series": "Core 1",
+  "first_part": 11
  },
  {
   "term": "HSM",
   "meaning": "Hardware Security Module",
+  "first_appears": "Core 1 Part 1",
+  "series": "Core 1",
   "first_part": 1
+ },
+ {
+  "term": "HTTP",
+  "meaning": "Hypertext Transfer Protocol, the web",
+  "first_appears": "Core 1 Part 7",
+  "series": "Core 1",
+  "first_part": 7
+ },
+ {
+  "term": "HTTPS",
+  "meaning": "Hypertext Transfer Protocol Secure, the encrypted web",
+  "first_appears": "Core 1 Part 7",
+  "series": "Core 1",
+  "first_part": 7
+ },
+ {
+  "term": "hybrid cloud",
+  "meaning": "A mix of public and private cloud",
+  "first_appears": "Core 1 Part 12",
+  "series": "Core 1",
+  "first_part": 12
+ },
+ {
+  "term": "hyper-threading",
+  "meaning": "One core handling two tasks at once",
+  "first_appears": "Core 1 Part 1",
+  "series": "Core 1",
+  "first_part": 1
+ },
+ {
+  "term": "hypervisor",
+  "meaning": "Software that creates and runs virtual machines",
+  "first_appears": "Core 1 Part 12",
+  "series": "Core 1",
+  "first_part": 12
+ },
+ {
+  "term": "IaaS",
+  "meaning": "Infrastructure as a Service",
+  "first_appears": "Core 1 Part 12",
+  "series": "Core 1",
+  "first_part": 12
+ },
+ {
+  "term": "IAM",
+  "meaning": "Identity Access Management",
+  "first_appears": "Core 2 Part 7",
+  "series": "Core 2",
+  "first_part": 7
+ },
+ {
+  "term": "iCloud",
+  "meaning": "Apple's online storage and sync service",
+  "first_appears": "Core 2 Part 5",
+  "series": "Core 2",
+  "first_part": 5
+ },
+ {
+  "term": "identity synchronization",
+  "meaning": "Keeping one set of sign-in details in sync between the office and the cloud",
+  "first_appears": "Core 2 Part 6",
+  "series": "Core 2",
+  "first_part": 6
+ },
+ {
+  "term": "image deployment",
+  "meaning": "Copying one ready-made setup onto many PCs",
+  "first_appears": "Core 2 Part 1",
+  "series": "Core 2",
+  "first_part": 1
+ },
+ {
+  "term": "IMAP",
+  "meaning": "Internet Mail Access Protocol, syncs email",
+  "first_appears": "Core 1 Part 7",
+  "series": "Core 1",
+  "first_part": 7
+ },
+ {
+  "term": "impact",
+  "meaning": "The effect a change has on devices, networks, work and business",
+  "first_appears": "Core 2 Part 6",
+  "series": "Core 2",
+  "first_part": 6
+ },
+ {
+  "term": "impact printer",
+  "meaning": "Hits an inked ribbon with pins to print",
+  "first_appears": "Core 1 Part 6",
+  "series": "Core 1",
+  "first_part": 6
+ },
+ {
+  "term": "impersonation",
+  "meaning": "Pretending to be someone trusted",
+  "first_appears": "Core 2 Part 9",
+  "series": "Core 2",
+  "first_part": 9
+ },
+ {
+  "term": "in-place upgrade",
+  "meaning": "Installing a new version over the old one, keeping your data",
+  "first_appears": "Core 2 Part 1",
+  "series": "Core 2",
+  "first_part": 1
+ },
+ {
+  "term": "inbound",
+  "meaning": "Traffic coming into the computer",
+  "first_appears": "Core 2 Part 4",
+  "series": "Core 2",
+  "first_part": 4
+ },
+ {
+  "term": "incineration",
+  "meaning": "Destroying a drive by burning it",
+  "first_appears": "Core 2 Part 11",
+  "series": "Core 2",
+  "first_part": 11
+ },
+ {
+  "term": "incremental backup",
+  "meaning": "A copy of what changed since the last backup",
+  "first_appears": "Core 2 Part 14",
+  "series": "Core 2",
+  "first_part": 14
+ },
+ {
+  "term": "Indexing Options",
+  "meaning": "Controls what Windows includes in searches",
+  "first_appears": "Core 2 Part 2",
+  "series": "Core 2",
+  "first_part": 2
+ },
+ {
+  "term": "ingress",
+  "meaning": "Data coming into the cloud",
+  "first_appears": "Core 1 Part 12",
+  "series": "Core 1",
+  "first_part": 12
+ },
+ {
+  "term": "inheritance",
+  "meaning": "Permissions passing down from a folder to what is inside",
+  "first_appears": "Core 2 Part 8",
+  "series": "Core 2",
+  "first_part": 8
+ },
+ {
+  "term": "initialize",
+  "meaning": "Prepare a new drive so the system can use it",
+  "first_appears": "Core 1 Part 13",
+  "series": "Core 1",
+  "first_part": 13
+ },
+ {
+  "term": "inkjet printer",
+  "meaning": "Prints by spraying tiny drops of ink",
+  "first_appears": "Core 1 Part 6",
+  "series": "Core 1",
+  "first_part": 6
+ },
+ {
+  "term": "input source",
+  "meaning": "Which socket the screen is listening to",
+  "first_appears": "Core 1 Part 14",
+  "series": "Core 1",
+  "first_part": 14
+ },
+ {
+  "term": "insider threat",
+  "meaning": "A person with access who causes harm",
+  "first_appears": "Core 2 Part 9",
+  "series": "Core 2",
+  "first_part": 9
+ },
+ {
+  "term": "installer package",
+  "meaning": "A file that runs a setup wizard",
+  "first_appears": "Core 2 Part 5",
+  "series": "Core 2",
+  "first_part": 5
+ },
+ {
+  "term": "instant messaging",
+  "meaning": "Quick chat between people in real time",
+  "first_appears": "Core 2 Part 6",
+  "series": "Core 2",
+  "first_part": 6
+ },
+ {
+  "term": "integrated graphics",
+  "meaning": "Graphics built into the CPU, sharing normal RAM",
+  "first_appears": "Core 2 Part 6",
+  "series": "Core 2",
+  "first_part": 6
+ },
+ {
+  "term": "interference",
+  "meaning": "Signals that disturb each other",
+  "first_appears": "Core 1 Part 10",
+  "series": "Core 1",
+  "first_part": 10
+ },
+ {
+  "term": "inverter",
+  "meaning": "A small board that powers an older screen's backlight tube",
+  "first_appears": "Core 1 Part 5",
+  "series": "Core 1",
+  "first_part": 5
+ },
+ {
+  "term": "IOPS",
+  "meaning": "Input/Output Operations Per Second",
+  "first_appears": "Core 1 Part 13",
+  "series": "Core 1",
+  "first_part": 13
+ },
+ {
+  "term": "IoT",
+  "meaning": "Internet of Things, smart connected devices",
+  "first_appears": "Core 1 Part 8",
+  "series": "Core 1",
+  "first_part": 8
+ },
+ {
+  "term": "IP address",
+  "meaning": "A device's address on a network",
+  "first_appears": "Core 1 Part 7",
+  "series": "Core 1",
+  "first_part": 7
+ },
+ {
+  "term": "IP filtering",
+  "meaning": "Allowing or blocking by IP address",
+  "first_appears": "Core 2 Part 10",
+  "series": "Core 2",
+  "first_part": 10
+ },
+ {
+  "term": "ipconfig",
+  "meaning": "Shows a computer's network settings",
+  "first_appears": "Core 2 Part 3",
+  "series": "Core 2",
+  "first_part": 3
+ },
+ {
+  "term": "IPS",
+  "meaning": "In-Plane Switching: an LCD type with the best colors and viewing angles",
+  "first_appears": "Core 1 Part 5",
+  "series": "Core 1",
+  "first_part": 5
+ },
+ {
+  "term": "IPv4",
+  "meaning": "Internet Protocol version 4: four numbers, 0 to 255",
+  "first_appears": "Core 1 Part 10",
+  "series": "Core 1",
+  "first_part": 10
+ },
+ {
+  "term": "IPv6",
+  "meaning": "Internet Protocol version 6: a much longer address",
+  "first_appears": "Core 1 Part 10",
+  "series": "Core 1",
+  "first_part": 10
+ },
+ {
+  "term": "ISO file",
+  "meaning": "One file that holds a copy of a disc",
+  "first_appears": "Core 2 Part 6",
+  "series": "Core 2",
+  "first_part": 6
  },
  {
   "term": "ITX",
   "meaning": "Information Technology eXtended",
+  "first_appears": "Core 1 Part 1",
+  "series": "Core 1",
   "first_part": 1
+ },
+ {
+  "term": "jailbreak",
+  "meaning": "Removing iPhone's built-in restrictions",
+  "first_appears": "Core 2 Part 13",
+  "series": "Core 2",
+  "first_part": 13
+ },
+ {
+  "term": "jargon",
+  "meaning": "Technical words the customer may not know",
+  "first_appears": "Core 2 Part 15",
+  "series": "Core 2",
+  "first_part": 15
+ },
+ {
+  "term": "jitter",
+  "meaning": "Delay between data pieces that keeps changing",
+  "first_appears": "Core 1 Part 15",
+  "series": "Core 1",
+  "first_part": 15
+ },
+ {
+  "term": "just-in-time access",
+  "meaning": "Powerful rights given only when needed",
+  "first_appears": "Core 2 Part 7",
+  "series": "Core 2",
+  "first_part": 7
+ },
+ {
+  "term": "Kerberos",
+  "meaning": "A ticket-based sign-in system used in Windows domains",
+  "first_appears": "Core 2 Part 7",
+  "series": "Core 2",
+  "first_part": 7
+ },
+ {
+  "term": "kernel",
+  "meaning": "The core of an operating system",
+  "first_appears": "Core 2 Part 5",
+  "series": "Core 2",
+  "first_part": 5
+ },
+ {
+  "term": "key fob",
+  "meaning": "A small tag that unlocks a door",
+  "first_appears": "Core 2 Part 7",
+  "series": "Core 2",
+  "first_part": 7
+ },
+ {
+  "term": "Keychain",
+  "meaning": "The Mac's built in password manager",
+  "first_appears": "Core 2 Part 5",
+  "series": "Core 2",
+  "first_part": 5
+ },
+ {
+  "term": "keylogger",
+  "meaning": "Records every key you press",
+  "first_appears": "Core 2 Part 9",
+  "series": "Core 2",
+  "first_part": 9
+ },
+ {
+  "term": "knowledge base",
+  "meaning": "A library of articles on known fixes",
+  "first_appears": "Core 2 Part 14",
+  "series": "Core 2",
+  "first_part": 14
+ },
+ {
+  "term": "LAN",
+  "meaning": "Local Area Network",
+  "first_appears": "Core 1 Part 9",
+  "series": "Core 1",
+  "first_part": 9
+ },
+ {
+  "term": "laser printer",
+  "meaning": "Prints with toner powder and heat",
+  "first_appears": "Core 1 Part 6",
+  "series": "Core 1",
+  "first_part": 6
+ },
+ {
+  "term": "latency",
+  "meaning": "The delay before data arrives",
+  "first_appears": "Core 1 Part 9",
+  "series": "Core 1",
+  "first_part": 9
  },
  {
   "term": "LC",
-  "meaning": "Lucent Connector",
+  "meaning": "Lucent Connector: a small latched fiber connector",
+  "first_appears": "Core 1 Part 4",
+  "series": "Core 1",
   "first_part": 4
  },
  {
+  "term": "LCD",
+  "meaning": "Liquid Crystal Display: a screen lit from behind",
+  "first_appears": "Core 1 Part 5",
+  "series": "Core 1",
+  "first_part": 5
+ },
+ {
+  "term": "LDAP",
+  "meaning": "Lightweight Directory Access Protocol, looks up directory entries",
+  "first_appears": "Core 1 Part 7",
+  "series": "Core 1",
+  "first_part": 7
+ },
+ {
+  "term": "lease",
+  "meaning": "How long a device may keep an address",
+  "first_appears": "Core 1 Part 8",
+  "series": "Core 1",
+  "first_part": 8
+ },
+ {
+  "term": "least privilege",
+  "meaning": "Give people only the access their job needs",
+  "first_appears": "Core 2 Part 7",
+  "series": "Core 2",
+  "first_part": 7
+ },
+ {
+  "term": "LED",
+  "meaning": "Light-Emitting Diode: a tiny efficient light",
+  "first_appears": "Core 1 Part 5",
+  "series": "Core 1",
+  "first_part": 5
+ },
+ {
+  "term": "legacy software",
+  "meaning": "Old software that still has to run",
+  "first_appears": "Core 1 Part 12",
+  "series": "Core 1",
+  "first_part": 12
+ },
+ {
   "term": "LGA",
-  "meaning": "Land Grid Array",
+  "meaning": "Land Grid Array: pins are in the board, CPU has flat contacts",
+  "first_appears": "Core 1 Part 1",
+  "series": "Core 1",
   "first_part": 1
  },
  {
-  "term": "mSATA",
-  "meaning": "Mini-serial Advanced Technology Attachment",
+  "term": "licensing assignment",
+  "meaning": "Giving each user the paid plan their apps need",
+  "first_appears": "Core 2 Part 6",
+  "series": "Core 2",
+  "first_part": 6
+ },
+ {
+  "term": "lifting techniques",
+  "meaning": "Using your legs, not your back, to lift",
+  "first_appears": "Core 2 Part 15",
+  "series": "Core 2",
+  "first_part": 15
+ },
+ {
+  "term": "Lightning",
+  "meaning": "Apple's reversible connector",
+  "first_appears": "Core 1 Part 4",
+  "series": "Core 1",
+  "first_part": 4
+ },
+ {
+  "term": "link light",
+  "meaning": "A small light on a network port showing a connection",
+  "first_appears": "Core 1 Part 15",
+  "series": "Core 1",
+  "first_part": 15
+ },
+ {
+  "term": "Linux",
+  "meaning": "A free operating system",
+  "first_appears": "Core 2 Part 5",
+  "series": "Core 2",
+  "first_part": 5
+ },
+ {
+  "term": "lithium-ion",
+  "meaning": "The rechargeable battery type in phones and laptops",
+  "first_appears": "Core 1 Part 14",
+  "series": "Core 1",
+  "first_part": 14
+ },
+ {
+  "term": "load balancer",
+  "meaning": "Spreads traffic across several servers",
+  "first_appears": "Core 1 Part 8",
+  "series": "Core 1",
+  "first_part": 8
+ },
+ {
+  "term": "local account",
+  "meaning": "An account that exists only on one PC",
+  "first_appears": "Core 2 Part 8",
+  "series": "Core 2",
+  "first_part": 8
+ },
+ {
+  "term": "location services",
+  "meaning": "Features that let apps know where the device is",
+  "first_appears": "Core 1 Part 11",
+  "series": "Core 1",
+  "first_part": 11
+ },
+ {
+  "term": "log",
+  "meaning": "A written record of what happened",
+  "first_appears": "Core 2 Part 2",
+  "series": "Core 2",
+  "first_part": 2
+ },
+ {
+  "term": "loopback plug",
+  "meaning": "Sends a signal back to test a port",
+  "first_appears": "Core 1 Part 9",
+  "series": "Core 1",
+  "first_part": 9
+ },
+ {
+  "term": "low-level format",
+  "meaning": "Overwrites every sector so old data is gone",
+  "first_appears": "Core 2 Part 11",
+  "series": "Core 2",
+  "first_part": 11
+ },
+ {
+  "term": "M.2",
+  "meaning": "A small drive slot on the board, no cable needed",
+  "first_appears": "Core 1 Part 1",
+  "series": "Core 1",
+  "first_part": 1
+ },
+ {
+  "term": "MAC address",
+  "meaning": "A unique ID built into a network card",
+  "first_appears": "Core 1 Part 8",
+  "series": "Core 1",
+  "first_part": 8
+ },
+ {
+  "term": "macOS",
+  "meaning": "The operating system on Apple Macs",
+  "first_appears": "Core 2 Part 5",
+  "series": "Core 2",
+  "first_part": 5
+ },
+ {
+  "term": "magnetometer",
+  "meaning": "A metal detector",
+  "first_appears": "Core 2 Part 7",
+  "series": "Core 2",
+  "first_part": 7
+ },
+ {
+  "term": "maintenance kit",
+  "meaning": "Replacement parts for a printer's worn components",
+  "first_appears": "Core 1 Part 6",
+  "series": "Core 1",
+  "first_part": 6
+ },
+ {
+  "term": "maintenance window",
+  "meaning": "A planned quiet time for making changes",
+  "first_appears": "Core 2 Part 14",
+  "series": "Core 2",
+  "first_part": 14
+ },
+ {
+  "term": "malware",
+  "meaning": "Software built to harm or spy",
+  "first_appears": "Core 1 Part 14",
+  "series": "Core 1",
+  "first_part": 14
+ },
+ {
+  "term": "MAN",
+  "meaning": "Metropolitan Area Network",
+  "first_appears": "Core 1 Part 9",
+  "series": "Core 1",
+  "first_part": 9
+ },
+ {
+  "term": "managed switch",
+  "meaning": "A switch you can log in to and configure",
+  "first_appears": "Core 1 Part 9",
+  "series": "Core 1",
+  "first_part": 9
+ },
+ {
+  "term": "mapped drive",
+  "meaning": "A network share given its own drive letter",
+  "first_appears": "Core 2 Part 4",
+  "series": "Core 2",
+  "first_part": 4
+ },
+ {
+  "term": "MBR",
+  "meaning": "Master Boot Record",
+  "first_appears": "Core 2 Part 1",
+  "series": "Core 2",
+  "first_part": 1
+ },
+ {
+  "term": "md",
+  "meaning": "Make directory: creates a new folder",
+  "first_appears": "Core 2 Part 3",
+  "series": "Core 2",
   "first_part": 3
  },
  {
-  "term": "NVMe",
-  "meaning": "Non-volatile Memory Express",
+  "term": "MDM",
+  "meaning": "Mobile Device Management",
+  "first_appears": "Core 1 Part 11",
+  "series": "Core 1",
+  "first_part": 11
+ },
+ {
+  "term": "MDR",
+  "meaning": "Managed Detection and Response",
+  "first_appears": "Core 2 Part 9",
+  "series": "Core 2",
+  "first_part": 9
+ },
+ {
+  "term": "metered",
+  "meaning": "You pay for how much you use",
+  "first_appears": "Core 1 Part 12",
+  "series": "Core 1",
+  "first_part": 12
+ },
+ {
+  "term": "metered connection",
+  "meaning": "A connection with limited data",
+  "first_appears": "Core 2 Part 4",
+  "series": "Core 2",
+  "first_part": 4
+ },
+ {
+  "term": "MFA",
+  "meaning": "Multifactor Authentication: two or more kinds of proof",
+  "first_appears": "Core 2 Part 7",
+  "series": "Core 2",
+  "first_part": 7
+ },
+ {
+  "term": "Microsoft account",
+  "meaning": "An online account that signs you in and syncs settings",
+  "first_appears": "Core 2 Part 8",
+  "series": "Core 2",
+  "first_part": 8
+ },
+ {
+  "term": "Mini-LED",
+  "meaning": "An LCD with a backlight of thousands of tiny LEDs",
+  "first_appears": "Core 1 Part 5",
+  "series": "Core 1",
+  "first_part": 5
+ },
+ {
+  "term": "mirroring",
+  "meaning": "Keeping an identical copy on a second drive",
+  "first_appears": "Core 1 Part 3",
+  "series": "Core 1",
   "first_part": 3
+ },
+ {
+  "term": "Mission Control",
+  "meaning": "Shows every open window and desktop at once",
+  "first_appears": "Core 2 Part 5",
+  "series": "Core 2",
+  "first_part": 5
+ },
+ {
+  "term": "MMC",
+  "meaning": "Microsoft Management Console",
+  "first_appears": "Core 2 Part 2",
+  "series": "Core 2",
+  "first_part": 2
+ },
+ {
+  "term": "mobile digital key",
+  "meaning": "A phone that works as a door key",
+  "first_appears": "Core 2 Part 7",
+  "series": "Core 2",
+  "first_part": 7
+ },
+ {
+  "term": "modular",
+  "meaning": "A power supply with detachable cables",
+  "first_appears": "Core 1 Part 4",
+  "series": "Core 1",
+  "first_part": 4
+ },
+ {
+  "term": "Molex",
+  "meaning": "The old four pin power plug for drives and fans",
+  "first_appears": "Core 1 Part 4",
+  "series": "Core 1",
+  "first_part": 4
+ },
+ {
+  "term": "motherboard",
+  "meaning": "The main circuit board everything plugs into",
+  "first_appears": "Core 1 Part 1",
+  "series": "Core 1",
+  "first_part": 1
+ },
+ {
+  "term": "motion sensor",
+  "meaning": "A device that notices movement",
+  "first_appears": "Core 2 Part 7",
+  "series": "Core 2",
+  "first_part": 7
+ },
+ {
+  "term": "mount",
+  "meaning": "Attach a drive to the folder tree",
+  "first_appears": "Core 2 Part 5",
+  "series": "Core 2",
+  "first_part": 5
+ },
+ {
+  "term": "mSATA",
+  "meaning": "Mini-SATA: an older small SSD shape",
+  "first_appears": "Core 1 Part 3",
+  "series": "Core 1",
+  "first_part": 3
+ },
+ {
+  "term": "MSDS",
+  "meaning": "Material Safety Data Sheet: how to handle and dispose of a product",
+  "first_appears": "Core 2 Part 15",
+  "series": "Core 2",
+  "first_part": 15
+ },
+ {
+  "term": "multi-factor authentication",
+  "meaning": "Proving who you are with more than one thing",
+  "first_appears": "Core 2 Part 16",
+  "series": "Core 2",
+  "first_part": 16
+ },
+ {
+  "term": "multiboot",
+  "meaning": "Two or more operating systems on one PC",
+  "first_appears": "Core 2 Part 1",
+  "series": "Core 2",
+  "first_part": 1
+ },
+ {
+  "term": "multifunction device",
+  "meaning": "A printer that also scans and copies",
+  "first_appears": "Core 1 Part 6",
+  "series": "Core 1",
+  "first_part": 6
+ },
+ {
+  "term": "multimeter",
+  "meaning": "A tool that measures voltage",
+  "first_appears": "Core 1 Part 13",
+  "series": "Core 1",
+  "first_part": 13
+ },
+ {
+  "term": "multimode",
+  "meaning": "Fiber with a wider core, for shorter distances",
+  "first_appears": "Core 1 Part 4",
+  "series": "Core 1",
+  "first_part": 4
+ },
+ {
+  "term": "multipart paper",
+  "meaning": "Paper with layers that copy through",
+  "first_appears": "Core 1 Part 6",
+  "series": "Core 1",
+  "first_part": 6
+ },
+ {
+  "term": "multiple choice",
+  "meaning": "Pick the right answer from a list",
+  "first_appears": "Core 2 Part 17",
+  "series": "Core 2",
+  "first_part": 17
+ },
+ {
+  "term": "multitenancy",
+  "meaning": "Many customers sharing the same hardware",
+  "first_appears": "Core 1 Part 12",
+  "series": "Core 1",
+  "first_part": 12
+ },
+ {
+  "term": "MX record",
+  "meaning": "Mail Exchanger, names the mail server for a domain",
+  "first_appears": "Core 1 Part 8",
+  "series": "Core 1",
+  "first_part": 8
+ },
+ {
+  "term": "N version",
+  "meaning": "A Windows edition without media player features",
+  "first_appears": "Core 2 Part 1",
+  "series": "Core 2",
+  "first_part": 1
+ },
+ {
+  "term": "nano",
+  "meaning": "A simple text editor for the terminal",
+  "first_appears": "Core 2 Part 5",
+  "series": "Core 2",
+  "first_part": 5
+ },
+ {
+  "term": "native resolution",
+  "meaning": "The screen's real number of pixels",
+  "first_appears": "Core 1 Part 14",
+  "series": "Core 1",
+  "first_part": 14
+ },
+ {
+  "term": "NDA",
+  "meaning": "Non-Disclosure Agreement: a promise to keep information secret",
+  "first_appears": "Core 2 Part 15",
+  "series": "Core 2",
+  "first_part": 15
+ },
+ {
+  "term": "NetBIOS",
+  "meaning": "Network Basic Input Output System, old Windows networking",
+  "first_appears": "Core 1 Part 7",
+  "series": "Core 1",
+  "first_part": 7
+ },
+ {
+  "term": "NetBT",
+  "meaning": "NetBIOS over TCP and IP",
+  "first_appears": "Core 1 Part 7",
+  "series": "Core 1",
+  "first_part": 7
+ },
+ {
+  "term": "netstat",
+  "meaning": "Network statistics: lists connections and ports",
+  "first_appears": "Core 2 Part 3",
+  "series": "Core 2",
+  "first_part": 3
+ },
+ {
+  "term": "network drive",
+  "meaning": "A shared folder on another computer shown as a drive letter",
+  "first_appears": "Core 2 Part 16",
+  "series": "Core 2",
+  "first_part": 16
+ },
+ {
+  "term": "network path",
+  "meaning": "The address of a shared folder",
+  "first_appears": "Core 2 Part 4",
+  "series": "Core 2",
+  "first_part": 4
+ },
+ {
+  "term": "network tap",
+  "meaning": "Copies traffic for inspection",
+  "first_appears": "Core 1 Part 9",
+  "series": "Core 1",
+  "first_part": 9
+ },
+ {
+  "term": "NFC",
+  "meaning": "Near-field communication: very short-range wireless for tap to pay",
+  "first_appears": "Core 1 Part 10",
+  "series": "Core 1",
+  "first_part": 10
+ },
+ {
+  "term": "NIC",
+  "meaning": "Network Interface Card",
+  "first_appears": "Core 1 Part 9",
+  "series": "Core 1",
+  "first_part": 9
+ },
+ {
+  "term": "notch",
+  "meaning": "The gap in the stick's edge that stops the wrong type fitting",
+  "first_appears": "Core 1 Part 2",
+  "series": "Core 1",
+  "first_part": 2
+ },
+ {
+  "term": "nslookup",
+  "meaning": "Looks up the IP address for a name",
+  "first_appears": "Core 2 Part 3",
+  "series": "Core 2",
+  "first_part": 3
+ },
+ {
+  "term": "NTFS",
+  "meaning": "New Technology File System",
+  "first_appears": "Core 2 Part 1",
+  "series": "Core 2",
+  "first_part": 1
+ },
+ {
+  "term": "NTP",
+  "meaning": "Network Time Protocol, keeps clocks in step",
+  "first_appears": "Core 1 Part 8",
+  "series": "Core 1",
+  "first_part": 8
+ },
+ {
+  "term": "NVMe",
+  "meaning": "Non-Volatile Memory Express: a fast drive protocol over PCIe",
+  "first_appears": "Core 1 Part 3",
+  "series": "Core 1",
+  "first_part": 3
+ },
+ {
+  "term": "offsite",
+  "meaning": "Kept in a different location",
+  "first_appears": "Core 2 Part 14",
+  "series": "Core 2",
+  "first_part": 14
+ },
+ {
+  "term": "OLED",
+  "meaning": "Organic Light-Emitting Diode: every pixel makes its own light",
+  "first_appears": "Core 1 Part 5",
+  "series": "Core 1",
+  "first_part": 5
+ },
+ {
+  "term": "on-path attack",
+  "meaning": "An attacker sitting between two parties",
+  "first_appears": "Core 2 Part 9",
+  "series": "Core 2",
+  "first_part": 9
+ },
+ {
+  "term": "ONT",
+  "meaning": "Optical Network Terminal, turns fiber light into Ethernet",
+  "first_appears": "Core 1 Part 9",
+  "series": "Core 1",
+  "first_part": 9
+ },
+ {
+  "term": "open source",
+  "meaning": "Software whose code anyone can read and change",
+  "first_appears": "Core 2 Part 1",
+  "series": "Core 2",
+  "first_part": 1
+ },
+ {
+  "term": "open-ended question",
+  "meaning": "A question that needs more than yes or no",
+  "first_appears": "Core 2 Part 15",
+  "series": "Core 2",
+  "first_part": 15
+ },
+ {
+  "term": "operating system",
+  "meaning": "The software that runs a device and its apps",
+  "first_appears": "Core 2 Part 1",
+  "series": "Core 2",
+  "first_part": 1
+ },
+ {
+  "term": "optical drive",
+  "meaning": "A drive that reads CDs, DVDs and Blu-ray discs",
+  "first_appears": "Core 1 Part 3",
+  "series": "Core 1",
+  "first_part": 3
+ },
+ {
+  "term": "order of volatility",
+  "meaning": "Collect the most short-lived data first",
+  "first_appears": "Core 2 Part 15",
+  "series": "Core 2",
+  "first_part": 15
+ },
+ {
+  "term": "OS",
+  "meaning": "Operating System",
+  "first_appears": "Core 2 Part 6",
+  "series": "Core 2",
+  "first_part": 6
+ },
+ {
+  "term": "OTP",
+  "meaning": "One-Time Password",
+  "first_appears": "Core 2 Part 7",
+  "series": "Core 2",
+  "first_part": 7
+ },
+ {
+  "term": "OU",
+  "meaning": "Organizational Unit: a folder for sorting accounts and computers",
+  "first_appears": "Core 2 Part 8",
+  "series": "Core 2",
+  "first_part": 8
+ },
+ {
+  "term": "outbound",
+  "meaning": "Traffic going out of the computer",
+  "first_appears": "Core 2 Part 4",
+  "series": "Core 2",
+  "first_part": 4
+ },
+ {
+  "term": "overheating",
+  "meaning": "Running too hot",
+  "first_appears": "Core 1 Part 13",
+  "series": "Core 1",
+  "first_part": 13
+ },
+ {
+  "term": "PaaS",
+  "meaning": "Platform as a Service",
+  "first_appears": "Core 1 Part 12",
+  "series": "Core 1",
+  "first_part": 12
+ },
+ {
+  "term": "package manager",
+  "meaning": "A tool that installs software for you",
+  "first_appears": "Core 2 Part 5",
+  "series": "Core 2",
+  "first_part": 5
+ },
+ {
+  "term": "pairing",
+  "meaning": "Linking two Bluetooth devices so they trust each other",
+  "first_appears": "Core 1 Part 10",
+  "series": "Core 1",
+  "first_part": 10
+ },
+ {
+  "term": "pairing mode",
+  "meaning": "A state where a device can be found and linked",
+  "first_appears": "Core 1 Part 11",
+  "series": "Core 1",
+  "first_part": 11
+ },
+ {
+  "term": "PAM",
+  "meaning": "Privileged Access Management",
+  "first_appears": "Core 2 Part 7",
+  "series": "Core 2",
+  "first_part": 7
+ },
+ {
+  "term": "PAN",
+  "meaning": "Personal Area Network",
+  "first_appears": "Core 1 Part 9",
+  "series": "Core 1",
+  "first_part": 9
+ },
+ {
+  "term": "parity",
+  "meaning": "Extra data that lets a lost drive be rebuilt",
+  "first_appears": "Core 1 Part 3",
+  "series": "Core 1",
+  "first_part": 3
+ },
+ {
+  "term": "partition",
+  "meaning": "A section of a drive",
+  "first_appears": "Core 2 Part 1",
+  "series": "Core 2",
+  "first_part": 1
+ },
+ {
+  "term": "passing score",
+  "meaning": "The score you need to pass: 700 out of 900",
+  "first_appears": "Core 2 Part 17",
+  "series": "Core 2",
+  "first_part": 17
+ },
+ {
+  "term": "password manager",
+  "meaning": "An app that stores and fills strong passwords",
+  "first_appears": "Core 2 Part 8",
+  "series": "Core 2",
+  "first_part": 8
+ },
+ {
+  "term": "passwordless",
+  "meaning": "Signing in without typing a password",
+  "first_appears": "Core 2 Part 8",
+  "series": "Core 2",
+  "first_part": 8
+ },
+ {
+  "term": "patch",
+  "meaning": "A fix for a security hole or bug",
+  "first_appears": "Core 2 Part 10",
+  "series": "Core 2",
+  "first_part": 10
+ },
+ {
+  "term": "patch panel",
+  "meaning": "A board of ports where wall cables end",
+  "first_appears": "Core 1 Part 9",
+  "series": "Core 1",
+  "first_part": 9
  },
  {
   "term": "PBQ",
   "meaning": "Performance-Based Question",
+  "first_appears": "Intro",
+  "series": "Intro",
   "first_part": 0
  },
  {
-  "term": "PCI",
-  "meaning": "Peripheral Component Interconnect",
-  "first_part": 1
+  "term": "PC4-25600",
+  "meaning": "The same speed as DDR4-3200, written in megabytes per second",
+  "first_appears": "Core 1 Part 2",
+  "series": "Core 1",
+  "first_part": 2
  },
  {
   "term": "PCIe",
   "meaning": "Peripheral Component Interconnect Express",
+  "first_appears": "Core 1 Part 1",
+  "series": "Core 1",
   "first_part": 1
+ },
+ {
+  "term": "PCL",
+  "meaning": "Printer Control Language, the common everyday printer language",
+  "first_appears": "Core 1 Part 6",
+  "series": "Core 1",
+  "first_part": 6
  },
  {
   "term": "PGA",
-  "meaning": "Pin Grid Array",
+  "meaning": "Pin Grid Array: pins are on the CPU itself",
+  "first_appears": "Core 1 Part 1",
+  "series": "Core 1",
   "first_part": 1
  },
  {
-  "term": "PSU",
-  "meaning": "Power Supply Unit",
+  "term": "phishing",
+  "meaning": "A fake message that tries to steal information",
+  "first_appears": "Core 2 Part 9",
+  "series": "Core 2",
+  "first_part": 9
+ },
+ {
+  "term": "physical media",
+  "meaning": "A disc or drive you install from",
+  "first_appears": "Core 2 Part 6",
+  "series": "Core 2",
+  "first_part": 6
+ },
+ {
+  "term": "pickup roller",
+  "meaning": "The roller that grabs paper from the tray",
+  "first_appears": "Core 1 Part 14",
+  "series": "Core 1",
+  "first_part": 14
+ },
+ {
+  "term": "PII",
+  "meaning": "Personally Identifiable Information",
+  "first_appears": "Core 2 Part 8",
+  "series": "Core 2",
+  "first_part": 8
+ },
+ {
+  "term": "PIN",
+  "meaning": "Personal Identification Number",
+  "first_appears": "Core 1 Part 11",
+  "series": "Core 1",
+  "first_part": 11
+ },
+ {
+  "term": "ping",
+  "meaning": "Sends a test message and times the reply",
+  "first_appears": "Core 2 Part 3",
+  "series": "Core 2",
+  "first_part": 3
+ },
+ {
+  "term": "pinwheel",
+  "meaning": "The spinning wheel a Mac shows when it freezes",
+  "first_appears": "Core 1 Part 13",
+  "series": "Core 1",
+  "first_part": 13
+ },
+ {
+  "term": "pixel",
+  "meaning": "One tiny dot of the picture",
+  "first_appears": "Core 1 Part 5",
+  "series": "Core 1",
+  "first_part": 5
+ },
+ {
+  "term": "pixel density",
+  "meaning": "How tightly the pixels are packed, in pixels per inch",
+  "first_appears": "Core 1 Part 5",
+  "series": "Core 1",
+  "first_part": 5
+ },
+ {
+  "term": "platter",
+  "meaning": "A spinning disc inside a hard drive",
+  "first_appears": "Core 1 Part 3",
+  "series": "Core 1",
+  "first_part": 3
+ },
+ {
+  "term": "plenum",
+  "meaning": "The air-handling space above a ceiling",
+  "first_appears": "Core 1 Part 4",
+  "series": "Core 1",
   "first_part": 4
  },
  {
-  "term": "RAID",
-  "meaning": "Redundant Array of Independent Disks",
-  "first_part": 3
+  "term": "PoE",
+  "meaning": "Power over Ethernet, power and data on one cable",
+  "first_appears": "Core 1 Part 9",
+  "series": "Core 1",
+  "first_part": 9
  },
  {
-  "term": "RAM",
-  "meaning": "Random-access Memory",
+  "term": "PoE injector",
+  "meaning": "A small box that adds power to a network cable",
+  "first_appears": "Core 1 Part 9",
+  "series": "Core 1",
+  "first_part": 9
+ },
+ {
+  "term": "policy",
+  "meaning": "A rule the company enforces on a device",
+  "first_appears": "Core 1 Part 11",
+  "series": "Core 1",
+  "first_part": 11
+ },
+ {
+  "term": "POP3",
+  "meaning": "Post Office Protocol 3, downloads email",
+  "first_appears": "Core 1 Part 7",
+  "series": "Core 1",
+  "first_part": 7
+ },
+ {
+  "term": "port",
+  "meaning": "A number that picks which program gets the data",
+  "first_appears": "Core 1 Part 7",
+  "series": "Core 1",
+  "first_part": 7
+ },
+ {
+  "term": "port flapping",
+  "meaning": "A switch port repeatedly going up and down",
+  "first_appears": "Core 1 Part 15",
+  "series": "Core 1",
+  "first_part": 15
+ },
+ {
+  "term": "port forwarding",
+  "meaning": "Sending outside traffic on one port to one inside device",
+  "first_appears": "Core 2 Part 10",
+  "series": "Core 2",
+  "first_part": 10
+ },
+ {
+  "term": "port replicator",
+  "meaning": "Repeats the ports a laptop already has",
+  "first_appears": "Core 1 Part 11",
+  "series": "Core 1",
+  "first_part": 11
+ },
+ {
+  "term": "POST",
+  "meaning": "Power-on self-test",
+  "first_appears": "Core 1 Part 13",
+  "series": "Core 1",
+  "first_part": 13
+ },
+ {
+  "term": "PostScript",
+  "meaning": "Adobe's printer language for graphics and publishing",
+  "first_appears": "Core 1 Part 6",
+  "series": "Core 1",
+  "first_part": 6
+ },
+ {
+  "term": "power plan",
+  "meaning": "A saved set of energy-saving choices",
+  "first_appears": "Core 2 Part 2",
+  "series": "Core 2",
   "first_part": 2
  },
  {
-  "term": "RPM",
-  "meaning": "Revolutions Per Minute",
+  "term": "power supply",
+  "meaning": "The part that turns wall power into power the PC can use",
+  "first_appears": "Core 1 Part 13",
+  "series": "Core 1",
+  "first_part": 13
+ },
+ {
+  "term": "PowerShell",
+  "meaning": "A powerful Windows command line and scripting language",
+  "first_appears": "Core 2 Part 16",
+  "series": "Core 2",
+  "first_part": 16
+ },
+ {
+  "term": "practice exam",
+  "meaning": "A test under exam conditions, for learning",
+  "first_appears": "Core 1 Part 16",
+  "series": "Core 1",
+  "first_part": 16
+ },
+ {
+  "term": "print queue",
+  "meaning": "The waiting line of print jobs",
+  "first_appears": "Core 1 Part 6",
+  "series": "Core 1",
+  "first_part": 6
+ },
+ {
+  "term": "print server",
+  "meaning": "A device that manages print jobs for a whole network",
+  "first_appears": "Core 1 Part 6",
+  "series": "Core 1",
+  "first_part": 6
+ },
+ {
+  "term": "print spooler",
+  "meaning": "The service that holds print jobs for the printer",
+  "first_appears": "Core 1 Part 14",
+  "series": "Core 1",
+  "first_part": 14
+ },
+ {
+  "term": "printer share",
+  "meaning": "Letting others print through your PC's printer",
+  "first_appears": "Core 1 Part 6",
+  "series": "Core 1",
+  "first_part": 6
+ },
+ {
+  "term": "printhead",
+  "meaning": "The part of an inkjet that sprays the ink",
+  "first_appears": "Core 1 Part 6",
+  "series": "Core 1",
+  "first_part": 6
+ },
+ {
+  "term": "private address",
+  "meaning": "An address used only inside your own network",
+  "first_appears": "Core 1 Part 10",
+  "series": "Core 1",
+  "first_part": 10
+ },
+ {
+  "term": "private AI",
+  "meaning": "An AI run inside a company, under its control",
+  "first_appears": "Core 2 Part 16",
+  "series": "Core 2",
+  "first_part": 16
+ },
+ {
+  "term": "private cloud",
+  "meaning": "A cloud built for one company",
+  "first_appears": "Core 1 Part 12",
+  "series": "Core 1",
+  "first_part": 12
+ },
+ {
+  "term": "private network",
+  "meaning": "A trusted network where sharing is allowed",
+  "first_appears": "Core 2 Part 4",
+  "series": "Core 2",
+  "first_part": 4
+ },
+ {
+  "term": "process",
+  "meaning": "A program that is running right now",
+  "first_appears": "Core 2 Part 2",
+  "series": "Core 2",
+  "first_part": 2
+ },
+ {
+  "term": "proctor",
+  "meaning": "The person who supervises your exam",
+  "first_appears": "Core 1 Part 16",
+  "series": "Core 1",
+  "first_part": 16
+ },
+ {
+  "term": "procurement",
+  "meaning": "Buying equipment for the company",
+  "first_appears": "Core 2 Part 14",
+  "series": "Core 2",
+  "first_part": 14
+ },
+ {
+  "term": "professionalism",
+  "meaning": "Behaving and communicating the way a good technician should",
+  "first_appears": "Core 2 Part 15",
+  "series": "Core 2",
+  "first_part": 15
+ },
+ {
+  "term": "projector lamp",
+  "meaning": "The bulb inside a projector, which wears out",
+  "first_appears": "Core 1 Part 14",
+  "series": "Core 1",
+  "first_part": 14
+ },
+ {
+  "term": "proprietary",
+  "meaning": "Owned by one company, so each system has its own",
+  "first_appears": "Core 1 Part 13",
+  "series": "Core 1",
+  "first_part": 13
+ },
+ {
+  "term": "protocol",
+  "meaning": "A set of rules for how devices talk",
+  "first_appears": "Core 1 Part 7",
+  "series": "Core 1",
+  "first_part": 7
+ },
+ {
+  "term": "proxy",
+  "meaning": "A middleman server that web traffic passes through",
+  "first_appears": "Core 2 Part 4",
+  "series": "Core 2",
+  "first_part": 4
+ },
+ {
+  "term": "proxy server",
+  "meaning": "Makes web requests on behalf of users",
+  "first_appears": "Core 1 Part 8",
+  "series": "Core 1",
+  "first_part": 8
+ },
+ {
+  "term": "PSU",
+  "meaning": "Power Supply Unit: turns wall power into power the PC can use",
+  "first_appears": "Core 1 Part 4",
+  "series": "Core 1",
+  "first_part": 4
+ },
+ {
+  "term": "public address",
+  "meaning": "The address the internet sees",
+  "first_appears": "Core 1 Part 10",
+  "series": "Core 1",
+  "first_part": 10
+ },
+ {
+  "term": "public AI",
+  "meaning": "An AI service open to everyone, outside your control",
+  "first_appears": "Core 2 Part 16",
+  "series": "Core 2",
+  "first_part": 16
+ },
+ {
+  "term": "public cloud",
+  "meaning": "A cloud shared by many customers",
+  "first_appears": "Core 1 Part 12",
+  "series": "Core 1",
+  "first_part": 12
+ },
+ {
+  "term": "public network",
+  "meaning": "An untrusted network where sharing is blocked",
+  "first_appears": "Core 2 Part 4",
+  "series": "Core 2",
+  "first_part": 4
+ },
+ {
+  "term": "punchdown block",
+  "meaning": "Where cable wires are pushed in behind a wall",
+  "first_appears": "Core 1 Part 4",
+  "series": "Core 1",
+  "first_part": 4
+ },
+ {
+  "term": "punchdown tool",
+  "meaning": "Pushes wires into a punchdown block and trims them",
+  "first_appears": "Core 1 Part 9",
+  "series": "Core 1",
+  "first_part": 9
+ },
+ {
+  "term": "PUP",
+  "meaning": "Potentially Unwanted Program",
+  "first_appears": "Core 2 Part 9",
+  "series": "Core 2",
+  "first_part": 9
+ },
+ {
+  "term": "QoS",
+  "meaning": "Quality of Service: gives chosen traffic priority",
+  "first_appears": "Core 1 Part 15",
+  "series": "Core 1",
+  "first_part": 15
+ },
+ {
+  "term": "quarantine",
+  "meaning": "Cut an infected PC off so it cannot spread malware",
+  "first_appears": "Core 2 Part 9",
+  "series": "Core 2",
+  "first_part": 9
+ },
+ {
+  "term": "RADIUS",
+  "meaning": "Remote Authentication Dial-In User Service",
+  "first_appears": "Core 2 Part 7",
+  "series": "Core 2",
+  "first_part": 7
+ },
+ {
+  "term": "RAID",
+  "meaning": "Redundant Array of Independent Disks: several drives acting as one",
+  "first_appears": "Core 1 Part 3",
+  "series": "Core 1",
   "first_part": 3
  },
  {
+  "term": "rail",
+  "meaning": "One voltage line coming out of the power supply",
+  "first_appears": "Core 1 Part 4",
+  "series": "Core 1",
+  "first_part": 4
+ },
+ {
+  "term": "RAM",
+  "meaning": "Random Access Memory: the computer's short-term working memory",
+  "first_appears": "Core 1 Part 2",
+  "series": "Core 1",
+  "first_part": 2
+ },
+ {
+  "term": "ransomware",
+  "meaning": "Malware that locks files and demands payment",
+  "first_appears": "Core 2 Part 9",
+  "series": "Core 2",
+  "first_part": 9
+ },
+ {
+  "term": "Rapid Security Response",
+  "meaning": "Small urgent security fixes without a full update",
+  "first_appears": "Core 2 Part 5",
+  "series": "Core 2",
+  "first_part": 5
+ },
+ {
+  "term": "RDP",
+  "meaning": "Remote Desktop Protocol",
+  "first_appears": "Core 1 Part 7",
+  "series": "Core 1",
+  "first_part": 7
+ },
+ {
+  "term": "rebuild",
+  "meaning": "Restoring a replaced drive's data from the others",
+  "first_appears": "Core 1 Part 3",
+  "series": "Core 1",
+  "first_part": 3
+ },
+ {
+  "term": "recoverable",
+  "meaning": "Able to be brought back with the right tool",
+  "first_appears": "Core 2 Part 11",
+  "series": "Core 2",
+  "first_part": 11
+ },
+ {
+  "term": "recovery environment",
+  "meaning": "A special start-up mode for repairs",
+  "first_appears": "Core 2 Part 9",
+  "series": "Core 2",
+  "first_part": 9
+ },
+ {
+  "term": "recovery partition",
+  "meaning": "A hidden copy used to restore the PC",
+  "first_appears": "Core 2 Part 1",
+  "series": "Core 2",
+  "first_part": 1
+ },
+ {
+  "term": "redirection",
+  "meaning": "Being sent to a different website than you asked for",
+  "first_appears": "Core 2 Part 13",
+  "series": "Core 2",
+  "first_part": 13
+ },
+ {
+  "term": "redundant",
+  "meaning": "A spare that takes over if the main one fails",
+  "first_appears": "Core 1 Part 4",
+  "series": "Core 1",
+  "first_part": 4
+ },
+ {
+  "term": "refresh rate",
+  "meaning": "How many times per second the screen redraws",
+  "first_appears": "Core 1 Part 5",
+  "series": "Core 1",
+  "first_part": 5
+ },
+ {
+  "term": "registry",
+  "meaning": "Windows' database of deep settings",
+  "first_appears": "Core 2 Part 2",
+  "series": "Core 2",
+  "first_part": 2
+ },
+ {
+  "term": "reimage",
+  "meaning": "Wipe a PC and copy a clean system image onto it",
+  "first_appears": "Core 2 Part 9",
+  "series": "Core 2",
+  "first_part": 9
+ },
+ {
+  "term": "remote wipe",
+  "meaning": "Erasing a lost device from far away",
+  "first_appears": "Core 2 Part 10",
+  "series": "Core 2",
+  "first_part": 10
+ },
+ {
+  "term": "repurpose",
+  "meaning": "Reuse a device for a new job or user",
+  "first_appears": "Core 2 Part 11",
+  "series": "Core 2",
+  "first_part": 11
+ },
+ {
+  "term": "reseat",
+  "meaning": "Remove a part and push it firmly back in",
+  "first_appears": "Core 1 Part 13",
+  "series": "Core 1",
+  "first_part": 13
+ },
+ {
+  "term": "reservation",
+  "meaning": "A DHCP rule that always gives one device the same address",
+  "first_appears": "Core 1 Part 8",
+  "series": "Core 1",
+  "first_part": 8
+ },
+ {
+  "term": "resistive",
+  "meaning": "Touch that senses pressure",
+  "first_appears": "Core 1 Part 5",
+  "series": "Core 1",
+  "first_part": 5
+ },
+ {
+  "term": "resolution",
+  "meaning": "How many pixels a screen has, width by height",
+  "first_appears": "Core 1 Part 5",
+  "series": "Core 1",
+  "first_part": 5
+ },
+ {
+  "term": "restore",
+  "meaning": "Putting backed up data back",
+  "first_appears": "Core 2 Part 14",
+  "series": "Core 2",
+  "first_part": 14
+ },
+ {
+  "term": "review time",
+  "meaning": "Minutes kept at the end to check flagged questions",
+  "first_appears": "Core 2 Part 17",
+  "series": "Core 2",
+  "first_part": 17
+ },
+ {
+  "term": "RFID",
+  "meaning": "Radio-frequency identification: tags read by radio waves",
+  "first_appears": "Core 1 Part 10",
+  "series": "Core 1",
+  "first_part": 10
+ },
+ {
+  "term": "ribbon",
+  "meaning": "The inked strip an impact printer hits",
+  "first_appears": "Core 1 Part 6",
+  "series": "Core 1",
+  "first_part": 6
+ },
+ {
+  "term": "RJ11",
+  "meaning": "The smaller telephone connector",
+  "first_appears": "Core 1 Part 4",
+  "series": "Core 1",
+  "first_part": 4
+ },
+ {
+  "term": "RJ45",
+  "meaning": "The eight wire Ethernet connector",
+  "first_appears": "Core 1 Part 4",
+  "series": "Core 1",
+  "first_part": 4
+ },
+ {
+  "term": "rmdir",
+  "meaning": "Remove directory: deletes a folder",
+  "first_appears": "Core 2 Part 3",
+  "series": "Core 2",
+  "first_part": 3
+ },
+ {
+  "term": "RMM",
+  "meaning": "Remote Monitoring and Management: watching many computers from one console",
+  "first_appears": "Core 2 Part 16",
+  "series": "Core 2",
+  "first_part": 16
+ },
+ {
+  "term": "robocopy",
+  "meaning": "Robust file copy: a dependable folder copier",
+  "first_appears": "Core 2 Part 3",
+  "series": "Core 2",
+  "first_part": 3
+ },
+ {
+  "term": "rogue antivirus",
+  "meaning": "A fake security program that scares you into paying",
+  "first_appears": "Core 2 Part 13",
+  "series": "Core 2",
+  "first_part": 13
+ },
+ {
+  "term": "rollback plan",
+  "meaning": "Steps to undo a change if it goes wrong",
+  "first_appears": "Core 2 Part 14",
+  "series": "Core 2",
+  "first_part": 14
+ },
+ {
+  "term": "root",
+  "meaning": "The all powerful administrator account on Linux",
+  "first_appears": "Core 2 Part 5",
+  "series": "Core 2",
+  "first_part": 5
+ },
+ {
+  "term": "root access",
+  "meaning": "Full control of an Android phone",
+  "first_appears": "Core 2 Part 13",
+  "series": "Core 2",
+  "first_part": 13
+ },
+ {
+  "term": "rootkit",
+  "meaning": "Malware that hides deep inside the system",
+  "first_appears": "Core 2 Part 9",
+  "series": "Core 2",
+  "first_part": 9
+ },
+ {
+  "term": "router",
+  "meaning": "Joins networks together and directs traffic",
+  "first_appears": "Core 1 Part 9",
+  "series": "Core 1",
+  "first_part": 9
+ },
+ {
+  "term": "RPM",
+  "meaning": "Revolutions Per Minute: how fast the platters spin",
+  "first_appears": "Core 1 Part 3",
+  "series": "Core 1",
+  "first_part": 3
+ },
+ {
+  "term": "SaaS",
+  "meaning": "Software as a Service",
+  "first_appears": "Core 1 Part 12",
+  "series": "Core 1",
+  "first_part": 12
+ },
+ {
+  "term": "safe mode",
+  "meaning": "A start-up mode that loads only the basics",
+  "first_appears": "Core 2 Part 9",
+  "series": "Core 2",
+  "first_part": 9
+ },
+ {
+  "term": "SAML",
+  "meaning": "Security Assertions Markup Language",
+  "first_appears": "Core 2 Part 7",
+  "series": "Core 2",
+  "first_part": 7
+ },
+ {
+  "term": "SAN",
+  "meaning": "Storage Area Network",
+  "first_appears": "Core 1 Part 9",
+  "series": "Core 1",
+  "first_part": 9
+ },
+ {
+  "term": "sandbox",
+  "meaning": "A safe, walled-off place to test software",
+  "first_appears": "Core 1 Part 12",
+  "series": "Core 1",
+  "first_part": 12
+ },
+ {
+  "term": "sanitize",
+  "meaning": "Make sure no usable data is left on a drive",
+  "first_appears": "Core 2 Part 11",
+  "series": "Core 2",
+  "first_part": 11
+ },
+ {
   "term": "SAS",
-  "meaning": "Serial Attached SCSI [Small Computer System Interface]",
+  "meaning": "Serial Attached SCSI: the server drive connection",
+  "first_appears": "Core 1 Part 3",
+  "series": "Core 1",
   "first_part": 3
  },
  {
   "term": "SATA",
   "meaning": "Serial Advanced Technology Attachment",
+  "first_appears": "Core 1 Part 1",
+  "series": "Core 1",
   "first_part": 1
  },
  {
+  "term": "satellite internet",
+  "meaning": "Internet by a dish talking to a satellite in orbit",
+  "first_appears": "Core 1 Part 9",
+  "series": "Core 1",
+  "first_part": 9
+ },
+ {
   "term": "SC",
-  "meaning": "Subscriber Connector",
+  "meaning": "Subscriber Connector: a square push-in fiber connector",
+  "first_appears": "Core 1 Part 4",
+  "series": "Core 1",
   "first_part": 4
  },
  {
-  "term": "SMT",
-  "meaning": "Simultaneous Multithreading",
+  "term": "SCADA",
+  "meaning": "Supervisory Control and Data Acquisition, controls industrial systems",
+  "first_appears": "Core 1 Part 8",
+  "series": "Core 1",
+  "first_part": 8
+ },
+ {
+  "term": "scaled score",
+  "meaning": "The exam's 100 to 900 score",
+  "first_appears": "Core 1 Part 16",
+  "series": "Core 1",
+  "first_part": 16
+ },
+ {
+  "term": "scope",
+  "meaning": "The range of addresses DHCP may hand out",
+  "first_appears": "Core 1 Part 8",
+  "series": "Core 1",
+  "first_part": 8
+ },
+ {
+  "term": "screen lock",
+  "meaning": "The first lock that protects a phone",
+  "first_appears": "Core 2 Part 10",
+  "series": "Core 2",
+  "first_part": 10
+ },
+ {
+  "term": "screened subnet",
+  "meaning": "A separate zone for public-facing servers, once called a DMZ",
+  "first_appears": "Core 2 Part 10",
+  "series": "Core 2",
+  "first_part": 10
+ },
+ {
+  "term": "script",
+  "meaning": "A text file of commands that run in order",
+  "first_appears": "Core 2 Part 16",
+  "series": "Core 2",
+  "first_part": 16
+ },
+ {
+  "term": "sector",
+  "meaning": "The smallest storage block on a drive",
+  "first_appears": "Core 2 Part 11",
+  "series": "Core 2",
+  "first_part": 11
+ },
+ {
+  "term": "Secure Boot",
+  "meaning": "Only lets signed, trusted software start",
+  "first_appears": "Core 1 Part 1",
+  "series": "Core 1",
+  "first_part": 1
+ },
+ {
+  "term": "secure DNS",
+  "meaning": "Encrypted website name lookups",
+  "first_appears": "Core 2 Part 10",
+  "series": "Core 2",
+  "first_part": 10
+ },
+ {
+  "term": "secure erase",
+  "meaning": "A built-in drive command that wipes all data",
+  "first_appears": "Core 2 Part 11",
+  "series": "Core 2",
+  "first_part": 11
+ },
+ {
+  "term": "secured print",
+  "meaning": "A job held until you sign in at the printer",
+  "first_appears": "Core 1 Part 6",
+  "series": "Core 1",
+  "first_part": 6
+ },
+ {
+  "term": "security group",
+  "meaning": "A set of users given the same permissions",
+  "first_appears": "Core 2 Part 8",
+  "series": "Core 2",
+  "first_part": 8
+ },
+ {
+  "term": "serial",
+  "meaning": "An old cable that sends data one bit at a time",
+  "first_appears": "Core 1 Part 4",
+  "series": "Core 1",
+  "first_part": 4
+ },
+ {
+  "term": "server",
+  "meaning": "A powerful computer that serves other computers",
+  "first_appears": "Core 1 Part 2",
+  "series": "Core 1",
+  "first_part": 2
+ },
+ {
+  "term": "service",
+  "meaning": "A program that runs in the background",
+  "first_appears": "Core 2 Part 2",
+  "series": "Core 2",
+  "first_part": 2
+ },
+ {
+  "term": "Settings app",
+  "meaning": "The modern place to change Windows settings",
+  "first_appears": "Core 2 Part 2",
+  "series": "Core 2",
+  "first_part": 2
+ },
+ {
+  "term": "severity",
+  "meaning": "How urgent or serious an issue is",
+  "first_appears": "Core 2 Part 14",
+  "series": "Core 2",
+  "first_part": 14
+ },
+ {
+  "term": "sfc",
+  "meaning": "System File Checker: repairs damaged Windows files",
+  "first_appears": "Core 2 Part 3",
+  "series": "Core 2",
+  "first_part": 3
+ },
+ {
+  "term": "share permissions",
+  "meaning": "Rules for people reaching a shared folder over the network",
+  "first_appears": "Core 2 Part 8",
+  "series": "Core 2",
+  "first_part": 8
+ },
+ {
+  "term": "shell script",
+  "meaning": "A script that runs in a Linux or macOS shell",
+  "first_appears": "Core 2 Part 16",
+  "series": "Core 2",
+  "first_part": 16
+ },
+ {
+  "term": "shoulder surfing",
+  "meaning": "Watching someone enter a password or PIN",
+  "first_appears": "Core 2 Part 9",
+  "series": "Core 2",
+  "first_part": 9
+ },
+ {
+  "term": "shredding",
+  "meaning": "Chopping a drive into small pieces",
+  "first_appears": "Core 2 Part 11",
+  "series": "Core 2",
+  "first_part": 11
+ },
+ {
+  "term": "sideloading",
+  "meaning": "Installing an app from outside the official store",
+  "first_appears": "Core 2 Part 13",
+  "series": "Core 2",
+  "first_part": 13
+ },
+ {
+  "term": "SIM",
+  "meaning": "Subscriber Identity Module",
+  "first_appears": "Core 1 Part 11",
+  "series": "Core 1",
+  "first_part": 11
+ },
+ {
+  "term": "SIM card",
+  "meaning": "A small card that identifies you to a cellular network",
+  "first_appears": "Core 2 Part 4",
+  "series": "Core 2",
+  "first_part": 4
+ },
+ {
+  "term": "single-mode",
+  "meaning": "Fiber with a thin core, for very long distances",
+  "first_appears": "Core 1 Part 4",
+  "series": "Core 1",
+  "first_part": 4
+ },
+ {
+  "term": "SLA",
+  "meaning": "Service-Level Agreement: a promise about response and fix times",
+  "first_appears": "Core 2 Part 14",
+  "series": "Core 2",
+  "first_part": 14
+ },
+ {
+  "term": "SMART",
+  "meaning": "Self-monitoring and reporting technology",
+  "first_appears": "Core 1 Part 13",
+  "series": "Core 1",
+  "first_part": 13
+ },
+ {
+  "term": "smart card",
+  "meaning": "A card with a chip that proves who you are",
+  "first_appears": "Core 2 Part 7",
+  "series": "Core 2",
+  "first_part": 7
+ },
+ {
+  "term": "SMB",
+  "meaning": "Server Message Block, Windows file sharing",
+  "first_appears": "Core 1 Part 6",
+  "series": "Core 1",
+  "first_part": 6
+ },
+ {
+  "term": "smishing",
+  "meaning": "Phishing by text message",
+  "first_appears": "Core 2 Part 9",
+  "series": "Core 2",
+  "first_part": 9
+ },
+ {
+  "term": "SMS",
+  "meaning": "Short Message Service, a text message",
+  "first_appears": "Core 2 Part 7",
+  "series": "Core 2",
+  "first_part": 7
+ },
+ {
+  "term": "SMTP",
+  "meaning": "Simple Mail Transfer Protocol, sends email",
+  "first_appears": "Core 1 Part 7",
+  "series": "Core 1",
+  "first_part": 7
+ },
+ {
+  "term": "snap-in",
+  "meaning": "One tool that plugs into the MMC window",
+  "first_appears": "Core 2 Part 2",
+  "series": "Core 2",
+  "first_part": 2
+ },
+ {
+  "term": "socket",
+  "meaning": "The CPU's slot on the motherboard",
+  "first_appears": "Core 1 Part 1",
+  "series": "Core 1",
   "first_part": 1
  },
  {
   "term": "SODIMM",
-  "meaning": "Small Outline Dual In-line Memory Module",
+  "meaning": "Small Outline DIMM: the short stick for laptops",
+  "first_appears": "Core 1 Part 2",
+  "series": "Core 1",
   "first_part": 2
  },
  {
+  "term": "SOHO",
+  "meaning": "Small Office/Home Office",
+  "first_appears": "Core 1 Part 10",
+  "series": "Core 1",
+  "first_part": 10
+ },
+ {
+  "term": "SOP",
+  "meaning": "Standard Operating Procedure: step by step instructions for a routine job",
+  "first_appears": "Core 2 Part 14",
+  "series": "Core 2",
+  "first_part": 14
+ },
+ {
+  "term": "spam gateway",
+  "meaning": "Filters unwanted email before it arrives",
+  "first_appears": "Core 1 Part 8",
+  "series": "Core 1",
+  "first_part": 8
+ },
+ {
+  "term": "spear phishing",
+  "meaning": "Phishing aimed at one person",
+  "first_appears": "Core 2 Part 9",
+  "series": "Core 2",
+  "first_part": 9
+ },
+ {
+  "term": "SPF",
+  "meaning": "Sender Policy Framework, lists allowed senders",
+  "first_appears": "Core 1 Part 8",
+  "series": "Core 1",
+  "first_part": 8
+ },
+ {
+  "term": "SPICE",
+  "meaning": "Simple Protocol for Independent Computing Environments: remote display for virtual machines",
+  "first_appears": "Core 2 Part 16",
+  "series": "Core 2",
+  "first_part": 16
+ },
+ {
+  "term": "spoofing",
+  "meaning": "Faking an identity, like an email address",
+  "first_appears": "Core 2 Part 9",
+  "series": "Core 2",
+  "first_part": 9
+ },
+ {
+  "term": "Spotlight",
+  "meaning": "The Mac search tool",
+  "first_appears": "Core 2 Part 5",
+  "series": "Core 2",
+  "first_part": 5
+ },
+ {
+  "term": "spyware",
+  "meaning": "Malware that secretly watches you",
+  "first_appears": "Core 2 Part 9",
+  "series": "Core 2",
+  "first_part": 9
+ },
+ {
+  "term": "SQL injection",
+  "meaning": "Typing database commands into a web form",
+  "first_appears": "Core 2 Part 9",
+  "series": "Core 2",
+  "first_part": 9
+ },
+ {
+  "term": "sRGB",
+  "meaning": "The standard baseline set of screen colors",
+  "first_appears": "Core 1 Part 5",
+  "series": "Core 1",
+  "first_part": 5
+ },
+ {
   "term": "SSD",
-  "meaning": "Solid-state Drive",
+  "meaning": "Solid State Drive: flash storage with no moving parts",
+  "first_appears": "Core 1 Part 3",
+  "series": "Core 1",
   "first_part": 3
  },
  {
+  "term": "SSH",
+  "meaning": "Secure Shell, an encrypted remote command line",
+  "first_appears": "Core 1 Part 7",
+  "series": "Core 1",
+  "first_part": 7
+ },
+ {
+  "term": "SSID",
+  "meaning": "Service Set Identifier: the Wi-Fi network name",
+  "first_appears": "Core 1 Part 10",
+  "series": "Core 1",
+  "first_part": 10
+ },
+ {
+  "term": "SSO",
+  "meaning": "Single Sign-On: one sign-in for many apps",
+  "first_appears": "Core 2 Part 7",
+  "series": "Core 2",
+  "first_part": 7
+ },
+ {
   "term": "ST",
-  "meaning": "Straight Tip",
+  "meaning": "Straight Tip: a twist-on fiber connector",
+  "first_appears": "Core 1 Part 4",
+  "series": "Core 1",
   "first_part": 4
  },
  {
+  "term": "stalkerware",
+  "meaning": "Secretly tracks a person through their phone",
+  "first_appears": "Core 2 Part 9",
+  "series": "Core 2",
+  "first_part": 9
+ },
+ {
+  "term": "standard",
+  "meaning": "An agreed set of technical rules",
+  "first_appears": "Core 1 Part 10",
+  "series": "Core 1",
+  "first_part": 10
+ },
+ {
+  "term": "standard format",
+  "meaning": "Builds a new empty index but leaves the data",
+  "first_appears": "Core 2 Part 11",
+  "series": "Core 2",
+  "first_part": 11
+ },
+ {
+  "term": "standard user",
+  "meaning": "Can run programs but not change the system",
+  "first_appears": "Core 2 Part 8",
+  "series": "Core 2",
+  "first_part": 8
+ },
+ {
+  "term": "startup program",
+  "meaning": "A program that launches by itself when Windows starts",
+  "first_appears": "Core 2 Part 12",
+  "series": "Core 2",
+  "first_part": 12
+ },
+ {
+  "term": "static",
+  "meaning": "An address typed in by hand that never changes",
+  "first_appears": "Core 1 Part 10",
+  "series": "Core 1",
+  "first_part": 10
+ },
+ {
+  "term": "stop code",
+  "meaning": "The error name shown on a blue screen",
+  "first_appears": "Core 2 Part 12",
+  "series": "Core 2",
+  "first_part": 12
+ },
+ {
+  "term": "storage",
+  "meaning": "Where data is kept when the power is off",
+  "first_appears": "Core 1 Part 3",
+  "series": "Core 1",
+  "first_part": 3
+ },
+ {
   "term": "STP",
-  "meaning": "Shielded Twisted Pair",
+  "meaning": "Shielded Twisted Pair: network cable with a metal shield",
+  "first_appears": "Core 1 Part 4",
+  "series": "Core 1",
   "first_part": 4
+ },
+ {
+  "term": "striping",
+  "meaning": "Splitting data across drives for speed",
+  "first_appears": "Core 1 Part 3",
+  "series": "Core 1",
+  "first_part": 3
+ },
+ {
+  "term": "stylus",
+  "meaning": "A pen used on a touch screen",
+  "first_appears": "Core 1 Part 5",
+  "series": "Core 1",
+  "first_part": 5
+ },
+ {
+  "term": "subnet mask",
+  "meaning": "Says which addresses are on your local network",
+  "first_appears": "Core 1 Part 10",
+  "series": "Core 1",
+  "first_part": 10
+ },
+ {
+  "term": "sudo",
+  "meaning": "Runs one command with root rights",
+  "first_appears": "Core 2 Part 5",
+  "series": "Core 2",
+  "first_part": 5
+ },
+ {
+  "term": "supply chain attack",
+  "meaning": "Attacking a trusted supplier to reach its customers",
+  "first_appears": "Core 2 Part 9",
+  "series": "Core 2",
+  "first_part": 9
+ },
+ {
+  "term": "surge suppressor",
+  "meaning": "Blocks sudden spikes of power",
+  "first_appears": "Core 2 Part 15",
+  "series": "Core 2",
+  "first_part": 15
+ },
+ {
+  "term": "switch",
+  "meaning": "A device that links the devices in one network",
+  "first_appears": "Core 1 Part 8",
+  "series": "Core 1",
+  "first_part": 8
+ },
+ {
+  "term": "swollen battery",
+  "meaning": "A battery puffed up by gas, a fire risk",
+  "first_appears": "Core 1 Part 14",
+  "series": "Core 1",
+  "first_part": 14
+ },
+ {
+  "term": "swollen capacitor",
+  "meaning": "A capacitor with a bulging or leaking top",
+  "first_appears": "Core 1 Part 13",
+  "series": "Core 1",
+  "first_part": 13
+ },
+ {
+  "term": "symptom",
+  "meaning": "A sign that something is wrong",
+  "first_appears": "Core 1 Part 16",
+  "series": "Core 1",
+  "first_part": 16
+ },
+ {
+  "term": "sync",
+  "meaning": "Keeping files the same on every device",
+  "first_appears": "Core 2 Part 6",
+  "series": "Core 2",
+  "first_part": 6
+ },
+ {
+  "term": "synchronization",
+  "meaning": "Keeping the same data up to date on every device",
+  "first_appears": "Core 1 Part 11",
+  "series": "Core 1",
+  "first_part": 11
+ },
+ {
+  "term": "synthetic full",
+  "meaning": "A full backup built from older backups",
+  "first_appears": "Core 2 Part 14",
+  "series": "Core 2",
+  "first_part": 14
+ },
+ {
+  "term": "syslog",
+  "meaning": "A server that collects log messages",
+  "first_appears": "Core 1 Part 8",
+  "series": "Core 1",
+  "first_part": 8
+ },
+ {
+  "term": "System Information",
+  "meaning": "Report of your hardware and Windows details",
+  "first_appears": "Core 2 Part 2",
+  "series": "Core 2",
+  "first_part": 2
+ },
+ {
+  "term": "System Restore",
+  "meaning": "A Windows feature that rolls the system back to a saved point",
+  "first_appears": "Core 2 Part 9",
+  "series": "Core 2",
+  "first_part": 9
+ },
+ {
+  "term": "systemd",
+  "meaning": "Starts and manages Linux services",
+  "first_appears": "Core 2 Part 5",
+  "series": "Core 2",
+  "first_part": 5
+ },
+ {
+  "term": "TACACS+",
+  "meaning": "Terminal Access Controller Access-Control System Plus",
+  "first_appears": "Core 2 Part 7",
+  "series": "Core 2",
+  "first_part": 7
+ },
+ {
+  "term": "tailgating",
+  "meaning": "Following someone through a secure door",
+  "first_appears": "Core 2 Part 7",
+  "series": "Core 2",
+  "first_part": 7
+ },
+ {
+  "term": "Task Manager",
+  "meaning": "Windows tool that shows and ends running programs",
+  "first_appears": "Core 2 Part 2",
+  "series": "Core 2",
+  "first_part": 2
+ },
+ {
+  "term": "Task Scheduler",
+  "meaning": "Runs programs automatically at set times",
+  "first_appears": "Core 2 Part 2",
+  "series": "Core 2",
+  "first_part": 2
+ },
+ {
+  "term": "TCP",
+  "meaning": "Transmission Control Protocol",
+  "first_appears": "Core 1 Part 7",
+  "series": "Core 1",
+  "first_part": 7
+ },
+ {
+  "term": "technician",
+  "meaning": "A person who sets up and fixes computers",
+  "first_appears": "Core 1 Part 6",
+  "series": "Core 1",
+  "first_part": 6
+ },
+ {
+  "term": "Telnet",
+  "meaning": "Old remote command line that sends plain text",
+  "first_appears": "Core 1 Part 7",
+  "series": "Core 1",
+  "first_part": 7
+ },
+ {
+  "term": "Terminal",
+  "meaning": "The Mac command line",
+  "first_appears": "Core 2 Part 5",
+  "series": "Core 2",
+  "first_part": 5
+ },
+ {
+  "term": "tethering",
+  "meaning": "Sharing a phone's internet with other devices",
+  "first_appears": "Core 1 Part 11",
+  "series": "Core 1",
+  "first_part": 11
+ },
+ {
+  "term": "thermal paste",
+  "meaning": "Paste that helps heat pass from chip to heat sink",
+  "first_appears": "Core 1 Part 1",
+  "series": "Core 1",
+  "first_part": 1
+ },
+ {
+  "term": "thermal printer",
+  "meaning": "Prints with heat on special paper",
+  "first_appears": "Core 1 Part 6",
+  "series": "Core 1",
+  "first_part": 6
+ },
+ {
+  "term": "thin client",
+  "meaning": "A simple device that just shows a desktop running on a server",
+  "first_appears": "Core 1 Part 12",
+  "series": "Core 1",
+  "first_part": 12
+ },
+ {
+  "term": "third-party vendor",
+  "meaning": "An outside company hired to do a job",
+  "first_appears": "Core 2 Part 11",
+  "series": "Core 2",
+  "first_part": 11
+ },
+ {
+  "term": "Thunderbolt",
+  "meaning": "A very fast cable standard that uses the USB-C plug",
+  "first_appears": "Core 1 Part 4",
+  "series": "Core 1",
+  "first_part": 4
+ },
+ {
+  "term": "ticket",
+  "meaning": "A record of one request for help",
+  "first_appears": "Core 2 Part 14",
+  "series": "Core 2",
+  "first_part": 14
+ },
+ {
+  "term": "time drift",
+  "meaning": "The clock slowly going wrong",
+  "first_appears": "Core 2 Part 12",
+  "series": "Core 2",
+  "first_part": 12
+ },
+ {
+  "term": "Time Machine",
+  "meaning": "The Mac's automatic backup tool",
+  "first_appears": "Core 2 Part 5",
+  "series": "Core 2",
+  "first_part": 5
+ },
+ {
+  "term": "time server",
+  "meaning": "A server that tells computers the right time",
+  "first_appears": "Core 2 Part 12",
+  "series": "Core 2",
+  "first_part": 12
+ },
+ {
+  "term": "TKIP",
+  "meaning": "Temporal Key Integrity Protocol: old and weak",
+  "first_appears": "Core 2 Part 7",
+  "series": "Core 2",
+  "first_part": 7
+ },
+ {
+  "term": "TN",
+  "meaning": "Twisted Nematic: a cheap, fast LCD type with narrow viewing angles",
+  "first_appears": "Core 1 Part 5",
+  "series": "Core 1",
+  "first_part": 5
+ },
+ {
+  "term": "toner",
+  "meaning": "Fine powder a laser printer melts onto paper",
+  "first_appears": "Core 1 Part 6",
+  "series": "Core 1",
+  "first_part": 6
+ },
+ {
+  "term": "toner probe",
+  "meaning": "Finds a cable by following a tone",
+  "first_appears": "Core 1 Part 9",
+  "series": "Core 1",
+  "first_part": 9
+ },
+ {
+  "term": "TOTP",
+  "meaning": "Time-based One-Time Password",
+  "first_appears": "Core 2 Part 7",
+  "series": "Core 2",
+  "first_part": 7
  },
  {
   "term": "TPM",
   "meaning": "Trusted Platform Module",
+  "first_appears": "Core 1 Part 1",
+  "series": "Core 1",
   "first_part": 1
+ },
+ {
+  "term": "tracert",
+  "meaning": "Trace route: lists every router on the path",
+  "first_appears": "Core 2 Part 3",
+  "series": "Core 2",
+  "first_part": 3
+ },
+ {
+  "term": "track point",
+  "meaning": "A small pointing stick between the keyboard keys",
+  "first_appears": "Core 1 Part 11",
+  "series": "Core 1",
+  "first_part": 11
+ },
+ {
+  "term": "trojan",
+  "meaning": "Malware disguised as useful software",
+  "first_appears": "Core 2 Part 9",
+  "series": "Core 2",
+  "first_part": 9
+ },
+ {
+  "term": "troubleshooting",
+  "meaning": "Finding and fixing the cause of a problem",
+  "first_appears": "Core 1 Part 13",
+  "series": "Core 1",
+  "first_part": 13
+ },
+ {
+  "term": "TXT record",
+  "meaning": "A DNS record that holds plain text",
+  "first_appears": "Core 1 Part 8",
+  "series": "Core 1",
+  "first_part": 8
+ },
+ {
+  "term": "Type 1",
+  "meaning": "A hypervisor that runs directly on the hardware",
+  "first_appears": "Core 1 Part 12",
+  "series": "Core 1",
+  "first_part": 12
+ },
+ {
+  "term": "Type 2",
+  "meaning": "A hypervisor that runs as an app on an operating system",
+  "first_appears": "Core 1 Part 12",
+  "series": "Core 1",
+  "first_part": 12
+ },
+ {
+  "term": "UAC",
+  "meaning": "User Account Control: asks permission before big changes",
+  "first_appears": "Core 2 Part 8",
+  "series": "Core 2",
+  "first_part": 8
+ },
+ {
+  "term": "Ubuntu",
+  "meaning": "A popular free version of Linux",
+  "first_appears": "Core 2 Part 5",
+  "series": "Core 2",
+  "first_part": 5
+ },
+ {
+  "term": "UDP",
+  "meaning": "User Datagram Protocol",
+  "first_appears": "Core 1 Part 7",
+  "series": "Core 1",
+  "first_part": 7
  },
  {
   "term": "UEFI",
   "meaning": "Unified Extensible Firmware Interface",
+  "first_appears": "Intro",
+  "series": "Intro",
   "first_part": 0
+ },
+ {
+  "term": "unmanaged switch",
+  "meaning": "A plug and play switch with no settings",
+  "first_appears": "Core 1 Part 9",
+  "series": "Core 1",
+  "first_part": 9
+ },
+ {
+  "term": "UPnP",
+  "meaning": "Universal Plug and Play",
+  "first_appears": "Core 2 Part 10",
+  "series": "Core 2",
+  "first_part": 10
+ },
+ {
+  "term": "UPS",
+  "meaning": "Uninterruptible Power Supply: a battery backup",
+  "first_appears": "Core 2 Part 15",
+  "series": "Core 2",
+  "first_part": 15
  },
  {
   "term": "USB",
   "meaning": "Universal Serial Bus",
-  "first_part": 1
+  "first_appears": "Core 1 Part 4",
+  "series": "Core 1",
+  "first_part": 4
+ },
+ {
+  "term": "USB controller",
+  "meaning": "The chip that manages USB ports",
+  "first_appears": "Core 2 Part 12",
+  "series": "Core 2",
+  "first_part": 12
+ },
+ {
+  "term": "USB-C",
+  "meaning": "A small, reversible USB connector",
+  "first_appears": "Core 1 Part 11",
+  "series": "Core 1",
+  "first_part": 11
+ },
+ {
+  "term": "user authentication",
+  "meaning": "Making people prove who they are",
+  "first_appears": "Core 1 Part 6",
+  "series": "Core 1",
+  "first_part": 6
+ },
+ {
+  "term": "user profile",
+  "meaning": "Your saved desktop, files and settings",
+  "first_appears": "Core 2 Part 12",
+  "series": "Core 2",
+  "first_part": 12
+ },
+ {
+  "term": "UTM",
+  "meaning": "Unified Threat Management, many protections in one box",
+  "first_appears": "Core 1 Part 8",
+  "series": "Core 1",
+  "first_part": 8
  },
  {
   "term": "UTP",
-  "meaning": "Unshielded Twisted Pair",
+  "meaning": "Unshielded Twisted Pair: the standard network cable",
+  "first_appears": "Core 1 Part 4",
+  "series": "Core 1",
   "first_part": 4
  },
  {
-  "term": "VAC",
-  "meaning": "Volts Alternating Current",
-  "first_part": 4
+  "term": "VA",
+  "meaning": "Vertical Alignment: an LCD type with deep blacks",
+  "first_appears": "Core 1 Part 5",
+  "series": "Core 1",
+  "first_part": 5
+ },
+ {
+  "term": "VDI",
+  "meaning": "Virtual Desktop Infrastructure",
+  "first_appears": "Core 1 Part 12",
+  "series": "Core 1",
+  "first_part": 12
  },
  {
   "term": "VGA",
-  "meaning": "Video Graphics Array",
+  "meaning": "Video Graphics Array: the old analog video plug",
+  "first_appears": "Core 1 Part 4",
+  "series": "Core 1",
   "first_part": 4
+ },
+ {
+  "term": "video surveillance",
+  "meaning": "Cameras that watch and record an area",
+  "first_appears": "Core 2 Part 7",
+  "series": "Core 2",
+  "first_part": 7
+ },
+ {
+  "term": "videoconferencing",
+  "meaning": "Online meetings with video and voice",
+  "first_appears": "Core 2 Part 6",
+  "series": "Core 2",
+  "first_part": 6
+ },
+ {
+  "term": "virtual drive",
+  "meaning": "A pretend disc drive made by software",
+  "first_appears": "Core 2 Part 6",
+  "series": "Core 2",
+  "first_part": 6
+ },
+ {
+  "term": "virtual machine",
+  "meaning": "A pretend computer running inside a real one",
+  "first_appears": "Core 1 Part 12",
+  "series": "Core 1",
+  "first_part": 12
+ },
+ {
+  "term": "virtual network card",
+  "meaning": "A pretend network adapter for a VM",
+  "first_appears": "Core 1 Part 12",
+  "series": "Core 1",
+  "first_part": 12
+ },
+ {
+  "term": "virtualization",
+  "meaning": "Running one computer inside another",
+  "first_appears": "Core 1 Part 1",
+  "series": "Core 1",
+  "first_part": 1
+ },
+ {
+  "term": "virus",
+  "meaning": "Malware that attaches to files and spreads when they run",
+  "first_appears": "Core 2 Part 9",
+  "series": "Core 2",
+  "first_part": 9
+ },
+ {
+  "term": "vishing",
+  "meaning": "Phishing by voice call",
+  "first_appears": "Core 2 Part 9",
+  "series": "Core 2",
+  "first_part": 9
+ },
+ {
+  "term": "VLAN",
+  "meaning": "Virtual LAN, a separate network made inside one switch",
+  "first_appears": "Core 1 Part 8",
+  "series": "Core 1",
+  "first_part": 8
+ },
+ {
+  "term": "VNC",
+  "meaning": "Virtual Network Computing: shares a screen across many systems",
+  "first_appears": "Core 2 Part 16",
+  "series": "Core 2",
+  "first_part": 16
+ },
+ {
+  "term": "VoIP",
+  "meaning": "Voice over Internet Protocol: phone calls over the internet",
+  "first_appears": "Core 1 Part 15",
+  "series": "Core 1",
+  "first_part": 15
+ },
+ {
+  "term": "volatile",
+  "meaning": "Loses its contents when the power goes off",
+  "first_appears": "Core 1 Part 2",
+  "series": "Core 1",
+  "first_part": 2
+ },
+ {
+  "term": "volume",
+  "meaning": "A usable section of a drive with its own letter",
+  "first_appears": "Core 2 Part 2",
+  "series": "Core 2",
+  "first_part": 2
+ },
+ {
+  "term": "VPN",
+  "meaning": "Virtual Private Network, an encrypted tunnel",
+  "first_appears": "Core 1 Part 8",
+  "series": "Core 1",
+  "first_part": 8
+ },
+ {
+  "term": "VRAM",
+  "meaning": "Video Random Access Memory",
+  "first_appears": "Core 2 Part 6",
+  "series": "Core 2",
+  "first_part": 6
+ },
+ {
+  "term": "VT-x",
+  "meaning": "Intel Virtualization Technology",
+  "first_appears": "Core 1 Part 1",
+  "series": "Core 1",
+  "first_part": 1
+ },
+ {
+  "term": "WAN",
+  "meaning": "Wide Area Network",
+  "first_appears": "Core 1 Part 9",
+  "series": "Core 1",
+  "first_part": 9
+ },
+ {
+  "term": "wattage",
+  "meaning": "How much power a supply can deliver at most",
+  "first_appears": "Core 1 Part 4",
+  "series": "Core 1",
+  "first_part": 4
+ },
+ {
+  "term": "webcam",
+  "meaning": "A small camera built into or plugged into the device",
+  "first_appears": "Core 1 Part 11",
+  "series": "Core 1",
+  "first_part": 11
+ },
+ {
+  "term": "well known port",
+  "meaning": "A port from 0 to 1023 given to a standard service",
+  "first_appears": "Core 1 Part 7",
+  "series": "Core 1",
+  "first_part": 7
+ },
+ {
+  "term": "whaling",
+  "meaning": "Phishing aimed at senior executives",
+  "first_appears": "Core 2 Part 9",
+  "series": "Core 2",
+  "first_part": 9
+ },
+ {
+  "term": "whoami",
+  "meaning": "Shows the account you are signed in as",
+  "first_appears": "Core 2 Part 3",
+  "series": "Core 2",
+  "first_part": 3
+ },
+ {
+  "term": "Wi-Fi",
+  "meaning": "Wireless network connection",
+  "first_appears": "Core 1 Part 6",
+  "series": "Core 1",
+  "first_part": 6
+ },
+ {
+  "term": "Wi-Fi analyzer",
+  "meaning": "Shows nearby Wi-Fi networks and signal strength",
+  "first_appears": "Core 1 Part 9",
+  "series": "Core 1",
+  "first_part": 9
+ },
+ {
+  "term": "Windows Hello",
+  "meaning": "Sign in with a face, fingerprint or PIN instead of a password",
+  "first_appears": "Core 2 Part 8",
+  "series": "Core 2",
+  "first_part": 8
+ },
+ {
+  "term": "Windows Update",
+  "meaning": "Downloads fixes and new features for Windows",
+  "first_appears": "Core 2 Part 2",
+  "series": "Core 2",
+  "first_part": 2
+ },
+ {
+  "term": "WinRM",
+  "meaning": "Windows Remote Management: run commands on remote Windows PCs",
+  "first_appears": "Core 2 Part 16",
+  "series": "Core 2",
+  "first_part": 16
+ },
+ {
+  "term": "winver",
+  "meaning": "Shows the Windows version and build",
+  "first_appears": "Core 2 Part 3",
+  "series": "Core 2",
+  "first_part": 3
+ },
+ {
+  "term": "wiping",
+  "meaning": "Overwriting a whole drive so data can't be recovered",
+  "first_appears": "Core 2 Part 11",
+  "series": "Core 2",
+  "first_part": 11
+ },
+ {
+  "term": "WISP",
+  "meaning": "Wireless Internet Service Provider",
+  "first_appears": "Core 1 Part 9",
+  "series": "Core 1",
+  "first_part": 9
+ },
+ {
+  "term": "WLAN",
+  "meaning": "Wireless LAN",
+  "first_appears": "Core 1 Part 9",
+  "series": "Core 1",
+  "first_part": 9
+ },
+ {
+  "term": "workgroup",
+  "meaning": "A small network with no central server",
+  "first_appears": "Core 2 Part 1",
+  "series": "Core 2",
+  "first_part": 1
+ },
+ {
+  "term": "WPA2",
+  "meaning": "Wi-Fi Protected Access 2",
+  "first_appears": "Core 2 Part 7",
+  "series": "Core 2",
+  "first_part": 7
+ },
+ {
+  "term": "WPA3",
+  "meaning": "Wi-Fi Protected Access 3: a newer Wi-Fi security standard",
+  "first_appears": "Core 1 Part 15",
+  "series": "Core 1",
+  "first_part": 15
+ },
+ {
+  "term": "WWAN",
+  "meaning": "Wireless Wide Area Network: a cellular connection",
+  "first_appears": "Core 2 Part 4",
+  "series": "Core 2",
+  "first_part": 4
+ },
+ {
+  "term": "x64",
+  "meaning": "64-bit design used by nearly all Windows PCs",
+  "first_appears": "Core 1 Part 1",
+  "series": "Core 1",
+  "first_part": 1
+ },
+ {
+  "term": "x86",
+  "meaning": "The original 32-bit PC processor design",
+  "first_appears": "Core 1 Part 1",
+  "series": "Core 1",
+  "first_part": 1
+ },
+ {
+  "term": "XDR",
+  "meaning": "Extended Detection and Response",
+  "first_appears": "Core 2 Part 9",
+  "series": "Core 2",
+  "first_part": 9
+ },
+ {
+  "term": "XSS",
+  "meaning": "Cross-Site Scripting: planting a bad script in a website",
+  "first_appears": "Core 2 Part 9",
+  "series": "Core 2",
+  "first_part": 9
+ },
+ {
+  "term": "Zero Trust",
+  "meaning": "Never trust automatically, always check",
+  "first_appears": "Core 2 Part 7",
+  "series": "Core 2",
+  "first_part": 7
+ },
+ {
+  "term": "zero-day",
+  "meaning": "An attack on a flaw nobody has patched yet",
+  "first_appears": "Core 2 Part 9",
+  "series": "Core 2",
+  "first_part": 9
+ },
+ {
+  "term": "zero-touch deployment",
+  "meaning": "Installing with nobody at the keyboard",
+  "first_appears": "Core 2 Part 1",
+  "series": "Core 2",
+  "first_part": 1
  }
 ]

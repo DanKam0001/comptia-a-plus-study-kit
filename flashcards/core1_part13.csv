@@ -1,0 +1,33 @@
+Front,Back,Tags
+POST stands for,Power-on self-test,core1 part13 power_on
+Beep pattern at startup: what do you do?,Look up the maker's beep code in the motherboard manual,core1 part13 power_on
+Windows crash screen,Blue screen of death (BSOD),core1 part13 crashes
+macOS freeze indicator,Spinning wheel (pinwheel),core1 part13 crashes
+Why is a crash screen called proprietary?,Each system has its own,core1 part13 crashes
+Burning smell: first action,Power off and unplug at once,core1 part13 hardware
+Swollen capacitor: fix,Replace the board or power supply,core1 part13 hardware
+Date and time keep resetting,Flat CMOS battery,core1 part13 hardware
+Motherboard battery type,"Usually a CR2032 3 V coin cell",core1 part13 hardware
+Overheating causes,"Dust, failed fan, old thermal paste, poor airflow",core1 part13 hardware
+Overheating fixes,"Compressed air, replace fan, new thermal paste",core1 part13 hardware
+Tools to test a power supply,Power supply tester or multimeter,core1 part13 hardware
+Blank screen with fans spinning: first checks,"Monitor cable and input, reseat RAM and graphics card",core1 part13 hardware
+No power at all: first checks,"Outlet, cable, PSU switch, PSU test, front-panel header",core1 part13 hardware
+Application crashes often point to,"Bad RAM, overheating or a failing drive",core1 part13 hardware
+Random shutdown causes,"Overheating, failing power supply, failing RAM",core1 part13 hardware
+Unusual noise from inside the PC,Failing fan bearings or a failing hard drive,core1 part13 hardware
+Six troubleshooting steps (not tested),"Identify, theory, test, plan and fix, verify, document",core1 part13 method
+Grinding or clicking from a hard drive,"Failing: back up now, then replace",core1 part13 drives
+S.M.A.R.T. stands for,"Self-Monitoring, Analysis and Reporting Technology",core1 part13 drives
+S.M.A.R.T. failure warning means,Drive predicts it will fail. Back up and replace,core1 part13 drives
+IOPS stands for,Input/Output Operations Per Second,core1 part13 drives
+Bootable device not found: checks,"Boot order, cables, drive detected in firmware",core1 part13 drives
+Drive missing in OS but seen in firmware,"Initialize it, assign a drive letter, check cables",core1 part13 drives
+Degraded RAID array means,Working but a drive has failed and protection is gone,core1 part13 raid
+Fix for a degraded RAID 5,Replace the failed drive and let it rebuild,core1 part13 raid
+RAID array missing: first checks,Cables and the RAID controller,core1 part13 raid
+RAID 0 survives how many drive failures?,None,core1 part13 raid
+RAID 1 / 5 / 6 survive,1 / 1 / 2 drive failures,core1 part13 raid
+Minimum drives for RAID 0 / 1 / 5 / 6 / 10,"2 / 2 / 3 / 4 / 4",core1 part13 raid
+Is RAID a backup?,No. It does not protect against deletion malware or fire,core1 part13 raid
+Amber or red drive LED usually means,A failed or failing drive,core1 part13 raid

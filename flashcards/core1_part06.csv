@@ -1,0 +1,24 @@
+Front,Back,Tags
+Which printer uses toner and a fuser?,Laser,core1 part06 printer_types
+Which printer sprays liquid ink from a printhead?,Inkjet,core1 part06 printer_types
+Which printer needs special heat-sensitive paper and has no ink?,Thermal,core1 part06 printer_types
+Which printer can print through carbon-copy layers?,Impact (pins hit a ribbon),core1 part06 printer_types
+PCL stands for (CompTIA's wording),Printer Control Language. Common everyday printer language,core1 part06 setup_and_drivers
+PostScript is used for,Graphics and professional publishing. Made by Adobe,core1 part06 setup_and_drivers
+Three connection methods,"USB, Ethernet, wireless",core1 part06 setup_and_drivers
+Printer share vs print server,"Share = through one PC, which must be on. Print server = on the network, always available, holds the queue",core1 part06 setup_and_drivers
+Why update printer firmware?,Bug fixes and security patches,core1 part06 setup_and_drivers
+Duplex,Printing on both sides,core1 part06 settings_and_security
+Portrait vs landscape,"Portrait = tall, landscape = wide",core1 part06 settings_and_security
+Secured print,Job waits until the owner signs in at the printer,core1 part06 settings_and_security
+Badging,Tapping an ID badge to use the printer,core1 part06 settings_and_security
+Audit log,"Records who printed or scanned what, and when",core1 part06 settings_and_security
+Network scan destinations,"Email, SMB shared folder (port 445), cloud services",core1 part06 settings_and_security
+ADF vs flatbed,"ADF = stack of pages. Flatbed = single sheets, books, fragile items",core1 part06 settings_and_security
+Laser maintenance list,"Replace toner, apply maintenance kit, calibrate, clean",core1 part06 maintenance
+What is in a maintenance kit?,"Replacement parts for worn components, such as rollers and the fuser",core1 part06 maintenance
+Inkjet maintenance list,"Clean printheads, replace cartridges, calibrate, clear jams",core1 part06 maintenance
+Thermal maintenance list,"Replace paper, clean heating element, remove debris",core1 part06 maintenance
+Thermal printer parts to know,"Feed assembly, special thermal paper, heating element",core1 part06 maintenance
+Impact maintenance list,"Replace ribbon, printhead and paper (multipart)",core1 part06 maintenance
+Hot part inside a laser printer,The fuser. Let it cool before opening,core1 part06 maintenance

@@ -1,18 +1,32 @@
 Front,Back,Tags
-HDD spindle speeds,"5400 and 7200 RPM (common PCs); 10,000 and 15,000 RPM (servers)",core1 part03 hard_drives
-HDD form factors,"3.5-inch (desktops, servers); 2.5-inch (laptops)",core1 part03 hard_drives
-SATA III speed,6 Gbps (about 600 MB/s),core1 part03 interfaces
-NVMe runs over,PCIe lanes (several GB/s),core1 part03 interfaces
-SAS is used in,Enterprise servers,core1 part03 interfaces
-SAS vs SATA controller compatibility,A SAS controller can run SATA drives; a SATA controller cannot run SAS drives,core1 part03 interfaces
-M.2 is a... (shape or speed?),A shape (form factor). An M.2 drive can be SATA or NVMe,core1 part03 ssd_form_factors
-M.2 size 2280 means,22 mm wide x 80 mm long,core1 part03 ssd_form_factors
-M.2 B key / M key,B key = SATA or PCIe x2. M key = PCIe x4 (NVMe). B+M accepts both,core1 part03 ssd_form_factors
-mSATA is,An older small form factor that uses the SATA interface,core1 part03 ssd_form_factors
-RAID 0,Striping. Min 2 drives. 100% capacity. NO fault tolerance,core1 part03 raid
-RAID 1,Mirroring. 2 drives. 50% capacity. Survives 1 failure,core1 part03 raid
-RAID 5,Striping with distributed parity. Min 3 drives. Survives 1 failure. Capacity = all but one drive,core1 part03 raid
-RAID 6,Double parity. Min 4 drives. Survives 2 failures. Capacity = all but two drives,core1 part03 raid
-RAID 10 (1+0),Mirrored pairs striped together. Min 4 drives. 50% capacity. Survives 1 failure per mirrored pair,core1 part03 raid
-Is RAID a backup?,"No. It protects against a drive failing, not deletion, malware, fire or controller failure",core1 part03 raid
-CD / DVD / Blu-ray capacity (single layer),About 700 MB / 4.7 GB / 25 GB,core1 part03 removable_and_optical
+HDD spindle speeds,"5400 and 7200 RPM (PCs); 10,000 and 15,000 RPM (servers)",core1 part03 storage
+HDD form factors,"3.5-inch (desktops, servers); 2.5-inch (laptops)",core1 part03 storage
+Why is an HDD more fragile than an SSD?,It has moving parts (spinning platters and a read head),core1 part03 storage
+What is an SSD made of?,"Flash memory chips, no moving parts",core1 part03 storage
+Classic fix for a slow-booting laptop,Replace the hard drive with an SSD,core1 part03 storage
+SATA III speed,6 Gbps (about 600 MB/s),core1 part03 storage
+NVMe runs over,PCIe lanes (several times faster than SATA),core1 part03 storage
+SAS is used in,Servers (enterprise). SAS-3 = 12 Gbps,core1 part03 storage
+SAS controller with a SATA drive?,Works,core1 part03 storage
+SATA controller with a SAS drive?,Does NOT work,core1 part03 storage
+M.2 is a shape or a speed?,A shape (form factor). An M.2 drive can be SATA or NVMe,core1 part03 storage
+M.2 size code 2280 means,"22 mm wide, 80 mm long",core1 part03 storage
+M.2 B key supports,SATA or PCIe x2,core1 part03 storage
+M.2 M key supports,PCIe x4 (NVMe),core1 part03 storage
+M.2 B+M drive,Fits both slot types,core1 part03 storage
+mSATA is,An older small SSD shape (about 30 x 51 mm) using SATA,core1 part03 storage
+New M.2 drive not detected: check first,Whether the slot supports SATA or NVMe (the drive type may not match),core1 part03 storage
+RAID stands for,Redundant Array of Independent Disks,core1 part03 storage
+RAID 0,"Striping. Min 2 drives, 100% capacity, NO fault tolerance",core1 part03 storage
+RAID 1,"Mirroring. 2 drives, 50% capacity, survives 1 failure",core1 part03 storage
+RAID 5,"Striping with parity. Min 3 drives, survives 1 failure, capacity = all but one drive",core1 part03 storage
+RAID 6,"Double parity. Min 4 drives, survives 2 failures, capacity = all but two drives",core1 part03 storage
+RAID 10 (1+0),"Mirrored pairs, striped. Min 4 drives, 50% capacity, survives 1 failure per pair",core1 part03 storage
+What is parity?,Extra calculated data that lets a lost drive be rebuilt,core1 part03 storage
+Which RAID level survives two drive failures?,RAID 6,core1 part03 storage
+Is RAID a backup?,"No. It does not protect against deletion, malware, fire or controller failure",core1 part03 storage
+"Drive fails in RAID 1, 5, 6 or 10: what next?",Replace it and let the array rebuild,core1 part03 storage
+Single-layer capacity: CD / DVD / Blu-ray,700 MB / 4.7 GB / 25 GB,core1 part03 storage
+Dual-layer capacity: DVD / Blu-ray,8.5 GB / 50 GB,core1 part03 storage
+SD / SDHC / SDXC maximum size,2 GB / 32 GB / 2 TB,core1 part03 storage
+Removable storage examples,"USB flash drives and memory cards (SD, microSD)",core1 part03 storage

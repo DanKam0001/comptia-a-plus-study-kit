@@ -1,28 +1,38 @@
 Front,Back,Tags
-PSU input voltage ranges,110-120 VAC (e.g. North America) vs 220-240 VAC (most other countries),core1 part04 power_supply
-What happens if the manual voltage switch is wrong,It can destroy the PSU. Check the input before plugging in,core1 part04 power_supply
-PSU output rails,"3.3 V, 5 V, 12 V",core1 part04 power_supply
-Which rail powers the CPU and GPU,12 V,core1 part04 power_supply
-Main motherboard connector,20+4 pin (24 pins total),core1 part04 power_supply
-Modular vs redundant PSU,Modular = detachable cables. Redundant = two supplies in one server chassis,core1 part04 power_supply
-"80 PLUS levels, lowest to highest","Bronze, Silver, Gold, Platinum, Titanium",core1 part04 power_supply
-Cat 5e / Cat 6 / Cat 6a speeds,1 Gbps / 1 Gbps (10 Gbps only to about 55 m) / 10 Gbps,core1 part04 network_cables
-Maximum twisted-pair Ethernet segment length,100 m,core1 part04 network_cables
-UTP vs STP,Unshielded vs shielded twisted pair (shielding resists electromagnetic interference),core1 part04 network_cables
-Plenum-rated cable is for,"Air-handling spaces (fire-resistant, low-smoke jacket)",core1 part04 network_cables
-Direct burial cable is for,Underground runs,core1 part04 network_cables
-Coax connector,F-type (cable TV and broadband),core1 part04 network_cables
-T568A vs T568B difference,The green and orange pairs are swapped,core1 part04 t568a___t568b
-Straight-through vs crossover,Same standard on both ends vs T568A on one end and T568B on the other,core1 part04 t568a___t568b
-Single-mode vs multimode,"Single-mode: ~9 micron core, laser, long distance. Multimode: 50/62.5 micron core, shorter distance",core1 part04 fiber
-ST / SC / LC connectors,ST = bayonet twist. SC = square push-pull. LC = small with an RJ45-style latch,core1 part04 fiber
-USB 2.0 / USB 3.0 / Thunderbolt 3 and 4 speed,480 Mbps / 5 Gbps / 40 Gbps,core1 part04 peripheral
-Serial cable connector,DB-9 (RS-232),core1 part04 peripheral
-VGA,"Analog, 15-pin, blue connector",core1 part04 video
-HDMI vs DisplayPort,Both digital video and audio. DisplayPort can drive several monitors from one port,core1 part04 video
-DVI variants,"DVI-D digital, DVI-A analog, DVI-I both",core1 part04 video
-USB-C video,Carries video using DisplayPort alternate mode,core1 part04 video
-RJ45 vs RJ11,"RJ45: 8-wire Ethernet. RJ11: smaller telephone connector, fewer wires",core1 part04 connectors
-Molex,Legacy 4-pin power connector (drives and fans),core1 part04 connectors
-Lightning,Apple's reversible connector,core1 part04 connectors
-Punchdown block,"Terminates cable wires, behind a wall, onto a patch panel",core1 part04 connectors
+PSU input voltage ranges,110-120 VAC and 220-240 VAC,core1 part04 power_cables
+What happens if a manual PSU voltage switch is set wrong?,The PSU can be destroyed,core1 part04 power_cables
+PSU output rails,"3.3 V, 5 V and 12 V",core1 part04 power_cables
+Which PSU rail powers the CPU and GPU?,12 V,core1 part04 power_cables
+PSU wire colors,"Orange 3.3 V, red 5 V, yellow 12 V, black ground",core1 part04 power_cables
+Main motherboard power connector,20+4 pin (24 total),core1 part04 power_cables
+CPU power connector,4+4 pin (8 pin),core1 part04 power_cables
+"80 PLUS levels, low to high","Bronze, Silver, Gold, Platinum, Titanium",core1 part04 power_cables
+Modular PSU,Detachable cables,core1 part04 power_cables
+Redundant PSU,Two supplies in one chassis (servers); one can fail and it keeps running,core1 part04 power_cables
+PSU wattage rating,The maximum load it can supply; size above peak draw,core1 part04 power_cables
+Cat 5e / Cat 6 / Cat 6a speeds,1 Gbps / 1 Gbps (10 Gbps up to about 55 m) / 10 Gbps,core1 part04 power_cables
+Maximum twisted-pair Ethernet segment,100 m,core1 part04 power_cables
+UTP vs STP,Unshielded (standard) vs shielded (resists interference),core1 part04 power_cables
+Plenum-rated cable,"Fire-resistant, low-smoke jacket for ceilings and air ducts",core1 part04 power_cables
+Direct burial cable,Rated for underground use,core1 part04 power_cables
+Coax connector,F-type (cable TV and broadband),core1 part04 power_cables
+T568A vs T568B,The green and orange pairs are swapped,core1 part04 power_cables
+Straight-through vs crossover,Same standard both ends vs T568A on one end and T568B on the other,core1 part04 power_cables
+T568B pin order,"orange-white, orange, green-white, blue, blue-white, green, brown-white, brown",core1 part04 power_cables
+Single-mode fiber,"About 9 micron core, laser, long distance (kilometers)",core1 part04 power_cables
+Multimode fiber,"50 or 62.5 micron core, shorter distance",core1 part04 power_cables
+ST / SC / LC fiber connectors,Bayonet twist / square push-pull / small with RJ45-style latch,core1 part04 power_cables
+USB 2.0 and USB 3.0 speed,480 Mbps and 5 Gbps,core1 part04 power_cables
+Thunderbolt 3 and 4 speed and connector,"40 Gbps, USB-C connector",core1 part04 power_cables
+Serial cable connector,DB-9 (RS-232),core1 part04 power_cables
+HDMI carries,"Digital video and audio (2.0 = 18 Gbps, 2.1 = 48 Gbps)",core1 part04 power_cables
+DisplayPort special ability,Can drive several monitors from one port,core1 part04 power_cables
+DVI-D / DVI-A / DVI-I,Digital / analog / both,core1 part04 power_cables
+VGA,"Analog, 15-pin, blue connector",core1 part04 power_cables
+How does USB-C carry video?,DisplayPort alternate mode,core1 part04 power_cables
+SATA data / power connector pins,7-pin data / 15-pin power,core1 part04 power_cables
+eSATA,"External SATA, data only, no power",core1 part04 power_cables
+RJ45 vs RJ11,8-pin Ethernet vs telephone connector with fewer wires,core1 part04 power_cables
+Molex,Legacy 4-pin power for drives and fans,core1 part04 power_cables
+Lightning,Apple's reversible connector,core1 part04 power_cables
+Punchdown block,Terminates cable wires (behind a wall) onto a patch panel,core1 part04 power_cables

@@ -1,0 +1,33 @@
+Front,Back,Tags
+Five screen lock types,"PIN code, pattern, fingerprint, facial recognition, swipe",core2 part10 mobile
+Which screen lock gives no security?,Swipe,core2 part10 mobile
+What protects the encryption key on a phone?,The screen lock,core2 part10 mobile
+"Lost phone, data must be protected",Remote wipe,core2 part10 mobile
+Keeps data safe when you wipe,Remote backup,core2 part10 mobile
+Finds a lost phone on a map,Locator application,core2 part10 mobile
+MDM stands for,Mobile Device Management,core2 part10 mobile
+BYOD stands for,Bring Your Own Device,core2 part10 mobile
+What pushes settings and rules to a phone?,Configuration profile (usually via MDM),core2 part10 mobile
+Endpoint security software for phones,"Antivirus, anti-malware, content filtering",core2 part10 mobile
+First thing to do on a new router,Change the default administrator password,core2 part10 soho_router
+Why update router firmware,Fix known security holes,core2 part10 soho_router
+Secure management access means,"Use HTTPS, not HTTP. Disable unused remote management",core2 part10 soho_router
+UPnP,Universal Plug and Play. Turn it off,core2 part10 soho_router
+Screened subnet,Zone for public-facing servers. Old name: DMZ,core2 part10 soho_router
+IP filtering,Allow or block by IP address,core2 part10 soho_router
+Content filtering,Block categories of websites,core2 part10 soho_router
+Port forwarding,Sends traffic on one port to one inside device,core2 part10 soho_router
+Firewall port hygiene,Disable unused ports,core2 part10 soho_router
+SSID stands for,Service Set Identifier (the network name),core2 part10 wireless
+Does disabling SSID broadcast secure the network?,No. It only hides the name,core2 part10 wireless
+Encryption ranking best to worst,"WPA3, WPA2 (AES), WPA, WEP",core2 part10 wireless
+Never use,WEP,core2 part10 wireless
+Visitors on Wi-Fi without office access,Guest access (separate network),core2 part10 wireless
+Check a downloaded file is genuine,Compare its hash with the publisher's (for example SHA-256),core2 part10 browser
+PowerShell command for a file hash,Get-FileHash file -Algorithm SHA256,core2 part10 browser
+What does a valid certificate prove?,"The site is who it says, and the connection is encrypted",core2 part10 browser
+Certificate warning: what to do,Stop. Don't proceed,core2 part10 browser
+Does private browsing hide you from your employer?,"No. It only skips saving history, cookies and form data on that device",core2 part10 browser
+Secure DNS does,Encrypts website name lookups,core2 part10 browser
+Clearing cache does,Removes saved copies of web files,core2 part10 browser
+Ad blocker also helps with,Malicious ads,core2 part10 browser

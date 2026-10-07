@@ -1,0 +1,36 @@
+Front,Back,Tags
+cd does,Change directory (folder). cd .. goes up one level,core2 part03 navigation
+dir does,Lists the files and folders in the current folder,core2 part03 navigation
+Help for any command,command /? (the help switch),core2 part03 navigation
+ipconfig does,"Shows IP address, subnet mask and default gateway",core2 part03 network
+ipconfig /all adds,"DNS servers, MAC address, DHCP details",core2 part03 network
+Give up the IP address / ask for a new one,ipconfig /release / ipconfig /renew,core2 part03 network
+Clear the DNS cache,ipconfig /flushdns,core2 part03 network
+ping does,Sends test messages and times the replies,core2 part03 network
+Ping until you press Ctrl + C,ping -t,core2 part03 network
+Loopback address that tests your own network software,127.0.0.1,core2 part03 network
+netstat does,Lists active connections and listening ports,core2 part03 network
+netstat flags: -a / -n / -o,All connections / numbers not names / adds process ID,core2 part03 network
+nslookup does,Asks a DNS server to turn a name into an IP address,core2 part03 network
+net use does,Maps or disconnects a network drive,core2 part03 network
+Map drive Z: to a share,net use Z: \\server\share,core2 part03 network
+tracert does,Shows every router (hop) to a destination,core2 part03 network
+pathping does,Ping + tracert in one: shows loss at each hop,core2 part03 network
+chkdsk does,Checks a drive for errors,core2 part03 disk
+chkdsk /f vs /r,/f fixes errors. /r also finds bad sectors and recovers readable data,core2 part03 disk
+format does,Wipes a drive and sets up a file system. Erases everything,core2 part03 disk
+diskpart does,Command-line version of Disk Management,core2 part03 disk
+diskpart commands in order to wipe and make a partition,"list disk, select disk, clean, create partition primary, format, assign letter",core2 part03 disk
+md does,Makes a directory,core2 part03 files
+rmdir /s does,Removes a folder and everything inside it,core2 part03 files
+robocopy does,Robust file copy of a folder tree,core2 part03 files
+robocopy /E vs /MIR,/E copies subfolders. /MIR mirrors and deletes extras at the destination,core2 part03 files
+hostname does,Shows the computer's name,core2 part03 info
+net user does,Lists (or manages) local user accounts,core2 part03 info
+winver does,Shows the Windows version and build in a window,core2 part03 info
+whoami does,Shows the account you are signed in as,core2 part03 info
+gpupdate /force does,Re-applies all Group Policy now,core2 part03 os_management
+gpresult /r does,Summarizes which Group Policy settings applied,core2 part03 os_management
+sfc /scannow does,Scans protected Windows files and repairs damaged ones (administrator),core2 part03 os_management
+chkdsk vs sfc,chkdsk = the drive. sfc = Windows system files,core2 part03 traps
+Windows ipconfig equivalent on Linux,ip,core2 part03 traps

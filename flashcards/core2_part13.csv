@@ -1,0 +1,20 @@
+Front,Back,Tags
+App won't launch or crashes: easy fix ladder,"Force close, restart phone, free storage, update, clear cache, reinstall",core2 part13 general
+OS update fails: usual causes,"Low storage, low battery, poor connection",core2 part13 general
+Phone battery drains fast: first check,"Battery usage by app, then brightness and background apps",core2 part13 general
+Bluetooth won't connect: fix,"On, close range, forget the device and pair again",core2 part13 general
+Wi-Fi won't connect on a phone: fix,"Airplane mode off, forget the network and rejoin",core2 part13 general
+NFC range,A few centimetres. Remove thick cases,core2 part13 general
+Screen won't rotate: fix,Turn off rotation lock,core2 part13 general
+Installing an app from outside the official store,Sideloading,core2 part13 general
+Rooting is for which OS?,Android,core2 part13 general
+Jailbreaking is for which OS?,iPhone (iOS),core2 part13 general
+App that imitates a real one,Application spoofing,core2 part13 general
+Developer mode: should it be on?,Off unless needed,core2 part13 general
+Nine mobile security symptoms,"High network traffic, slow response, data-usage warning, limited internet, no internet, lots of ads, fake security warnings, odd app behaviour, leaked data",core2 part13 general
+False antivirus alerts are,Rogue antivirus (scareware),core2 part13 general
+Files renamed or can't be opened,Ransomware or other malware,core2 part13 general
+Redirection: what to check,"Extensions, proxy, DNS (and hosts file)",core2 part13 general
+Certificate warning: what to do,Don't proceed. Also check the PC clock,core2 part13 general
+Update failures on an infected PC,Malware blocking updates,core2 part13 general
+Where are malware removal steps?,"Core 2 Part 9 (investigate, quarantine, remediate, scan, educate...)",core2 part13 general
