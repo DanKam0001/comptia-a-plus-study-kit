@@ -56,7 +56,10 @@ please open an issue.
 
 Danish Kamboh. CompTIA A+ certified (Core 1 and Core 2). Verify on Credly:
 <https://www.credly.com/badges/435fb593-58d9-42bd-9e55-1f0c22b383cc/public_url> ·
-[LinkedIn](https://www.linkedin.com/in/danish-kamboh-656a07392/)
+[LinkedIn](https://www.linkedin.com/in/danish-kamboh-656a07392/) ·
+[YouTube: Dan Builds](https://www.youtube.com/@danventure-builds)
+
+The video series that goes with this kit is on the [Dan Builds YouTube channel](https://www.youtube.com/@danventure-builds).
 
 ## Licence
 
